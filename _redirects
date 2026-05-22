@@ -1,0 +1,27 @@
+# Cloudflare Pages Redirects
+# Root rewrite (internal, URL stays clean)
+/ /CSL_index.html 200
+
+# Pretty URL redirects (301 permanent)
+/home /CSL_index.html 301
+/about /CSL_about.html 301
+/pricing /CSL_pricing.html 301
+/catalog /CSL_catalog.html 301
+/commission /CSL_commission.html 301
+/retainer /CSL_retainer.html 301
+/portfolio /CSL_portfolio.html 301
+/process /CSL_process.html 301
+/booking /CSL_booking.html 301
+/contact /CSL_about.html#contact 301
+/faq /CSL_faq.html 301
+/legal /CSL_legal.html 301
+/privacy /CSL_legal.html?tab=privacy 301
+/terms /CSL_legal.html?tab=tos 301
+/refund /CSL_legal.html?tab=refund 301
+/dmca /CSL_legal.html?tab=dmca 301
+/licensing /CSL_licensing.html 301
+/case-study/gaming /CSL_case_study_gaming.html 301
+/ip /CSL_ip.html 301
+/contracts /CSL_contracts.html 301
+/signup /CSL_signup.html 301
+/intake /CSL_signup.html 301
