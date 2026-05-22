@@ -209,8 +209,9 @@
 </head>
 <body>
 
-<nav>
+<nav aria-label="Main navigation" role="navigation">
     <a href="CSL_index.html" class="nav-logo"><img src="CSL_logo_dark.png" alt="Current Scoring Leaders"></a>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">            <span class="hamburger-line"></span>            <span class="hamburger-line"></span>            <span class="hamburger-line"></span>        </button>
     <ul class="nav-links">
             <li><a href="CSL_index.html">Scoring</a></li>
         <li><a href="CSL_pricing.html">Pricing</a></li>
@@ -657,5 +658,7 @@
 
 <script src="csl-shared.js" defer></script><script src="csl-cookie-banner.js" defer></script>
 <script src="csl-bg.js" defer></script><script src="csl-visualizers.js" defer></script>
+
+    <script src="csl-mobile-nav.js" defer></script>
 </body>
 </html>

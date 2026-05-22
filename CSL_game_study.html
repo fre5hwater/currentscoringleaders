@@ -95,6 +95,7 @@ footer p{color:var(--muted);font-size:0.78rem;}
 
 <nav>
     <a href="CSL_index.html" class="nav-logo"><img src="CSL_logo_dark.png" alt="Current Scoring Leaders"></a>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">            <span class="hamburger-line"></span>            <span class="hamburger-line"></span>            <span class="hamburger-line"></span>        </button>
     <ul class="nav-links">
             <li><a href="CSL_index.html">Scoring</a></li>
         <li><a href="CSL_pricing.html">Pricing</a></li>
@@ -259,7 +260,7 @@ footer p{color:var(--muted);font-size:0.78rem;}
 
 
 
-<script>/* CSL shared components: standardized footer + sticky CTA bar
+<script defer>/* CSL shared components: standardized footer + sticky CTA bar
    Auto-injects on every page that loads this script. */
 (function () {
     'use strict';
@@ -1162,5 +1163,7 @@ init();
 
 })();
 </script>
+
+    <script src="csl-mobile-nav.js" defer></script>
 </body>
 </html>

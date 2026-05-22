@@ -534,8 +534,8 @@
     </style>
 <link rel="stylesheet" href="csl-bg.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 
 <link rel="stylesheet" href="csl-draft.css"></head>
 <body>
@@ -543,6 +543,7 @@
     <!-- NAV -->
     <nav>
         <a href="CSL_index.html" class="nav-logo"><img src="CSL_logo_dark.png" alt="Current Scoring Leaders"></a>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">            <span class="hamburger-line"></span>            <span class="hamburger-line"></span>            <span class="hamburger-line"></span>        </button>
         <ul class="nav-links">
             <li><a href="CSL_pricing.html">Pricing</a></li>
             <li><a href="CSL_portfolio.html">Portfolio</a></li>
@@ -817,7 +818,7 @@
 <script src="csl-shared.js" defer></script><script src="csl-cookie-banner.js" defer></script>
 <script src="csl-bg.js" defer></script>
 <script>console.log("DIAG:loaded");setTimeout(function(){var b=document.getElementById("csl-cbt");console.log("DIAG:cbt="+!!b+" cbw="+!!document.getElementById("csl-cbw"))},2000);</script>
-<script>/* CSL shared components: standardized footer + sticky CTA bar
+<script defer>/* CSL shared components: standardized footer + sticky CTA bar
    Auto-injects on every page that loads this script. */
 (function () {
     'use strict';
@@ -1720,5 +1721,7 @@ init();
 
 })();
 </script>
+
+    <script src="csl-mobile-nav.js" defer></script>
 </body>
 </html>

@@ -23,9 +23,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <!-- Three.js for 3D visualizers -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
     <!-- GSAP for animations -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
     <style>
         :root{--bg:#0a0a0f;--bg2:#0f0f18;--bg3:#14141f;--blue:#3b82f6;--purple: #60a5fa;--gold: #cbd5e1;--green:#10b981;--text:#f1f5f9;--muted:#94a3b8;--border:#1e1e2e;}
         *{margin:0;padding:0;box-sizing:border-box;}
@@ -82,6 +82,7 @@
 <body>
 <nav>
     <a href="CSL_index.html" class="nav-logo"><img src="CSL_logo_dark.png" alt="Current Scoring Leaders"></a>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">            <span class="hamburger-line"></span>            <span class="hamburger-line"></span>            <span class="hamburger-line"></span>        </button>
     <ul class="nav-links">
             <li><a href="CSL_index.html">Scoring</a></li>
         <li><a href="CSL_pricing.html">Pricing</a></li>
@@ -166,7 +167,7 @@
 
 
 
-<script>/* CSL shared components: standardized footer + sticky CTA bar
+<script defer>/* CSL shared components: standardized footer + sticky CTA bar
    Auto-injects on every page that loads this script. */
 (function () {
     'use strict';
@@ -1069,6 +1070,8 @@ init();
 
 })();
 </script>
+
+    <script src="csl-mobile-nav.js" defer></script>
 </body>
 </html>
 
