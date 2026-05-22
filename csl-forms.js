@@ -1,5 +1,5 @@
 /* ============================================================================
-   CSL — Shared form submission helper (Formspree backend)
+   CSL — Shared form submission helper (Cloudflare Pages Function backend (proxies to Formspree))
    ----------------------------------------------------------------------------
    POSTs form data as JSON to a Formspree endpoint. Handles success/error
    states, spinner, honeypot, and graceful messaging.
@@ -19,7 +19,7 @@
    ========================================================================= */
 
 var CSL_FORMSPREE_ID = 'mgorbnyd';
-var CSL_BACKEND_URL  = 'https://formspree.io/f/' + CSL_FORMSPREE_ID;
+var CSL_BACKEND_URL  = '/api/submit';
 
 (function () {
   var CSL = window.CSL || (window.CSL = {});

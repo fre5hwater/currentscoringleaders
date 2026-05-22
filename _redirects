@@ -12,7 +12,7 @@
 /portfolio /CSL_portfolio.html 301
 /process /CSL_process.html 301
 /booking /CSL_booking.html 301
-/contact /CSL_about.html#contact 301
+/contact /CSL_about.html?tab=contact 301
 /faq /CSL_faq.html 301
 /legal /CSL_legal.html 301
 /privacy /CSL_legal.html?tab=privacy 301

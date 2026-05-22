@@ -1437,7 +1437,7 @@ document.addEventListener('DOMContentLoaded',init);
 init();
 }
 
-})();
+  // ====== TAB-NAVIGATION HANDLER ======  // When redirected from /contact?tab=contact, scroll to contact section  (function () {    if (window.location.search.indexOf('tab=contact') >= 0) {      var el = document.getElementById('contact');      if (el) {        setTimeout(function () {          el.scrollIntoView({ behavior: 'smooth', block: 'start' });        }, 500);      }    }  })();})();
 </script>
 </body>
 </html>
