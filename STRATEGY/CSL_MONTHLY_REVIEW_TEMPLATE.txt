@@ -1,0 +1,20 @@
+═══════════════════════════════════════════════════════════════════════════════
+          CURRENT SCORING LEADERS — MONTHLY REVIEW TEMPLATE RETIRED
+═══════════════════════════════════════════════════════════════════════════════
+
+This file is no longer part of the active CSL assessment cadence.
+
+Use instead:
+- CSL_10_COMMUNICATION_REVIEW_TEMPLATE.txt
+
+Reason:
+- the monthly review cadence was replaced by a review every 10 communications
+- 1 communication = Avery request + assistant response
+
+Active cadence now:
+- daily review
+- weekly review
+- 10-communication review
+
+END
+═══════════════════════════════════════════════════════════════════════════════

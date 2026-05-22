@@ -1,0 +1,139 @@
+═══════════════════════════════════════════════════════════════════════════════
+      CURRENT SCORING LEADERS — WEBSITE TERMS + RIGHTS SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This file translates the contract and legal pages into website-friendly trust
+language.
+
+Use it for:
+- pricing page trust sections
+- process page trust sections
+- onboarding page clarity
+- footer-linked licensing/rights summaries
+
+Use with:
+- SERVICE_CONTRACT.txt
+- TERMS_OF_SERVICE.txt
+- LICENSING_AGREEMENT.txt
+- CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. HOW RIGHTS ARE HANDLED
+═══════════════════════════════════════════════════════════════════════════════
+
+Current Scoring Leaders does not force one ownership model onto every project.
+Rights are structured based on the use case and defined in writing before work
+is finalized.
+
+Common options include:
+- work-for-hire
+- exclusive license
+- non-exclusive license
+
+That means clients can choose the level of ownership or exclusivity that fits
+what they actually need.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. WHAT IS USUALLY INCLUDED
+═══════════════════════════════════════════════════════════════════════════════
+
+Most projects include:
+- agreed deliverables
+- defined revision rounds
+- standard delivery formats
+- written scope
+- written payment structure
+- written rights structure
+
+Nothing important should live in vague assumptions.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. PAYMENT STRUCTURE SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+Most projects begin with:
+- 50% deposit to begin
+- 50% due on final delivery
+
+Alternative milestone structures can be used when the project is larger or more
+complex.
+
+Final deliverables are released after final payment is complete.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. REVISIONS SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+Revisions are included and defined up front.
+
+Included revisions typically cover:
+- arrangement adjustments
+- mix adjustments
+- timing/length refinements
+- moderate instrumentation changes
+
+Major direction changes, major genre changes, or major re-composition requests
+are treated as scope changes rather than assumed freebies.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. REVIEW WINDOWS
+═══════════════════════════════════════════════════════════════════════════════
+
+Clients are given a defined review window to provide feedback.
+This helps keep projects moving and prevents the process from stretching
+indefinitely.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. DELIVERY SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+Standard delivery commonly includes:
+- WAV
+- MP3
+
+Depending on the agreement, additional items may be included or added:
+- stems
+- alternate cuts
+- MIDI
+- multitracks
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. CANCELLATION SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+Before work begins:
+- deposit is typically refundable
+
+After work begins:
+- deposit is typically non-refundable
+- work completed and committed time are billable
+
+Completed and delivered work is generally non-refundable.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+8. WEBSITE PRESENTATION RULE
+═══════════════════════════════════════════════════════════════════════════════
+
+The website should present this information in two layers:
+
+Layer 1:
+- clear, human-readable summary blocks
+
+Layer 2:
+- full contract, terms, privacy, and licensing documents
+
+This keeps the site both professional and understandable.
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

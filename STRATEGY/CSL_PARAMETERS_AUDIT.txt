@@ -1,0 +1,175 @@
+═══════════════════════════════════════════════════════════════════════════════
+             CURRENT SCORING LEADERS — PARAMETERS FILE AUDIT
+═══════════════════════════════════════════════════════════════════════════════
+
+Source reviewed:
+- QUICK_ACCESS\upgrades & additions\codex is dumb addition parameters.txt
+
+Purpose:
+- compare the stated directives against the work completed so far
+- identify what is implemented, partial, or still missing
+- prioritize the gaps that actually need correction
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. DIRECTIVE AUDIT
+═══════════════════════════════════════════════════════════════════════════════
+
+DIRECTIVE:
+All music scoring business tasks should share information.
+
+Status:
+PARTIAL / MOSTLY ADDRESSED
+
+Evidence:
+- CSL_OUTREACH_WEBSITE_SYSTEM.txt
+- CSL_ASSET_INDEX.txt
+- multiple linked website-ready support files
+
+Gap:
+- onboarding assets were created but not fully linked yet
+- no single formal "shared knowledge policy" file exists yet
+
+
+DIRECTIVE:
+Testing must be extensive and thorough.
+
+Status:
+PARTIAL / UNDERIMPLEMENTED
+
+Evidence:
+- some claw-system verification was performed
+- endpoint checks were performed
+- deliverables were reviewed manually
+
+Gap:
+- no unified CSL verification checklist existed before this audit
+- no explicit front-end/admin/user test matrix for business assets
+
+
+DIRECTIVE:
+Data must be stored, categorized, analyzed, and tied to end goals.
+
+Status:
+PARTIAL
+
+Evidence:
+- CRM template created
+- pricing strategy docs created
+- lead-building system created
+- asset index created
+
+Gap:
+- no explicit measurement / scorecard file for business execution yet
+- no visual reporting system for CSL business metrics yet
+
+
+DIRECTIVE:
+Success must be measured and updated constantly.
+
+Status:
+PARTIAL / UNDERIMPLEMENTED
+
+Evidence:
+- outreach workflow includes daily and weekly review logic
+- lead-building and CRM systems support tracking
+
+Gap:
+- no dedicated KPI dashboard or scorecard for CSL business operations
+- no regular reporting template yet
+
+
+DIRECTIVE:
+Keep explanations compressed, simple, and easy to digest.
+
+Status:
+PARTIAL
+
+Evidence:
+- many delivered assets are structured and segmented
+- not all responses consistently matched the preferred ultra-condensed format
+
+Gap:
+- response-format preference was not applied consistently enough
+
+
+DIRECTIVE:
+When requested, make visualizations and choose the right visualizer.
+
+Status:
+PARTIAL / CLEAR MISS
+
+Evidence:
+- open claw blueprint files include a limited `/api/visualize` dashboard
+- implemented charts are mainly system analytics charts via Chart.js
+
+Current implemented visualization types:
+- line charts
+- bar charts
+- doughnut charts
+- tables
+- dashboard cards
+
+Gap:
+- the full visualizer list from the parameters file was not implemented
+- no generic visualizer selection system exists
+- no CSL business visualization layer exists
+- no auto-recommendation logic exists for choosing chart type by dataset
+
+
+DIRECTIVE:
+Business tasks should keep moving toward current goal tasks.
+
+Status:
+ADDRESSED
+
+Evidence:
+- outreach assets created
+- pricing assets created
+- website-ready system expanded
+- onboarding assets created
+- portfolio and lead systems created
+
+Gap:
+- some packaging-linking tasks still need final integration
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. HIGHEST-PRIORITY MISSES
+═══════════════════════════════════════════════════════════════════════════════
+
+1. full visualizer request not implemented
+2. no dedicated CSL verification checklist existed
+3. no CSL KPI / measurement layer exists yet
+4. onboarding assets not fully linked back into package yet
+5. response-format preference was not applied consistently enough
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. CORRECTION PRIORITY
+═══════════════════════════════════════════════════════════════════════════════
+
+Priority 1:
+- document and plan the visualizer implementation gap
+
+Priority 2:
+- create verification checklist for CSL business assets
+
+Priority 3:
+- finish linking onboarding assets into core package docs
+
+Priority 4:
+- build a CSL business scorecard / KPI tracking layer
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. BOTTOM LINE
+═══════════════════════════════════════════════════════════════════════════════
+
+The visualizer directive was not fully honored.
+There were also related gaps around verification and measurable reporting.
+Those gaps are now explicitly identified and should be corrected in priority order.
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

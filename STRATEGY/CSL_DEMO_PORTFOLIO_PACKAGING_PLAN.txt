@@ -1,0 +1,281 @@
+═══════════════════════════════════════════════════════════════════════════════
+        CURRENT SCORING LEADERS — DEMO PORTFOLIO PACKAGING PLAN
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This file defines which demo portfolio pieces CSL should create first, how each
+piece should be positioned, and how each one should be packaged on the website
+and in outreach.
+
+The goal is not to make random tracks.
+The goal is to build demo pieces that directly support the strongest offers and
+buyer segments.
+
+Use alongside:
+- CSL_WEBSITE_COPY_FRAMEWORK.txt
+- WEBSITE_COPY.txt
+- CSL_OUTREACH_WEBSITE_SYSTEM.txt
+- CSL_LEAD_BUILDING_SYSTEM.txt
+- CSL_DAILY_OUTREACH_WORKFLOW.txt
+- CSL_PORTFOLIO_CARD_TEMPLATE.txt
+
+═══════════════════════════════════════════════════════════════════════════════
+1. CORE RULE
+═══════════════════════════════════════════════════════════════════════════════
+
+Every demo should prove one business point:
+- sonic identity
+- story support
+- immersion
+- professional range
+- custom-fit thinking
+
+If a demo cannot clearly support an offer or buyer segment, it is lower priority.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. FIRST WAVE OF DEMO PIECES
+═══════════════════════════════════════════════════════════════════════════════
+
+DEMO 1 — YOUTUBE / CREATOR SIGNATURE THEME
+Offer supported:
+- Signature Theme Package
+
+Purpose:
+- prove CSL can create a short, memorable branded identity cue
+
+Recommended format:
+- main theme: 30-45 seconds
+- intro cut: 10-15 seconds
+- outro cut: 8-12 seconds
+
+Positioning angle:
+A creator whose visuals are polished should sound distinct immediately.
+
+Packaging note:
+Show this as a mini brand system, not just one track.
+
+
+DEMO 2 — PODCAST BRANDING PACK
+Offer supported:
+- Podcast Branding
+- Signature Theme Package
+
+Purpose:
+- prove recognition, tone control, and short-form branding skill
+
+Recommended format:
+- intro version
+- outro version
+- short bumper or stinger
+
+Positioning angle:
+The first seconds of a show should feel recognizable, not borrowed.
+
+Packaging note:
+Label clearly as a podcast branding demo concept.
+
+
+DEMO 3 — DOCUMENTARY / BRANDED VIDEO SCORE
+Offer supported:
+- Video / Episode Scoring
+
+Purpose:
+- prove pacing, emotional support, and professional scene scoring
+
+Recommended format:
+- 45-90 second cue synced to an imagined branded or documentary scene
+- include emotional arc description
+
+Positioning angle:
+Strong visuals deserve music with matching intent.
+
+Packaging note:
+Present with a scene brief and what the music is solving.
+
+
+DEMO 4 — INDIE GAME WORLD PACK
+Offer supported:
+- Game / Narrative Scoring
+
+Purpose:
+- prove worldbuilding and theme consistency
+
+Recommended format:
+- menu theme
+- exploration loop
+- tension/combat cue
+- optional character motif
+
+Positioning angle:
+A world should have its own sonic architecture.
+
+Packaging note:
+Bundle this as one world-based set instead of isolated tracks.
+
+
+DEMO 5 — AGENCY / COMMERCIAL POLISH CUE
+Offer supported:
+- Video / Episode Scoring
+- Referral partner positioning
+
+Purpose:
+- prove premium, clean, client-safe scoring for production partners
+
+Recommended format:
+- 30-60 second commercial-ready cue
+- polished mix
+- optional alt version with different intensity
+
+Positioning angle:
+Reliable custom scoring without chaos.
+
+Packaging note:
+Use this as a referral partner proof asset.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. SECOND WAVE OF DEMO PIECES
+═══════════════════════════════════════════════════════════════════════════════
+
+After the first wave, expand with:
+- cinematic long-form creator cue
+- suspense / tension cue for true crime or documentary podcasts
+- fantasy or sci-fi game environment pack
+- modern brand cue for agencies / startups
+- retainer-style monthly refresh example
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. PORTFOLIO CARD FORMAT
+═══════════════════════════════════════════════════════════════════════════════
+
+Use support file:
+- CSL_PORTFOLIO_CARD_TEMPLATE.txt
+
+For each demo card, include:
+- Demo title
+- Segment tag
+- Offer type
+- Short creative brief
+- What problem the music solves
+- Audio player
+- CTA
+
+Suggested example fields:
+- Project Type: Podcast Branding Demo Concept
+- Goal: Create a recognizable intro identity for a modern business show
+- Direction: Clean, confident, contemporary, story-first
+- Result: Stronger recognition and more premium brand feel
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. HOW TO LABEL DEMOS HONESTLY
+═══════════════════════════════════════════════════════════════════════════════
+
+Use one of these labels:
+- Demo Concept
+- Spec Piece
+- Sample Brand Theme
+- Portfolio Example
+
+Do not imply:
+- that a demo was paid client work if it was not
+- that an imaginary brand or show was a real customer
+
+Trust matters more than sounding bigger than reality.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. WEBSITE PACKAGING ORDER
+═══════════════════════════════════════════════════════════════════════════════
+
+Homepage preview should feature:
+1. creator signature theme
+2. documentary / branded cue
+3. indie game world cue
+
+Full portfolio page should group by:
+- Creators
+- Podcasts
+- Games
+- Commercial / Branded
+
+Each category should show:
+- one hero demo
+- one or two supporting examples
+- one request CTA
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. OUTREACH USE OF DEMOS
+═══════════════════════════════════════════════════════════════════════════════
+
+YOUTUBE OUTREACH
+Best proof piece:
+- creator signature theme demo
+
+PODCAST OUTREACH
+Best proof piece:
+- podcast branding pack
+
+AGENCY / PRODUCTION OUTREACH
+Best proof piece:
+- documentary / branded cue
+- commercial polish cue
+
+INDIE GAME OUTREACH
+Best proof piece:
+- indie game world pack
+
+Referral partners should receive:
+- one clean commercial / production-friendly demo
+- one short explanation of what custom scoring improves
+
+
+═══════════════════════════════════════════════════════════════════════════════
+8. MINIMUM PACKAGING CHECKLIST FOR EACH DEMO
+═══════════════════════════════════════════════════════════════════════════════
+
+Before a demo is considered ready:
+- final title chosen
+- segment assigned
+- offer assigned
+- short creative brief written
+- audio exported cleanly
+- duration listed
+- use-case line written
+- CTA selected
+- honest label applied
+
+
+═══════════════════════════════════════════════════════════════════════════════
+9. BEST FIRST BUILD ORDER
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Creator signature theme demo
+2. Podcast branding pack
+3. Documentary / branded score demo
+4. Indie game world pack
+5. Commercial / agency polish cue
+
+This order supports the strongest near-term outreach paths first.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+10. WHAT SUCCESS LOOKS LIKE
+═══════════════════════════════════════════════════════════════════════════════
+
+The portfolio should make it easy for a prospect to think:
+- this sounds professional
+- this fits my kind of project
+- they understand my use case
+- I can imagine hiring them
+
+If a demo does not create that reaction, it needs better packaging or should not
+lead the page.
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

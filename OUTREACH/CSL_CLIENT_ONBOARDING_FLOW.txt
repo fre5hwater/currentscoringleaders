@@ -1,0 +1,290 @@
+═══════════════════════════════════════════════════════════════════════════════
+          CURRENT SCORING LEADERS — CLIENT ONBOARDING FLOW
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This document defines a buyer-first onboarding flow for Current Scoring Leaders.
+The goal is to make first contact feel professional, clear, low-friction, and
+worth paying for.
+
+This flow should reduce:
+- uncertainty
+- back-and-forth confusion
+- pricing hesitation
+- vague project requests
+- dropped leads between interest and payment
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. BUYER-FIRST GOALS
+═══════════════════════════════════════════════════════════════════════════════
+
+The client should immediately understand:
+- what CSL does
+- whether they are a fit
+- what happens next
+- what information is needed
+- when money is due
+- what they receive after paying
+
+The process should feel:
+- premium
+- simple
+- organized
+- trustworthy
+- human
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. RECOMMENDED ONBOARDING FLOW
+═══════════════════════════════════════════════════════════════════════════════
+
+STEP 1 — LANDING PAGE / INQUIRY ENTRY
+Purpose:
+- qualify the lead before they ever contact CSL
+
+What the page should do:
+- explain who this is for
+- explain what CSL offers
+- show public starting points
+- explain process simply
+- direct buyer to one primary CTA
+
+Primary CTA:
+- Start Your Project
+
+Secondary CTA:
+- Ask a Question
+
+
+STEP 2 — PROJECT INTAKE FORM
+Purpose:
+- collect the right info once
+- reduce long email ping-pong
+
+What happens here:
+- client fills project brief
+- client selects project type
+- client shares timeline and budget range
+- client uploads references or links
+
+Best framing:
+This is not busywork.
+This is how CSL recommends the right path quickly.
+
+
+STEP 3 — INTERNAL REVIEW
+Purpose:
+- determine fit
+- estimate scope
+- choose quote path
+
+Possible outcomes:
+- fit for direct quote
+- fit for discovery call
+- fit for paid strategy / scoring consult
+- not a fit
+
+
+STEP 4 — RESPONSE PATH
+Purpose:
+- give the buyer a clear next step instead of ambiguity
+
+Recommended response options:
+- direct quote if scope is clear
+- discovery call link if project needs discussion
+- recommendation email with best package starting point
+- polite decline if outside fit
+
+
+STEP 5 — PROPOSAL / OFFER PAGE
+Purpose:
+- confirm scope and price
+- reduce confusion before payment
+
+This should include:
+- project summary
+- deliverables
+- timeline
+- revision structure
+- rights model
+- payment terms
+- deposit amount
+- next step button
+
+
+STEP 6 — DEPOSIT / PAYMENT PAGE
+Purpose:
+- convert approved buyer into active client
+
+Recommended structure:
+- 50% deposit payment link
+- invoice or checkout summary
+- contract acknowledgment
+- confirmation after payment
+
+Strong buyer experience rule:
+Do not make payment feel disconnected from the plan.
+The buyer should clearly know what they are paying for.
+
+
+STEP 7 — CLIENT WELCOME / KICKOFF PAGE
+Purpose:
+- reinforce professionalism after purchase
+- lower buyer anxiety immediately
+
+What happens here:
+- confirm payment received
+- confirm timeline
+- explain what CSL needs next
+- explain when first draft or next step arrives
+- provide contact path
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. BEST STRUCTURE FOR DIFFERENT BUYER TYPES
+═══════════════════════════════════════════════════════════════════════════════
+
+FAST-MOVING BUYERS
+Examples:
+- creators
+- podcasters
+- smaller custom-theme clients
+
+Best path:
+- landing page
+- intake form
+- direct recommendation or quote
+- deposit
+- kickoff
+
+
+HIGHER-COMPLEXITY BUYERS
+Examples:
+- agencies
+- production companies
+- indie game projects
+
+Best path:
+- landing page
+- intake form
+- discovery call or scoped review
+- proposal page
+- deposit
+- kickoff
+
+
+REFERRAL PARTNER BUYERS
+Examples:
+- editor referred a client
+- agency intro
+
+Best path:
+- short landing page
+- simplified intake
+- direct human follow-up
+- proposal / deposit
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. PAYMENT STRUCTURE RECOMMENDATION
+═══════════════════════════════════════════════════════════════════════════════
+
+Recommended standard:
+- 50% deposit to begin
+- 50% before final delivery
+
+For larger or longer projects:
+- milestone payments
+
+For simpler theme packages:
+- one-page checkout tied to package summary
+
+For retainers:
+- application
+- approval
+- recurring payment setup
+
+Buyer trust rule:
+Never ask for payment before the project path feels clear.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. WHAT THE LANDING PAGE SHOULD ANSWER
+═══════════════════════════════════════════════════════════════════════════════
+
+The buyer needs answers to:
+- Is this for a project like mine?
+- What do you actually offer?
+- What do projects start at?
+- How do I begin?
+- Do I need a call first?
+- What happens after I fill this out?
+- When do I pay?
+- What rights do I receive?
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. WHAT THE FORM SHOULD COLLECT
+═══════════════════════════════════════════════════════════════════════════════
+
+Required:
+- name
+- email
+- company or project name
+- project type
+- project description
+- timeline
+- budget range
+
+Helpful:
+- reference links
+- current content link
+- desired tone
+- deliverable needs
+- whether licensing or full ownership is needed
+- whether rush timing exists
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. WHAT HAPPENS AFTER FORM SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+Recommended confirmation message:
+- confirm receipt
+- explain review timing
+- explain likely next step
+- reassure them they will receive a human response
+
+Best expectation:
+- reply within 24 hours
+
+
+═══════════════════════════════════════════════════════════════════════════════
+8. BUYER EXPERIENCE WARNINGS
+═══════════════════════════════════════════════════════════════════════════════
+
+Avoid:
+- too many CTAs
+- unclear package differences
+- payment before trust is built
+- vague turnaround promises
+- giant forms up front without context
+- making simple buyers book calls unnecessarily
+
+
+═══════════════════════════════════════════════════════════════════════════════
+9. RECOMMENDED BUILD ORDER
+═══════════════════════════════════════════════════════════════════════════════
+
+1. onboarding landing page
+2. intake form
+3. confirmation page
+4. proposal template
+5. deposit / payment page
+6. client welcome page
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

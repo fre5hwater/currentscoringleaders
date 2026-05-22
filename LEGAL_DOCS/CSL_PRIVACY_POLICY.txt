@@ -1,0 +1,257 @@
+PRIVACY POLICY
+Current Scoring Leaders LLC
+currentscoringleaders.com
+
+Effective Date: [INSERT DATE WHEN PUBLISHED]
+Last Updated: March 26, 2026
+
+───────────────────────────────────────────────────────────────────────────────
+
+1. INTRODUCTION
+
+Current Scoring Leaders LLC ("CSL," "Company," "we," "us," "our") is
+committed to protecting your privacy. This Privacy Policy explains how we
+collect, use, disclose, and safeguard your information when you visit our
+website, use our services, or interact with us.
+
+If you do not agree with this policy, please do not use our website or
+services. We may update this policy at any time; material changes will be
+communicated via email to active clients with 30 days' notice.
+
+───────────────────────────────────────────────────────────────────────────────
+
+2. INFORMATION WE COLLECT
+
+2.1 Information You Provide
+
+When you contact us, request a quote, or engage our services, we collect:
+  - Name and business name
+  - Email address
+  - Phone number
+  - Mailing address (if applicable)
+  - Project details and creative briefs
+  - Payment information (processed securely by third-party processors)
+  - Communication history (emails, messages, call notes)
+  - Files or content you upload for project purposes
+
+2.2 Information Collected Automatically
+
+When you visit our website, we may automatically collect:
+  - IP address
+  - Browser type and version
+  - Operating system
+  - Pages visited and time spent
+  - Referring URL
+  - Device type
+
+This data is collected via cookies, analytics tools (Google Analytics),
+and server log files.
+
+2.3 Information from Third Parties
+
+We may receive limited information from:
+  - Payment processors (transaction status)
+  - Analytics platforms (aggregated usage data)
+  - Referral partners (referral source only)
+
+───────────────────────────────────────────────────────────────────────────────
+
+3. HOW WE USE YOUR INFORMATION
+
+We use your information to:
+
+  - Provide our services (composition, scoring, licensing)
+  - Process payments and deliver invoices
+  - Communicate about your project and deliverables
+  - Respond to inquiries and support requests
+  - Send project updates, confirmations, and receipts
+  - Improve our website and services
+  - Comply with legal and tax obligations
+  - Protect against fraud and unauthorized access
+  - Send marketing communications (only with your consent)
+
+We will NOT:
+  - Sell your personal information to third parties
+  - Share your information with competitors
+  - Use your information for purposes not described here
+
+───────────────────────────────────────────────────────────────────────────────
+
+4. HOW WE SHARE YOUR INFORMATION
+
+4.1 Service Providers
+
+We share necessary information with trusted third-party providers who
+assist us with:
+  - Payment processing (Stripe, PayPal)
+  - Email delivery and communication
+  - Analytics (Google Analytics)
+  - Cloud storage and file delivery
+  - Accounting and invoicing
+
+These providers are contractually required to protect your data and use
+it only for the services they provide to us.
+
+4.2 Legal Requirements
+
+We may disclose your information if required by law, court order,
+subpoena, or government request.
+
+4.3 Business Transfers
+
+If CSL is acquired, merged, or undergoes reorganization, your information
+may be transferred as part of that transaction. We will notify you of
+any such change.
+
+4.4 With Your Consent
+
+We will only share your information with other parties when you
+explicitly consent.
+
+4.5 Aggregated Data
+
+We may share anonymized, aggregated data (which cannot identify you
+personally) for analytics or reporting purposes.
+
+───────────────────────────────────────────────────────────────────────────────
+
+5. DATA SECURITY
+
+We implement reasonable security measures to protect your information:
+
+  - SSL/TLS encryption on all website pages (HTTPS)
+  - Secure payment processing through PCI-compliant providers
+  - Password-protected accounts and systems
+  - Limited access to personal data on a need-to-know basis
+  - Regular review of security practices
+
+No system is 100% secure. While we take reasonable precautions, we cannot
+guarantee absolute security of data transmitted over the internet.
+
+───────────────────────────────────────────────────────────────────────────────
+
+6. DATA RETENTION
+
+  - Active client data: Retained during engagement and for 3 years after
+    project completion
+  - Project records and invoices: Retained for 7 years (tax/legal)
+  - Marketing/email lists: Retained until you unsubscribe
+  - Analytics data: Aggregated data retained; individual tracking data
+    retained for 13 months then deleted
+  - Backups: Maintained for 3 months minimum, then securely destroyed
+
+You may request deletion of your personal data at any time, subject to
+legal or contractual retention requirements. We will process deletion
+requests within 30 days.
+
+───────────────────────────────────────────────────────────────────────────────
+
+7. YOUR PRIVACY RIGHTS
+
+You have the right to:
+
+  - Request a copy of the personal data we hold about you
+  - Request correction of inaccurate information
+  - Request deletion of your personal data
+  - Opt out of marketing communications at any time
+  - Withdraw consent for data processing
+
+To exercise any of these rights, contact us at:
+privacy@currentscoringleaders.com
+
+We will respond to rights requests within 14 business days.
+
+7.1 California Residents (CCPA/CPRA)
+
+If you are a California resident, you have additional rights:
+  - Right to know what personal information is collected
+  - Right to delete personal information
+  - Right to opt out of the sale of personal information
+  - Right to non-discrimination for exercising your rights
+
+We do not sell personal information. To submit a CCPA request, email
+privacy@currentscoringleaders.com.
+
+7.2 EU/UK Residents (GDPR)
+
+If you are in the EU or UK, your additional rights include:
+  - Right to data portability
+  - Right to restrict processing
+  - Right to object to processing
+  - Right to lodge a complaint with a supervisory authority
+
+Legal basis for processing: Contract performance, legitimate business
+interests, legal obligations, and consent (where applicable).
+
+───────────────────────────────────────────────────────────────────────────────
+
+8. COOKIES
+
+We use cookies for:
+
+Essential Cookies (Required):
+  - Session management and authentication
+  - Security functions
+  - Cannot be disabled without impairing site functionality
+
+Analytics Cookies (Optional):
+  - Google Analytics for website performance tracking
+  - Can be disabled via browser settings or Google Analytics opt-out
+
+You can manage cookies through your browser settings. Disabling essential
+cookies may affect website functionality.
+
+We honor "Do Not Track" browser signals.
+
+───────────────────────────────────────────────────────────────────────────────
+
+9. CHILDREN'S PRIVACY
+
+Our services are not intended for individuals under 13 years of age. We
+do not knowingly collect information from children under 13. If we learn
+that we have collected such information, we will delete it immediately.
+
+───────────────────────────────────────────────────────────────────────────────
+
+10. THIRD-PARTY LINKS
+
+Our website may link to third-party sites. We are not responsible for
+the privacy practices or content of those sites. Please review their
+privacy policies before providing any information.
+
+───────────────────────────────────────────────────────────────────────────────
+
+11. CHANGES TO THIS POLICY
+
+We may update this Privacy Policy at any time. Changes take effect
+immediately upon posting. For material changes, we will provide 30 days'
+notice via email to active clients. The "Last Updated" date at the top
+will reflect the most recent revision.
+
+───────────────────────────────────────────────────────────────────────────────
+
+12. CONTACT US
+
+For privacy questions, concerns, or to exercise your rights:
+
+  Email: currentscoringleaders@gmail.com
+  General: currentscoringleaders@gmail.com
+  Web: currentscoringleaders.com
+
+  Current Scoring Leaders LLC
+  Pennsylvania, United States
+
+Response Times:
+  - General inquiries: 14 business days
+  - Rights requests: 14 business days (may extend 30 days with notice)
+  - Security concerns: 24 hours
+
+───────────────────────────────────────────────────────────────────────────────
+
+By using our website and services, you acknowledge that you have read and
+understood this Privacy Policy.
+
+Last Updated: March 26, 2026
+Version: 1.0
+
+(c) Current Scoring Leaders LLC. All Rights Reserved.

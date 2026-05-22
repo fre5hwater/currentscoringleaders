@@ -1,0 +1,537 @@
+═══════════════════════════════════════════════════════════════════════════════
+            CURRENT SCORING LEADERS — LAUNCH-READY ASSET INDEX
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This file is the master map for the current CSL business-building package.
+Use it to know which files matter most, what each one is for, and what to open
+first during outreach, quoting, website building, and client onboarding.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. CORE BUSINESS POSITIONING FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+CSL_OUTREACH_WEBSITE_SYSTEM.txt
+Purpose:
+- Master positioning and execution logic connecting outreach and website work
+Use for:
+- overall messaging alignment
+- target segment logic
+- offer stack reference
+- execution priorities
+
+CSL_WEBSITE_COPY_FRAMEWORK.txt
+Purpose:
+- Page-by-page website structure and copy framework
+Use for:
+- homepage build
+- services page build
+- contact page build
+- FAQ/trust planning
+
+CSL_PREMIUM_WEBSITE_EXPERIENCE_BLUEPRINT.txt
+Purpose:
+- Premium presentation blueprint for website structure, pricing, trust, and buyer flow
+Use for:
+- premium layout planning
+- website upgrade decisions
+- conversion-focused page structure
+
+CSL_COMPETITOR_QUALITY_BENCHMARK.txt
+Purpose:
+- Website quality benchmark showing what stronger competitor-style sites do well
+Use for:
+- quality calibration
+- proof and layout priorities
+- identifying weak spots in public presentation
+
+CSL_WEBSITE_MEDIA_AND_MISSING_ASSETS.txt
+Purpose:
+- Lists the media, proof, and visual assets still needed for a premium website
+Use for:
+- shot list planning
+- proof collection
+- launch-readiness asset gathering
+
+CSL_WEBSITE_TERMS_RIGHTS_SUMMARY.txt
+Purpose:
+- Human-readable website summary of rights, revisions, payment, and delivery terms
+Use for:
+- public trust sections
+- pricing page support
+- licensing/terms summary page build
+
+CSL_PRICING_STRATEGY_EXECUTIVE.txt
+Purpose:
+- Internal pricing strategy and quoting logic
+Use for:
+- internal quoting decisions
+- sales positioning
+- scope/pricing judgment
+
+CSL_PRICING_BANDS_DRAFT.txt
+Purpose:
+- Earlier pricing structure reference
+Use for:
+- backup comparison
+- historical pricing evolution
+
+CSL_PRICE_SHEET.txt
+Purpose:
+- Pricing reference sheet
+Use for:
+- quick pricing review
+- client-facing or internal adaptation depending on final use
+
+CSL_PORTFOLIO_CARD_TEMPLATE.txt
+Purpose:
+- Reusable template for portfolio cards and longer case-study style entries
+Use for:
+- portfolio page entries
+- outreach proof formatting
+- demo packaging consistency
+
+CSL_CLIENT_ONBOARDING_FLOW.txt
+Purpose:
+- Buyer-first onboarding flow from inquiry through deposit and kickoff
+Use for:
+- onboarding process design
+- proposal/payment path planning
+- client handoff structure
+
+CSL_CLIENT_INTAKE_FORM_SPEC.txt
+Purpose:
+- Structured intake form specification for new client projects
+Use for:
+- project intake form build
+- field logic planning
+- qualification flow
+
+CSL_ONBOARDING_LANDING_PAGE.txt
+Purpose:
+- Landing page structure for project-start, intake, and payment path
+Use for:
+- onboarding landing page build
+- CTA structure
+- buyer qualification entry point
+
+CSL_PARAMETERS_AUDIT.txt
+Purpose:
+- Audit of the parameters file against implemented CSL work
+Use for:
+- gap review
+- correction priorities
+- oversight against missed directives
+
+CSL_VERIFICATION_CHECKLIST.txt
+Purpose:
+- Verification checklist for package linking, buyer path, outreach, and visualizers
+Use for:
+- final review before calling work complete
+- preventing overlooked gaps
+
+AI_KNOWLEDGE_CAPTURE_SHEET.csv
+Purpose:
+- Google-Sheets-ready capture sheet for scraped facts, decoded findings, tips, tricks, and related knowledge
+Use for:
+- storing researched discoveries in one place
+- marking fact-check status quickly
+- linking sources and noting implementation needs
+
+AI_RESOURCE_ENCYCLOPEDIA_RANKING_TEMPLATE.csv
+Purpose:
+- Google-Sheets-ready encyclopedia and ranking sheet for AI tools by category, list type, and top-30 slot
+Use for:
+- building top 30 free lists by category
+- building top 30 most downloaded lists by category
+- building top 30 newest lists by category with fact-check and implementation tracking
+
+CSL_BUSINESS_SCORECARD_TEMPLATE.csv
+Purpose:
+- Business measurement data layer for outreach, sales, and revenue tracking
+Use for:
+- KPI tracking
+- operational reporting
+- dashboard input
+
+CSL_SCORECARD_VISUALIZER_MAP.txt
+Purpose:
+- Maps scorecard fields to the best visualizers for CSL decisions
+Use for:
+- chart selection
+- business reporting design
+- visualizer implementation planning
+
+CSL_BUSINESS_VISUALIZER_DASHBOARD.html
+Purpose:
+- Starter dashboard for reviewing CSL scorecard data visually
+Use for:
+- trend review
+- bottleneck spotting
+- assessing what is working or failing
+
+CSL_DEEP_DATA_TRACKING_SPEC.txt
+Purpose:
+- Defines the richer tracking standard for timestamps, strategy, provenance, and pattern discovery
+Use for:
+- disciplined data collection
+- better market/strategy discovery
+- improving all tracking templates and reviews
+
+CSL_CONTINUOUS_ASSESSMENT_LOOP.txt
+Purpose:
+- Daily, weekly, and 10-communication review loop for productivity and learning
+Use for:
+- constant assessment
+- lesson tracking
+- process correction
+
+CSL_WEEKLY_REVIEW_TEMPLATE.txt
+Purpose:
+- Repeatable template for weekly business review
+Use for:
+- weekly reflection
+- tracking what worked and what did not
+- deciding next-week focus
+
+CSL_10_COMMUNICATION_REVIEW_TEMPLATE.txt
+Purpose:
+- Repeatable template for reviewing progress after every 10 communications
+Use for:
+- course correction
+- communication quality review
+- priority realignment
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. FINAL EXECUTION ASSETS
+═══════════════════════════════════════════════════════════════════════════════
+
+CSL_DM_VARIANTS_FINAL.txt
+Purpose:
+- Ready-to-use DM outreach variants by segment
+Use for:
+- Instagram outreach
+- shorter personalized cold outreach
+- follow-up messaging
+
+CSL_REFERRAL_ONEPAGER_FINAL.txt
+Purpose:
+- Referral partner one-pager for editors, agencies, and production partners
+Use for:
+- partner outreach
+- referral conversations
+- simple partner handoff asset
+
+CSL_PUBLIC_PRICING_BLOCK_FINAL.txt
+Purpose:
+- Short premium pricing block for public website use
+Use for:
+- services page pricing section
+- homepage pricing preview
+- quick public pricing reference
+
+OUTREACH_EMAIL_SCRIPTS.txt
+Purpose:
+- Longer-form outreach scripts by segment
+Use for:
+- cold email
+- contact form outreach
+- follow-up emails
+
+CSL_OUTREACH_CRM_TEMPLATE.csv
+Purpose:
+- Simple outreach tracking sheet
+Use for:
+- daily lead tracking
+- follow-up scheduling
+- response/status management
+
+CSL_DAILY_OUTREACH_WORKFLOW.txt
+Purpose:
+- Daily operating workflow for prospecting, sending, follow-up, and CRM updates
+Use for:
+- daily outreach execution
+- send-block structure
+- end-of-day review routine
+
+CSL_LEAD_BUILDING_SYSTEM.txt
+Purpose:
+- Repeatable system for sourcing, scoring, and qualifying leads by segment
+Use for:
+- lead list building
+- lead scoring
+- weekly pipeline development
+
+10_PROSPECT_TARGETS.txt
+Purpose:
+- Prospecting support file
+Use for:
+- initial outreach targeting
+- segment-based lead review
+
+CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+Purpose:
+- Ready-to-use FAQ answers and trust-building website copy blocks
+Use for:
+- FAQ page creation
+- services-page reassurance copy
+- contact/process page trust language
+
+CSL_DEMO_PORTFOLIO_PACKAGING_PLAN.txt
+Purpose:
+- Structured plan for which demo pieces to create and how to package them
+Use for:
+- portfolio build order
+- demo concept planning
+- segment-specific proof creation
+
+CSL_PORTFOLIO_CARD_TEMPLATE.txt
+Purpose:
+- Reusable template for portfolio cards and longer case-study style entries
+Use for:
+- portfolio page entries
+- outreach proof formatting
+- demo packaging consistency
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. WEBSITE BUILD FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+WEBSITE_COPY.txt
+Purpose:
+- Website copy working file
+Use for:
+- direct website content drafting
+- implementation reference
+
+CSL_WEBSITE_COPY_FRAMEWORK.txt
+Purpose:
+- Structured framework for page-level site content
+Use for:
+- turning strategy into page sections
+- updating page flow and CTA placement
+
+CSL_PUBLIC_PRICING_BLOCK_FINAL.txt
+Purpose:
+- Public pricing language
+Use for:
+- pricing section insertion
+- services page support
+
+CSL_REFERRAL_ONEPAGER_FINAL.txt
+Purpose:
+- Referral partner language source
+Use for:
+- optional partner page
+- footer CTA
+- agency/referral FAQ content
+
+CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+Purpose:
+- FAQ and trust-booster website language
+Use for:
+- FAQ section build
+- trust-strip expansion
+- rights/process/payment reassurance copy
+
+CSL_DEMO_PORTFOLIO_PACKAGING_PLAN.txt
+Purpose:
+- Demo portfolio strategy by segment and offer type
+Use for:
+- portfolio page planning
+- homepage audio preview priorities
+- outreach proof-piece selection
+
+CSL_PORTFOLIO_CARD_TEMPLATE.txt
+Purpose:
+- Portfolio entry template for demos and client work
+Use for:
+- writing card copy
+- writing case-study blurbs
+- standardizing portfolio presentation
+
+CSL_ONBOARDING_LANDING_PAGE.txt
+Purpose:
+- Landing page structure for starting a project with CSL
+Use for:
+- onboarding page build
+- intake CTA layout
+- payment-path framing
+
+CSL_CLIENT_INTAKE_FORM_SPEC.txt
+Purpose:
+- Field-level specification for the CSL client form
+Use for:
+- form implementation
+- section ordering
+- buyer-qualification flow
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. LEGAL / TRUST FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+LICENSING_AGREEMENT.txt
+Purpose:
+- Licensing terms reference
+Use for:
+- usage-rights clarity
+- client agreement support
+
+SERVICE_CONTRACT.txt
+Purpose:
+- Project contract framework
+Use for:
+- client onboarding
+- service agreement setup
+
+TERMS_OF_SERVICE.txt
+Purpose:
+- Website/business legal foundation
+Use for:
+- public legal page
+
+PRIVACY_POLICY.txt
+Purpose:
+- Privacy compliance page
+Use for:
+- website trust and compliance
+
+CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+Purpose:
+- Public-facing trust language built from CSL legal and service materials
+Use for:
+- translating legal/process clarity into readable website copy
+
+CSL_CLIENT_ONBOARDING_FLOW.txt
+Purpose:
+- Client-journey structure connecting inquiry, scope, payment, and kickoff
+Use for:
+- making onboarding feel professional and trustworthy
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. RESEARCH / VALIDATION FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+FACT_CHECK_NOTES.txt
+Purpose:
+- Supporting fact-check notes
+Use for:
+- internal verification
+- content validation
+
+FACT_CHECK_REPORT.txt
+Purpose:
+- Fact-check report
+Use for:
+- verifying claims before public use
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. CLAW DELEGATION OUTPUTS
+═══════════════════════════════════════════════════════════════════════════════
+
+claw-agent-outputs/
+Purpose:
+- Saved outputs from delegated claw rounds
+Use for:
+- audit trail
+- reviewing model output quality
+- tracing how final assets were synthesized
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. RECOMMENDED OPEN ORDER
+═══════════════════════════════════════════════════════════════════════════════
+
+If building website pages:
+1. CSL_OUTREACH_WEBSITE_SYSTEM.txt
+2. CSL_WEBSITE_COPY_FRAMEWORK.txt
+3. CSL_PREMIUM_WEBSITE_EXPERIENCE_BLUEPRINT.txt
+4. CSL_COMPETITOR_QUALITY_BENCHMARK.txt
+5. CSL_PUBLIC_PRICING_BLOCK_FINAL.txt
+6. CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+7. CSL_WEBSITE_TERMS_RIGHTS_SUMMARY.txt
+8. CSL_DEMO_PORTFOLIO_PACKAGING_PLAN.txt
+9. CSL_PORTFOLIO_CARD_TEMPLATE.txt
+10. CSL_ONBOARDING_LANDING_PAGE.txt
+11. CSL_CLIENT_INTAKE_FORM_SPEC.txt
+12. CSL_WEBSITE_MEDIA_AND_MISSING_ASSETS.txt
+13. WEBSITE_COPY.txt
+
+If sending outreach:
+1. CSL_DM_VARIANTS_FINAL.txt
+2. OUTREACH_EMAIL_SCRIPTS.txt
+3. CSL_LEAD_BUILDING_SYSTEM.txt
+4. CSL_DAILY_OUTREACH_WORKFLOW.txt
+5. CSL_OUTREACH_CRM_TEMPLATE.csv
+6. 10_PROSPECT_TARGETS.txt
+
+If quoting work:
+1. CSL_PRICING_STRATEGY_EXECUTIVE.txt
+2. CSL_PRICE_SHEET.txt
+3. LICENSING_AGREEMENT.txt
+4. SERVICE_CONTRACT.txt
+
+If building referral channels:
+1. CSL_REFERRAL_ONEPAGER_FINAL.txt
+2. CSL_DM_VARIANTS_FINAL.txt
+3. CSL_OUTREACH_WEBSITE_SYSTEM.txt
+
+If reviewing performance and direction:
+1. CSL_BUSINESS_SCORECARD_TEMPLATE.csv
+2. CSL_BUSINESS_VISUALIZER_DASHBOARD.html
+3. CSL_DEEP_DATA_TRACKING_SPEC.txt
+4. CSL_CONTINUOUS_ASSESSMENT_LOOP.txt
+5. CSL_WEEKLY_REVIEW_TEMPLATE.txt
+6. CSL_10_COMMUNICATION_REVIEW_TEMPLATE.txt
+7. CSL_SCORECARD_VISUALIZER_MAP.txt
+8. CSL_VERIFICATION_CHECKLIST.txt
+
+
+═══════════════════════════════════════════════════════════════════════════════
+8. CURRENT BEST STARTING FILES
+═══════════════════════════════════════════════════════════════════════════════
+
+Best strategy file:
+- CSL_OUTREACH_WEBSITE_SYSTEM.txt
+
+Best website file:
+- CSL_PREMIUM_WEBSITE_EXPERIENCE_BLUEPRINT.txt
+
+Best FAQ / trust file:
+- CSL_WEBSITE_TERMS_RIGHTS_SUMMARY.txt
+
+Best outreach execution file:
+- CSL_DM_VARIANTS_FINAL.txt
+- CSL_DAILY_OUTREACH_WORKFLOW.txt
+
+Best lead-building file:
+- CSL_LEAD_BUILDING_SYSTEM.txt
+
+Best pricing file:
+- CSL_PRICING_STRATEGY_EXECUTIVE.txt
+
+Best partner/referral file:
+- CSL_REFERRAL_ONEPAGER_FINAL.txt
+
+Best assessment file:
+- CSL_DEEP_DATA_TRACKING_SPEC.txt
+- CSL_CONTINUOUS_ASSESSMENT_LOOP.txt
+- CSL_WEEKLY_REVIEW_TEMPLATE.txt
+- CSL_10_COMMUNICATION_REVIEW_TEMPLATE.txt
+
+Best scorecard file:
+- CSL_BUSINESS_SCORECARD_TEMPLATE.csv
+
+Best dashboard file:
+- CSL_BUSINESS_VISUALIZER_DASHBOARD.html
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,523 @@
+═══════════════════════════════════════════════════════════════════════════════
+                 INDEPENDENT CONTRACTOR AGREEMENT TEMPLATE
+                    WORK-FOR-HIRE & SERVICE DELIVERY
+═══════════════════════════════════════════════════════════════════════════════
+
+AGREEMENT DATE: [DATE]
+EFFECTIVE: [DATE]
+
+CONTRACTOR:
+Name: [CONTRACTOR NAME]
+Address: [ADDRESS]
+Email: [EMAIL]
+Phone: [PHONE]
+Tax ID (if applicable): [TAX ID]
+
+COMPANY:
+Name: [YOUR COMPANY LLC]
+Address: [ADDRESS]
+Email: [EMAIL]
+Phone: [PHONE]
+EIN: [XX-XXXXXXX]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+1. INDEPENDENT CONTRACTOR STATUS
+
+1.1 Contractor Acknowledgment
+
+Contractor acknowledges and agrees that:
+  ✓ Contractor is an independent contractor, not employee
+  ✓ Contractor has sole discretion over work methods
+  ✓ Contractor is not entitled to employee benefits
+  ✓ Contractor is responsible for own taxes
+  ✓ Company will issue 1099-NEC (if >$600 annual)
+  ✓ No employment relationship exists
+  ✓ Contractor may accept other work
+
+1.2 Tax Responsibility
+
+Contractor is solely responsible for:
+  • Self-employment taxes (15.3%)
+  • Income taxes (federal, state, local)
+  • Quarterly estimated tax payments
+  • Business licenses/permits (if applicable)
+  • Retirement contributions
+  • Health insurance
+
+Company will:
+  • Report payments on 1099-NEC (January 31)
+  • Provide contractor records upon request
+  • NOT withhold payroll taxes
+
+═══════════════════════════════════════════════════════════════════════════════
+
+2. SCOPE OF WORK
+
+2.1 Services to be Provided
+
+Contractor agrees to provide:
+  • [Specific services/deliverables]
+  • Duration: [LENGTH OF ENGAGEMENT]
+  • Location: [REMOTE/ON-SITE/HYBRID]
+  • Schedule: [HOURS/SCHEDULE]
+
+2.2 Deliverables
+
+Contractor will deliver:
+  • [Item 1]: Due [DATE]
+  • [Item 2]: Due [DATE]
+  • [Item 3]: Due [DATE]
+
+Quality Standards:
+  • Professional quality meeting industry standards
+  • Free from defects or errors
+  • Fit for specified purpose
+  • Subject to approval/revision process
+
+2.3 Revisions
+
+Revisions included: [X] rounds
+Revisions cover: [SCOPE]
+Additional revisions: [X] per round or hourly rate
+
+2.4 Timeline & Deliverables
+
+Start Date: [DATE]
+Completion Date: [DATE]
+Milestones:
+  • Milestone 1: [DATE]
+  • Milestone 2: [DATE]
+  • Final Delivery: [DATE]
+
+On-Time Delivery:
+  • Contractor responsible for meeting deadlines
+  • Delays notified to Company in writing ASAP
+  • Failure to deliver may result in contract termination
+
+═══════════════════════════════════════════════════════════════════════════════
+
+3. COMPENSATION & PAYMENT TERMS
+
+3.1 Fees
+
+Compensation: $[AMOUNT]
+Payment basis: [FLAT FEE / HOURLY RATE / OTHER]
+
+If Hourly:
+  • Rate: $[X]/hour
+  • Minimum billing: 0.25 hours (15 minutes)
+  • Maximum hours/week: [X] hours
+  • Overtime: Not applicable (independent contractor)
+
+3.2 Expenses
+
+Contractor responsible for own expenses:
+  ✓ Equipment and software
+  ✓ Internet and utilities
+  ✓ Travel (unless pre-approved)
+
+Reimbursable Expenses (if applicable):
+  ✓ [Expense type]: pre-approved, receipt required
+  ✓ [Expense type]: pre-approved, receipt required
+
+3.3 Payment Schedule
+
+Payment terms: Net [15/30] days from invoice
+Deposit: [X]% due before work starts
+Milestone payments: [SCHEDULE]
+Final payment: Due upon delivery of all deliverables
+
+Late Payments:
+  • Interest: 1.5% per month on overdue balance
+  • Collection costs: Contractor may pursue legal remedies
+
+3.4 Invoice & Payment
+
+Invoices due: Within 30 days of delivery
+Format: Electronic invoice to [EMAIL]
+Payment method: [ACH/CHECK/STRIPE/OTHER]
+Payment address: [ADDRESS]
+
+Invoices must include:
+  • Description of work completed
+  • Hours/deliverables
+  • Total amount due
+  • Invoice date and number
+  • Contractor tax ID (if applicable)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+4. INTELLECTUAL PROPERTY & WORK-FOR-HIRE
+
+4.1 Work-for-Hire
+
+ALL work created under this agreement shall be "works made for hire" under 
+17 U.S.C. § 101. Company shall own all copyrights and intellectual property 
+in the work, including but not limited to:
+  ✓ All compositions, recordings, and creative works
+  ✓ All files, code, documents, and materials
+  ✓ All moral rights (to extent permitted by law)
+  ✓ All exploitation rights
+  ✓ All derivative rights
+
+4.2 Contractor Retains
+
+Contractor retains ownership of:
+  ✓ Pre-existing works created before this engagement
+  ✓ General skills, knowledge, and experience
+  ✓ Techniques and methodologies (if created before engagement)
+  ✓ Non-original components (stock materials, samples, templates)
+
+4.3 Company License Grant
+
+Contractor grants Company:
+  ✓ Exclusive ownership of deliverables
+  ✓ Right to use, modify, and distribute work
+  ✓ Right to create derivative works
+  ✓ Right to display in portfolio (with credit)
+  ✓ Right to use for marketing/case studies (with permission)
+
+4.4 Third-Party Materials
+
+Contractor responsible for:
+  • Obtaining licenses for any third-party samples/materials
+  • Ensuring licensed materials permit Company's intended use
+  • Delivering proof of licenses/permissions
+  • Indemnifying Company for unlicensed materials
+
+Company assumes:
+  • No liability for third-party infringement (if licensed properly)
+  • License restrictions only cover specified use
+
+═══════════════════════════════════════════════════════════════════════════════
+
+5. CONFIDENTIALITY
+
+5.1 Confidential Information
+
+Contractor agrees to:
+  ✓ Keep all Company information confidential
+  ✓ Not disclose to third parties
+  ✓ Use only for purposes of this engagement
+  ✓ Implement reasonable security measures
+  ✓ Return all confidential information upon termination
+
+Confidential Information Includes:
+  • Client information and projects
+  • Business strategies and pricing
+  • Unpublished compositions and works
+  • Client lists and relationships
+  • Proprietary processes and methodologies
+  • Financial information
+
+Exceptions:
+  • Information publicly available (not through breach)
+  • Information independently developed
+  • Information required to disclose by law
+
+5.2 Duration
+
+Confidentiality obligations survive:
+  • Termination of this agreement
+  • Completion of project
+  • Duration: [3-5] years from engagement end
+
+5.3 Return of Materials
+
+Upon termination or completion:
+  ✓ All Company materials returned or destroyed
+  ✓ All confidential information deleted
+  ✓ All copies accounted for
+  ✓ Certification of deletion signed
+
+═══════════════════════════════════════════════════════════════════════════════
+
+6. REPRESENTATIONS & WARRANTIES
+
+6.1 Contractor Represents
+
+Contractor warrants:
+  ✓ Authority to enter into this agreement
+  ✓ Work is original (unless pre-agreed otherwise)
+  ✓ Work does not infringe third-party IP rights
+  ✓ Work complies with all applicable laws
+  ✓ All necessary rights/licenses obtained
+  ✓ No conflicts with other commitments
+  ✓ Legally able to work in the US (if required)
+
+6.2 Company Representations
+
+Company warrants:
+  ✓ Authority to enter into this agreement
+  ✓ Legal ownership of all work upon creation
+  ✓ Timely payment of invoices
+  ✓ Reasonable instructions and feedback
+
+6.3 DISCLAIMER OF WARRANTIES
+
+EXCEPT FOR REPRESENTATIONS IN THIS SECTION:
+  ✗ No other warranties, express or implied
+  ✗ No warranty of merchantability
+  ✗ No warranty of fitness for particular purpose
+  ✗ No warranty of non-infringement
+  ✗ No warranty of specific results
+
+═══════════════════════════════════════════════════════════════════════════════
+
+7. INDEMNIFICATION
+
+7.1 Contractor Indemnifies Company
+
+Contractor shall defend, indemnify, and hold harmless Company from:
+  • Third-party claims that work infringes IP rights
+  • Third-party claims related to work quality
+  • Claims arising from Contractor's breach of obligations
+  • Claims from Contractor's unlicensed materials
+  • Claims from Contractor's negligence or misconduct
+
+Conditions:
+  • Company provides prompt written notice
+  • Contractor has sole control of defense
+  • Company doesn't materially breach obligations
+  • Work used only as authorized
+
+7.2 Company Indemnifies Contractor
+
+Company shall indemnify Contractor from:
+  • Claims related to Company's use of work
+  • Claims from Company's breach
+  • Claims unrelated to Contractor's performance
+
+═══════════════════════════════════════════════════════════════════════════════
+
+8. LIABILITY LIMITATION
+
+8.1 LIMITATION OF LIABILITY
+
+EXCEPT FOR INDEMNIFICATION:
+Total liability of either party limited to:
+  • Amount paid under this agreement
+  • OR $[X], whichever is greater
+
+8.2 EXCLUDED DAMAGES
+
+NEITHER PARTY LIABLE FOR:
+  ✗ Indirect damages
+  ✗ Incidental damages
+  ✗ Consequential damages
+  ✗ Lost profits or revenue
+  ✗ Lost business opportunity
+  ✗ Reputational harm
+  ✗ Data loss
+
+Even if advised of possibility of such damages.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+9. TERMINATION
+
+9.1 At-Will Termination
+
+Either party may terminate at-will:
+  • Company: Immediate termination
+  • Contractor: [X] days written notice
+
+9.2 Termination for Cause
+
+Company may terminate immediately for:
+  • Material breach of obligations
+  • Work quality fails to meet standards
+  • Failure to meet deadline (without approval)
+  • Unauthorized disclosure of confidential info
+  • Illegal conduct
+
+9.3 Upon Termination
+
+  ✓ All work created through termination owned by Company
+  ✓ Work completed to date compensated (if not breach)
+  ✓ All materials and files returned
+  ✓ All confidential information deleted
+  ✓ Confidentiality obligations survive
+
+9.4 Severance
+
+If terminated without cause:
+  • Contractor paid for work completed to date
+  • No severance or additional compensation
+  • All work remains Company property
+
+If terminated for cause:
+  • Contractor paid only for acceptable work completed
+  • Work in progress forfeited (no compensation)
+  • Dispute resolved per Section 13
+
+═══════════════════════════════════════════════════════════════════════════════
+
+10. BACKGROUND CHECK & ELIGIBILITY (If Applicable)
+
+If Contractor will have access to sensitive data/systems:
+
+10.1 Background Check
+
+Company may request:
+  • Criminal background check
+  • Reference verification
+  • Right-to-work verification
+
+Contractor authorizes:
+  • Company to conduct screening
+  • Contractor acknowledges all information provided is true
+
+10.2 Right to Work
+
+Contractor represents:
+  • Legally authorized to work in the US
+  • Complies with all immigration laws
+  • No work authorization restrictions
+
+═══════════════════════════════════════════════════════════════════════════════
+
+11. INSURANCE & LIABILITY
+
+11.1 Contractor Responsibility
+
+Contractor responsible for:
+  • Workers compensation (if self-employed with employees)
+  • Professional liability insurance (optional but recommended)
+  • General liability (if handling high-value assets)
+  • Equipment insurance (if using own equipment)
+
+11.2 Company Insurance
+
+Company maintains professional liability and general liability
+but does NOT cover contractor negligence or misconduct.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+12. DISPUTE RESOLUTION
+
+12.1 Informal Resolution
+
+Before formal action, parties shall attempt negotiation
+for 30 days to resolve disputes.
+
+12.2 Mediation
+
+If unresolved, parties shall submit to mediation:
+  • Location: [JURISDICTION]
+  • Costs: Split equally
+  • Duration: Up to 60 days
+
+12.3 Arbitration
+
+If mediation fails, disputes resolved via binding arbitration:
+  • Rules: AAA Commercial Arbitration Rules
+  • Arbitrator: Single arbitrator
+  • Location: [JURISDICTION]
+  • Costs: Split unless prevailing party provision applies
+
+12.4 Governing Law
+
+Agreement governed by [STATE] law without regard 
+to conflicts of law principles.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+13. GENERAL PROVISIONS
+
+13.1 Entire Agreement
+
+This agreement constitutes entire understanding regarding
+contractor services and supersedes all prior negotiations.
+
+13.2 Amendments
+
+Changes must be in writing and signed by both parties.
+
+13.3 Severability
+
+If any provision invalid, remaining provisions stay in effect.
+
+13.4 Assignment
+
+Neither party may assign without written consent
+(except Company may assign to successor).
+
+13.5 Counterparts
+
+Agreement may be executed in counterparts
+(digital signatures acceptable).
+
+13.6 No Waiver
+
+Failure to enforce any right doesn't constitute waiver.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+14. ACCEPTANCE OF TERMS
+
+By signing below, both parties acknowledge:
+  ✓ Read and understood all terms
+  ✓ Agree to all conditions
+  ✓ Have authority to enter into agreement
+  ✓ Understand legal implications
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SIGNATURES
+
+CONTRACTOR:
+
+Signature: _________________________ Date: __________
+Print Name: _________________________ 
+Tax ID: _________________________
+
+COMPANY:
+
+Signature: _________________________ Date: __________
+Print Name: _________________________ 
+Title: _________________________
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SCHEDULE A: SPECIFIC DELIVERABLES
+
+Deliverable 1: [DESCRIPTION]
+  Due Date: [DATE]
+  Format: [FORMAT]
+  Specifications: [SPECS]
+  Revisions Included: [X] rounds
+  Acceptance Criteria: [CRITERIA]
+
+Deliverable 2: [DESCRIPTION]
+  Due Date: [DATE]
+  Format: [FORMAT]
+  Specifications: [SPECS]
+  Revisions Included: [X] rounds
+  Acceptance Criteria: [CRITERIA]
+
+[Add additional deliverables as needed]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SCHEDULE B: PAYMENT SCHEDULE
+
+Milestone 1: [DESCRIPTION]
+  Payment: [X]% of total fee ($[X])
+  Due Upon: [MILESTONE TRIGGER]
+  Invoice Date: [DATE]
+
+Milestone 2: [DESCRIPTION]
+  Payment: [X]% of total fee ($[X])
+  Due Upon: [MILESTONE TRIGGER]
+  Invoice Date: [DATE]
+
+Final Delivery: [DESCRIPTION]
+  Payment: [X]% of total fee ($[X])
+  Due Upon: Acceptance of all deliverables
+  Invoice Date: [DATE]
+
+Total Fee: $[X]
+
+═══════════════════════════════════════════════════════════════════════════════

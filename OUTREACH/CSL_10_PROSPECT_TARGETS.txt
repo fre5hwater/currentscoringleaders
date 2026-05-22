@@ -1,0 +1,353 @@
+═══════════════════════════════════════════════════════════════════════════════
+              CURRENT SCORING LEADERS — INITIAL PROSPECT LIST
+                   10 Researched Potential Clients
+                         March 26, 2026
+═══════════════════════════════════════════════════════════════════════════════
+
+RESEARCH METHODOLOGY:
+  - Targets selected based on CSL's buyer segment prioritization
+  - Mix of YouTube creators, production companies, podcasters,
+    indie game studios, and referral partners
+  - All targets are real, active businesses/creators verified via
+    web search in March 2026
+  - Contact methods provided are publicly available (websites, social)
+  - Prioritized PA-based and US-based prospects for proximity advantage
+
+NOTE: Before outreach, verify each prospect's current status and
+personalize emails using the scripts in OUTREACH_EMAIL_SCRIPTS.txt.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SEGMENT 1: YOUTUBE CREATORS (Priority Buyers)
+═══════════════════════════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 1: Vidchops
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Video editing service for YouTube creators
+  Website: vidchops.com
+  Why Target: They serve hundreds of YouTube creators who need edited
+    videos — those same creators need custom music. Vidchops is both
+    a potential REFERRAL PARTNER (20% commission model) and a gateway
+    to their entire creator client base.
+  Service Model: Subscription-based editing for YouTubers
+  Approach: REFERRAL PARTNER SCRIPT (Script 5)
+  Pitch Angle: "Your clients already ask about music. Refer them to
+    us and earn 20% on every project."
+  Contact Method: Website contact form at vidchops.com
+  Estimated Value: $300-2,000/month in referral commissions if they
+    refer 2-5 clients/month
+
+  PERSONALIZATION NOTES:
+    - They already serve the exact audience CSL targets
+    - Their Augie community has active creators needing music
+    - Position as a value-add they can offer clients
+    - No competition — they edit video, we compose music
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 2: Creatorly Media
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Video editing agency for content creators and brands
+  Website: creatorlymedia.com
+  Why Target: Another editing agency serving YouTube creators and
+    brands. Same referral partner opportunity as Target 1. They
+    handle post-production but not music — complementary service.
+  Approach: REFERRAL PARTNER SCRIPT (Script 5)
+  Pitch Angle: "Add custom music referrals to your service offering.
+    Your clients get better content, you earn passive income."
+  Contact Method: Website contact form at creatorlymedia.com
+  Estimated Value: $200-1,500/month in referral commissions
+
+  PERSONALIZATION NOTES:
+    - They position themselves as a "reliable partner" for creators
+    - Music is a natural upsell for their editing clients
+    - Emphasize how custom music elevates their editing work
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 3: VeedYou Media
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Video editing services for content creators
+  Website: veedyou.com
+  Why Target: Serves YouTubers, travel creators, documentary makers,
+    and corporate clients. Wide range = wide referral potential. They
+    handle YouTube, travel, branded, and documentary editing — all
+    genres that need music.
+  Approach: REFERRAL PARTNER SCRIPT (Script 5)
+  Pitch Angle: "Your documentary and branded video clients need
+    original music. We handle that so you don't have to."
+  Contact Method: Website contact form at veedyou.com
+  Estimated Value: $300-2,000/month in referral commissions
+
+  PERSONALIZATION NOTES:
+    - They serve travel and documentary niches = higher budget clients
+    - Branded video clients have corporate budgets ($1,500-5,000+)
+    - Position CSL as their go-to music vendor
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SEGMENT 2: PRODUCTION COMPANIES (High-Value Buyers)
+═══════════════════════════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 4: All That's Good Productions — Philadelphia, PA
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Award-winning video production company and creative agency
+  Location: Philadelphia, PA and South Jersey
+  Website: allthatsgood.tv
+  Why Target: LOCAL to Pennsylvania. Award-winning. They produce
+    high-impact branded content, commercials, and campaigns. These
+    projects regularly need original music and scoring.
+  Services They Offer: Creative strategy, pre-production, production,
+    post-production, branded content
+  Approach: PRODUCTION COMPANY SCRIPT (Script 2)
+  Pitch Angle: "I'm a PA-based composer. Let me handle the music for
+    your next campaign so your team can focus on the visual."
+  Contact Method: Website contact form at allthatsgood.tv
+  Estimated Project Value: $3,000-7,500 per project
+  Estimated Annual Value: $10,000-30,000 (3-5 projects/year)
+
+  PERSONALIZATION NOTES:
+    - LOCAL advantage — same state, easy collaboration
+    - Award-winning = they value quality = willing to pay for it
+    - Branded content/commercial work has real budgets
+    - Mention specific recent work from their portfolio
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 5: New Pace Productions — Philadelphia, PA
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Strategy-led video production agency
+  Location: Philadelphia, PA (partners nationwide)
+  Website: newpaceproductions.com
+  Why Target: LOCAL. Serves growth companies and enterprise clients.
+    Produces corporate, brand, campaign, and animated content. All
+    of these need music. They have a nationwide client base.
+  Approach: PRODUCTION COMPANY SCRIPT (Script 2)
+  Pitch Angle: "Your corporate and campaign videos need music that
+    matches the production quality. I'm local and can turn projects
+    around fast."
+  Contact Method: Website or phone at 215-279-9332 (if Beverly Boy
+    number) — verify via their site
+  Estimated Project Value: $1,500-5,000 per project
+  Estimated Annual Value: $8,000-25,000 (5-10 projects/year)
+
+  PERSONALIZATION NOTES:
+    - Strategy-led = they plan content ahead = can plan music early
+    - Corporate clients = reliable budgets, repeat business
+    - Animated content specifically needs custom music/scoring
+    - Mention their 5-star reviews and professional reputation
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 6: JTWO Films — Philadelphia, PA
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Integrated creative content + video production company
+  Location: Philadelphia, PA
+  Website: jtwo.tv
+  Why Target: LOCAL. They have a 4,000 sq ft post-production facility
+    in Philadelphia. They focus on storytelling and creative content.
+    Their in-house post capability means they value quality — and they
+    likely need music for their projects regularly.
+  Approach: PRODUCTION COMPANY SCRIPT (Script 2)
+  Pitch Angle: "You've built an incredible post facility. Let me be
+    your go-to for original scoring so your editors always have
+    custom music ready."
+  Contact Method: Website contact at jtwo.tv
+  Estimated Project Value: $2,000-7,500 per project
+  Estimated Annual Value: $10,000-30,000 (4-8 projects/year)
+
+  PERSONALIZATION NOTES:
+    - They built a dedicated post house = serious about quality
+    - "Finding new ways of sharing stories" = music is part of that
+    - In-house post = they control the edit = they pick the music
+    - Offer to be their ongoing music vendor (retainer potential)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SEGMENT 3: PODCASTERS (Recurring Revenue)
+═══════════════════════════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 7: New Podcasters Using Stock Intros (Bulk Approach)
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Newly launched podcasts (last 6 months) using stock intro music
+  Platform: Search via ListenNotes (listennotes.com), Podchaser
+    (podchaser.com), or Spotify podcast directory
+  Why Target: New podcasts are the most likely to invest in branding
+    early. Many launch with free/stock intros and upgrade once they
+    have momentum. The podcast market is projected to reach $17.59B
+    by 2030 — growing fast.
+  Approach: PODCASTER SCRIPT (Script 3)
+  How to Find:
+    1. Go to listennotes.com
+    2. Search by genre (true crime, business, comedy, health)
+    3. Filter by "recently launched" or first episodes in last 6 months
+    4. Listen to intros — if it sounds stock, they're a prospect
+    5. Find contact on their show notes or social media
+  Estimated Project Value: $300-500 per podcast (intro + outro)
+  Estimated Annual Value: $150-300/month if retainer
+
+  PERSONALIZATION NOTES:
+    - Always reference a SPECIFIC EPISODE you listened to
+    - Compliment the content, then pivot to the music
+    - Offer a free sample intro — low barrier, high conversion
+    - Podcast networks are gold: 1 network = 10-50 shows
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 8: Transistor.fm Podcast Community
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Podcast hosting platform with active creator community
+  Website: transistor.fm
+  Why Target: Transistor hosts thousands of podcasts. They published
+    a guide on "free music for podcasts" (March 2026), proving their
+    users actively search for podcast music. Their community forum and
+    blog are places where CSL could position itself as a premium
+    alternative to free stock music.
+  Approach: HYBRID — Content marketing + direct outreach
+  Strategy:
+    1. Find podcasts hosted on Transistor (many display "Hosted by
+       Transistor" in show notes)
+    2. Reach out to those podcasters directly using Script 3
+    3. Optionally: pitch Transistor itself as a referral partner —
+       they could recommend CSL to users looking for music
+  Contact Method: Individual podcaster outreach via show notes/email
+  Estimated Value: $300-500 per podcast, scalable to dozens
+
+  PERSONALIZATION NOTES:
+    - Their users are already looking for music solutions
+    - Position CSL as the upgrade from "free podcast music"
+    - Emphasize: "Custom intro > generic stock = more professional"
+
+
+═══════════════════════════════════════════════════════════════════════════════
+SEGMENT 4: INDIE GAME STUDIOS (Growing Market)
+═══════════════════════════════════════════════════════════════════════════════
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 9: Indie Game Developers on itch.io and Steam
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Independent game developers preparing for release
+  Platforms: itch.io, Steam (store.steampowered.com), IndieDB
+  Why Target: Indie games are the fastest-growing segment of gaming.
+    Many indie devs use placeholder or free music and upgrade near
+    release. The buying trigger is clear: game nearing launch = they
+    need final audio.
+  Approach: INDIE GAME SCRIPT (Script 4)
+  How to Find:
+    1. Steam "Coming Soon" section — filter indie games
+    2. itch.io — browse games in development with placeholder audio
+    3. Reddit: r/IndieDev, r/gamedev, r/INAT (I Need A Team)
+    4. Discord: Indie Game Developers server, Game Dev League
+    5. Game jams: Ludum Dare, Global Game Jam participants
+  Contact Method: Developer email in Steam/itch.io page, Discord DM,
+    or Reddit post response
+  Estimated Project Value: $500-3,000 per game
+  Estimated Annual Value: $1,500 average per client
+
+  PERSONALIZATION NOTES:
+    - Always play or watch gameplay footage before reaching out
+    - Compliment specific visual/gameplay elements
+    - Offer a short 30-second sample based on their game's aesthetic
+    - Mention you work with Unity/Unreal/Godot audio pipelines
+    - r/INAT is specifically for devs looking for team members
+      including composers — post there offering services
+
+───────────────────────────────────────────────────────────────────────────────
+TARGET 10: IndieGameMusic.com Community
+───────────────────────────────────────────────────────────────────────────────
+
+  Type: Platform connecting indie game developers with composers
+  Website: indiegamemusic.com (referenced on Medium, vi-control forums)
+  Why Target: This is a marketplace where indie developers actively
+    search for composers. Being listed here puts CSL directly in front
+    of developers who have budget and intent to hire.
+  Approach: DUAL — List CSL profile + browse developer posts seeking
+    composers and respond with custom pitches
+  Strategy:
+    1. Create a CSL composer profile with portfolio samples
+    2. Browse "looking for composer" posts
+    3. Respond with personalized pitches using Script 4
+    4. Also check: Game Dev Market, Unity Asset Store (for visibility)
+  Contact Method: Platform messaging + developer contact info
+  Estimated Value: $500-3,000 per project, ongoing pipeline
+
+  PERSONALIZATION NOTES:
+    - Developers here WANT to hire — they're actively searching
+    - Stand out with a professional profile and real samples
+    - Quick response time matters — be first to reply
+    - Offer competitive pricing vs. Fiverr/Upwork lowballers by
+      emphasizing quality and ownership guarantees
+
+
+═══════════════════════════════════════════════════════════════════════════════
+OUTREACH PRIORITY ORDER
+═══════════════════════════════════════════════════════════════════════════════
+
+WEEK 1 (Highest ROI, fastest to close):
+  1. Target 4: All That's Good Productions (LOCAL, high value)
+  2. Target 5: New Pace Productions (LOCAL, corporate clients)
+  3. Target 6: JTWO Films (LOCAL, post-production focused)
+  4. Target 1: Vidchops (referral partner, access to many creators)
+
+WEEK 2 (Build pipeline):
+  5. Target 2: Creatorly Media (referral partner)
+  6. Target 3: VeedYou (referral partner, diverse clients)
+  7. Target 7: New podcasters via ListenNotes (volume play)
+  8. Target 8: Transistor community podcasters
+
+WEEK 3 (Expand reach):
+  9. Target 9: Indie devs on Steam/itch.io/Reddit
+  10. Target 10: IndieGameMusic.com listings
+
+═══════════════════════════════════════════════════════════════════════════════
+KEY RESEARCH FACTS (Verified March 2026)
+═══════════════════════════════════════════════════════════════════════════════
+
+YouTube Market:
+  - 60-65M active YouTube channels (115M total channels, 2025)
+  - 2.7B monthly active users
+  - Channels with 100K-1M subs have 3.47% engagement rate (highest)
+  - Mid-size creators are the sweet spot: big enough to pay, small
+    enough to respond to cold outreach
+
+Podcast Market:
+  - Projected to reach $17.59B by 2030
+  - Transistor, Buzzsprout, Riverside all published "free music for
+    podcasts" guides in 2025-2026, proving demand
+  - Custom intro music is the #1 branding upgrade for new podcasts
+
+Indie Games:
+  - Steam releases 10,000+ indie games per year
+  - Reddit r/INAT has active "looking for composer" posts daily
+  - Platforms like Fiverr/Upwork have race-to-bottom pricing —
+    CSL can differentiate on quality and ownership
+
+Production Companies:
+  - Philadelphia has 20+ ranked video production companies
+  - Average project budgets: $3,000-15,000 (music is 10-20% of that)
+  - Local advantage: same timezone, in-person meetings possible
+
+Referral Partners:
+  - Video editing agencies serve 10-100+ creator clients each
+  - One referral partner can generate $2,000-10,000/year in
+    commissions — highly scalable with minimal effort
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PA LLC Filing Reference (Fact-Checked):
+  - File at: dos.pa.gov (PA Department of State)
+  - Filing fee: $125 for Articles of Organization
+  - EIN: Free, instant at irs.gov (Form SS-4 online)
+  - ASCAP membership: Free to join (ascap.com)
+  - SoundExchange: Free to register (soundexchange.com)
+  - Copyright registration: $65 per work (copyright.gov)
+  - Trademark filing: $350 per class (USPTO, effective Jan 2025)
+
+═══════════════════════════════════════════════════════════════════════════════

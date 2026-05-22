@@ -1,0 +1,450 @@
+═══════════════════════════════════════════════════════════════════════════════
+      CURRENT SCORING LEADERS — PRICING STRATEGY (EXECUTIVE VERSION)
+        Internal quoting framework for premium custom scoring services
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This document defines the internal pricing and quoting framework for Current
+Scoring Leaders.
+
+It is designed to support:
+- consistent pricing decisions
+- premium market positioning
+- clearer scope control
+- healthier margins
+- alignment between outreach, website messaging, calls, and formal quotes
+
+This is an internal strategy document.
+It is not intended to be published externally in full.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. IDEAL CLIENT PROFILE
+═══════════════════════════════════════════════════════════════════════════════
+
+PRIMARY PRIORITY CLIENTS
+
+1. Video creators with strong editing and weak sonic identity
+2. Podcasters building a serious show brand
+3. Indie game teams with worldbuilding-heavy projects
+4. Production houses and agencies needing dependable custom scoring support
+
+BEST-FIT CLIENT TRAITS
+
+- clear brand or narrative intent
+- visible quality standards
+- repeat-project potential or referral value
+- dissatisfaction with generic stock music outcomes
+- willingness to pay for specificity, speed, and reliability
+
+LOWER-PRIORITY CLIENT TRAITS
+
+- unclear scope
+- unrealistic timelines
+- price-only buyers
+- excessive revision risk
+- broad ownership demands without budget support
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. OFFER LADDER
+═══════════════════════════════════════════════════════════════════════════════
+
+ENTRY OFFERS
+
+- Podcast branding package
+- Signature theme package
+- Short-form video scoring
+
+CORE OFFERS
+
+- Video / episode scoring
+- Game / narrative packages
+- Brand identity theme systems
+
+RECURRING OFFERS
+
+- Creator retainers
+- Studio / agency retainers
+- periodic refresh packages
+
+Goal of the offer ladder:
+- reduce friction at first purchase
+- move strong-fit clients into larger scoped work
+- convert reliable clients into recurring revenue relationships
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. QUOTING PRINCIPLES
+═══════════════════════════════════════════════════════════════════════════════
+
+Pricing should reflect:
+- strategic value to the client
+- scope complexity
+- delivery burden
+- usage rights
+- stakeholder load
+- timeline pressure
+- portfolio or relationship value
+
+Pricing should not be determined only by runtime.
+A short asset with high brand value can justify a higher fee than a longer,
+lower-stakes deliverable.
+
+Use these bands as a quoting framework, not a fixed rate card.
+Maintain consistency, but preserve judgment.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. CORE PRICING VARIABLES
+═══════════════════════════════════════════════════════════════════════════════
+
+Every quote should consider the following variables:
+
+- scope
+- runtime
+- cue count
+- revision rounds
+- deliverable count
+- stems or alternate versions
+- timeline
+- collaboration load
+- licensing / usage rights
+- term length
+- distribution size
+- exclusivity level
+- ownership / buyout terms
+- long-term relationship value
+
+USAGE RIGHTS GUIDANCE
+
+Lower-priced work usually aligns with narrower usage rights.
+Higher-priced work should be considered when the client requests:
+- perpetual use
+- broad commercial distribution
+- paid advertising use
+- exclusive rights
+- full work-for-hire transfer or buyout
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. PRICING BANDS BY OFFER
+═══════════════════════════════════════════════════════════════════════════════
+
+5.1 SIGNATURE THEME PACKAGE
+
+Range: $600–2,500+
+
+Entry band: $600–900
+Typical fit:
+- solo creator or early-stage show
+- limited usage footprint
+- one main use case
+- low revision complexity
+
+Typical scope:
+- one main theme
+- intro cut
+- outro cut
+- one revision round
+
+Standard band: $900–1,500
+Typical fit:
+- established brand or creator
+- multiple deliverables
+- moderate collaboration
+- stronger branding expectations
+
+Typical scope:
+- main theme
+- intro/outro
+- bumper or stinger variation
+- two revision rounds
+- multiple export versions
+
+Premium band: $1,500–2,500+
+Typical fit:
+- brand-critical launch or rebrand
+- expanded usage rights
+- elevated production expectations
+- multiple stakeholders
+
+Typical scope:
+- multi-version theme system
+- stronger polish and arrangement depth
+- broader deliverable set
+- additional cutdowns or branded variants
+
+
+5.2 VIDEO / EPISODE SCORING
+
+Range: $600–5,000+
+
+Short-form band: $600–1,200
+Typical fit:
+- one video, trailer, or short branded piece
+- approximately 30 to 90 seconds of scoring
+- limited cue count
+- straightforward revision path
+
+Mid-range band: $1,200–2,500
+Typical fit:
+- long-form creator video, documentary section, or branded content piece
+- multiple cues or longer runtime
+- stronger scene-to-scene musical intent
+- moderate collaboration load
+
+Premium band: $2,500–5,000+
+Typical fit:
+- complex narrative work
+- multiple scenes or cue families
+- significant editorial interaction
+- higher usage value or wider distribution
+
+Boundary guidance:
+- move upward when cue count increases materially
+- move upward when stems, alternates, or sync precision increase
+- move upward when rights expand beyond limited project use
+
+
+5.3 PODCAST BRANDING PACKAGES
+
+Range: $300–1,800+
+
+Entry band: $300–600
+Typical fit:
+- independent show
+- intro and outro only
+- straightforward brand direction
+
+Standard band: $600–1,000
+Typical fit:
+- growing show or network property
+- intro, outro, bumper, and alternate cuts
+- stronger brand alignment expectations
+
+Premium band: $1,000–1,800+
+Typical fit:
+- rebrand, network launch, or higher-visibility show
+- multiple branded variants
+- broader use across episodes, promos, or show formats
+
+Refresh retainer: $150–500/month
+Use only when scope is clearly limited and defined in advance.
+
+
+5.4 GAME / NARRATIVE PACKS
+
+Range: $800–7,500+
+
+Small pack: $800–1,500
+Typical fit:
+- smaller indie title
+- limited cue set
+- menu, ambient, and one or two event cues
+
+Mid pack: $1,500–3,500
+Typical fit:
+- stronger indie release
+- several cues or themes
+- moderate immersion and worldbuilding requirements
+
+Large pack: $3,500–7,500+
+Typical fit:
+- narrative-heavy title
+- multiple themes, gameplay states, or environments
+- milestone-based delivery and heavier coordination
+
+Boundary guidance:
+- move upward with cue count, adaptive needs, implementation support,
+  or expanded rights expectations
+
+
+5.5 RETAINERS
+
+Creator retainer: $1,000–2,000/month
+Best fit:
+- active creators with recurring releases
+- repeatable custom music needs
+- limited number of monthly deliverables
+
+Studio / agency retainer: $2,000–5,000+/month
+Best fit:
+- recurring production environments
+- multiple projects under one operating relationship
+- need for faster responsiveness and dependable scheduling
+
+Retainers should never be sold without explicit scope controls.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. RETAINER GUARDRAILS
+═══════════════════════════════════════════════════════════════════════════════
+
+Every retainer should define:
+- number of deliverables per month
+- target response window
+- revision limits
+- included call / review time
+- rollover policy
+- overage pricing
+- rush treatment rules
+- rights granted within monthly fee
+
+Recommended default retainer posture:
+- no unlimited revisions
+- no unlimited deliverables
+- no undefined priority access
+- no silent expansion of rights or scope
+
+If scope is likely to vary heavily month to month,
+quote a hybrid model: base retainer plus overage pricing.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. PRICE MOVERS
+═══════════════════════════════════════════════════════════════════════════════
+
+Increase quote when there is:
+- rush delivery
+- high revision complexity
+- multiple stakeholders
+- large number of alternates or exports
+- stem delivery requirements
+- exclusivity demands
+- wide commercial usage
+- perpetual use or buyout requests
+- high collaboration burden
+- uncertain scope
+
+Reduce quote selectively when there is:
+- strong portfolio value
+- strong referral leverage
+- strong long-term client potential
+- recurring project potential
+- unusually simple scope with limited revision risk
+
+Any price reduction should be strategic,
+not reactive.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+8. POSITIONING RULES
+═══════════════════════════════════════════════════════════════════════════════
+
+CSL pricing communication should reinforce:
+- custom work
+- premium perception
+- strategic clarity
+- professionalism
+- confidence without rigidity
+
+Preferred pricing language:
+- starting at
+- typical range
+- quoted by scope
+- based on usage and deliverables
+- custom proposal available
+
+Avoid price positioning that undermines premium perception.
+Maintain consistency in how price is explained across website, outreach,
+and calls.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+9. SALES PATH
+═══════════════════════════════════════════════════════════════════════════════
+
+Recommended conversion path:
+- website or outbound outreach
+- discovery conversation
+- scoped follow-up
+- quote or proposal
+- close
+- delivery
+- upsell or retainer discussion
+
+What pricing must do at each stage:
+
+Website:
+- qualify lightly
+- support premium perception
+- prevent low-fit bargain inquiries
+
+Outreach:
+- mention only the most relevant range
+- keep focus on value and fit
+- avoid overwhelming details
+
+Discovery call:
+- confirm scope, rights, timeline, and decision-making structure
+- identify where the project sits within the pricing framework
+
+Proposal:
+- show final scope, rights, timeline, deliverables, revisions, and price clearly
+
+
+═══════════════════════════════════════════════════════════════════════════════
+10. PUBLIC PRICING GUIDANCE
+═══════════════════════════════════════════════════════════════════════════════
+
+Recommended public positioning:
+- Signature themes starting at $600
+- Podcast branding starting at $500
+- Custom scoring starting at $1,200
+- Game and narrative scoring quoted by scope
+- Retainers available by application
+
+Public pricing should remain brief.
+Detailed pricing logic belongs internally.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+11. INITIAL CAPACITY MODEL
+═══════════════════════════════════════════════════════════════════════════════
+
+This section is a starting operating assumption and should be refined with real
+tracking after the first 30 to 60 days of delivery.
+
+Initial capacity guardrails:
+- up to 4 theme-package projects per month, or
+- 2 mid-sized scoring projects per month, or
+- 1 larger scoring package plus 1 to 2 smaller package projects
+
+Do not sell retainers aggressively until:
+- delivery timing is being tracked consistently
+- revision load is understood
+- actual average project hours are known
+
+Capacity should be reviewed against:
+- turnaround promises
+- revision burden
+- admin time
+- outreach time
+- mix / export time
+- client communication time
+
+The objective is not maximum volume.
+The objective is controlled quality, profitable delivery, and repeatable client
+experience.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+12. EXECUTIVE SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+This framework positions Current Scoring Leaders as a premium custom scoring
+business with:
+- clear entry offers
+- scalable core offers
+- structured quoting logic
+- defined retainer safeguards
+- lighter public pricing
+- stronger alignment between market positioning and sales execution
+
+It should be used as the pricing layer within a broader growth strategy,
+not mistaken for the entire strategy itself.
+
+END
+═══════════════════════════════════════════════════════════════════════════════

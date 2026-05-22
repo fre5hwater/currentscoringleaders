@@ -1,0 +1,292 @@
+═══════════════════════════════════════════════════════════════════════════════
+     CURRENT SCORING LEADERS — PREMIUM WEBSITE EXPERIENCE BLUEPRINT
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This file upgrades the CSL website from "clear enough" to a more premium,
+credible, better-organized business presentation.
+
+Use this alongside:
+- CSL_WEBSITE_COPY_FRAMEWORK.txt
+- WEBSITE_COPY.txt
+- CSL_PUBLIC_PRICING_BLOCK_FINAL.txt
+- CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+- CSL_CLIENT_ONBOARDING_FLOW.txt
+- CSL_ONBOARDING_LANDING_PAGE.txt
+- SERVICE_CONTRACT.txt
+- TERMS_OF_SERVICE.txt
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. SITE-WIDE EXPERIENCE RULES
+═══════════════════════════════════════════════════════════════════════════════
+
+Every page should do 4 things clearly:
+- show the quality level
+- explain the offer simply
+- remove uncertainty
+- move the right buyer forward
+
+Each page should have:
+- a strong headline
+- one clear primary CTA
+- proof or trust near the top
+- short readable sections
+- a strong next-step block before the footer
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. HOME PAGE — PREMIUM STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+
+Hero:
+- strong statement of value
+- immediate CTA to start project
+- secondary CTA to hear work
+- one-line proof strip under hero
+
+Hero proof strip examples:
+- Original scoring only
+- Clear pricing starting points
+- Professional process and revisions
+- Rights handled clearly in writing
+
+Section order:
+1. Hero
+2. Trust strip
+3. Featured outcomes / why custom matters
+4. Who CSL helps
+5. Featured work / proof preview
+6. Services overview
+7. Pricing preview
+8. Process preview
+9. FAQ/trust preview
+10. Strong CTA
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. SERVICES PAGE — PREMIUM STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+
+Each service block should include:
+- who it is for
+- what problem it solves
+- what is included
+- expected deliverables
+- starting price or quote logic
+- ideal next step
+
+Add below the main services:
+- add-ons / optional deliverables
+- rights and ownership options
+- revision expectations
+- turnaround expectations
+
+Suggested add-ons section:
+- stems
+- alternate versions
+- loop edits
+- implementation support
+- rush delivery
+- extra revision rounds
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. PORTFOLIO PAGE — PREMIUM STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+
+Do not present only tracks.
+Present use-case context.
+
+Each featured entry should show:
+- title
+- use case
+- mood/style
+- what the project needed
+- what the music solved
+- short result note
+- player/audio embed
+
+Recommended portfolio sections:
+- featured projects
+- by segment filter
+- proof or testimonial pull-quotes
+- request something similar CTA
+
+If demos are used:
+- label them honestly
+- explain intended use case
+- avoid pretending they were paid placements
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. PRICING PAGE — PREMIUM STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+
+The pricing page should include 5 layers:
+
+A. Starting-point cards
+- signature themes
+- podcast branding
+- custom scoring
+- game/narrative scoring
+- retainers
+
+B. Comparison chart
+Columns:
+- offer
+- best for
+- typical deliverables
+- revision model
+- rights baseline
+- turnaround baseline
+- starting price
+
+C. What affects your quote
+- total duration
+- complexity and production depth
+- rights requested
+- number of deliverables
+- stems or alternate versions
+- rush timeline
+- number of revision rounds
+
+D. Add-ons / extras
+- stems
+- alt cuts
+- implementation support
+- rush
+- additional revisions
+
+E. Payment and buyer expectations
+- deposit structure
+- final payment timing
+- review windows
+- when final files are released
+- how change requests are handled
+
+Important pricing rule:
+The page should feel transparent without boxing every project into an overly
+rigid grid.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. ABOUT PAGE — PREMIUM STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+
+The About page should answer:
+- who is behind CSL
+- why this business exists
+- how CSL works with clients
+- why the approach is different
+
+Sections:
+- founder intro
+- philosophy on original scoring vs generic music
+- working values
+- communication/process standards
+- genres and strengths
+- final CTA
+
+The About page should feel authoritative, personal, and composed.
+Not overdramatic.
+Not generic.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. INQUIRY / PROJECT START FLOW
+═══════════════════════════════════════════════════════════════════════════════
+
+The site should make the buyer path obvious:
+- hear work
+- understand fit
+- review starting prices
+- understand process
+- submit project details
+- receive clear next step
+
+The project-start page should include:
+- who should inquire
+- what information to prepare
+- what happens after submission
+- deposit/payment expectations
+- response time expectations
+- CTA into intake form
+
+
+═══════════════════════════════════════════════════════════════════════════════
+8. TRUST / TERMS PRESENTATION RULE
+═══════════════════════════════════════════════════════════════════════════════
+
+Website visitors should not hit raw legal language first.
+Use a layered model:
+- short human-readable trust summaries on sales pages
+- full legal pages linked in footer and onboarding flow
+
+Trust blocks should cover:
+- originality
+- revisions
+- rights clarity
+- payment structure
+- review windows
+- delivery expectations
+- rush policy
+- cancellation basics
+
+
+═══════════════════════════════════════════════════════════════════════════════
+9. VISUAL / LAYOUT DIRECTION
+═══════════════════════════════════════════════════════════════════════════════
+
+Use a premium service-business layout style:
+- dark cinematic hero
+- strong contrast
+- generous spacing
+- large section headings
+- cleaner pricing cards
+- audio-proof modules
+- quote/testimonial cards
+- process timeline modules
+- trust badges / trust strip
+
+Recommended visual ingredients:
+- waveforms or audio-reactive dividers
+- clean cards with subtle gold/blue accents
+- project stills or branded mockups beside tracks
+- restrained animation only where it improves quality
+- consistent CTA treatment site-wide
+
+
+═══════════════════════════════════════════════════════════════════════════════
+10. SECTIONS THAT MOST IMPROVE CONVERSION
+═══════════════════════════════════════════════════════════════════════════════
+
+High-value sections to prioritize:
+- hero proof strip
+- featured work with context
+- pricing comparison chart
+- what affects price block
+- process timeline
+- what happens after inquiry block
+- testimonial / proof block
+- rights clarity summary
+- FAQ preview
+
+
+═══════════════════════════════════════════════════════════════════════════════
+11. IF CSL WANTS TO FEEL BETTER THAN MOST COMPETITORS
+═══════════════════════════════════════════════════════════════════════════════
+
+The site should feel like:
+- a premium boutique scoring studio
+- easy to work with
+- serious about deadlines and scope
+- creatively strong
+- transparent about pricing and terms
+- not a random freelancer page
+- not a cheap template page
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

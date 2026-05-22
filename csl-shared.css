@@ -1,0 +1,43 @@
+/* ============================================================
+   csl-shared.css
+   Shared utility classes used across all CSL_*.html pages.
+   Page-specific CSS variables (--blue, --gold, etc.) are
+   defined per page; these classes consume them at runtime.
+   ============================================================ */
+
+/* Text alignment */
+.csl-text-center { text-align: center; }
+.csl-text-left   { text-align: left; }
+.csl-text-right  { text-align: right; }
+
+/* Accent text colors (consume page-defined CSS vars) */
+.csl-accent-blue   { color: var(--blue); }
+.csl-accent-gold   { color: var(--gold); }
+.csl-accent-green  { color: var(--green); }
+.csl-accent-purple { color: var(--purple); }
+
+/* FAQ-style themed icon chips */
+.csl-icon-blue   { background: rgba(59,130,246,0.12);  color: var(--blue); }
+.csl-icon-gold   { background: rgba(201,168,85,0.12);  color: var(--gold); }
+.csl-icon-green  { background: rgba(16,185,129,0.12);  color: var(--green); }
+.csl-icon-purple { background: rgba(139,92,246,0.12);  color: var(--purple); }
+
+/* Inline link tints */
+.csl-link-blue   { color: var(--blue); }
+.csl-link-blue-underline {
+    color: var(--blue);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+/* Honeypot anti-spam input — visually hidden but accessible to bots */
+.csl-honeypot {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+/* Footer logo size used across pages */
+.csl-footer-logo-img { height: 36px; width: auto; }

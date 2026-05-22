@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /ARCHIVE/
+
+Sitemap: https://currentscoringleaders.com/sitemap.xml

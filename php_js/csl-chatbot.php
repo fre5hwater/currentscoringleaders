@@ -1,0 +1,287 @@
+<?php
+header("Content-Type: application/javascript");
+?>
+/* CSL Chatbot v1.0
+ * 100% client-side. Zero API calls. Zero tokens. Zero limits.
+ * Embedded knowledge base with keyword matching.
+ * No server required. Works on static HTML hosting.
+ */
+(function(){
+'use strict';
+
+var KB={};
+
+// ====== KNOWLEDGE BASE ======
+
+KB.greeting={
+patterns:['hi','hello','hey','sup','yo','howdy','greetings','good morning','good evening','whats up','wassup','hey there'],
+response:'Hey! Welcome to Current Scoring Leaders. I am the studio assistant. I can tell you about our services, pricing, creative process, the Fresh Water philosophy, or help you get started on a project. What would you like to know?',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the process?','Who is Fresh Water?']
+};
+
+KB.studio={
+patterns:['who are you','what is this','tell me about the studio','about current scoring','about csl','what is current scoring','your name','the company','the business','music scoring','composition studio'],
+response:'Current Scoring Leaders (CSL) is a music composition and scoring studio based in Philadelphia, PA. We create original music for film, TV, games, podcasts, commercials, YouTube, and more. The studio operates on a simple principle: music that hits, on time, on budget. We are also the service layer for Fresh Water, a creative identity focused on clarity, originality, and emotional authenticity in sound. You work directly with the composer - no middlemen, no account managers, no bureaucracy.',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the Fresh Water philosophy?','Where are you located?']
+};
+
+KB.freshwater={
+patterns:['fresh water','philosophy','creative identity','alchemical seer','philosopher warrior','duality','your approach','your philosophy','materialism of the physical','what is fresh water','fresh water philosophy','creative vision'],
+response:'Fresh Water is the creative identity behind Current Scoring Leaders. It is rooted in the idea that clarity, originality, and emotional authenticity should drive every composition. The studio operates on a duality: the Philosopher-Warrior (who maps emotional architecture and executes with precision and discipline) and the Alchemical Seer (who transforms sound, breaks conventions, and finds new creative possibilities). The philosophy rejects algorithmic trends and template-based production in favor of genuine craft. The idea is that the materialism of the physical world has distorted how music is made - we strip that away and get back to what matters: the story, the emotion, the hit.',
+suggestions:['What services do you offer?','How is CSL different from other studios?','What is the creative process?']
+};
+
+KB.services={
+patterns:['services','offerings','what do you do','what can you do','music for','kinds of music','categories','capabilities','what do you offer','your services','service','what you got'],
+response:'We offer original music composition and scoring across six categories. One standard of quality, regardless of budget:\n\n- Film and TV Scoring: From $1,500 per track (orchestral, hybrid, electronic; stereo + 5.1)\n- Game Soundtracks: From $950 per track (adaptive/linear, stems, middleware ready)\n- Podcast Branding: From $450 per package (theme, intros/outros, bumpers; 48hr delivery)\n- Commercials: From $750 per track (TV, radio, digital; multiple variations)\n- YouTube and Twitch: From $350 per track (intros, background scores, alerts; royalty-free options)\n- Custom Beats: From $250 per track (original production, mixed/mastered, exclusive rights available)\n\nEvery project starts with a free consultation to discuss your vision.',
+suggestions:['How much does film scoring cost?','How does the process work?','What is included in podcast branding?']
+};
+
+KB.film={
+patterns:['film','movie','cinematic','orchestral','score for film','film scoring','tv scoring','television','show','documentary','feature film','short film','trailer'],
+response:'Film and TV scoring starts at $1,500 per track. We deliver full orchestral, hybrid, or electronic scores in stereo and 5.1. Every score is built from the ground up - no templates, no stock loops. You get the full emotional architecture your story needs, composed specifically for your project. Direct collaboration with the composer throughout.',
+suggestions:['How much does game scoring cost?','What is your process?','How do revisions work?']
+};
+
+KB.games={
+patterns:['game','video game','video games','soundtrack','adaptive music','gaming','indie','steam','unity','unreal','middleware','game audio','fmod','wwise'],
+response:'Game soundtracks start at $950 per track. We create adaptive and linear soundtracks with stem delivery, ready for middleware integration (FMOD, Wwise, etc.). Suitable for indie to AAA projects. Direct collaboration with the composer.',
+suggestions:['How much does a game soundtrack cost?','What middleware do you support?','What is the process?']
+};
+
+KB.podcast={
+patterns:['podcast','podcasting','show intro','podcast theme','intro music','outro','bumper','podcast branding','true crime','interview show'],
+response:'Podcast branding packages start at $450 and include a theme song, intros, outros, and bumpers. Delivery within 48 hours. Every piece is custom-composed for your show - no stock music, no generic tracks.',
+suggestions:['What is included in the podcast package?','How much does it cost?','Can you do ad spots?']
+};
+
+KB.commercials={
+patterns:['commercial','advertise','ad','tv spot','radio','digital ad','commercials','advertising','jingle','promo','promotion','marketing'],
+response:'Commercial scoring starts at $750 per track. We produce original music for TV, radio, and digital ads with fast turnaround and multiple spot variations as needed. Direct collaboration with the composer.',
+suggestions:['What is the turnaround time?','How much does it cost?','What is included?']
+};
+
+KB.youtube={
+patterns:['youtube','twitch','streamer','content creator','intro music','background music','stream','youtube music','channel music','royalty free','streaming','vlogger'],
+response:'YouTube and Twitch packages start at $350 per track. Channel intros, background scores, alerts, and more. Royalty-free options available so you never have to worry about copyright claims.',
+suggestions:['What does the YouTube package include?','Is it really royalty-free?','How much does it cost?']
+};
+
+KB.beats={
+patterns:['beats','custom beats','rap beat','hip hop','instrumental','produce a beat','beat','trap','lo-fi','original production','rap'],
+response:'Custom beats start at $250 per track. Original production, mixed and mastered, with exclusive rights available. Work directly with the producer to get exactly the sound you need.',
+suggestions:['How much does a custom beat cost?','Can I get exclusive rights?','What genres do you produce?']
+};
+
+KB.pricing={
+patterns:['pricing','price','cost','how much','rates','rate','expensive','cheap','afford','budget','how much does it cost','what are your rates','prices','starting at','starting price'],
+response:'Our standard starting rates:\n\n- Film/TV: $1,500+ per track\n- Game Soundtracks: $950+ per track\n- Commercials: $750+ per track\n- Podcast Branding: $450+ per package\n- YouTube/Twitch: $350+ per track\n- Custom Beats: $250+ per track\n\nThese are starting points. Every project is scoped individually based on complexity, length, and usage. We bill by the project, not by the revision - so you get unlimited revisions within scope. No hidden fees. No per-revision traps. Need a custom quote? Use the booking form to tell us about your project.',
+suggestions:['What is included in film scoring?','How does the process work?','How do revisions work?']
+};
+
+KB.process={
+patterns:['process','how it works','workflow','steps','how do you work','creative process','pipeline','your process','how does it work','what are the steps','what is your workflow'],
+response:'Our creative process has 5 steps:\n\n1. Discovery: We learn your project, its story, and its emotional targets. What does this music need to say?\n2. Direction: Creative brief with references, stylistic direction, and structural outline. You approve before we write a note.\n3. First Draft: Full composition delivered within 48 hours. You hear the complete vision, not a sketch
+
+KB.revisions={
+patterns:['revisions','revision','rework','changes','edits','feedback','change something','modify','update','revision policy','unlimited revisions','iteration'],
+response:'We bill by the project, not by the revision. This means you get unlimited revisions within the scope of your project - no per-revision fees, no nickel-and-diming. We want the final music to be right, not rushed. The process includes two formal rounds of refinement (structural, tonal, mix) with additional passes as needed to nail it.',
+suggestions:['What is the process?','How much does it cost?','How do I get started?']
+};
+
+KB.licensing={
+patterns:['license','licensing','rights','ownership','who owns','copyright','legal','contract','terms','usage rights','exclusive','indemnification','sync license','master license'],
+response:'We believe in clear, fair licensing. Every project includes full written licensing agreements with proper indemnification. You get exactly the rights you need - whether that is exclusive ownership, sync licensing, or royalty-free usage. No fine print traps. No ambiguity. We handle the legal so you can focus on the creative.',
+suggestions:['How does the process work?','How much does it cost?','What is included?']
+};
+
+KB.trust={
+patterns:['why trust','why choose','why you','different','better than','what makes you different','what sets you apart','why csl','why should i','new studio','trust a new studio','no experience','reputation','why should I trust','prove'],
+response:'Great question. Here is why you can trust Current Scoring Leaders:\n\n1. Craft Over Flash: Every composition is original, built from the ground up. No stock loops, no templates, no shortcuts.\n2. Full Licensing: Clear written agreements with proper indemnification. You know exactly what rights you have.\n3. Revision Discipline: We bill by the project, not by the revision. We stay until it is right, without punishing you financially for wanting changes.\n4. Direct Access: You work directly with the composer. No middlemen, no account managers, no bureaucracy.\n5. Fresh Water Philosophy: Every project starts with a question - what emotional architecture does this story need? We do not rush to answers; we get the question right first.',
+suggestions:['What services do you offer?','How do revisions work?','What is the process?']
+};
+
+KB.casestudy={
+patterns:['case study','portfolio','past work','example','previous projects','sample','demo','shadow evidence','what have you done','show me your work','client work','testimonial'],
+response:'One of our recent projects: Shadow Evidence - a 12-episode true crime podcast for Nightfall Media. We created the complete sonic identity: theme music, intros, transitions, and ad bumpers. Style: minimalist orchestral with electronic textures. Three core motifs that build tension without over-dramatizing.\n\nStats: 12 episodes scored, 10 days to first draft, 3 revision rounds.\n\nClient testimonial: Current Scoring Leaders brought a level of professionalism and creative insight that elevated our entire production. The music did not just accompany the story - it became part of it. - Marcus Chen, Executive Producer, Nightfall Media.\n\nWant to see more? Reach out and tell us about your project - every project is unique and we can share more relevant examples.',
+suggestions:['How do I get started?','What services do you offer?','How much does scoring cost?']
+};
+
+KB.booking={
+patterns:['book','booking','hire','start','get started','consultation','free consultation','work together','collaborate','project','commission','sign up','contact','reach out','get in touch','lets work','begin'],
+response:'Ready to start? Every project begins with a free consultation. Tell us about your project, your vision, and your budget. Head to the booking page (click Book in the navigation) and we will get back to you quickly. Direct collaboration, no middlemen.',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the process?']
+};
+
+KB.location={
+patterns:['location','where are you','philadelphia','based','studio location','philly','pa','pennsylvania','physical address','studio'],
+response:'We are based in Philadelphia, PA. Current Scoring Leaders LLC (Fresh Water Division). We work with clients worldwide - location is never a barrier. Everything is done remotely with clear communication and fast delivery.',
+suggestions:['How do I get started?','What services do you offer?','How does the process work?']
+};
+
+KB.contact={
+patterns:['email','phone','contact info','how to reach','reach you','message','call','support','help','talk to human','person','real person'],
+response:'You can reach Current Scoring Leaders at contact@currentscoringleaders.com. We typically respond within 24 hours. For the fastest response, use the booking form on the Book page to tell us about your project.',
+suggestions:['How do I get started?','What services do you offer?','How much does scoring cost?']
+};
+
+// ====== MATCHING ENGINE ======
+function matchKB(input){
+var il=input.toLowerCase().trim();
+if(!il)return null;
+for(var key in KB){
+var entry=KB[key];
+for(var i=0;i<entry.patterns.length;i++){
+if(il.indexOf(entry.patterns[i])!==-1){
+return entry;
+}
+}
+}
+return null;
+}
+
+// ====== FALLBACKS ======
+var fallback=[
+"I am not sure I have an answer for that. Try asking about our services, pricing, process, or the Fresh Water philosophy.",
+"Hmm, I do not have that information yet. I can tell you about our services, pricing, process, or the Fresh Water philosophy. What are you interested in?",
+"Good question. I am best at questions about our services, pricing, process, case studies, and the Fresh Water philosophy."
+];
+
+// ====== STATE ======
+var isOpen=false;
+var fbIdx=0;
+var chatContainer,chatToggle,chatBody,chatMessages,chatInput,chatSend;
+
+// ====== UI INITIALIZATION ======
+function init(){
+var css=document.createElement('style');
+css.id='csl-chat-css';
+css.textContent='\
+#csl-cb{position:fixed;bottom:24px;right:24px;z-index:999999;font-family:Inter,system-ui,sans-serif}\
+#csl-cb *{box-sizing:border-box}\
+#csl-cbt{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#00a8ff,#0bc5a0);border:0;cursor:pointer;box-shadow:0 4px 20px rgba(0,168,255,0.3);display:flex;align-items:center;justify-content:center;transition:transform 0.2s,box-shadow 0.2s;position:relative}\
+#csl-cbt:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(0,168,255,0.45)}\
+#csl-cbt svg{width:26px;height:26px;fill:#fff}\
+#csl-cbw{position:fixed;bottom:92px;right:24px;width:380px;max-width:calc(100vw - 48px);height:520px;max-height:calc(100vh - 120px);background:#111118;border:1px solid rgba(255,255,255,0.06);border-radius:16px;box-shadow:0 12px 48px rgba(0,0,0,0.5);display:none;flex-direction:column;overflow:hidden;animation:cslFadeIn 0.25s ease}\
+@keyframes cslFadeIn{from{opacity:0;transform:translateY(12px) scale(0.97)}to{opacity:1;transform:translateY(0) scale(1)}}\
+#csl-cbh{background:linear-gradient(135deg,#00a8ff,#0bc5a0);padding:16px 20px;color:#fff;display:flex;align-items:center;gap:12px;cursor:pointer}\
+#csl-cbh span{font-weight:600;font-size:15px}\
+#csl-cbh small{font-size:12px;opacity:0.8;display:block}\
+#csl-cbh .csl-close{margin-left:auto;background:none;border:0;color:#fff;cursor:pointer;font-size:20px;opacity:0.7;padding:0}\
+#csl-cbh .csl-close:hover{opacity:1}\
+#csl-cbm{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;scroll-behavior:smooth;background:rgba(0,0,0,0.15)}\
+#csl-cbm::-webkit-scrollbar{width:4px}\
+#csl-cbm::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:2px}\
+.csl-msg{padding:12px 16px;border-radius:12px;max-width:85%;line-height:1.5;font-size:14px;animation:cslMsgIn 0.2s ease;white-space:pre-wrap}\
+@keyframes cslMsgIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}\
+.csl-bot{background:rgba(255,255,255,0.06);color:#e2e8f0;align-self:flex-start;border-bottom-left-radius:4px}\
+.csl-user{background:linear-gradient(135deg,#00a8ff,#0bc5a0);color:#fff;align-self:flex-end;border-bottom-right-radius:4px}\
+.csl-suggest{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}\
+.csl-suggest button{background:rgba(0,168,255,0.12);color:#60a5fa;border:1px solid rgba(0,168,255,0.2);border-radius:20px;padding:6px 14px;font-size:12px;cursor:pointer;transition:all 0.2s;font-family:inherit}\
+.csl-suggest button:hover{background:rgba(0,168,255,0.25);border-color:rgba(0,168,255,0.4)}\
+#csl-cbf{display:flex;padding:12px 16px;border-top:1px solid rgba(255,255,255,0.06);gap:8px;background:rgba(0,0,0,0.2)}\
+#csl-cbf input{flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:10px 16px;color:#e2e8f0;font-size:14px;outline:0;font-family:inherit}\
+#csl-cbf input:focus{border-color:#00a8ff}\
+#csl-cbf input::placeholder{color:#64748b}\
+#csl-cbf button{background:linear-gradient(135deg,#00a8ff,#0bc5a0);border:0;border-radius:50%;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform 0.2s;flex-shrink:0}\
+#csl-cbf button:hover{transform:scale(1.1)}\
+#csl-cbf button svg{width:16px;height:16px;fill:#fff}\
+';
+document.head.appendChild(css);
+
+// Build UI
+var wrapper=document.createElement('div');
+wrapper.id='csl-cb';
+
+var toggle=document.createElement('button');
+toggle.id='csl-cbt';
+toggle.innerHTML='<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/></svg>';
+wrapper.appendChild(toggle);
+
+var panel=document.createElement('div');
+panel.id='csl-cbw';
+panel.innerHTML='\
+<div id="csl-cbh"><div><span>Studio Assistant</span><small>Current Scoring Leaders</small></div><button class="csl-close" id="csl-close-btn">&times;</button></div>\
+<div id="csl-cbm"></div>\
+<div id="csl-cbf"><input id="csl-cbi" placeholder="Ask about services, pricing..."><button id="csl-cbs"><svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button></div>';
+wrapper.appendChild(panel);
+document.body.appendChild(wrapper);
+
+// Cache elements
+chatToggle=toggle;
+chatBody=panel;
+chatMessages=document.getElementById('csl-cbm');
+chatInput=document.getElementById('csl-cbi');
+chatSend=document.getElementById('csl-cbs');
+var closeBtn=document.getElementById('csl-close-btn');
+
+// Events
+toggle.onclick=function(){
+isOpen=!isOpen;
+panel.style.display=isOpen?'flex':'none';
+if(isOpen){
+setTimeout(function(){chatInput.focus()},100);
+if(!chatMessages.children.length){
+addBotMsg(KB.greeting.response,KB.greeting.suggestions);
+}
+}
+};
+closeBtn.onclick=function(){isOpen=false;panel.style.display='none'};
+chatSend.onclick=sendMsg;
+chatInput.onkeydown=function(e){if(e.key==='Enter')sendMsg()};
+}
+
+// ====== SEND MESSAGE ======
+function sendMsg(){
+var text=chatInput.value.trim();
+if(!text)return;
+chatInput.value='';
+addUserMsg(text);
+var match=matchKB(text);
+if(match){
+setTimeout(function(){addBotMsg(match.response,match.suggestions)},300);
+}else{
+var fb=fallback[fbIdx%fallback.length];
+fbIdx++;
+setTimeout(function(){addBotMsg(fb,[KB.services.suggestions[0],KB.pricing.suggestions[0],KB.process.suggestions[0]])},300);
+}
+}
+
+// ====== ADD MESSAGES ======
+function addUserMsg(text){
+var d=document.createElement('div');
+d.className='csl-msg csl-user';
+d.textContent=text;
+chatMessages.appendChild(d);
+chatMessages.scrollTop=chatMessages.scrollHeight;
+}
+
+function addBotMsg(text,suggestions){
+var d=document.createElement('div');
+d.className='csl-msg csl-bot';
+d.textContent=text;
+chatMessages.appendChild(d);
+if(suggestions&&suggestions.length){
+var sc=document.createElement('div');
+sc.className='csl-suggest';
+for(var i=0;i<suggestions.length;i++){
+(function(t){
+var b=document.createElement('button');
+b.textContent=t;
+b.onclick=function(){chatInput.value=t;sendMsg()};
+sc.appendChild(b);
+})(suggestions[i]);
+}
+chatMessages.appendChild(sc);
+}
+chatMessages.scrollTop=chatMessages.scrollHeight;
+}
+
+// ====== BOOT ======
+if(document.readyState==='loading'){
+document.addEventListener('DOMContentLoaded',init);
+}else{
+init();
+}
+
+})();

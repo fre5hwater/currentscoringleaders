@@ -1,0 +1,608 @@
+═══════════════════════════════════════════════════════════════════════════════
+     CURRENT SCORING LEADERS — OUTREACH + WEBSITE EXECUTION SYSTEM
+        Built from Updated Market Analysis + Strategy Refresh
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This document translates the updated competitor research and positioning into:
+
+1. A practical outreach system
+2. Segment-specific offers and messaging
+3. Website structure and copy framework
+4. Shared logic between business-building and website tasks
+
+This should be used alongside:
+- MASTER_BUSINESS_REPORT_COMPLETE.txt
+- OUTREACH_EMAIL_SCRIPTS.txt
+- MUSIC_SCORING_LEGAL_FRAMEWORK.txt
+- CSL_DM_VARIANTS_FINAL.txt
+- CSL_REFERRAL_ONEPAGER_FINAL.txt
+- CSL_PUBLIC_PRICING_BLOCK_FINAL.txt
+- CSL_PREMIUM_WEBSITE_EXPERIENCE_BLUEPRINT.txt
+- CSL_COMPETITOR_QUALITY_BENCHMARK.txt
+- CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+- CSL_WEBSITE_TERMS_RIGHTS_SUMMARY.txt
+- CSL_WEBSITE_MEDIA_AND_MISSING_ASSETS.txt
+- CSL_DAILY_OUTREACH_WORKFLOW.txt
+- CSL_LEAD_BUILDING_SYSTEM.txt
+- CSL_DEMO_PORTFOLIO_PACKAGING_PLAN.txt
+- CSL_PORTFOLIO_CARD_TEMPLATE.txt
+- CSL_CLIENT_ONBOARDING_FLOW.txt
+- CSL_CLIENT_INTAKE_FORM_SPEC.txt
+- CSL_ONBOARDING_LANDING_PAGE.txt
+- CSL_BUSINESS_SCORECARD_TEMPLATE.csv
+- CSL_SCORECARD_VISUALIZER_MAP.txt
+- CSL_DEEP_DATA_TRACKING_SPEC.txt
+- CSL_CONTINUOUS_ASSESSMENT_LOOP.txt
+- CSL_WEEKLY_REVIEW_TEMPLATE.txt
+- CSL_VERIFICATION_CHECKLIST.txt
+- CSL_PARAMETERS_AUDIT.txt
+
+═══════════════════════════════════════════════════════════════════════════════
+1. CORE POSITIONING
+═══════════════════════════════════════════════════════════════════════════════
+
+Current Scoring Leaders is NOT a stock library.
+Current Scoring Leaders is NOT generic AI background music.
+Current Scoring Leaders is a premium custom scoring service for creators,
+studios, and brands that need music built specifically for their story,
+identity, and audience.
+
+Core positioning line:
+"Custom scoring for creators who have outgrown generic library tracks."
+
+Supporting angles:
+- Story-first, not track-first
+- Relationship-driven, not marketplace-driven
+- Human-directed, not prompt-dumped
+- Tailored to the project, not recycled from a catalog
+- Premium but still accessible compared to high-end studio composer rates
+
+Why this matters now:
+- Epidemic, Artlist, and Envato are bigger than originally estimated
+- All are leaning harder into scale, subscriptions, and AI tools
+- None of them solve the "make my brand/project sound uniquely mine" problem
+- AI makes generic music cheaper, which increases the value of distinct music
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. PRIMARY SEGMENTS TO TARGET FIRST
+═══════════════════════════════════════════════════════════════════════════════
+
+SEGMENT A — YOUTUBE CREATORS / VIDEO CREATORS
+
+Best fit because:
+- Fastest outreach volume
+- Easy to find leads publicly
+- Clear pain point: repetitive stock music
+- Strong repeat business potential
+
+Pain points:
+- Their channel sounds like everyone else
+- Their intro lacks sonic identity
+- Stock tracks create brand sameness
+- Music choices often weaken retention and emotional punch
+
+Best offers:
+- Signature Theme Package
+- Episode / Video Scoring
+- Monthly Creator Retainer
+
+
+SEGMENT B — PODCASTERS / PODCAST NETWORKS
+
+Best fit because:
+- Direct response to custom intro/outro value
+- Branding matters heavily
+- Strong recurring refresh opportunities
+
+Pain points:
+- Show intro/outro sounds generic
+- No recognizable sonic branding
+- Hard to stand out in crowded podcast space
+
+Best offers:
+- Podcast Theme Package
+- Show Refresh Package
+- Monthly Audio Identity Retainer
+
+
+SEGMENT C — INDIE GAME STUDIOS
+
+Best fit because:
+- Clear need for world-specific music
+- High emotional value of custom score
+- Potential for larger project sizes
+
+Pain points:
+- Stock music breaks immersion
+- Need consistent tone across scenes/areas
+- Want loops, stems, and adaptive structure
+
+Best offers:
+- Game / Narrative Pack
+- Character + Location Theme Package
+- Milestone-based soundtrack package
+
+
+SEGMENT D — SMALL PRODUCTION HOUSES / EDITING AGENCIES
+
+Best fit because:
+- Referral leverage
+- Better budgets than hobby creators
+- Ongoing project flow possible
+
+Pain points:
+- Need reliable custom scorer on deadlines
+- Stock tracks limit originality for clients
+- Composer coordination is often slow or inconsistent
+
+Best offers:
+- Project-based custom scoring
+- Monthly retainer
+- Referral partner structure
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. OFFER STACK
+═══════════════════════════════════════════════════════════════════════════════
+
+OFFER 1 — SIGNATURE THEME PACKAGE
+
+For:
+- YouTubers
+- Podcasters
+- Personal brands
+
+Includes:
+- Main theme
+- Intro cut
+- Outro cut
+- Optional bumper/stinger version
+- Revision window
+- Commercial usage rights defined by agreement
+
+Primary promise:
+Make the brand instantly recognizable within seconds.
+
+
+OFFER 2 — EPISODE / VIDEO SCORING
+
+For:
+- Creators with cinematic, documentary, or narrative content
+- Branded content
+- Long-form channels
+
+Includes:
+- Project-specific scoring
+- Mood-aligned cue development
+- Revisions
+- Final mix + stems where applicable
+
+Primary promise:
+Turn content from watchable into memorable.
+
+
+OFFER 3 — GAME / NARRATIVE PACK
+
+For:
+- Indie developers
+- Story-driven games
+- Worldbuilding-heavy projects
+
+Includes:
+- Character themes
+- Location themes
+- Menu / ambient loops
+- Event stingers / combat cues
+- Milestone delivery
+
+Primary promise:
+Strengthen immersion and emotional memory.
+
+
+OFFER 4 — RETAINER
+
+For:
+- Active creators
+- Agencies
+- Production companies
+
+Includes:
+- Reserved monthly creative capacity
+- Priority delivery
+- Agreed scope/month
+- Refreshes or ongoing support
+
+Primary promise:
+Reliable custom scoring without re-hiring each time.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. OUTREACH SYSTEM
+═══════════════════════════════════════════════════════════════════════════════
+
+DAILY TARGET
+
+- 20 to 30 new highly targeted contacts
+- 5 to 10 follow-ups
+- 5 to 10 CRM updates
+
+WEEKLY TARGET
+
+- 100 to 150 new contacts
+- 5 to 10 warm conversations
+- 2 to 5 calls booked
+- 1 to 2 quotes sent
+
+OUTREACH CHANNEL PRIORITY
+
+1. Email
+2. Instagram DM
+3. YouTube / creator business contact forms
+4. Discord / indie game communities (carefully)
+5. Referral partner outreach
+
+LEAD SOURCES
+
+YouTubers:
+- Search mid-size channels in defined niches
+- Look for channels with strong editing but generic music
+- Prioritize consistent uploaders
+
+Podcasters:
+- Search Apple Podcasts / Spotify charts by niche
+- Prioritize shows with active audience and branding focus
+
+Indie games:
+- itch.io
+- Steam upcoming / recent releases
+- Indie dev Discord communities
+
+Agencies / studios:
+- Clutch
+- agency websites
+- Instagram reels editors / post houses
+- LinkedIn company pages
+
+LEAD QUALIFICATION FIELDS
+
+Track for each lead:
+- Name
+- Company / channel / show
+- Segment
+- Niche
+- Why they fit
+- Current music quality
+- Best offer
+- Budget guess (low / medium / high)
+- Contacted date
+- Follow-up dates
+- Status
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. MESSAGING ANGLES BY SEGMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+ANGLE A — "YOU SOUND LIKE EVERYONE ELSE"
+
+Best for:
+- YouTubers
+- Podcasters
+
+Use when:
+- Content is strong
+- Music is clearly stock/generic
+
+Main idea:
+The visuals and editing are unique, but the sound identity is generic.
+
+
+ANGLE B — "YOUR WORLD DESERVES ITS OWN SOUND"
+
+Best for:
+- Indie games
+- narrative creators
+
+Use when:
+- The project has visible creative ambition
+- Atmosphere matters heavily
+
+Main idea:
+A custom world needs custom sonic architecture.
+
+
+ANGLE C — "RELIABLE CUSTOM MUSIC WITHOUT THE CHAOS"
+
+Best for:
+- Agencies
+- production houses
+
+Use when:
+- They need dependable execution
+- They likely juggle multiple deadlines
+
+Main idea:
+You provide custom scoring with clearer process and less friction.
+
+
+ANGLE D — "ANTI-GENERIC / STORY-FIRST"
+
+Best for:
+- Higher-end prospects
+- cinematic creators
+- people tired of templated results
+
+Main idea:
+AI and stock can fill silence, but they cannot create identity.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. CALL-TO-ACTION FRAMEWORK
+═══════════════════════════════════════════════════════════════════════════════
+
+Preferred CTA hierarchy:
+
+1. Free sample concept / theme direction
+2. 15-minute discovery call
+3. Reply with keyword (SAMPLE / INTRO / SOUNDTRACK / PARTNER)
+4. Send project link for quick feedback
+
+Why these CTAs work:
+- Low friction
+- Easy to answer quickly
+- Concrete next step
+- Not overly salesy
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. FOLLOW-UP SYSTEM
+═══════════════════════════════════════════════════════════════════════════════
+
+FOLLOW-UP 1 — Day 3 to 4
+
+Goal:
+- Simple inbox bump
+- Re-state one specific benefit
+
+FOLLOW-UP 2 — Day 7 to 8
+
+Goal:
+- Offer lighter-friction entry point
+- Sample, short call, or smaller trial package
+
+FOLLOW-UP 3 — Day 14
+
+Goal:
+- Close loop respectfully
+- Leave door open
+- Optionally move to long-term nurture list
+
+Do NOT:
+- Spam daily
+- Send long walls of text
+- Pitch all offers at once
+
+
+═══════════════════════════════════════════════════════════════════════════════
+8. WEBSITE STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+
+PRIMARY NAVIGATION
+
+- Home
+- Services
+- Portfolio
+- Process
+- About
+- Contact
+- Legal
+
+
+HOME PAGE STRUCTURE
+
+Section 1 — Hero
+Headline:
+Custom scoring for creators who have outgrown generic library tracks.
+
+Subheadline:
+Story-first music built for your brand, channel, show, or world.
+
+Buttons:
+- Start Your Project
+- Hear the Difference
+
+Section 2 — Who We Serve
+- Creators
+- Podcasters
+- Indie game studios
+- Production houses
+
+Section 3 — Why Custom Now
+- Libraries are bigger than ever
+- AI music is cheaper than ever
+- Distinct sonic identity is more valuable than ever
+
+Section 4 — Services Snapshot
+- Signature Theme Package
+- Video / Episode Scoring
+- Game / Narrative Packs
+- Retainers
+
+Section 5 — Featured Work / Demo Concepts
+- Short descriptions
+- Embedded audio where possible
+
+Section 6 — Process
+- Discover
+- Concept
+- Draft
+- Revise
+- Deliver
+
+Section 7 — CTA
+- Tell us about your project
+
+
+SERVICES PAGE STRUCTURE
+
+Block 1 — Signature Theme Package
+Block 2 — Video / Episode Scoring
+Block 3 — Game / Narrative Packs
+Block 4 — Retainers
+
+For each block include:
+- Who it is for
+- What is included
+- Why it matters
+- Expected outcome
+- CTA
+
+
+PORTFOLIO PAGE STRUCTURE
+
+For each sample/project show:
+- Project type
+- Creative goal
+- What was composed
+- Why the music choice worked
+
+If portfolio is still growing:
+- Mark demos honestly as demo concepts
+- Organize by segment
+
+
+PROCESS PAGE STRUCTURE
+
+Step 1 — Discovery
+Step 2 — Direction + references
+Step 3 — First concepts
+Step 4 — Revisions
+Step 5 — Delivery + usage terms
+
+Purpose:
+Reduce fear, create professionalism, show organization.
+
+
+ABOUT PAGE STRUCTURE
+
+Include:
+- Why CSL exists
+- Why anti-generic matters
+- Why custom scoring still wins in an AI era
+- Founder voice and standards
+
+Recommended about angle:
+The world has more music than ever, but less identity.
+CSL exists to close that gap.
+
+
+CONTACT PAGE STRUCTURE
+
+Required fields:
+- Name
+- Email
+- Project type
+- Budget range
+- Timeline
+- Short description
+
+Optional fields:
+- Channel / website / game link
+- Reference track links
+
+CTA line:
+Tell us what you are building and we will tell you what it needs.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+9. SHARED LOGIC BETWEEN OUTREACH AND WEBSITE
+═══════════════════════════════════════════════════════════════════════════════
+
+Outreach and website must stay synchronized.
+
+If outreach says:
+- anti-generic
+- story-first
+- custom scoring
+- premium but accessible
+
+Then website must reinforce:
+- anti-generic positioning
+- clear offers
+- professional process
+- confidence and legitimacy
+
+If a segment responds well in outreach:
+- its language should influence homepage and service copy
+- its proof points should become case studies or examples
+- its objections should become FAQ content
+
+If the website gets questions repeatedly:
+- those objections should be pre-handled in outreach copy
+
+Tracking rule:
+- track exact time when possible
+- track the strategy lane being used
+- track the offer/message/CTA path being used
+- track the LLM, model, and tools that supported the work
+- track repeated objections, tendencies, and trend signals
+- do not only track outcomes; track the conditions surrounding outcomes
+
+
+═══════════════════════════════════════════════════════════════════════════════
+10. RECOMMENDED NEXT EXECUTION ITEMS
+═══════════════════════════════════════════════════════════════════════════════
+
+Execution assets now completed:
+- CRM tracking template
+- Website copy framework
+- Pricing strategy document
+- Final DM variants
+- Final referral partner one-pager
+- Final public pricing block
+- Final premium website experience blueprint
+- Final competitor quality benchmark
+- Final website FAQ and trust expansion
+- Final website terms/rights summary
+- Final website media/missing-assets list
+- Final daily outreach workflow
+- Final lead-building system
+- Final demo portfolio packaging plan
+- Final portfolio card template
+- Final client onboarding flow
+- Final client intake form specification
+- Final onboarding landing page structure
+- Final business scorecard template
+- Final scorecard visualizer map
+- Final deep data tracking spec
+- Final business visualizer dashboard
+- Final continuous assessment loop
+- Final weekly review template
+- Final verification checklist
+- Final parameters audit
+
+Immediate next build items:
+- Integrate pricing preview into live website build
+- Add referral partner page or footer CTA to site structure
+- Build demo portfolio pieces by segment using the packaging plan
+- Start lead list building by segment using the scoring system
+- Begin running the daily outreach workflow against real lead batches
+- Start filling the business scorecard weekly
+- Review the business dashboard after each scorecard update
+- Run the weekly review template consistently
+- Use the continuous assessment loop to cut wasted effort
+
+Highest priority sequence:
+1. Website integration of pricing and referral copy
+2. Lead list building
+3. Demo portfolio packaging
+4. Daily outreach execution
+5. FAQ and trust-booster expansion
+
+
+═══════════════════════════════════════════════════════════════════════════════
+END
+═══════════════════════════════════════════════════════════════════════════════

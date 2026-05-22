@@ -1,0 +1,29 @@
+﻿### Step-by-Step Pennsylvania LLC Formation Guide with Exact Costs, Filing URLs, and Timeline
+
+#### **Preparation:**
+- **Choose a Name**: Decide on a name for your LLC and choose an appropriate name for your business. Ensure the name complies with the Pennsylvania Business Names Act (PBNA), which limits the use of common names like "Bank," "Agency," "Company," or "Corporation." Consult with an attorney or business consultant to avoid legal issues.
+  - Example: "Example LLC" or "Example Co."
+
+- **Choose Business Structure and Organizational Structure**: (Optional, but recommended)
+  - Determine whether your LLC will be a general or limited liability company (LLC). This can affect the structure of your business and the tax implications.
+  - You can file your LLC with the Pennsylvania Department of State at <https://www.dsbp.state.pa.us/Portals/100/Documents/Departments/DOCS/DOCS%20Forms/LLC%20Documents.aspx>.
+
+#### **Filing Costs and Timeline:**
+- **Initial Filing Fee**: The initial filing fee for an LLC in Pennsylvania typically ranges from $250 to $400, depending on the complexity of the filing. Additional fees may apply for specific services.
+- **Timeline**: The filing process can take anywhere from 1 to 2 weeks, depending on the complexity of your application and the availability of staff at the Department of State.
+
+### Professional Non-Disclosure Agreement (NDA) Template
+
+#### **Step 1: Define the Purpose and Scope**
+1. **Purpose**: Clearly define the purpose of the agreement. For example, it might be to protect sensitive financial information or proprietary technology.
+2. **Scope**: Outline the specific information that will be covered under the agreement, including data types and sources.
+
+#### **Step 2: Determine the Parties Involved**
+1. **Parties**: Identify the parties involved, including the disclosing party (the one providing the information) and the receiving party (the one receiving the information).
+2. **Contact Information**: Provide the contact information for both parties, including their full names, addresses, phone numbers, and email addresses.
+
+#### **Step 3: Specify Confidential Information**
+1. **Confidential Information**: Clearly specify the confidential information that will be shared. This should include details about the type of information being shared and how it will be protected.
+
+#### **Step 4: Set Confidentiality Obligations**
+1. **

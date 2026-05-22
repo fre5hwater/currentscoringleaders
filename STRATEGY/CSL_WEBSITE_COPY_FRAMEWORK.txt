@@ -1,0 +1,507 @@
+═══════════════════════════════════════════════════════════════════════════════
+        CURRENT SCORING LEADERS — WEBSITE COPY FRAMEWORK
+     Built from Updated Market Analysis + Business Strategy Refresh
+═══════════════════════════════════════════════════════════════════════════════
+
+Use with:
+- CSL_PREMIUM_WEBSITE_EXPERIENCE_BLUEPRINT.txt
+- CSL_COMPETITOR_QUALITY_BENCHMARK.txt
+- CSL_WEBSITE_MEDIA_AND_MISSING_ASSETS.txt
+- CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+
+HOME PAGE
+
+HERO
+Headline:
+Custom scoring for creators who have outgrown generic library tracks.
+
+Subheadline:
+Story-first music built for your channel, show, brand, or world.
+
+Primary CTA:
+Start Your Project
+
+Secondary CTA:
+Hear the Difference
+
+Hero support notes:
+- include one-line proof under CTA row
+- include short trust strip directly below hero
+- use a premium dark visual with waveform, project stills, or motion texture
+
+TRUST / POSITIONING STRIP
+- Not stock
+- Not generic AI playlists
+- Built specifically for your project
+- Professional process, clear communication, fast turnaround
+
+SECTION: PROOF / FEATURED OUTCOMES
+Heading:
+Why better music changes how the work feels.
+
+Use 2 to 3 proof cards that show:
+- project type
+- what the client/project needed
+- what the music solved
+- supporting quote or result line when available
+
+SECTION: WHY CUSTOM NOW
+Heading:
+There is more music than ever. Less identity than ever.
+
+Current Scoring Leaders exists for the projects that need more than filler.
+We compose music that strengthens identity, emotion, memory, and story.
+
+SECTION: WHO WE HELP
+Heading:
+Built for projects that need their own sound.
+
+Audience blocks:
+- YouTube creators and video brands
+- Podcasters and podcast networks
+- Indie game studios
+- Production houses and creative agencies
+
+SECTION: CORE SERVICES
+Heading:
+Four ways to build a sound your audience remembers.
+
+Layout note:
+Each block should feel like a premium service card, not a simple feature list.
+Show who it is for, what it solves, and what kind of result it creates.
+
+Block 1:
+Signature Theme Package
+Original themes for channels, podcasts, and brands.
+
+Block 2:
+Video / Episode Scoring
+Music built around pacing, emotion, and story beats.
+
+Block 3:
+Game / Narrative Packs
+Themes, loops, cues, and atmosphere for immersive worlds.
+
+Block 4:
+Retainers
+Ongoing custom scoring support for active creators and teams.
+
+SECTION: PRICING PREVIEW
+Heading:
+Clear starting points. Custom scope where needed.
+
+Blocks:
+- Signature Themes — starting at $600
+- Podcast Branding — starting at $500
+- Custom Scoring — starting at $1,200
+- Game & Narrative Scoring — quoted by scope
+- Retainers — available by application
+
+Pricing support notes:
+- add a comparison chart below the pricing preview
+- add a short "what affects price" section
+- add a short "what is usually included" section
+- show deposit/payment clarity in human-readable language
+
+Support line:
+Tell us what you are building, and we will recommend the right starting point.
+
+SECTION: DIFFERENCE VS LIBRARIES
+Heading:
+Why custom still wins.
+
+Bullets:
+- Custom scoring builds identity
+- Stock tracks build sameness
+- AI can imitate mood, not understand your story
+- Direct collaboration creates stronger final results
+
+SECTION: PROCESS SNAPSHOT
+Heading:
+Simple process. Serious results.
+
+Steps:
+- Discovery
+- Direction
+- Drafts
+- Revisions
+- Delivery
+
+Add support line:
+Clear review windows, clear scope, and clear delivery expectations.
+
+SECTION: FAQ / TRUST PREVIEW
+Heading:
+Questions buyers usually ask before they commit.
+
+Use preview items for:
+- pricing clarity
+- rights and ownership
+- revisions
+- turnaround
+- what happens after inquiry
+
+Support file:
+- CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+
+SECTION: CTA
+Heading:
+Tell us what you are building.
+
+Copy:
+If your project deserves more than generic background music,
+we should talk.
+
+Button:
+Start Your Project
+
+
+SERVICES PAGE
+
+INTRO
+Heading:
+Custom scoring, packaged clearly.
+
+Copy:
+Every service is built to solve a specific problem:
+sonic identity, emotional impact, immersion, or ongoing reliability.
+
+Page support notes:
+- each service block should include deliverables
+- each service block should include revision/turnaround expectations
+- each service block should include next best CTA
+
+SERVICE 1 — SIGNATURE THEME PACKAGE
+For:
+Creators, podcasters, personal brands
+
+What it solves:
+Your content is recognizable visually, but not sonically.
+
+Includes:
+- Main theme
+- Intro cut
+- Outro cut
+- Optional bumper/stinger version
+- Revision window
+
+Outcome line:
+A brand sound your audience recognizes instantly.
+
+SERVICE 2 — VIDEO / EPISODE SCORING
+For:
+Cinematic creators, documentaries, branded content, series
+
+What it solves:
+Strong visuals and editing deserve music with matching emotional intent.
+
+Includes:
+- Project-specific cues
+- Story-aware composition
+- Revisions
+- Final mixes and optional stems
+
+Outcome line:
+Content that feels more intentional, memorable, and premium.
+
+SERVICE 3 — GAME / NARRATIVE PACKS
+For:
+Indie game studios, story-heavy media, immersive projects
+
+What it solves:
+Stock music breaks worldbuilding and emotional continuity.
+
+Includes:
+- Character themes
+- Location themes
+- Ambient loops
+- Event/combat/menu cues
+- Milestone delivery
+
+Outcome line:
+Music that helps players remember your world.
+
+SERVICE 4 — RETAINERS
+For:
+Agencies, active creators, recurring clients
+
+What it solves:
+You need dependable custom music without re-starting the process monthly.
+
+Includes:
+- Reserved capacity
+- Priority delivery
+- Defined monthly scope
+- Ongoing refreshes/support
+
+Outcome line:
+Reliable scoring support without chaos.
+
+SECTION: WHAT IS INCLUDED BY DEFAULT
+Include a clean summary block for:
+- final formats
+- revision baseline
+- delivery organization
+- rights handled in writing
+
+SECTION: WHAT CAN BE ADDED
+Show add-ons such as:
+- stems
+- alternate cuts
+- rush delivery
+- extra revisions
+- implementation support where relevant
+
+PRICING BLOCK
+Heading:
+Starting points for common project types.
+
+Block 1:
+Signature Themes
+Starting at $600
+Original themes for channels, brands, and recurring content that need an
+immediate sonic identity.
+
+Block 2:
+Podcast Branding
+Starting at $500
+Custom intros, outros, and branded cuts built around the voice of your show.
+
+Block 3:
+Custom Scoring
+Starting at $1,200
+Story-first music tailored to the pacing, tone, and emotional direction of your
+project.
+
+Block 4:
+Game & Narrative Scoring
+Quoted by scope
+Original music for worlds, characters, scenes, and interactive experiences that
+need their own sound.
+
+Block 5:
+Retainers
+Available by application
+For creators, studios, and teams that need ongoing custom scoring support.
+
+CTA:
+Tell us what you need, and we will shape the right package.
+
+Pricing page support file references:
+- CSL_PUBLIC_PRICING_BLOCK_FINAL.txt
+- CSL_PREMIUM_WEBSITE_EXPERIENCE_BLUEPRINT.txt
+
+
+PORTFOLIO PAGE
+
+INTRO
+Heading:
+Selected work, built around distinct creative goals.
+
+Copy:
+Each score should solve a specific problem,
+not just fill silence.
+
+For each project card include:
+- Client/project type
+- Goal
+- Musical direction
+- Result
+
+Premium requirement:
+Whenever possible, include a quote, use-case note, still image, or case-study
+summary so the portfolio feels like applied work, not a list of tracks.
+
+Suggested filters:
+- Creators
+- Podcasts
+- Games
+- Commercial / branded
+
+
+PROCESS PAGE
+
+INTRO
+Heading:
+Professional process from first idea to final delivery.
+
+Step 1 — Discovery
+We learn the project, audience, references, and constraints.
+
+Step 2 — Direction
+We define mood, purpose, and sonic identity before composing.
+
+Step 3 — Drafts
+You hear first concepts tailored to the agreed direction.
+
+Step 4 — Revisions
+We refine deliberately, not endlessly.
+
+Step 5 — Delivery
+You receive final files, versions, and terms clearly organized.
+
+Add process trust notes:
+- review window expectations
+- when scope changes become change orders
+- when final files are released
+- communication response expectations
+
+Closing copy:
+The goal is simple:
+make the creative process easier while raising the quality of the result.
+
+
+ABOUT PAGE
+
+Heading:
+Why Current Scoring Leaders exists.
+
+Copy:
+The world has access to more music than ever,
+but sounding distinct has become harder, not easier.
+
+Libraries and AI tools can provide convenience.
+They do not replace creative intention, story awareness,
+or the value of music built specifically for a real project.
+
+Current Scoring Leaders was built for creators, teams, and brands
+that want more than functional background audio.
+They want music with identity.
+
+Suggested supporting sections:
+- founder introduction
+- why CSL is anti-generic by design
+- how Avery works with clients
+- standards around communication, delivery, and clarity
+
+Core values section:
+- Anti-generic
+- Story-first
+- Honest communication
+- High standards
+- Practical process
+
+Suggested founder line:
+We use modern tools where helpful,
+but the final direction stays human, intentional, and tailored.
+
+
+CONTACT PAGE
+
+Heading:
+Tell us what you are building.
+
+Intro copy:
+Share the project, timeline, and goals.
+If it is a fit, we will outline the best next step clearly.
+
+Add short trust strip near the form:
+- response within 24 hours
+- clear next step if fit exists
+- deposit only after scope is clear
+- no automated sales maze
+
+Form fields:
+- Name
+- Email
+- Project type
+- Budget range
+- Timeline
+- Project description
+- Reference links (optional)
+
+Confirmation copy:
+You will receive a reply with next steps,
+not an automated runaround.
+
+Support files:
+- CSL_CLIENT_INTAKE_FORM_SPEC.txt
+- CSL_CLIENT_ONBOARDING_FLOW.txt
+
+PROJECT START / ONBOARDING PAGE
+
+Heading:
+Start Your Project with Current Scoring Leaders
+
+Intro copy:
+This page should clarify fit, public starting points, process, and the next
+step before payment ever happens.
+
+Sections:
+- Who this is for
+- Public pricing starting points
+- How the process works
+- What happens after form submission
+- Primary CTA into the intake form
+- Payment/deposit expectations
+- Rights and delivery clarity summary
+
+Primary CTA:
+Start Your Project
+
+Support files:
+- CSL_ONBOARDING_LANDING_PAGE.txt
+- CSL_CLIENT_INTAKE_FORM_SPEC.txt
+- CSL_CLIENT_ONBOARDING_FLOW.txt
+
+
+OPTIONAL REFERRAL PARTNER PAGE / FOOTER LINK
+
+Heading:
+Need a custom music partner for your clients?
+
+Intro copy:
+Current Scoring Leaders works with editors, production houses, agencies, and
+creative partners who occasionally need original music for client work.
+
+Who it fits:
+- video editors
+- production houses
+- creative agencies
+- post-production teams
+- brand creatives who are often asked about music
+
+Core copy:
+If a client needs music that feels specific to the project rather than pulled
+from a library, we can step in as a reliable scoring partner.
+
+Suggested CTA:
+Ask About Referral Partnerships
+
+
+FAQ TOPICS TO ADD LATER
+- Use completed support file:
+- CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+- Do you work with agencies or referral partners?
+- Why choose custom scoring over stock music?
+- Do you use AI in the process?
+- What rights do I receive?
+- How many revisions are included?
+- What formats do you deliver?
+- Do you offer rush work?
+- Can you create recurring packages?
+
+
+LEGAL / TRUST NOTES
+
+Website should clearly link:
+- Terms of Service
+- Privacy Policy
+- Licensing / rights explanation
+Primary trust-copy support file:
+- CSL_WEBSITE_FAQ_TRUST_EXPANSION.txt
+
+Human-readable trust support files:
+- CSL_PREMIUM_WEBSITE_EXPERIENCE_BLUEPRINT.txt
+- CSL_WEBSITE_MEDIA_AND_MISSING_ASSETS.txt
+
+Trust boosters to add later:
+- Audio samples
+- Short case studies
+- Clear turnaround expectations
+- Simple scope explanation
+- Founder / business credibility details
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

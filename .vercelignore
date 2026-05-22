@@ -1,0 +1,11 @@
+node_modules
+package.json
+package-lock.json
+mega_grab.mjs
+mega_list.mjs
+mega_grab.log
+*.log
+.git
+.gitignore
+DEPLOYMENT_GUIDE.md
+WEBSITE_CHECKLIST.md

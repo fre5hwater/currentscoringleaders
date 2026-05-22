@@ -1,0 +1,883 @@
+═══════════════════════════════════════════════════════════════════════════════
+            MUSIC SCORING & LICENSING BUSINESS - LEGAL FRAMEWORK
+                     COMPREHENSIVE IRON-CLAD LEGAL DOCUMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+VERSION: 1.0
+DATE: 2026-03-08
+JURISDICTION: US Federal + State Specific
+SCOPE: Complete Legal Pipeline for Music Scoring Business
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 1: BUSINESS ENTITY STRUCTURE & LEGAL FOUNDATION
+
+═══════════════════════════════════════════════════════════════════════════════
+
+1.1 RECOMMENDED ENTITY TYPE: LLC (Limited Liability Company)
+
+Rationale:
+  ✓ Pass-through taxation (avoid double taxation)
+  ✓ Limited personal liability protection
+  ✓ Flexible management structure
+  ✓ Credible for B2B contracts
+  ✓ Allows multiple member structure if scaling
+
+Formation Documents Required:
+  □ Articles of Organization (filed with state Secretary of State)
+  □ Operating Agreement (internal governance document)
+  □ EIN Application (IRS Form SS-4)
+  □ State Business License
+  □ DBA Registration (if operating under different name)
+
+Liability Protection Scope:
+  ✓ Protects personal assets from business debts
+  ✓ Protects from IP infringement claims (if properly capitalized)
+  ✓ Limited protection if LLC acts fraudulently or negligently
+  ✓ Does NOT protect from personal tax obligations
+  ✓ Does NOT protect if liability insurance lapsed
+
+Insurance Requirements (Critical):
+  • General Liability Insurance: $1M minimum
+  • Errors & Omissions (E&O): $1-2M
+  • Cyber Liability: For digital assets
+  • Professional Indemnity: For contract breaches
+  • Equipment/Studio Insurance
+
+═══════════════════════════════════════════════════════════════════════════════
+
+1.2 INTELLECTUAL PROPERTY REGISTRATION STRATEGY
+
+Copyrights:
+
+  Original Compositions:
+    ├─ Automatic copyright: Exists upon creation
+    ├─ Best practice: Register with US Copyright Office
+    ├─ Cost: $65 per composition (2024)
+    ├─ Registration benefits:
+    │  • Creates public record of ownership
+    │  • Enables statutory damages ($150-$30,000 per work)
+    │  • Enables attorney fees recovery
+    │  • Required for infringement lawsuits
+    └─ Timeline: Register within 3 months of publication for maximum benefits
+
+  Work-for-Hire Agreements:
+    ├─ Define all work created under contract as work-for-hire
+    ├─ Must be in writing and signed before work begins
+    ├─ Transfers all copyright to client
+    ├─ Retains rights only to: templates, processes, pre-existing materials
+    └─ See Section 2.2 for template language
+
+  Derivative Works:
+    ├─ If adapting existing music: Get license from original copyright owner
+    ├─ Register derivative work separately
+    ├─ Requires original copyright holder consent
+    └─ Limits derivative rights to scope of license
+
+Trademarks:
+
+  Brand Names/Logos:
+    ├─ Register service mark (™ vs ®)
+    ├─ Cost: $250-400 per mark
+    ├─ Timeline: 4-9 months for federal registration
+    ├─ Protects brand identity
+    └─ Prevents competitors from using similar marks
+
+  Domain Names:
+    ├─ Register all key domains (.com, .io, .net, etc.)
+    ├─ Register trademark before domain (stronger position)
+    └─ Private registration to prevent scrapers
+
+Trade Secrets:
+
+  Proprietary Processes:
+    ├─ Production techniques
+    ├─ Scoring methodologies
+    ├─ Client databases
+    ├─ Pricing models
+    └─ Protected via confidentiality agreements
+
+Patents:
+
+  Consider if:
+    • Developing unique production software/plugins
+    • Creating unique scoring algorithms
+    • Building proprietary tools
+  
+  Note: Most music scoring won't qualify for utility patents
+
+═══════════════════════════════════════════════════════════════════════════════
+
+1.3 REGULATORY COMPLIANCE
+
+Music Licensing Compliance:
+
+  PRO Registration (ASCAP/BMI/SESAC):
+    ├─ Required for public performance royalties
+    ├─ Recommend: Register compositions with chosen PRO
+    ├─ Split registration: Publishing rights vs writer royalties
+    ├─ Enables passive income from broadcast/streaming
+    └─ Annual fees: $50-300 depending on PRO
+
+  SoundExchange Registration:
+    ├─ Digital performance royalties for masters
+    ├─ Required if distributing to streaming platforms
+    ├─ Collects royalties from Spotify, Apple Music, etc.
+    └─ Essential for revenue maximization
+
+Tax Compliance:
+
+  1099-NEC Reporting:
+    ├─ Clients must report contractor payments >$600
+    ├─ Issue 1099-NEC to each contractor/vendor
+    ├─ Maintain records for IRS
+    └─ IRS receives copies
+
+  Quarterly Estimated Taxes:
+    ├─ Required if expected annual tax > $1,000
+    ├─ Payments due: April 15, June 15, Sept 15, Jan 15
+    ├─ Penalties for underpayment
+    └─ Work with CPA for correct calculation
+
+  Sales Tax Nexus:
+    ├─ If selling digital downloads: May owe sales tax
+    ├─ Varies by state where customers located
+    ├─ South Dakota v. Wayfair (2018): Requires tax collection even without physical presence
+    ├─ Use tax nexus calculator for state determination
+    └─ Register with state tax board
+
+  Deductible Business Expenses:
+    ✓ Equipment & software (depreciated)
+    ✓ Studio costs
+    ✓ Contractor payments
+    ✓ Marketing & advertising
+    ✓ Professional development
+    ✓ Office supplies
+    ✓ Home office deduction (if applicable)
+    ✓ Travel for business purposes
+    ✓ Meals & entertainment (50% deductible)
+
+FTC Compliance:
+
+  Advertising Standards:
+    ├─ Must be truthful and substantiated
+    ├─ Testimonials must reflect typical results
+    ├─ Disclosures must be clear and conspicuous
+    ├─ Influencer partnerships must disclose compensation
+    └─ Use only verified portfolio examples
+
+  GDPR Compliance (if EU customers):
+    ├─ Privacy policy required
+    ├─ Explicit consent for data collection
+    ├─ Right to data access/deletion
+    ├─ Data processing agreements for tools (Stripe, etc.)
+    └─ Consider DPA addendum with vendors
+
+  CAN-SPAM Compliance (email marketing):
+    ├─ Include clear unsubscribe mechanism
+    ├─ Honor opt-out requests within 10 days
+    ├─ Include physical address in emails
+    ├─ Accurate subject lines
+    └─ Monitor third-party email services compliance
+
+═══════════════════════════════════════════════════════════════════════════════
+
+1.4 PRIVACY & DATA PROTECTION
+
+Privacy Policy Requirements:
+
+  Must Disclose:
+    • What data is collected
+    • How data is used
+    • Who data is shared with
+    • How long data is retained
+    • How to access/delete data
+    • Security measures
+    • Contact for privacy questions
+    • Policy change procedures
+    • Third-party cookies/tracking
+
+  Implementation:
+    ├─ Post on website (homepage link)
+    ├─ Make available before data collection
+    ├─ Update as practices change
+    └─ Maintain version history
+
+Data Security Standards:
+
+  Minimum Requirements:
+    ✓ Encrypted data transmission (HTTPS)
+    ✓ Encrypted data at rest (for sensitive data)
+    ✓ Access controls (passwords, 2FA)
+    ✓ Regular security audits
+    ✓ Incident response plan
+    ✓ Employee data training
+    ✓ Vendor security requirements
+    ✓ Data retention/destruction policies
+
+  Breach Notification:
+    ├─ State laws require notification of data breaches
+    ├─ Timeline: "without unreasonable delay"
+    ├─ Notify affected individuals, agencies, media
+    ├─ Document notification attempts
+    └─ Some states require specific language/format
+
+Client Data Protection:
+
+  During Projects:
+    ├─ Sign NDA with clients
+    ├─ Limit data access to need-to-know basis
+    ├─ Use secure file transfer (Tresorit, Sync.com)
+    ├─ Never store on unencrypted devices
+    ├─ Use VPN when accessing remotely
+    └─ Audit file access logs
+
+  After Project Completion:
+    ├─ Define data retention period in contract
+    ├─ Securely delete per retention schedule
+    ├─ Document deletion procedures
+    ├─ Keep backup copies per legal hold requirements
+    └─ Maintain project documentation separately
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 2: IRON-CLAD CONTRACT TEMPLATES & LANGUAGE
+
+═══════════════════════════════════════════════════════════════════════════════
+
+2.1 MASTER SERVICE AGREEMENT (FOR RECURRING CLIENTS)
+
+---BEGIN TEMPLATE---
+
+MASTER SERVICE AGREEMENT
+
+This Master Service Agreement ("MSA") is entered into as of [DATE] by and between:
+
+SERVICE PROVIDER:
+  Name: [Your Company LLC Name]
+  Address: [Address]
+  Contact: [Email/Phone]
+
+CLIENT:
+  Company: [Client Company Name]
+  Address: [Address]
+  Contact: [Client Contact]
+
+1. SERVICES
+
+1.1 Service Description
+Service Provider agrees to provide music scoring, composition, and related audio services as described in individual Statements of Work (SOWs) attached to this MSA. Each SOW will detail:
+  - Specific deliverables
+  - Timeline/milestones
+  - Pricing
+  - Revision limits
+  - Technical specifications
+
+1.2 Professional Standards
+All services will be performed in a professional manner consistent with industry standards for [GENRE/STYLE] music composition.
+
+2. WORK-FOR-HIRE
+
+2.1 Ownership of Work
+UNLESS OTHERWISE SPECIFIED IN INDIVIDUAL SOW:
+All original compositions, arrangements, recordings, and derivatives created under this agreement shall be considered "works made for hire" under 17 U.S.C. § 101. Client shall own all copyrights, moral rights (to extent permitted by law), and all other intellectual property rights in the Work.
+
+2.2 Pre-Existing Materials
+Service Provider retains all ownership rights to:
+  a) Pre-existing compositions or music owned by Service Provider prior to this engagement
+  b) Techniques, processes, methodologies, and tools developed by Service Provider
+  c) Stock music, samples, or templates licensed from third parties (subject to license terms)
+  d) General composition skills and experience
+
+2.3 License Back Rights
+Client grants Service Provider a non-exclusive, royalty-free license to:
+  a) Display work samples on portfolio (with credit)
+  b) Use for case studies and marketing (with approval)
+  c) Discuss methodology with prospective clients (anonymized)
+
+3. COMPENSATION & PAYMENT TERMS
+
+3.1 Fees
+Fees for services are detailed in each SOW. Pricing models include:
+  a) Flat rate per project
+  b) Hourly rate: $[X]/hour (minimum 1-hour billing increments)
+  c) Retainer: $[X]/month for [X] hours/month
+  d) Tiered pricing based on project scope
+
+3.2 Payment Schedule
+  - 50% deposit due upon SOW signature
+  - 50% balance due upon delivery of final deliverables
+  - Alternative: 30% upon signature, 35% at midpoint, 35% at delivery
+
+3.3 Late Payment Penalties
+  - Interest: 1.5% per month (18% APR) on overdue invoices
+  - Legal fees: Client responsible for collection costs if balance unpaid 30 days after due date
+  - Project suspension: Service Provider may suspend work if payment 15+ days overdue
+
+3.4 Expense Reimbursement
+Client will reimburse documented third-party expenses including:
+  - Licensed sample packs/plugins (with invoice)
+  - Session musicians (with agreement)
+  - Studio rental (itemized)
+Upon receipt of invoice within 30 days of project completion.
+
+4. REVISIONS & CHANGES
+
+4.1 Revision Allowance
+Each SOW specifies revision limit (typically 2-3 rounds of revisions included). Revisions include:
+  - Changes to composition, arrangement, or mix
+  - Moderate length adjustments
+  - Instrumentation modifications
+
+4.2 Out-of-Scope Work
+Additional revisions beyond included limit will be charged at:
+  - $[X]/revision round, or
+  - $[X]/hour for revision time
+
+4.3 Change Orders
+Any changes to scope, timeline, or deliverables require a written change order signed by both parties.
+
+5. TIMELINE & DELIVERABLES
+
+5.1 Delivery Schedule
+Service Provider will deliver work according to timeline in SOW. Delays due to:
+  - Client delays in providing materials
+  - Lack of creative direction
+  - Scope changes without time extension
+  shall not trigger penalty.
+
+5.2 Deliverable Format
+Final deliverables will be provided as:
+  - Stereo WAV files (24-bit, 48kHz unless otherwise specified)
+  - Master file in production software (.logic, .session, etc.) - optional
+  - Metadata (composer credits, cue sheets if applicable)
+
+5.3 Stems & Project Files
+Stem files and project files will be provided unless project cost <$[X]. If project cost >$[X], stems available at $[X] per set.
+
+6. INTELLECTUAL PROPERTY & LICENSING
+
+6.1 Third-Party Materials
+Service Provider retains right to use:
+  - Licensed samples (Splice, Loopmasters, etc.)
+  - Royalty-free sound libraries
+  - Third-party plugins
+
+Client obligations:
+  - No additional licensing fees beyond project fee
+  - Work assumes standard commercial license terms
+  - If work will be used beyond scope (e.g., sold to third parties), notify Service Provider
+
+6.2 Pre-Clearance
+Service Provider will pre-clear all sampled/licensed materials for stated use. If Client uses work beyond stated scope (e.g., theatrical release vs. internal video), Client must secure additional clearances.
+
+6.3 Copyright Registration
+Service Provider will register work with US Copyright Office and list Client as copyright owner. Client shall receive copyright registration certificate.
+
+7. TERMINATION & CANCELLATION
+
+7.1 Client Cancellation
+If Client cancels before project starts: Full refund of deposit.
+If Client cancels after work begins:
+  - Client pays for work completed to date + 50% of remaining contract value
+  - Service Provider retains all completed work until paid in full
+
+7.2 Non-Payment Termination
+If Client fails to pay within 30 days of invoice:
+  - Service Provider may terminate project
+  - Final work not delivered until paid in full
+  - Delivery withhold does not include previously delivered milestones already paid
+
+7.3 Default Termination
+If either party materially breaches terms and fails to remedy within 10 business days of written notice, other party may terminate.
+
+8. REPRESENTATIONS & WARRANTIES
+
+8.1 Service Provider Warrants:
+  a) Has authority to enter into this agreement
+  b) Work will be original unless specified otherwise
+  c) Work will not infringe third-party intellectual property rights
+  d) Will comply with all applicable laws
+  e) Has secured all necessary rights to materials used
+
+8.2 Client Warrants:
+  a) Has authority to enter into this agreement
+  b) Has provided accurate project requirements
+  c) Will not use work for illegal purposes
+  d) Will not infringe third-party rights when using work
+
+8.3 Service Provider NOT Warranting:
+  - Work will achieve specific commercial results
+  - Work will generate revenue/profit
+  - Work will win awards or recognition
+  - Work will satisfy audience preferences
+
+9. LIMITATION OF LIABILITY
+
+9.1 Liability Cap
+EXCEPT FOR INDEMNIFICATION OBLIGATIONS:
+Total liability of either party shall not exceed the amount paid under the MSA in the preceding 12 months, or $[X], whichever is greater.
+
+9.2 Excluded Damages
+NEITHER PARTY SHALL BE LIABLE FOR:
+  - Indirect damages
+  - Incidental damages
+  - Consequential damages
+  - Lost profits/revenue
+  - Lost business opportunity
+  - Reputational harm
+Even if advised of possibility of such damages.
+
+9.3 Exception: Indemnification
+Indemnification obligations are NOT subject to liability cap.
+
+10. INDEMNIFICATION
+
+10.1 Service Provider Indemnifies Client
+Service Provider shall defend, indemnify, and hold harmless Client from any third-party claims that Work infringes intellectual property rights, provided Client:
+  a) Provides prompt written notice of claim
+  b) Grants Service Provider sole control of defense
+  c) Uses work only as originally authorized
+  d) Does not modify work without authorization
+
+10.2 Client Indemnifies Service Provider
+Client shall defend, indemnify, and hold harmless Service Provider from:
+  a) Claims arising from Client's use of work beyond scope
+  b) Claims arising from Client's modification of work
+  c) Claims Client infringed rights in providing materials/references
+  d) Claims related to Client's product/service
+
+11. CONFIDENTIALITY
+
+11.1 Confidential Information
+Each party may disclose confidential information including:
+  - Project details
+  - Business models
+  - Unpublished works
+  - Client lists
+  - Pricing information
+
+11.2 Confidentiality Obligations
+Receiving party shall:
+  a) Keep information confidential
+  b) Use only for purposes of performing/receiving services
+  c) Not disclose to third parties without written consent
+  d) Implement reasonable security measures
+
+11.3 Exceptions
+Does not apply to information that:
+  - Is publicly available
+  - Was known before disclosure
+  - Must be disclosed by law
+  - Is independently developed
+
+11.4 Duration
+Confidentiality survives termination for [3-5] years.
+
+12. INSURANCE & LIABILITY
+
+12.1 Service Provider Insurance
+Service Provider maintains:
+  - General Liability: $1,000,000
+  - Professional Liability: $1,000,000
+  - Cyber Liability: $500,000
+
+Service Provider shall provide certificate upon request.
+
+12.2 Client Insurance
+Client responsible for:
+  - Insurance for Client's use of work
+  - Insurance for Client's business operations
+  - Insurance covering Client's products/services
+
+13. DISPUTE RESOLUTION
+
+13.1 Informal Resolution
+Before formal proceedings, parties shall attempt good faith negotiation for 30 days.
+
+13.2 Mediation
+If unresolved, parties shall submit to non-binding mediation in [JURISDICTION].
+
+13.3 Arbitration vs. Litigation
+[CHOOSE ONE]:
+
+Option A - Arbitration (Recommended for cost/speed):
+Both parties agree to binding arbitration under AAA Commercial Arbitration Rules.
+  - Single arbitrator for claims <$50,000
+  - Panel of three for claims >$50,000
+  - Location: [Jurisdiction]
+  - Costs split equally unless otherwise awarded
+  - Prevailing party may recover attorney fees
+  - Limited appeal rights
+
+Option B - Litigation:
+Both parties consent to exclusive jurisdiction in [STATE] courts.
+
+13.4 Attorney Fees
+Prevailing party in dispute shall recover reasonable attorney fees and costs.
+
+14. GOVERNING LAW
+
+This MSA shall be governed by and construed in accordance with the laws of [STATE], without regard to conflicts of law principles.
+
+15. GENERAL PROVISIONS
+
+15.1 Entire Agreement
+This MSA (including SOWs) constitutes entire agreement regarding subject matter and supersedes all prior negotiations, understandings, agreements.
+
+15.2 Amendment
+Changes must be in writing and signed by both parties.
+
+15.3 Severability
+If any provision invalid, others remain in effect.
+
+15.4 Assignment
+Neither party may assign without written consent (except Client may assign in connection with business sale).
+
+15.5 Counterparts
+MSA may be executed in counterparts (digital signatures acceptable).
+
+15.6 No Waiver
+Failure to enforce any right does not constitute waiver of that right.
+
+IN WITNESS WHEREOF:
+
+Service Provider: _________________________  Date: __________
+                  [Your Name/LLC]
+
+Client: _________________________________  Date: __________
+        [Authorized Signatory]
+
+---END TEMPLATE---
+
+═══════════════════════════════════════════════════════════════════════════════
+
+2.2 SHORT-FORM WORK-FOR-HIRE AGREEMENT (FOR SINGLE PROJECTS <$5K)
+
+---BEGIN TEMPLATE---
+
+WORK-FOR-HIRE MUSIC COMPOSITION AGREEMENT
+
+Date: [DATE]
+
+CLIENT: [Company Name]
+SERVICE PROVIDER: [Your Name/LLC]
+
+PROJECT: [Project Description - length, style, use]
+
+DELIVERABLES:
+- [X] original compositions, total length [XX:XX]
+- Format: [Format specifications]
+- Revisions included: [X] rounds
+- Delivery date: [DATE]
+
+FEES: $[AMOUNT]
+- Deposit (50%): $[AMOUNT] - Due upon signature
+- Balance (50%): $[AMOUNT] - Due upon delivery
+
+WORK-FOR-HIRE:
+All original music compositions and recordings created under this agreement shall be works made for hire owned entirely by Client.
+
+THIRD-PARTY MATERIALS:
+Service Provider may use licensed samples and stock music. Client assumes Client receives all necessary licenses.
+
+REVISIONS:
+[X] revisions included. Additional revisions: $[X] per round.
+
+LATE PAYMENT:
+Overdue balance accrues 1.5%/month interest. Project completion withheld if >30 days overdue.
+
+CANCELLATION:
+Before work starts: Full refund. After started: Client pays 50% + work completed to date.
+
+INDEMNIFICATION:
+Service Provider warrants work original and not infringing. Client warrants project authorized and lawful use.
+
+GOVERNING LAW:
+[STATE] law. Disputes via arbitration.
+
+Signatures:
+
+Service Provider: _________________________ Date: ___________
+
+Client: _________________________________ Date: ___________
+
+---END TEMPLATE---
+
+═══════════════════════════════════════════════════════════════════════════════
+
+2.3 LICENSING AGREEMENT TEMPLATE (FOR RECURRING LICENSING REVENUE)
+
+---BEGIN TEMPLATE---
+
+EXCLUSIVE LICENSING AGREEMENT - MUSIC COMPOSITIONS
+
+This Exclusive Licensing Agreement ("Agreement") grants CLIENT exclusive rights to USE licensed compositions in specified media territory.
+
+COMPOSITIONS LICENSED:
+[List all compositions with ISRC codes, duration, genre]
+
+LICENSED RIGHTS:
+CLIENT receives exclusive, royalty-free license to:
+  a) Reproduce composition in [SPECIFIED MEDIA: TV/Film/Video/etc.]
+  b) Distribute to [SPECIFIED TERRITORY: US, North America, Worldwide, etc.]
+  c) Publicly perform in [SPECIFIED OUTLETS: theatrical, broadcast, streaming, etc.]
+
+EXCLUSIVITY TERM:
+[X] years from delivery. After term, license reverts to non-exclusive.
+
+LICENSE FEE:
+$[X] paid as follows:
+  - [X]% upon signature
+  - [X]% upon delivery
+  - [X]% upon first broadcast/distribution
+
+EXCLUSIVITY COMPENSATION:
+If non-exclusive afterward, LICENSOR receives:
+  - [X]% of licensing revenue from other parties
+  - Paid quarterly within 30 days of period end
+
+RETAINED RIGHTS:
+LICENSOR retains:
+  - All rights outside specified media/territory
+  - Right to license compositions to other parties in different territories
+  - Publishing/synchronization royalty rights
+  - Mechanical royalties from streaming/radio
+
+PERFORMANCE ROYALTIES:
+CLIENT responsible for:
+  - Registering compositions with performing rights organization (ASCAP/BMI/SESAC)
+  - Cue sheet filing for TV/film
+  - Tracking broadcast and reporting royalties
+
+DERIVATIVE WORKS:
+CLIENT may create derivative arrangements/remixes only for licensed media. LICENSOR retains copyright in derivative.
+
+REPRESENTATIONS & WARRANTIES:
+Both parties represent they have authority to enter agreement, compositions are original, no third-party rights violated.
+
+INDEMNIFICATION:
+[Mutual indemnification per MSA template above]
+
+TERMINATION:
+Either party may terminate for material breach if not cured within 15 days of written notice.
+
+Upon termination: All usage rights cease. CLIENT may continue distribution only if breach not material.
+
+GOVERNING LAW:
+[STATE] law. Arbitration.
+
+IN WITNESS WHEREOF:
+
+LICENSOR: _________________________ Date: __________
+         [Your Company]
+
+CLIENT: _________________________ Date: __________
+
+---END TEMPLATE---
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 3: REGULATORY & COMPLIANCE CHECKLIST
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Pre-Launch Checklist:
+
+Business Formation:
+  ☐ LLC Articles of Organization filed & approved
+  ☐ EIN obtained from IRS
+  ☐ Business license issued by state/county
+  ☐ DBA registration (if applicable)
+  ☐ Business bank account opened (separate from personal)
+
+IP Protection:
+  ☐ All original compositions copyrighted with US Copyright Office
+  ☐ Trademark application filed for brand name
+  ☐ Domain names registered & protected
+  ☐ Works registered with PRO (ASCAP/BMI/SESAC)
+  ☐ Master recordings registered with SoundExchange
+
+Insurance:
+  ☐ General Liability policy ($1M+) in place
+  ☐ Errors & Omissions policy ($1M+) in place
+  ☐ Professional Indemnity verified
+  ☐ Certificate of insurance obtained
+
+Legal Documents:
+  ☐ MSA template drafted and reviewed by attorney
+  ☐ Work-for-hire template finalized
+  ☐ Licensing agreement template ready
+  ☐ NDA template prepared
+  ☐ Privacy Policy created for website
+  ☐ Terms of Service drafted
+  ☐ Contractor/vendor agreements established
+
+Tax Setup:
+  ☐ Accounting system established (QuickBooks/Xero)
+  ☐ Quarterly estimated tax schedule created
+  ☐ Sales tax registration completed (if applicable)
+  ☐ 1099 contractor tracking system established
+  ☐ Deductible expense categories defined
+
+Compliance:
+  ☐ FTC advertising policy reviewed
+  ☐ GDPR privacy addendum prepared (if EU customers)
+  ☐ CAN-SPAM email compliance verified
+  ☐ Data security protocols implemented
+  ☐ Incident response plan drafted
+
+Ongoing Compliance (Quarterly):
+  ☐ Estimated taxes paid on schedule
+  ☐ Contract review for updates
+  ☐ Insurance policy verification
+  ☐ Regulatory changes monitored
+  ☐ New client agreements reviewed for compliance
+
+Annual Compliance:
+  ☐ Tax returns prepared and filed
+  ☐ Business license renewals
+  ☐ Insurance policy renewals
+  ☐ Copyright registrations maintained
+  ☐ IP portfolio audit
+  ☐ Contract template updates
+  ☐ Legal compliance review
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 4: RISK MITIGATION STRATEGIES
+
+═══════════════════════════════════════════════════════════════════════════════
+
+4.1 IP Infringement Risks
+
+Prevention:
+  ✓ Avoid sampling unless with proper license
+  ✓ Use only royalty-free materials or properly licensed content
+  ✓ Document source of all materials
+  ✓ Keep license terms on file
+  ✓ Validate third-party licenses allow your use case
+
+Detection:
+  ✓ Use Shazam/Soundhound to check for accidental similarity
+  ✓ Search Copyright Office records
+  ✓ Review compositions for accidentally similar melodies
+  ✓ Get third-party review of original work
+
+Response:
+  ✓ If infringement claim received:
+    - Do not admit liability
+    - Document all creation process
+    - Consult IP attorney immediately
+    - Review insurance coverage
+    - Notify insurance carrier within claim notice window (usually 30 days)
+
+4.2 Client Payment Risk
+
+Prevention:
+  ✓ 50% non-refundable deposit before starting work
+  ✓ Request credit card payment (more enforcement options)
+  ✓ Milestone-based payment for large projects (>$10K)
+  ✓ Invoice immediately upon completion
+  ✓ Clear payment terms in contract (net 15 vs net 30)
+
+Escalation:
+  ✓ 15+ days late: Suspend project, send payment demand
+  ✓ 30+ days late: Formal demand letter, interest accrual
+  ✓ 45+ days late: Small claims court or collection agency
+  ✓ Have attorney send formal demand (powerful signal)
+
+4.3 Scope Creep Risk
+
+Prevention:
+  ✓ Detailed SOW specifying deliverables (e.g., "3 compositions, 30-60 seconds each")
+  ✓ Revision limits clearly stated (e.g., "2 rounds of revisions included")
+  ✓ Out-of-scope work priced separately
+  ✓ Change orders required for scope changes
+  ✓ Client sign-off at each milestone
+
+Tracking:
+  ✓ Log hours on open-ended projects
+  ✓ Document all scope change requests
+  ✓ Get written confirmation before deviating from SOW
+  ✓ Calculate profitability by project stage
+
+4.4 Reputation/Quality Risk
+
+Prevention:
+  ✓ Deliver on time, every time (build reputation for reliability)
+  ✓ Quality assurance process before delivery
+  ✓ Get client feedback at milestones
+  ✓ Portfolio curation (only show best work)
+  ✓ Client testimonials and case studies
+
+Monitoring:
+  ✓ Google Alerts for company name/brand
+  ✓ Monitor reviews on platforms (Yelp, Google, industry sites)
+  ✓ Track social media mentions
+  ✓ Respond to negative feedback professionally
+  ✓ Have reputation recovery plan ready
+
+4.5 Data/Security Risk
+
+Prevention:
+  ✓ Encrypted file transfer (Tresorit, Sync.com)
+  ✓ Regular backups to separate location
+  ✓ Password manager for account security
+  ✓ Two-factor authentication for all accounts
+  ✓ Avoid public WiFi for client work
+
+Response:
+  ✓ Incident response plan documented
+  ✓ Know breach notification requirements by state
+  ✓ Have cyber insurance with incident support
+  ✓ Consult security firm immediately if breach occurs
+  ✓ Document all steps for legal defense
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 5: COMPLIANCE CALENDAR & DEADLINES
+
+═══════════════════════════════════════════════════════════════════════════════
+
+QUARTERLY:
+  - April 15: Q1 Estimated tax payment due
+  - June 15: Q2 Estimated tax payment due
+  - Sept 15: Q3 Estimated tax payment due
+  - Review quarterly finances and profitability
+  - Check insurance expiration dates
+
+ANNUALLY (January - March):
+  - Jan 15: Q4 estimated tax payment due (for previous year)
+  - March 31: Final estimated tax payment (if owed)
+  - April 15: Business tax returns due (extension available to Oct 15)
+  - Renew business license/registration
+  - Review and update contracts
+  - Audit insurance coverage
+
+RENEWAL CALENDAR:
+  - [MONTH/YEAR]: Trademark registration renewal (10 years, then 10-year renewals)
+  - [MONTH/YEAR]: Copyright registrations (every 10-20 years check renewal)
+  - [MONTH/YEAR]: General Liability insurance renewal
+  - [MONTH/YEAR]: Professional Indemnity insurance renewal
+  - [MONTH/YEAR]: Business license renewal
+
+═══════════════════════════════════════════════════════════════════════════════
+
+FINAL LEGAL NOTES
+
+This document provides general legal framework but is NOT substitute for licensed attorney.
+
+STRONGLY RECOMMENDED:
+  1. Consult business attorney to customize MSA for your jurisdiction
+  2. Have tax CPA review financial structure
+  3. Get IP attorney to register copyrights
+  4. Obtain insurance broker to verify coverage
+  5. Annual legal compliance audit (costs $500-2000, prevents 10x+ in damages)
+
+KEY TAKEAWAY:
+Iron-clad contracts protect you more than any other single business decision.
+Invest 2-3% of first-year revenue into legal documentation.
+It will save 20-30% of revenue if disputes arise.
+
+═══════════════════════════════════════════════════════════════════════════════

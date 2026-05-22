@@ -1,0 +1,2964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work | Current Scoring Leaders</title>
+<link rel="stylesheet" href="csl-draft.css">
+    <meta name="description" content="Hear how Current Scoring Leaders approaches identity, story, pacing, atmosphere, and worldbuilding across different types of projects.">
+    <link rel="canonical" href="https://currentscoringleaders.com/CSL_portfolio.html">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta property="og:type" content="music.album">
+    <meta property="og:site_name" content="Current Scoring Leaders">
+    <meta property="og:title" content="Portfolio | Current Scoring Leaders">
+    <meta property="og:description" content="Original work samples across gaming, hip hop, scoring, and brand work. Hear our approach to identity, story, and atmosphere.">
+    <meta property="og:image" content="https://currentscoringleaders.com/img_csl_studio.webp">
+    <meta property="og:url" content="https://currentscoringleaders.com/CSL_portfolio.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfolio | Current Scoring Leaders">
+    <meta name="twitter:description" content="Original work samples across gaming, hip hop, scoring, and brand work.">
+    <meta name="twitter:image" content="https://currentscoringleaders.com/img_csl_studio.webp">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --bg2: #0f0f18;
+            --bg3: #14141f;
+            --blue: #3b82f6;
+            --purple: #60a5fa;
+            --green: #10b981;
+            --gold: #cbd5e1;
+            --red: #ef4444;
+            --cyan: #06b6d4;
+            --text: #f1f5f9;
+            --muted: #94a3b8;
+            --border: #1e1e2e;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background:
+                url('img_csl_studio.webp') center center / cover no-repeat,
+                linear-gradient(180deg, rgba(10,10,15,0.95) 0%, rgba(10,10,15,0.7) 50%, rgba(10,10,15,0.95) 100%);
+            opacity: 0.20;
+            pointer-events: none;
+            z-index: 0;
+            filter: brightness(1.5) saturate(1.3);
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background:
+                url('img_ranger_slayer.webp') center center / cover no-repeat,
+                linear-gradient(180deg, rgba(10,10,15,0.9) 0%, transparent 50%, rgba(10,10,15,0.9) 100%);
+            filter: brightness(1.8) saturate(1.2);
+        }
+
+        /* ── NAV ── */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            background: rgba(10,10,15,0.94);
+            -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 0.9rem 2rem;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+
+        .nav-logo img { height: 120px; width: auto; display: block; }
+        .footer-logo img { height: 36px; width: auto; }
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 9999;
+        }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.875rem; font-weight: 500; transition: color 0.2s; }
+        .nav-links a:hover, .nav-links a.active { color: var(--text); }
+        .nav-cta {
+            background: var(--blue); color: white !important;
+            padding: 0.45rem 1.1rem; border-radius: 8px;
+            font-weight: 600 !important; transition: background 0.2s !important;
+        }
+        .nav-cta:hover { background: var(--purple) !important; }
+
+        /* ── HERO ── */
+        .hero {
+            padding: 7.5rem 2rem 3rem;
+            max-width: 1300px; margin: 0 auto;
+            display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;
+        }
+
+        .hero-eyebrow {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.25);
+            color: var(--blue); padding: 0.35rem 0.9rem; border-radius: 20px;
+            font-size: 0.75rem; font-weight: 700; letter-spacing: 1.5px;
+            text-transform: uppercase; margin-bottom: 1.25rem;
+        }
+        .hero h1 {
+            font-size: clamp(2.2rem, 4vw, 3.5rem);
+            font-weight: 900; letter-spacing: -1px; line-height: 1.1;
+            margin-bottom: 1.1rem;
+        }
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--blue), var(--purple));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .hero-sub { color: var(--muted); font-size: 1rem; line-height: 1.75; margin-bottom: 1.75rem; max-width: 480px; }
+
+        .hero-stats {
+            display: flex; gap: 1.75rem; flex-wrap: wrap;
+            padding-top: 1.5rem; border-top: 1px solid var(--border);
+        }
+        .h-stat strong { display: block; font-family: 'JetBrains Mono', monospace; font-size: 1.5rem; font-weight: 700; color: var(--blue); }
+        .h-stat span { font-size: 0.78rem; color: var(--muted); font-weight: 500; }
+
+        /* HERO RIGHT — big visual */
+        .hero-visual {
+            background: var(--bg2); border: 1px solid var(--border); border-radius: 20px;
+            padding: 2rem; position: relative; overflow: hidden;
+        }
+        .hero-visual::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: linear-gradient(90deg, var(--blue), var(--purple), var(--gold));
+        }
+        .hero-visual-logo {
+            width: 64px; height: 64px; border-radius: 16px;
+            background: linear-gradient(135deg, var(--blue), var(--purple));
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.8rem; color: white;
+            box-shadow: 0 0 30px rgba(59,130,246,0.35); margin-bottom: 1.25rem;
+        }
+        .hero-visual h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 0.3rem; }
+        .hero-visual p { color: var(--muted); font-size: 0.85rem; line-height: 1.6; margin-bottom: 1.5rem; }
+
+        .waveform {
+            display: flex; align-items: flex-end; gap: 3px; height: 48px; margin-bottom: 1.5rem;
+        }
+        .waveform .bar {
+            width: 4px; border-radius: 2px;
+            background: linear-gradient(to top, var(--blue), var(--purple));
+            animation: wave 1.4s ease-in-out infinite;
+            opacity: 0.7;
+        }
+        .waveform .bar:nth-child(even) { animation-delay: 0.2s; }
+        .waveform .bar:nth-child(3n) { animation-delay: 0.4s; }
+        .waveform .bar:nth-child(4n) { animation-delay: 0.6s; }
+        @keyframes wave {
+            0%, 100% { height: 8px; }
+            50% { height: 40px; }
+        }
+
+        .category-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .chip {
+            padding: 0.3rem 0.75rem; border-radius: 8px; font-size: 0.75rem; font-weight: 700;
+            border: 1px solid transparent;
+        }
+        .chip.green { background: rgba(16,185,129,0.1); border-color: rgba(16,185,129,0.25); color: var(--green); }
+        .chip.purple { background: rgba(96, 165, 250,0.1); border-color: rgba(96, 165, 250,0.25); color: var(--purple); }
+        .chip.blue { background: rgba(59,130,246,0.1); border-color: rgba(59,130,246,0.25); color: var(--blue); }
+        .chip.gold { background: rgba(203, 213, 225,0.1); border-color: rgba(203, 213, 225,0.25); color: var(--gold); }
+
+        /* ── MAIN ── */
+        .main { max-width: 1300px; margin: 0 auto; padding: 1.5rem 2rem 6rem; }
+
+        /* ── FILTER BAR ── */
+        .filter-bar {
+            display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;
+            background: var(--bg2); border: 1px solid var(--border); border-radius: 14px;
+            padding: 0.9rem 1.25rem; margin-bottom: 2rem;
+        }
+        .filter-label { font-size: 0.75rem; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-right: 0.25rem; }
+        .filter-btn {
+            background: var(--bg3); border: 1px solid var(--border); color: var(--muted);
+            padding: 0.4rem 1rem; border-radius: 20px; cursor: pointer;
+            font-size: 0.82rem; font-weight: 600; transition: all 0.2s; font-family: 'Inter', sans-serif;
+        }
+        .filter-btn:hover { border-color: var(--blue); color: var(--text); }
+        .filter-btn.active { background: var(--blue); border-color: var(--blue); color: white; }
+
+        /* ── TRACK GRID ── */
+        .tracks-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.85rem;
+        }
+
+        /* ── TRACK CARD ── */
+        .track-card {
+            background: var(--bg2); border: 1px solid var(--border); border-radius: 14px;
+            overflow: hidden; transition: all 0.25s; display: flex; flex-direction: column;
+            position: relative;
+        }
+        .track-card.hidden { display: none; }
+
+        /* Series grouping — cards in a series share a left accent */
+        .track-card.series-gaming  { border-left: 3px solid rgba(16,185,129,0.5); }
+        .track-card.series-hiphop  { border-left: 3px solid rgba(96, 165, 250,0.5); }
+        .track-card.series-rnb     { border-left: 3px solid rgba(59,130,246,0.5); }
+        .track-card.series-exp     { border-left: 3px solid rgba(203, 213, 225,0.5); }
+
+        /* Album art banner */
+        .track-art {
+            height: 140px; position: relative; overflow: hidden;
+            display: flex; align-items: center; justify-content: center;
+        }
+        /* Scanline texture overlay on art */
+        .track-art::after {
+            content: '';
+            position: absolute; inset: 0;
+            background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 3px);
+            pointer-events: none; z-index: 2;
+        }
+        .track-art-icon { font-size: 1.8rem; opacity: 0.3; z-index: 1; position: relative; }
+        .track-art-num {
+            position: absolute; bottom: 6px; right: 10px;
+            font-family: 'JetBrains Mono', monospace; font-size: 0.6rem;
+            color: rgba(255,255,255,0.35); font-weight: 600; letter-spacing: 1px; z-index: 3;
+        }
+        .track-art-label {
+            position: absolute; top: 8px; left: 10px;
+            font-size: 0.58rem; font-weight: 900; text-transform: uppercase;
+            letter-spacing: 2px; opacity: 0.85; z-index: 3;
+        }
+
+        /* Card content */
+        .track-body { padding: 0.8rem 1rem; flex: 1; display: flex; flex-direction: column; gap: 0.55rem; }
+
+        .track-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.5rem; }
+        .track-title { font-size: 0.9rem; font-weight: 900; line-height: 1.25; letter-spacing: -0.2px; }
+        .track-badge {
+            font-size: 0.58rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px;
+            padding: 0.18rem 0.5rem; border-radius: 5px; white-space: nowrap; flex-shrink: 0;
+        }
+
+        .track-desc { font-size: 0.76rem; color: var(--muted); line-height: 1.5; }
+
+        .track-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+        .track-tag {
+            font-size: 0.64rem; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 5px;
+            border: 1px solid transparent; letter-spacing: 0.3px;
+        }
+
+        .track-meta-row {
+            display: flex; align-items: center; justify-content: space-between;
+            font-size: 0.68rem; color: var(--muted); margin-top: auto; padding-top: 0.35rem;
+            border-top: 1px solid rgba(255,255,255,0.04);
+        }
+        .track-meta-row span { display: flex; align-items: center; gap: 0.3rem; }
+
+        .play-btn {
+            width: 32px; height: 32px; border-radius: 50%;
+            background: linear-gradient(135deg, var(--blue), var(--purple));
+            border: none; color: white; font-size: 0.78rem;
+            cursor: pointer; display: flex; align-items: center; justify-content: center;
+            transition: all 0.2s; box-shadow: 0 3px 12px rgba(59,130,246,0.4);
+            flex-shrink: 0;
+        }
+        .play-btn:hover { transform: scale(1.12); }
+
+        /* Hide native audio controls — custom play btn only */
+        audio { display: none; }
+
+        /* ── HOVER ANIMATION ── */
+        .track-card {
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .track-card::before {
+            content: '';
+            position: absolute; inset: 0; border-radius: 14px;
+            opacity: 0; transition: opacity 0.3s ease;
+            pointer-events: none; z-index: 0;
+        }
+        .series-gaming::before  { background: radial-gradient(ellipse at center, rgba(16,185,129,0.07) 0%, transparent 70%); }
+        .series-hiphop::before  { background: radial-gradient(ellipse at center, rgba(96, 165, 250,0.07) 0%, transparent 70%); }
+        .series-rnb::before     { background: radial-gradient(ellipse at center, rgba(59,130,246,0.07) 0%, transparent 70%); }
+        .series-exp::before     { background: radial-gradient(ellipse at center, rgba(203, 213, 225,0.07) 0%, transparent 70%); }
+        .track-card:hover::before { opacity: 1; }
+
+        .track-card:hover {
+            transform: translateY(-6px) scale(1.015);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 0 1px rgba(59,130,246,0.2);
+        }
+        .series-gaming:hover  { box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 24px rgba(16,185,129,0.18), 0 0 0 1px rgba(16,185,129,0.25); }
+        .series-hiphop:hover  { box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 24px rgba(96, 165, 250,0.18), 0 0 0 1px rgba(96, 165, 250,0.25); }
+        .series-rnb:hover     { box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 24px rgba(59,130,246,0.18), 0 0 0 1px rgba(59,130,246,0.25); }
+
+        /* Track art zoom on hover */
+        .track-card:hover .track-art { filter: brightness(1.25) saturate(1.2); }
+        .track-art { transition: filter 0.35s ease; }
+
+        /* Play button pulse ring on hover */
+        .play-btn { position: relative; }
+        .track-card:hover .play-btn::after {
+            content: '';
+            position: absolute; inset: -4px;
+            border-radius: 50%;
+            border: 2px solid rgba(59,130,246,0.5);
+            animation: pulse-ring 1s ease-out infinite;
+        }
+        @keyframes pulse-ring {
+            0%   { transform: scale(0.9); opacity: 1; }
+            100% { transform: scale(1.5); opacity: 0; }
+        }
+
+        /* Playing state — animated waveform bars on the play button */
+        .play-btn.playing {
+            background: linear-gradient(135deg, var(--purple), var(--gold));
+            animation: btn-throb 0.8s ease-in-out infinite alternate;
+        }
+        @keyframes btn-throb {
+            from { box-shadow: 0 3px 12px rgba(96, 165, 250,0.4); }
+            to   { box-shadow: 0 6px 24px rgba(96, 165, 250,0.6); }
+        }
+
+        /* Card title highlight on hover */
+        .track-card:hover .track-title { color: #fff; }
+        .track-title { transition: color 0.2s; }
+
+        /* ── TRACK PRICE ROW (injected) ── */
+        .track-price-row {
+            display: flex; align-items: center; justify-content: space-between;
+            gap: 0.5rem;
+            background: linear-gradient(90deg, rgba(203, 213, 225,0.08), rgba(59,130,246,0.06));
+            border: 1px solid rgba(203, 213, 225,0.18);
+            border-radius: 8px;
+            padding: 0.4rem 0.65rem;
+            font-size: 0.68rem;
+        }
+        .tp-label {
+            display: inline-flex; align-items: center; gap: 0.3rem;
+            font-weight: 800; letter-spacing: 0.6px; text-transform: uppercase;
+            color: var(--gold); font-size: 0.6rem;
+        }
+        .tp-vals { display: inline-flex; align-items: baseline; gap: 0.35rem; font-weight: 700; }
+        .tp-asis { color: var(--green); }
+        .tp-custom { color: var(--blue); }
+        .tp-vals em { font-style: normal; font-weight: 500; color: var(--muted); font-size: 0.62rem; margin-left: 0.15rem; }
+        .tp-sep { color: rgba(255,255,255,0.2); font-weight: 400; }
+
+        /* ── CATALOG PRICING BANNER (above grid) ── */
+        .catalog-banner {
+            display: grid; grid-template-columns: auto 1fr auto; gap: 1.25rem;
+            align-items: center;
+            background: linear-gradient(105deg, rgba(203, 213, 225,0.12), rgba(59,130,246,0.08) 60%, rgba(96, 165, 250,0.1));
+            border: 1px solid rgba(203, 213, 225,0.25);
+            border-radius: 14px;
+            padding: 1.1rem 1.5rem;
+            margin-bottom: 1.5rem;
+            position: relative; overflow: hidden;
+        }
+        .catalog-banner::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, var(--gold), var(--blue), var(--purple));
+        }
+        .cb-icon {
+            width: 48px; height: 48px; border-radius: 12px;
+            background: rgba(203, 213, 225,0.15); color: var(--gold);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.3rem; flex-shrink: 0;
+        }
+        .cb-text h3 { font-size: 1rem; font-weight: 900; margin-bottom: 0.2rem; letter-spacing: -0.2px; }
+        .cb-text p { font-size: 0.8rem; color: var(--muted); line-height: 1.5; margin: 0; }
+        .cb-prices { display: flex; gap: 1rem; align-items: center; flex-shrink: 0; }
+        .cb-price-pill {
+            display: flex; flex-direction: column; align-items: center;
+            padding: 0.5rem 1rem; border-radius: 10px; border: 1px solid var(--border);
+            background: var(--bg3); min-width: 110px;
+        }
+        .cb-price-pill.green { border-color: rgba(16,185,129,0.3); background: rgba(16,185,129,0.06); }
+        .cb-price-pill.blue { border-color: rgba(59,130,246,0.3); background: rgba(59,130,246,0.06); }
+        .cb-price-pill strong {
+            font-family: 'JetBrains Mono', monospace; font-size: 1.15rem; font-weight: 700;
+            line-height: 1;
+        }
+        .cb-price-pill.green strong { color: var(--green); }
+        .cb-price-pill.blue strong { color: var(--blue); }
+        .cb-price-pill span {
+            font-size: 0.62rem; color: var(--muted); font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.8px; margin-top: 0.3rem;
+        }
+
+        @media (max-width: 700px) {
+            .catalog-banner { grid-template-columns: 1fr; text-align: center; }
+            .cb-prices { justify-content: center; }
+            .cb-icon { margin: 0 auto; }
+        }
+
+        /* ── TRACK ACTION BAR — slides up on hover ── */
+        .track-actions {
+            display: flex; gap: 0.4rem; padding: 0 1rem 0.75rem;
+            max-height: 0; overflow: hidden;
+            transition: max-height 0.35s cubic-bezier(0.23,1,0.32,1), opacity 0.3s ease;
+            opacity: 0;
+        }
+        .track-card:hover .track-actions {
+            max-height: 60px; opacity: 1;
+        }
+        .track-action-btn {
+            flex: 1; display: inline-flex; align-items: center; justify-content: center;
+            gap: 0.35rem; padding: 0.45rem 0.5rem; border-radius: 8px;
+            font-size: 0.68rem; font-weight: 700; text-decoration: none;
+            transition: all 0.2s; white-space: nowrap;
+        }
+        .track-action-btn.book {
+            background: var(--blue); color: white;
+        }
+        .track-action-btn.book:hover { background: var(--purple); }
+        .track-action-btn.license {
+            background: rgba(203, 213, 225,0.15); color: var(--gold);
+            border: 1px solid rgba(203, 213, 225,0.3);
+        }
+        .track-action-btn.license:hover { background: rgba(203, 213, 225,0.28); }
+
+        /* ── SECTION DIVIDERS — full cinematic genre banners ── */
+        .section-divider {
+            grid-column: 1 / -1;
+            position: relative; overflow: hidden;
+            border-radius: 12px; padding: 1.1rem 1.5rem;
+            display: flex; flex-direction: column; gap: 0.25rem;
+            margin: 1.5rem 0 0.5rem;
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+        .section-divider::before {
+            content: ''; position: absolute; inset: 0;
+            background: repeating-linear-gradient(0deg, transparent, transparent 3px, rgba(0,0,0,0.1) 3px, rgba(0,0,0,0.1) 4px);
+            pointer-events: none;
+        }
+        .section-divider.cat-gaming  {
+            background:
+                linear-gradient(105deg, rgba(10,10,15,0.85) 0%, rgba(10,10,15,0.52) 55%, rgba(10,10,15,0.88) 100%),
+                url('img_ps2_collage.webp') center/cover no-repeat;
+            border-left: 4px solid var(--green);
+            padding: 1.6rem 1.5rem;
+        }
+        .gaming-schematic {
+            position: absolute;
+            right: -20px; top: 50%;
+            transform: translateY(-50%);
+            height: 220%;
+            width: auto;
+            opacity: 0.07;
+            pointer-events: none;
+            filter: invert(1) brightness(1.4);
+            mix-blend-mode: screen;
+        }
+        .section-divider.cat-hiphop  {
+            background:
+                linear-gradient(105deg, rgba(10,10,15,0.88) 0%, rgba(10,10,15,0.55) 55%, rgba(10,10,15,0.90) 100%),
+                url('img_ranger_slayer.webp') center/cover no-repeat;
+            border-left: 4px solid var(--purple);
+            padding: 1.6rem 1.5rem;
+        }
+        .section-divider.cat-rnb     {
+            background:
+                linear-gradient(105deg, rgba(10,10,15,0.88) 0%, rgba(10,10,15,0.52) 55%, rgba(10,10,15,0.90) 100%),
+                url('img_csl_studio.webp') center/cover no-repeat;
+            border-left: 4px solid var(--blue);
+            padding: 1.6rem 1.5rem;
+        }
+        .section-divider.cat-exp     {
+            background:
+                linear-gradient(105deg, rgba(10,10,15,0.88) 0%, rgba(10,10,15,0.52) 55%, rgba(10,10,15,0.90) 100%),
+                url('img_genesis_art.webp') center top/cover no-repeat;
+            border-left: 4px solid var(--gold);
+            padding: 1.6rem 1.5rem;
+        }
+        .divider-main {
+            display: flex; align-items: center; gap: 0.75rem;
+        }
+        .divider-icon {
+            width: 36px; height: 36px; border-radius: 9px; display: flex; align-items: center;
+            justify-content: center; font-size: 1rem; flex-shrink: 0;
+        }
+        .cat-gaming .divider-icon  { background: rgba(16,185,129,0.15); color: var(--green); }
+        .cat-hiphop .divider-icon  { background: rgba(96, 165, 250,0.15); color: var(--purple); }
+        .cat-rnb    .divider-icon  { background: rgba(59,130,246,0.15); color: var(--blue); }
+        .cat-exp    .divider-icon  { background: rgba(203, 213, 225,0.15); color: var(--gold); }
+        .divider-label {
+            font-size: 0.82rem; font-weight: 900; text-transform: uppercase;
+            letter-spacing: 2.5px; display: block;
+        }
+        .divider-sub {
+            font-size: 0.68rem; color: var(--muted); font-weight: 500; letter-spacing: 0.5px;
+        }
+        .divider-count {
+            margin-left: auto; font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem; font-weight: 600; color: var(--muted);
+            background: rgba(255,255,255,0.05); padding: 0.2rem 0.6rem;
+            border-radius: 6px; border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        /* ── CTA ── */
+        .portfolio-cta {
+            background: linear-gradient(135deg, rgba(59,130,246,0.1), rgba(96, 165, 250,0.1));
+            border: 1px solid rgba(59,130,246,0.2); border-radius: 20px;
+            padding: 3rem 2rem; text-align: center; margin-top: 2.5rem;
+            position: relative; overflow: hidden;
+        }
+        .portfolio-cta::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, var(--blue), var(--purple), var(--gold));
+        }
+        .portfolio-cta h2 { font-size: 1.75rem; font-weight: 900; letter-spacing: -0.5px; margin-bottom: 0.6rem; }
+        .portfolio-cta p { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.75rem; }
+        .cta-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .btn-primary {
+            background: var(--blue); color: white; padding: 0.85rem 2rem; border-radius: 10px;
+            text-decoration: none; font-weight: 700; display: inline-flex; align-items: center;
+            gap: 0.5rem; transition: all 0.2s;
+        }
+        .btn-primary:hover { background: var(--purple); transform: translateY(-2px); }
+        .btn-secondary {
+            background: transparent; color: var(--text); padding: 0.85rem 2rem; border-radius: 10px;
+            text-decoration: none; font-weight: 700; display: inline-flex; align-items: center;
+            gap: 0.5rem; transition: all 0.2s; border: 1px solid var(--border);
+        }
+        .btn-secondary:hover { border-color: var(--blue); color: var(--blue); transform: translateY(-2px); }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold), #b8860b); color: #0a0a0f;
+            padding: 0.85rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 700;
+            display: inline-flex; align-items: center; gap: 0.5rem; transition: all 0.2s;
+        }
+        .btn-gold:hover { opacity: 0.88; transform: translateY(-2px); }
+
+        .library-guide {
+            max-width: 1300px;
+            margin: 0 auto 1.5rem;
+            padding: 0 2rem;
+        }
+        .library-guide-shell {
+            background: var(--bg2);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 1.5rem;
+        }
+        .library-guide-top {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            align-items: flex-start;
+            margin-bottom: 1.25rem;
+        }
+        .library-guide-label {
+            font-size: 0.72rem;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--blue);
+            margin-bottom: 0.4rem;
+        }
+        .library-guide-top h2 {
+            font-size: clamp(1.2rem, 2vw, 1.65rem);
+            font-weight: 900;
+            margin-bottom: 0.45rem;
+        }
+        .library-guide-top p,
+        .library-guide-card p {
+            color: var(--muted);
+            line-height: 1.6;
+            font-size: 0.88rem;
+        }
+        .library-guide-note {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--gold);
+            background: rgba(203,213,225,0.08);
+            border: 1px solid rgba(203,213,225,0.18);
+            border-radius: 999px;
+            padding: 0.55rem 0.9rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .library-guide-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 0.85rem;
+        }
+        .library-guide-card {
+            background: var(--bg3);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 1rem;
+        }
+        .library-guide-card i {
+            color: var(--blue);
+            margin-bottom: 0.7rem;
+        }
+        .library-guide-card h3 {
+            font-size: 0.95rem;
+            font-weight: 800;
+            margin-bottom: 0.35rem;
+        }
+        @media (max-width: 800px) {
+            .library-guide-top { flex-direction: column; }
+            .library-guide-note { white-space: normal; }
+            .library-guide-grid { grid-template-columns: 1fr; }
+        }
+
+        /* ── FOOTER ── */
+        footer { background: var(--bg2); border-top: 1px solid var(--border); padding: 3rem 2rem; text-align: center; }
+        .footer-brand { display: flex; align-items: center; justify-content: center; gap: 0.65rem; margin-bottom: 1.25rem; }
+        .footer-logo-icon {
+            width: 28px; height: 28px; border-radius: 7px;
+            background: linear-gradient(135deg, var(--blue), var(--purple));
+            display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: white;
+        }
+        .footer-logo-text {
+            font-size: 0.95rem; font-weight: 800;
+            background: linear-gradient(135deg, var(--blue), var(--purple));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .footer-links { display: flex; justify-content: center; gap: 2rem; list-style: none; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .footer-links a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--text); }
+        footer p { color: var(--muted); font-size: 0.78rem; }
+
+        @media (max-width: 900px) { .hero { grid-template-columns: 1fr; } .nav-links { display: none; } }
+        @media (max-width: 600px) { .tracks-grid { grid-template-columns: 1fr; } }
+    </style>
+<link rel="stylesheet" href="csl-bg.css">
+<link rel="stylesheet" href="csl-visualizers.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <a href="CSL_index.html" class="nav-logo"><img src="CSL_logo_dark.png" alt="Current Scoring Leaders"></a>
+        <ul class="nav-links">
+            <li><a href="CSL_index.html">Scoring</a></li>
+            <li><a href="CSL_pricing.html">Pricing</a></li>
+            <li><a href="CSL_portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="CSL_process.html">Our Process</a></li>
+            <li><a href="CSL_about.html">About &amp; Contact</a></li>
+            <li><a href="CSL_booking.html" class="nav-cta">Tell Us What You’re Building</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero-left">
+            <div class="hero-eyebrow"><i class="fas fa-headphones"></i> Our Work</div>
+            <h1>Hear how the <span>music fits</span> the project.</h1>
+            <p class="hero-sub">
+                Identity. Story. Pacing. Atmosphere. Worldbuilding. Every track here was built around a specific
+                direction — not pulled from a shelf.
+            </p>
+            <div class="hero-stats">
+                <div class="h-stat"><strong>Original</strong><span>Work Samples</span></div>
+                <div class="h-stat"><strong>4</strong><span>Genres Covered</span></div>
+                <div class="h-stat"><strong>100%</strong><span>Custom Composed</span></div>
+                <div class="h-stat"><strong>0</strong><span>Stock Libraries Used</span></div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-visual-logo"><i class="fas fa-music"></i></div>
+            <h3>Current Scoring Leaders</h3>
+            <p>Willow Grove, PA — Original scoring for creators, studios, games, and brands that want music built around actual identity.</p>
+            <div class="waveform">
+                <div class="bar" style="height:12px"></div><div class="bar" style="height:28px"></div>
+                <div class="bar" style="height:20px"></div><div class="bar" style="height:36px"></div>
+                <div class="bar" style="height:16px"></div><div class="bar" style="height:40px"></div>
+                <div class="bar" style="height:24px"></div><div class="bar" style="height:32px"></div>
+                <div class="bar" style="height:18px"></div><div class="bar" style="height:44px"></div>
+                <div class="bar" style="height:22px"></div><div class="bar" style="height:30px"></div>
+                <div class="bar" style="height:14px"></div><div class="bar" style="height:38px"></div>
+                <div class="bar" style="height:26px"></div><div class="bar" style="height:20px"></div>
+                <div class="bar" style="height:34px"></div><div class="bar" style="height:12px"></div>
+                <div class="bar" style="height:28px"></div><div class="bar" style="height:42px"></div>
+            </div>
+            <div class="category-chips">
+                <span class="chip green">Gaming &amp; Cinematic</span>
+                <span class="chip purple">Hip Hop &amp; Rap</span>
+                <span class="chip blue">R&amp;B &amp; Vibe</span>
+                <span class="chip gold">Experimental</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="library-guide">
+        <div class="library-guide-shell">
+            <div class="library-guide-top">
+                <div>
+                    <div class="library-guide-label">How To Use The Portfolio</div>
+                    <h2>Listen first. Then choose the next move.</h2>
+                    <p>This page is for hearing range, identifying a direction, and deciding whether an existing cue or a custom score fits your project best.</p>
+                </div>
+                <div class="library-guide-note"><i class="fas fa-compass"></i> Built for discovery and decision-making</div>
+            </div>
+            <div class="library-guide-grid">
+                <article class="library-guide-card">
+                    <i class="fas fa-headphones"></i>
+                    <h3>Listen for fit</h3>
+                    <p>Use the filters to hear tone, pacing, texture, and identity before you commit to a direction.</p>
+                </article>
+                <article class="library-guide-card">
+                    <i class="fas fa-file-signature"></i>
+                    <h3>Use a finished cue</h3>
+                    <p>If a track already fits, use it as a starting point for a creator cue or broader licensing quote.</p>
+                </article>
+                <article class="library-guide-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Study a scoring build</h3>
+                    <p>See how a multi-level gaming score can move from atmosphere to boss-fight intensity.</p>
+                    <p><a href="CSL_game_study.html" style="color:var(--blue);text-decoration:none;font-weight:800;">View gaming case study &rsaquo;</a></p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <div class="main">
+
+        <!-- CATALOG PRICING BANNER -->
+        <div class="catalog-banner">
+            <div class="cb-icon"><i class="fas fa-compact-disc"></i></div>
+            <div class="cb-text">
+                <h3>Catalog Licensing — Every Track Below</h3>
+                <p>All portfolio tracks are available as starting points for a custom cue, creator scoring package, or broader licensing quote. Final usage, exclusivity, and deliverables are confirmed in writing before work begins.</p>
+            </div>
+            <div class="cb-prices">
+                <div class="cb-price-pill green">
+                    <strong>From $950</strong>
+                    <span>Creator Cue</span>
+                </div>
+                <div class="cb-price-pill blue">
+                    <strong>By quote</strong>
+                    <span>Expanded Usage</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- FILTER BAR -->
+        <div class="filter-bar">
+            <span class="filter-label">Filter</span>
+            <button class="filter-btn active" data-filter="all">All Tracks</button>
+            <button class="filter-btn" data-filter="gaming">Gaming &amp; Cinematic</button>
+            <button class="filter-btn" data-filter="hiphop">Hip Hop &amp; Rap</button>
+            <button class="filter-btn" data-filter="rnb">R&amp;B &amp; Vibe</button>
+            <button class="filter-btn" data-filter="experimental">Experimental</button>
+            <button class="filter-btn" data-filter="pop">Pop</button>
+            <button class="filter-btn" data-filter="rock">Rock</button>
+        </div>
+
+        <!-- TRACKS GRID -->
+        <div class="tracks-grid" id="tracksGrid">
+
+            <!-- ══ GAMING / CINEMATIC ══ -->
+            <div class="section-divider cat-gaming" data-category-divider="gaming">
+                <img src="img_genesis_schematic.webp" class="gaming-schematic" alt="">
+                <div class="divider-main">
+                    <div class="divider-icon"><i class="fas fa-gamepad"></i></div>
+                    <div>
+                        <span class="divider-label" style="color:var(--green)">Gaming &amp; Cinematic</span>
+                        <span class="divider-sub">Game Score · Narrative Arc · Sci-Fi · Orchestral</span>
+                    </div>
+                    <span class="divider-count">9 Tracks</span>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#0f2027,#203a43,#10b981);">
+                    <i class="fas fa-gamepad track-art-icon" style="color:#10b981"></i>
+                    <span class="track-art-label" style="color:#10b981">Level 01</span>
+                    <span class="track-art-num">CSL-G01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Gaming Level 1</div>
+                        <span class="track-badge" style="background:rgba(16,185,129,0.12);color:var(--green);border:1px solid rgba(16,185,129,0.3)">Stage 1</span>
+                    </div>
+                    <div class="track-desc">Cold open. Player doesn't know the rules yet — score sets the mood before anyone does. Tension loaded, motion forward.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Cinematic</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Game Score</span>
+                        <span class="track-tag" style="background:rgba(148,163,184,0.08);border-color:rgba(148,163,184,0.15);color:var(--muted)">Tension</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 7-Part Series</span>
+                        <button class="play-btn" aria-label="Play Gaming Level 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Gaming Level 1 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#0d1f1a,#1a3a2e,#059669);">
+                    <i class="fas fa-shield-alt track-art-icon" style="color:#059669"></i>
+                    <span class="track-art-label" style="color:#059669">Level 02</span>
+                    <span class="track-art-num">CSL-G02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Gaming Level 2</div>
+                        <span class="track-badge" style="background:rgba(16,185,129,0.12);color:var(--green);border:1px solid rgba(16,185,129,0.3)">Stage 2</span>
+                    </div>
+                    <div class="track-desc">Gravity sets in. The world gets heavier and the score follows — same universe, raised stakes, no repeated bars.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Cinematic</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Escalation</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 7-Part Series</span>
+                        <button class="play-btn" aria-label="Play Gaming Level 2" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Gaming Level 2 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#111827,#1e3a5f,#3b82f6);">
+                    <i class="fas fa-bolt track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#3b82f6">Level 03</span>
+                    <span class="track-art-num">CSL-G03</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Gaming Level 3</div>
+                        <span class="track-badge" style="background:rgba(59,130,246,0.12);color:var(--blue);border:1px solid rgba(59,130,246,0.3)">Stage 3</span>
+                    </div>
+                    <div class="track-desc">Mid-game gear shift. No going back now. Music locks in and pushes — player's committed, score's committed.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Action</span>
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Cinematic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 7-Part Series</span>
+                        <button class="play-btn" aria-label="Play Gaming Level 3" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Gaming Level 3 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#1a0a2e,#2d1b69,#60a5fa);">
+                    <i class="fas fa-fire track-art-icon" style="color:#60a5fa"></i>
+                    <span class="track-art-label" style="color:#60a5fa">Level 04</span>
+                    <span class="track-art-num">CSL-G04</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Gaming Level 4</div>
+                        <span class="track-badge" style="background:rgba(96, 165, 250,0.12);color:var(--purple);border:1px solid rgba(96, 165, 250,0.3)">Stage 4</span>
+                    </div>
+                    <div class="track-desc">Things just got darker. Score shifts tone to match — signals danger without shattering the world's logic.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Dark</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Atmospheric</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 7-Part Series</span>
+                        <button class="play-btn" aria-label="Play Gaming Level 4" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Gaming Level 4 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#1f1600,#3d2b00,#60a5fa);">
+                    <i class="fas fa-crown track-art-icon" style="color:#60a5fa"></i>
+                    <span class="track-art-label" style="color:#60a5fa">Level 05</span>
+                    <span class="track-art-num">CSL-G05</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Gaming Level 5</div>
+                        <span class="track-badge" style="background:rgba(96, 165, 250,0.12);color:var(--gold);border:1px solid rgba(96, 165, 250,0.3)">Stage 5</span>
+                    </div>
+                    <div class="track-desc">Pre-boss silence. The kind of tension that makes you hold your breath. Score keeps the player wired — locked in right before everything breaks.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">High Stakes</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Tension</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 7-Part Series</span>
+                        <button class="play-btn" aria-label="Play Gaming Level 5" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Gaming Level 5 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#0f1923,#162231,#06b6d4);">
+                    <i class="fas fa-dragon track-art-icon" style="color:#06b6d4"></i>
+                    <span class="track-art-label" style="color:#06b6d4">Level 06</span>
+                    <span class="track-art-num">CSL-G06</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Gaming Level 6</div>
+                        <span class="track-badge" style="background:rgba(6,182,212,0.12);color:var(--cyan);border:1px solid rgba(6,182,212,0.3)">Stage 6</span>
+                    </div>
+                    <div class="track-desc">Elite tier. Every element the series built fires at once — epic in scale, controlled in execution. Nothing wasted, nothing overdone.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">Epic</span>
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Cinematic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 7-Part Series</span>
+                        <button class="play-btn" aria-label="Play Gaming Level 6" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Gaming Level 6 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#1a0020,#2d0035,#d946ef);">
+                    <i class="fas fa-trophy track-art-icon" style="color:#d946ef"></i>
+                    <span class="track-art-label" style="color:#d946ef">Final Level</span>
+                    <span class="track-art-num">CSL-G07</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Gaming Level 7</div>
+                        <span class="track-badge" style="background:rgba(217,70,239,0.12);color:#d946ef;border:1px solid rgba(217,70,239,0.3)">Final</span>
+                    </div>
+                    <div class="track-desc">This is what the whole arc was building to. Seven levels of score — it closes here. Heavy. Orchestral. Done right.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(217,70,239,0.08);border-color:rgba(217,70,239,0.2);color:#d946ef">Finale</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Orchestral</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 7-Part Series</span>
+                        <button class="play-btn" aria-label="Play Gaming Level 7" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Gaming Level 7 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#060a0f,#0a1628,#1e3a5f);">
+                    <i class="fas fa-satellite track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#3b82f6">Sci-Fi</span>
+                    <span class="track-art-num">CSL-C01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Cosmic Crapateria 2</div>
+                        <span class="track-badge" style="background:rgba(59,130,246,0.12);color:var(--blue);border:1px solid rgba(59,130,246,0.3)">Sci-Fi</span>
+                    </div>
+                    <div class="track-desc">Space doesn't follow rules and this track doesn't either. Controlled chaos — sounds like nothing makes sense but every second is intentional.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Sci-Fi</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Experimental</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Custom Scoring</span>
+                        <button class="play-btn" aria-label="Play Cosmic Crapateria 2" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/cosmic crapateria 2 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#0a1628,#1a2f4a,#2563eb);">
+                    <i class="fas fa-film track-art-icon" style="color:#2563eb"></i>
+                    <span class="track-art-label" style="color:#2563eb">Part 1 of 2</span>
+                    <span class="track-art-num">CSL-N01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Bean Part 1</div>
+                        <span class="track-badge" style="background:rgba(37,99,235,0.12);color:#2563eb;border:1px solid rgba(37,99,235,0.3)">Story Arc</span>
+                    </div>
+                    <div class="track-desc">Chapter one. Opens quiet — you don't know what story you're in yet. That's the point. Score plants the seed.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Narrative</span>
+                        <span class="track-tag" style="background:rgba(148,163,184,0.08);border-color:rgba(148,163,184,0.15);color:var(--muted)">Cinematic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 2-Part Story</span>
+                        <button class="play-btn" aria-label="Play Bean Part 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/bean part 1.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card series-gaming" data-category="gaming">
+                <div class="track-art" style="background: linear-gradient(135deg,#14213d,#1f3460,#3b82f6);">
+                    <i class="fas fa-film track-art-icon" style="color:#60a5fa"></i>
+                    <span class="track-art-label" style="color:#60a5fa">Part 2 of 2</span>
+                    <span class="track-art-num">CSL-N02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Bean Part 2</div>
+                        <span class="track-badge" style="background:rgba(59,130,246,0.12);color:var(--blue);border:1px solid rgba(59,130,246,0.3)">Resolution</span>
+                    </div>
+                    <div class="track-desc">The payoff. Everything Part 1 built — this one sees it through. Earned, not loud. The kind of close a story deserves.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Narrative</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Emotional</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-layer-group"></i> 2-Part Story</span>
+                        <button class="play-btn" aria-label="Play Bean Part 2" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/bean part 2 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <!-- ══ HIP HOP / RAP ══ -->
+            <div class="section-divider cat-hiphop" data-category-divider="hiphop">
+                <div class="divider-main">
+                    <div class="divider-icon"><i class="fas fa-microphone-alt"></i></div>
+                    <div>
+                        <span class="divider-label" style="color:var(--purple)">Hip Hop &amp; Rap</span>
+                        <span class="divider-sub">Trap · Street · Conscious · Boom Bap · Anthemic</span>
+                    </div>
+                    <span class="divider-count">10 Tracks</span>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#1a0a2e,#2d1060,#3b82f6);">
+                    <i class="fas fa-microphone track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#93c5fd">Trap</span>
+                    <span class="track-art-num">CSL-H01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Don't Trust These Hoes 1</div>
+                        <span class="track-badge" style="background:rgba(96, 165, 250,0.12);color:var(--purple);border:1px solid rgba(96, 165, 250,0.3)">Vol. 1</span>
+                    </div>
+                    <div class="track-desc">Hard start. No buildup needed. This one comes in ready and stays that way the whole time.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Trap</span>
+                        <span class="track-tag" style="background:rgba(239,68,68,0.08);border-color:rgba(239,68,68,0.2);color:var(--red)">Street</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play Don't Trust These Hoes 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Dont trust these hoes (1).mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#200a3e,#3b1278,#60a5fa);">
+                    <i class="fas fa-microphone track-art-icon" style="color:#60a5fa"></i>
+                    <span class="track-art-label" style="color:#bfdbfe">Trap</span>
+                    <span class="track-art-num">CSL-H02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Don't Trust These Hoes 2</div>
+                        <span class="track-badge" style="background:rgba(96, 165, 250,0.12);color:var(--purple);border:1px solid rgba(96, 165, 250,0.3)">Vol. 2</span>
+                    </div>
+                    <div class="track-desc">Picks up where Vol. 1 left off. Different angle, same energy. The vibe doesn't let up.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Trap</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Hard</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play Don't Trust These Hoes 2" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Dont trust these hoes (2).mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#260b4a,#4a1590,#a855f7);">
+                    <i class="fas fa-microphone track-art-icon" style="color:#a855f7"></i>
+                    <span class="track-art-label" style="color:#e9d5ff">Trap</span>
+                    <span class="track-art-num">CSL-H03</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Don't Trust These Hoes 3</div>
+                        <span class="track-badge" style="background:rgba(168,85,247,0.12);color:#a855f7;border:1px solid rgba(168,85,247,0.3)">Vol. 3</span>
+                    </div>
+                    <div class="track-desc">Closes out the series. Darker and more deliberate. The three-part series has a clear beginning, middle, and end.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(168,85,247,0.08);border-color:rgba(168,85,247,0.2);color:#a855f7">Trap</span>
+                        <span class="track-tag" style="background:rgba(148,163,184,0.08);border-color:rgba(148,163,184,0.15);color:var(--muted)">Dark</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play Don't Trust These Hoes 3" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Dont trust these hoes (3).mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#1f0a0a,#3d1515,#ef4444);">
+                    <i class="fas fa-fire-alt track-art-icon" style="color:#ef4444"></i>
+                    <span class="track-art-label" style="color:#fca5a5">Rap</span>
+                    <span class="track-art-num">CSL-H04</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">STUPID 2</div>
+                        <span class="track-badge" style="background:rgba(239,68,68,0.12);color:var(--red);border:1px solid rgba(239,68,68,0.3)">Hard</span>
+                    </div>
+                    <div class="track-desc">The name says enough. Loud, intentional, built for a rapper who needs the beat to match their confidence.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(239,68,68,0.08);border-color:rgba(239,68,68,0.2);color:var(--red)">Aggressive</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Rap</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play STUPID 2" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/STUPID 2 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#2a0a0a,#4f1515,#dc2626);">
+                    <i class="fas fa-fire-alt track-art-icon" style="color:#dc2626"></i>
+                    <span class="track-art-label" style="color:#fca5a5">Rap</span>
+                    <span class="track-art-num">CSL-H05</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">STUPID 3</div>
+                        <span class="track-badge" style="background:rgba(220,38,38,0.12);color:#dc2626;border:1px solid rgba(220,38,38,0.3)">Harder</span>
+                    </div>
+                    <div class="track-desc">Same direction, more pressure. This version doesn't leave room to breathe — that's the point.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(239,68,68,0.08);border-color:rgba(239,68,68,0.2);color:var(--red)">Aggressive</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">High Energy</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play STUPID 3" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/STUPID 3 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#101010,#1f1f1f,#374151);">
+                    <i class="fas fa-drum track-art-icon" style="color:#6b7280"></i>
+                    <span class="track-art-label" style="color:#9ca3af">Trap</span>
+                    <span class="track-art-num">CSL-H06</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Baka Boom 1</div>
+                        <span class="track-badge" style="background:rgba(107,114,128,0.12);color:#9ca3af;border:1px solid rgba(107,114,128,0.3)">Vol. 1</span>
+                    </div>
+                    <div class="track-desc">Named right. The low end hits first and the rest builds around it. Hard drums, space to rap in.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Trap</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Boom Bap</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play Baka Boom 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/baka boom 1 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#141414,#262626,#4b5563);">
+                    <i class="fas fa-drum track-art-icon" style="color:#9ca3af"></i>
+                    <span class="track-art-label" style="color:#d1d5db">Trap</span>
+                    <span class="track-art-num">CSL-H07</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Baka Boom 3</div>
+                        <span class="track-badge" style="background:rgba(75,85,99,0.12);color:#9ca3af;border:1px solid rgba(75,85,99,0.3)">Vol. 3</span>
+                    </div>
+                    <div class="track-desc">Third entry in the series. Bigger sound, more layered. Still hits the same way but with more weight behind it.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Trap</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Heavy</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play Baka Boom 3" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/baka boom 3 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#0a1020,#101830,#1e3a5f);">
+                    <i class="fas fa-running track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#93c5fd">Rap</span>
+                    <span class="track-art-num">CSL-H08</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Run It</div>
+                        <span class="track-badge" style="background:rgba(59,130,246,0.12);color:var(--blue);border:1px solid rgba(59,130,246,0.3)">Energy</span>
+                    </div>
+                    <div class="track-desc">Fast pace, forward motion. Built to push. The kind of beat that doesn't let you slow down.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">High Energy</span>
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Movement</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play Run It" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/run it vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#0f1a0a,#1e3010,#16a34a);">
+                    <i class="fas fa-brain track-art-icon" style="color:#16a34a"></i>
+                    <span class="track-art-label" style="color:#86efac">Conscious</span>
+                    <span class="track-art-num">CSL-H09</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Guru</div>
+                        <span class="track-badge" style="background:rgba(22,163,74,0.12);color:#16a34a;border:1px solid rgba(22,163,74,0.3)">Wisdom</span>
+                    </div>
+                    <div class="track-desc">Slower, more intentional. Room to think. Built for someone who has something real to say and needs the beat to back them up.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Conscious</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Thoughtful</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play Guru" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/guru vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="hiphop">
+                <div class="track-art" style="background: linear-gradient(135deg,#0d1020,#151a30,#1d4ed8);">
+                    <i class="fas fa-shield-alt track-art-icon" style="color:#1d4ed8"></i>
+                    <span class="track-art-label" style="color:#93c5fd">Street</span>
+                    <span class="track-art-num">CSL-H10</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Rangers</div>
+                        <span class="track-badge" style="background:rgba(29,78,216,0.12);color:#1d4ed8;border:1px solid rgba(29,78,216,0.3)">Squad</span>
+                    </div>
+                    <div class="track-desc">Built for group energy. Big enough to fill a room. The kind of track that makes everyone feel like they're moving together.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Street</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Anthemic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Hip Hop</span>
+                        <button class="play-btn" aria-label="Play Rangers" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/rangers vid.mp3"></audio>
+                </div>
+            </div>
+
+            <!-- ══ R&B / VIBE ══ -->
+            <div class="section-divider cat-rnb" data-category-divider="rnb">
+                <div class="divider-main">
+                    <div class="divider-icon"><i class="fas fa-heart"></i></div>
+                    <div>
+                        <span class="divider-label" style="color:var(--blue)">R&amp;B &amp; Vibe</span>
+                        <span class="divider-sub">Trap Soul · Late Night · Smooth · Melodic · Dark R&amp;B</span>
+                    </div>
+                    <span class="divider-count">14 Tracks</span>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#1a0a0f,#3d1525,#e11d48);">
+                    <i class="fas fa-glass-cheers track-art-icon" style="color:#e11d48"></i>
+                    <span class="track-art-label" style="color:#fda4af">R&amp;B</span>
+                    <span class="track-art-num">CSL-R01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Strawberry Soda</div>
+                        <span class="track-badge" style="background:rgba(225,29,72,0.12);color:#e11d48;border:1px solid rgba(225,29,72,0.3)">Smooth</span>
+                    </div>
+                    <div class="track-desc">Light, sweet, intentional. A mood that doesn't need to try hard because it already sounds right.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(225,29,72,0.08);border-color:rgba(225,29,72,0.2);color:#e11d48">Soul</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Smooth</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Soul</span>
+                        <button class="play-btn" aria-label="Play Strawberry Soda" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Strawberry Soda.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#0f0a1a,#1a1228,#3b82f6);">
+                    <i class="fas fa-moon track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#bfdbfe">Vibe</span>
+                    <span class="track-art-num">CSL-R02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Shiii I'm Off It</div>
+                        <span class="track-badge" style="background:rgba(59, 130, 246,0.12);color:#3b82f6;border:1px solid rgba(59, 130, 246,0.3)">Late Night</span>
+                    </div>
+                    <div class="track-desc">That late-night energy when everything slows down and the vibe takes over. Loose but locked in.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Vibe</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Late Night</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Vibe</span>
+                        <button class="play-btn" aria-label="Play Shiii I'm Off It" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Shiii  im off it,.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#0a1428,#122040,#0ea5e9);">
+                    <i class="fas fa-fire track-art-icon" style="color:#0ea5e9"></i>
+                    <span class="track-art-label" style="color:#7dd3fc">Trap Soul</span>
+                    <span class="track-art-num">CSL-S01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Stay Lit 1</div>
+                        <span class="track-badge" style="background:rgba(14,165,233,0.12);color:#0ea5e9;border:1px solid rgba(14,165,233,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Starts the Stay Lit run strong. Trap soul foundation — melodic but still hits when it needs to.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(14,165,233,0.08);border-color:rgba(14,165,233,0.2);color:#0ea5e9">Trap Soul</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Melodic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Trap Soul</span>
+                        <button class="play-btn" aria-label="Play Stay Lit 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/stay lit 1 video.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#0c1830,#142444,#2563eb);">
+                    <i class="fas fa-fire track-art-icon" style="color:#2563eb"></i>
+                    <span class="track-art-label" style="color:#93c5fd">Trap Soul</span>
+                    <span class="track-art-num">CSL-S02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Stay Lit 2</div>
+                        <span class="track-badge" style="background:rgba(37,99,235,0.12);color:#2563eb;border:1px solid rgba(37,99,235,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Second chapter — slight change in texture while keeping the same core feel. The series builds an identity.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Trap Soul</span>
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Smooth</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Trap Soul</span>
+                        <button class="play-btn" aria-label="Play Stay Lit 2" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/stay lit 2 video.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#0e1a30,#182a48,#3b82f6);">
+                    <i class="fas fa-fire track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#bfdbfe">Trap Soul</span>
+                    <span class="track-art-num">CSL-S03</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Stay Lit 3</div>
+                        <span class="track-badge" style="background:rgba(59,130,246,0.12);color:var(--blue);border:1px solid rgba(59,130,246,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Mid-series peak. The emotion is more open here — more range, more room to feel something.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Trap Soul</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Emotional</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Trap Soul</span>
+                        <button class="play-btn" aria-label="Play Stay Lit 3" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/stay lit 3 video.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#121020,#1e1a35,#6d28d9);">
+                    <i class="fas fa-fire track-art-icon" style="color:#6d28d9"></i>
+                    <span class="track-art-label" style="color:#ddd6fe">Trap Soul</span>
+                    <span class="track-art-num">CSL-S04</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Stay Lit 4</div>
+                        <span class="track-badge" style="background:rgba(109,40,217,0.12);color:#6d28d9;border:1px solid rgba(109,40,217,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Fourth entry. The series finds a darker register here. Same vibe, different shade of it.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Dark R&amp;B</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Moody</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Trap Soul</span>
+                        <button class="play-btn" aria-label="Play Stay Lit 4" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/stay lit 4 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#1a1228,#2d1f45,#3b82f6);">
+                    <i class="fas fa-fire track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#bfdbfe">Trap Soul</span>
+                    <span class="track-art-num">CSL-S05</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Stay Lit 5</div>
+                        <span class="track-badge" style="background:rgba(59, 130, 246,0.12);color:#3b82f6;border:1px solid rgba(59, 130, 246,0.3)">Series Close</span>
+                    </div>
+                    <div class="track-desc">Closes the Stay Lit run. Brings the series full circle — the sound is familiar now. That's the point.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Trap Soul</span>
+                        <span class="track-tag" style="background:rgba(203, 213, 225,0.08);border-color:rgba(203, 213, 225,0.2);color:var(--gold)">Identity</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Trap Soul</span>
+                        <button class="play-btn" aria-label="Play Stay Lit 5" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/stay lit 5 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#0f1820,#182840,#0369a1);">
+                    <i class="fas fa-star track-art-icon" style="color:#0369a1"></i>
+                    <span class="track-art-label" style="color:#7dd3fc">Vibe</span>
+                    <span class="track-art-num">CSL-L01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Super Lit 1</div>
+                        <span class="track-badge" style="background:rgba(3,105,161,0.12);color:#0369a1;border:1px solid rgba(3,105,161,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Opens the Super Lit series. More polished, more layered than Stay Lit. The energy is cleaner but no less real.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">R&amp;B</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Polished</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Vibe</span>
+                        <button class="play-btn" aria-label="Play Super Lit 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/super lit 1 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#0a1520,#10253a,#0284c7);">
+                    <i class="fas fa-star track-art-icon" style="color:#0284c7"></i>
+                    <span class="track-art-label" style="color:#bae6fd">Vibe</span>
+                    <span class="track-art-num">CSL-L02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Super Lit 2</div>
+                        <span class="track-badge" style="background:rgba(2,132,199,0.12);color:#0284c7;border:1px solid rgba(2,132,199,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Continues building the Super Lit sound. The production gets more detailed without losing the feeling.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">R&amp;B</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Melodic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Vibe</span>
+                        <button class="play-btn" aria-label="Play Super Lit 2" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/super lit 2 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#0c1828,#162840,#0369a1);">
+                    <i class="fas fa-star track-art-icon" style="color:#38bdf8"></i>
+                    <span class="track-art-label" style="color:#e0f2fe">Vibe</span>
+                    <span class="track-art-num">CSL-L03</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Super Lit 3</div>
+                        <span class="track-badge" style="background:rgba(56,189,248,0.12);color:#38bdf8;border:1px solid rgba(56,189,248,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Third in the series — this one settles into its identity. More confident, more controlled. Knows exactly what it is.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">R&amp;B</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Confident</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Vibe</span>
+                        <button class="play-btn" aria-label="Play Super Lit 3" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/super lit 3 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#101828,#1a2a40,#1e40af);">
+                    <i class="fas fa-star track-art-icon" style="color:#1e40af"></i>
+                    <span class="track-art-label" style="color:#93c5fd">Vibe</span>
+                    <span class="track-art-num">CSL-L04</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Super Lit 4</div>
+                        <span class="track-badge" style="background:rgba(30,64,175,0.12);color:#1e40af;border:1px solid rgba(30,64,175,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Darker turn for the series. The melody is more restrained. The feeling hits harder because of it.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Dark R&amp;B</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Restrained</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Vibe</span>
+                        <button class="play-btn" aria-label="Play Super Lit 4" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/super lit 4 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#0f1525,#182035,#1d4ed8);">
+                    <i class="fas fa-star track-art-icon" style="color:#1d4ed8"></i>
+                    <span class="track-art-label" style="color:#bfdbfe">Vibe</span>
+                    <span class="track-art-num">CSL-L05</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Super Lit 5</div>
+                        <span class="track-badge" style="background:rgba(29,78,216,0.12);color:#1d4ed8;border:1px solid rgba(29,78,216,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Late-series entry. The sound has fully matured by here. Premium R&amp;B with everything in the right place.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">Premium</span>
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Polished</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Vibe</span>
+                        <button class="play-btn" aria-label="Play Super Lit 5" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/super lit 5 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="rnb">
+                <div class="track-art" style="background: linear-gradient(135deg,#131828,#1e2840,#2563eb);">
+                    <i class="fas fa-star track-art-icon" style="color:#2563eb"></i>
+                    <span class="track-art-label" style="color:#bfdbfe">Vibe</span>
+                    <span class="track-art-num">CSL-L07</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Super Lit 7</div>
+                        <span class="track-badge" style="background:rgba(37,99,235,0.12);color:#2563eb;border:1px solid rgba(37,99,235,0.3)">Series</span>
+                    </div>
+                    <div class="track-desc">Stands alone in the series. Skips a number on purpose — this one operates on its own level.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">R&amp;B</span>
+                        <span class="track-tag" style="background:rgba(203, 213, 225,0.08);border-color:rgba(203, 213, 225,0.2);color:var(--gold)">Premium</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> R&amp;B / Vibe</span>
+                        <button class="play-btn" aria-label="Play Super Lit 7" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/super lit 7 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <!-- ══ EXPERIMENTAL ══ -->
+            <div class="section-divider cat-exp" data-category-divider="experimental">
+                <div class="divider-main">
+                    <div class="divider-icon"><i class="fas fa-flask"></i></div>
+                    <div>
+                        <span class="divider-label" style="color:var(--gold)">Experimental</span>
+                        <span class="divider-sub">Fusion · Atmospheric · Electronic · Mood · Motion</span>
+                    </div>
+                    <span class="divider-count">11 Tracks</span>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#1a1000,#352000,#3b82f6);">
+                    <i class="fas fa-drafting-compass track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#fcd34d">Blueprint</span>
+                    <span class="track-art-num">CSL-E01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Architect</div>
+                        <span class="track-badge" style="background:rgba(217,119,6,0.12);color:#3b82f6;border:1px solid rgba(217,119,6,0.3)">Design</span>
+                    </div>
+                    <div class="track-desc">Structured chaos. This one was built with intent — every element placed, nothing left to chance. Cinematic with an edge.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Experimental</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Cinematic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Custom Scoring</span>
+                        <button class="play-btn" aria-label="Play Architect" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/architect vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#1f1400,#3d2800,#b45309);">
+                    <i class="fas fa-drafting-compass track-art-icon" style="color:#b45309"></i>
+                    <span class="track-art-label" style="color:#fde68a">Alt Cut</span>
+                    <span class="track-art-num">CSL-E02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Architect (Alt)</div>
+                        <span class="track-badge" style="background:rgba(180,83,9,0.12);color:#b45309;border:1px solid rgba(180,83,9,0.3)">Alternate</span>
+                    </div>
+                    <div class="track-desc">Same blueprint, different execution. The alternate version shows how much a track can change without losing its identity.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Alternate</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Variant</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Custom Scoring</span>
+                        <button class="play-btn" aria-label="Play Architect Alt" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/architect vid (1).mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#0a1820,#10283a,#0e7490);">
+                    <i class="fas fa-water track-art-icon" style="color:#0e7490"></i>
+                    <span class="track-art-label" style="color:#a5f3fc">Mood</span>
+                    <span class="track-art-num">CSL-M01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Hi 2 Low (1)</div>
+                        <span class="track-badge" style="background:rgba(14,116,144,0.12);color:#0e7490;border:1px solid rgba(14,116,144,0.3)">Mood</span>
+                    </div>
+                    <div class="track-desc">Exactly what the name says — starts elevated and finds its floor. Emotional range without being dramatic about it.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">Mood</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Dynamic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play Hi 2 Low 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/hi 2 low (1) vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#0c2030,#103048,#0891b2);">
+                    <i class="fas fa-water track-art-icon" style="color:#0891b2"></i>
+                    <span class="track-art-label" style="color:#cffafe">Mood</span>
+                    <span class="track-art-num">CSL-M03</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Hi 2 Low (3)</div>
+                        <span class="track-badge" style="background:rgba(8,145,178,0.12);color:#0891b2;border:1px solid rgba(8,145,178,0.3)">Deeper</span>
+                    </div>
+                    <div class="track-desc">Third entry hits lower and stays there longer. The emotional floor is more settled — more weight to the descent.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">Atmospheric</span>
+                        <span class="track-tag" style="background:rgba(148,163,184,0.08);border-color:rgba(148,163,184,0.15);color:var(--muted)">Introspective</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play Hi 2 Low 3" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/hi 2 low (3) vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#101a10,#1a2e1a,#15803d);">
+                    <i class="fas fa-spoon track-art-icon" style="color:#15803d"></i>
+                    <span class="track-art-label" style="color:#bbf7d0">Fusion</span>
+                    <span class="track-art-num">CSL-F01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Scoop 1.0</div>
+                        <span class="track-badge" style="background:rgba(21,128,61,0.12);color:#15803d;border:1px solid rgba(21,128,61,0.3)">Ver. 1</span>
+                    </div>
+                    <div class="track-desc">Blends styles that don't usually sit together and makes them work. First version of a concept that kept evolving.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Fusion</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--gold)">Eclectic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play Scoop 1.0" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/scoop 1.0 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#141f14,#223222,#16a34a);">
+                    <i class="fas fa-spoon track-art-icon" style="color:#16a34a"></i>
+                    <span class="track-art-label" style="color:#d1fae5">Fusion</span>
+                    <span class="track-art-num">CSL-F02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Scoop 2.0</div>
+                        <span class="track-badge" style="background:rgba(22,163,74,0.12);color:#16a34a;border:1px solid rgba(22,163,74,0.3)">Ver. 2</span>
+                    </div>
+                    <div class="track-desc">Refined version of the concept. Same energy, tighter execution. The fusion sounds more intentional here.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Fusion</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Refined</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play Scoop 2.0" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/scoop 2.0 vid.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#0a0f1a,#101828,#1e293b);">
+                    <i class="fas fa-robot track-art-icon" style="color:#64748b"></i>
+                    <span class="track-art-label" style="color:#94a3b8">Electronic</span>
+                    <span class="track-art-num">CSL-X01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Ollama</div>
+                        <span class="track-badge" style="background:rgba(100,116,139,0.12);color:#64748b;border:1px solid rgba(100,116,139,0.3)">Electronic</span>
+                    </div>
+                    <div class="track-desc">Named after the AI tool. Machine energy with human intent behind it. Cool, algorithmic, and deliberate.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(148,163,184,0.08);border-color:rgba(148,163,184,0.15);color:var(--muted)">Electronic</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Digital</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play Ollama" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Ollama.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#0f1a2a,#162840,#1e4080);">
+                    <i class="fas fa-globe track-art-icon" style="color:#3b82f6"></i>
+                    <span class="track-art-label" style="color:#93c5fd">Atmospheric</span>
+                    <span class="track-art-num">CSL-A01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">Imagine Nations 1</div>
+                        <span class="track-badge" style="background:rgba(59,130,246,0.12);color:var(--blue);border:1px solid rgba(59,130,246,0.3)">World</span>
+                    </div>
+                    <div class="track-desc">Opens up space. Wide, expansive, atmospheric. Built to make a listener feel like they're standing somewhere larger than they are.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Atmospheric</span>
+                        <span class="track-tag" style="background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.2);color:var(--green)">Expansive</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play Imagine Nations 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Imagine Nations 1.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#0a1520,#102030,#0369a1);">
+                    <i class="fas fa-running track-art-icon" style="color:#0369a1"></i>
+                    <span class="track-art-label" style="color:#7dd3fc">Motion</span>
+                    <span class="track-art-num">CSL-V01</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">It's Motion 1</div>
+                        <span class="track-badge" style="background:rgba(3,105,161,0.12);color:#0369a1;border:1px solid rgba(3,105,161,0.3)">Movement</span>
+                    </div>
+                    <div class="track-desc">Forward movement built into the structure. The rhythm is the concept — nothing sits still in this one.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">Movement</span>
+                        <span class="track-tag" style="background:rgba(59,130,246,0.08);border-color:rgba(59,130,246,0.2);color:var(--blue)">Kinetic</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play It's Motion 1" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Its Motion 1.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#0c1828,#142438,#0c4a6e);">
+                    <i class="fas fa-running track-art-icon" style="color:#0c4a6e"></i>
+                    <span class="track-art-label" style="color:#bae6fd">Motion</span>
+                    <span class="track-art-num">CSL-V02</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">It's Motion 2</div>
+                        <span class="track-badge" style="background:rgba(12,74,110,0.12);color:#0c4a6e;border:1px solid rgba(12,74,110,0.3)">Deeper</span>
+                    </div>
+                    <div class="track-desc">More layered version of the Motion concept. The movement is there but the texture around it got richer.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">Movement</span>
+                        <span class="track-tag" style="background:rgba(96, 165, 250,0.08);border-color:rgba(96, 165, 250,0.2);color:var(--purple)">Layered</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play It's Motion 2" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Its Motion 2.mp3"></audio>
+                </div>
+            </div>
+
+            <div class="track-card" data-category="experimental">
+                <div class="track-art" style="background: linear-gradient(135deg,#0f1f30,#182f48,#1e6fa0);">
+                    <i class="fas fa-running track-art-icon" style="color:#1e6fa0"></i>
+                    <span class="track-art-label" style="color:#7dd3fc">Motion</span>
+                    <span class="track-art-num">CSL-V03</span>
+                </div>
+                <div class="track-body">
+                    <div class="track-top">
+                        <div class="track-title">It's Motion 3</div>
+                        <span class="track-badge" style="background:rgba(30,111,160,0.12);color:#1e6fa0;border:1px solid rgba(30,111,160,0.3)">Final</span>
+                    </div>
+                    <div class="track-desc">Third and final entry in the Motion series. The full concept is realized here. Everything in motion, nothing wasted.</div>
+                    <div class="track-tags">
+                        <span class="track-tag" style="background:rgba(6,182,212,0.08);border-color:rgba(6,182,212,0.2);color:var(--cyan)">Movement</span>
+                        <span class="track-tag" style="background:rgba(203, 213, 225,0.08);border-color:rgba(203, 213, 225,0.2);color:var(--gold)">Complete</span>
+                    </div>
+                    <div class="track-meta-row">
+                        <span><i class="fas fa-tag"></i> Experimental</span>
+                        <button class="play-btn" aria-label="Play It's Motion 3" onclick="togglePlay(this)"><i class="fas fa-play"></i></button>
+                    </div>
+                    <audio controls preload="metadata" src="MEDIA/songs/final/Its Motion 3.mp3"></audio>
+                </div>
+            </div>
+
+        </div><!-- end tracks-grid -->
+
+        <!-- CTA -->
+        <div class="portfolio-cta">
+            <h2>Heard something you like?</h2>
+            <p>Book a custom project, license a track directly, or reach out with questions — we move fast.</p>
+            <div class="cta-actions">
+                <a href="CSL_booking.html" class="btn-primary"><i class="fas fa-rocket"></i> Book Now</a>
+                <a href="CSL_licensing.html" class="btn-gold"><i class="fas fa-file-contract"></i> License a Track</a>
+                <a href="CSL_about.html#contact" class="btn-secondary"><i class="fas fa-envelope"></i> Contact Us</a>
+            </div>
+        </div>
+
+    </div><!-- end main -->
+
+    <footer>
+        <div class="footer-logo"><img src="CSL_logo_clean.png" alt="Current Scoring Leaders LLC"></div>
+        <ul class="footer-links">
+            <li><a href="CSL_index.html">Home</a></li>
+            <li><a href="CSL_pricing.html">Pricing</a></li>
+            <li><a href="CSL_portfolio.html">Portfolio</a></li>
+            <li><a href="CSL_about.html">About &amp; Contact</a></li>
+            <li><a href="CSL_faq.html">FAQ</a></li>
+            <li><a href="CSL_booking.html">Tell Us What You’re Building</a></li>
+            <li><a href="CSL_legal.html">Legal</a></li>
+            <li><a href="CSL_process.html">Our Process</a></li>
+            <li><a href="CSL_ip.html">IP &amp; Ownership</a></li>
+            <li><a href="CSL_contracts.html">Contracts</a></li>
+            <li><a href="CSL_signup.html">Client Intake</a></li>
+            <li><a href="CSL_legal.html?tab=privacy">Privacy Policy</a></li>
+            <li><a href="CSL_licensing.html">Licensing</a></li>
+        </ul>
+        <p>&copy; 2026 Current Scoring Leaders LLC &middot; Willow Grove, PA &middot; All Rights Reserved</p>
+    <p style="color:var(--muted);font-size:0.78rem;margin-top:0.25rem;">215-439-5053</p>
+    </footer>
+
+    <script>
+        // ── FILTER ──
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+                document.querySelectorAll('.track-card').forEach(card => {
+                    card.classList.toggle('hidden', filter !== 'all' && card.dataset.category !== filter);
+                });
+                document.querySelectorAll('.section-divider').forEach(div => {
+                    const cat = div.dataset.categoryDivider;
+                    div.style.display = (filter === 'all' || filter === cat) ? 'flex' : 'none';
+                });
+            });
+        });
+
+        // ── AUDIO ENGINE ──
+        let currentAudio = null;
+        let currentBtn   = null;
+        let previewTimer = null;
+
+        function stopAll() {
+            document.querySelectorAll('audio').forEach(a => {
+                a.pause();
+                a.currentTime = 0;
+            });
+            document.querySelectorAll('.play-btn').forEach(b => {
+                b.innerHTML = '<i class="fas fa-play"></i>';
+                b.classList.remove('playing');
+            });
+            currentAudio = null;
+            currentBtn   = null;
+        }
+
+        function resetBtn(audio) {
+            const card = audio.closest('.track-card');
+            if (!card) return;
+            const btn = card.querySelector('.play-btn');
+            if (btn) { btn.innerHTML = '<i class="fas fa-play"></i>'; btn.classList.remove('playing'); }
+            if (currentAudio === audio) { currentAudio = null; currentBtn = null; }
+        }
+
+        function requestSampleFallback() {
+            if (confirm("Audio samples are migrating to our cloud and aren't streaming yet. Want us to send you the demo reel directly?\n\nClick OK to open the inquiry form.")) {
+                window.location.href = 'CSL_booking.html?type=demo-reel';
+            }
+        }
+
+        function togglePlay(btn) {
+            const audio = btn.closest('.track-card').querySelector('audio');
+            if (!audio) return;
+
+            if (!audio.paused) {
+                audio.pause();
+                return;
+            }
+            // Stop anything else playing
+            if (currentAudio && currentAudio !== audio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                if (currentBtn) {
+                    currentBtn.innerHTML = '<i class="fas fa-play"></i>';
+                    currentBtn.classList.remove('playing');
+                }
+            }
+            clearTimeout(previewTimer);
+            audio.currentTime = 0;
+            audio.play().then(() => {
+                btn.innerHTML = '<i class="fas fa-pause"></i>';
+                btn.classList.add('playing');
+                currentAudio = audio;
+                currentBtn   = btn;
+            }).catch(() => {
+                // Audio file not available — offer demo reel via inquiry form
+                requestSampleFallback();
+            });
+        }
+
+        // ── HOVER PREVIEW: plays first 4 seconds on mouseenter, stops on mouseleave ──
+        document.querySelectorAll('.track-card').forEach(card => {
+            const audio = card.querySelector('audio');
+            const btn   = card.querySelector('.play-btn');
+            if (!audio || !btn) return;
+
+            card.addEventListener('mouseenter', () => {
+                // Don't interrupt a fully playing track
+                if (currentAudio && !currentAudio.paused) return;
+                clearTimeout(previewTimer);
+                audio.volume = 0.45;
+                audio.currentTime = 0;
+                audio.play().catch(() => {});
+                // Stop preview after 4 seconds
+                previewTimer = setTimeout(() => {
+                    if (currentAudio !== audio) {
+                        audio.pause();
+                        audio.currentTime = 0;
+                        audio.volume = 1;
+                    }
+                }, 4000);
+            });
+
+            card.addEventListener('mouseleave', () => {
+                if (currentAudio === audio) return; // let full play continue
+                clearTimeout(previewTimer);
+                audio.pause();
+                audio.currentTime = 0;
+                audio.volume = 1;
+            });
+        });
+
+        // ── SYNC btn state with audio events ──
+        document.querySelectorAll('audio').forEach(audio => {
+            audio.addEventListener('ended', () => resetBtn(audio));
+            audio.addEventListener('pause', () => {
+                if (currentAudio === audio) resetBtn(audio);
+            });
+        });
+
+        // ── INJECT PRICE BADGE + ACTION BAR into every track card ──
+        document.querySelectorAll('.track-card').forEach(card => {
+            // Price badge — catalog pricing
+            const price = document.createElement('div');
+            price.className = 'track-price-row';
+            price.innerHTML =
+                '<span class="tp-label"><i class="fas fa-tag"></i> License</span>' +
+                '<span class="tp-vals"><span class="tp-asis">From $950 <em>creator cue</em></span>' +
+                '<span class="tp-sep">·</span>' +
+                '<span class="tp-custom">By quote <em>expanded usage</em></span></span>';
+            // Insert price row before the track-meta-row (or append if not found)
+            const body = card.querySelector('.track-body');
+            const meta = card.querySelector('.track-meta-row');
+            if (body && meta) body.insertBefore(price, meta);
+            else if (body) body.appendChild(price);
+
+            // Action bar
+            const actions = document.createElement('div');
+            actions.className = 'track-actions';
+            actions.innerHTML =
+                '<a href="CSL_booking.html" class="track-action-btn book"><i class="fas fa-rocket"></i> Book This Style</a>' +
+                '<a href="CSL_licensing.html" class="track-action-btn license"><i class="fas fa-file-contract"></i> License Track</a>';
+            card.appendChild(actions);
+        });
+    </script>
+
+
+
+
+
+
+<script>/* CSL shared components: standardized footer + sticky CTA bar
+   Auto-injects on every page that loads this script. */
+(function () {
+    'use strict';
+
+    var css = '.csl-footer{background:#0f0f18;border-top:1px solid #1e1e2e;padding:3.5rem 2rem 1.5rem;color:#94a3b8;font-family:\'Inter\',sans-serif;position:relative;z-index:5;}' +
+    '.csl-footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:2.5rem;}' +
+    '.csl-footer-brand img{height:42px;width:auto;margin-bottom:1rem;}' +
+    '.csl-footer-brand p{font-size:0.85rem;line-height:1.6;color:#94a3b8;margin-bottom:1rem;max-width:280px;}' +
+    '.csl-footer-brand .csl-footer-loc{font-size:0.78rem;color:#64748b;display:flex;align-items:center;gap:0.4rem;}' +
+    '.csl-footer-col h5{font-size:0.72rem;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#f1f5f9;margin-bottom:1rem;}' +
+    '.csl-footer-col ul{list-style:none;padding:0;margin:0;}' +
+    '.csl-footer-col li{margin-bottom:0.55rem;}' +
+    '.csl-footer-col a{color:#94a3b8;text-decoration:none;font-size:0.86rem;transition:color 0.15s;}' +
+    '.csl-footer-col a:hover{color:#3b82f6;}' +
+    '.csl-footer-bottom{max-width:1200px;margin:2.5rem auto 0;padding-top:1.5rem;border-top:1px solid #1e1e2e;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;font-size:0.76rem;color:#64748b;}' +
+    '.csl-footer-bottom .csl-footer-legal{display:flex;gap:1.25rem;flex-wrap:wrap;}' +
+    '.csl-footer-bottom .csl-footer-legal a{color:#64748b;text-decoration:none;}' +
+    '.csl-footer-bottom .csl-footer-legal a:hover{color:#94a3b8;}' +
+    '@media(max-width:780px){.csl-footer-inner{grid-template-columns:1fr 1fr;gap:2rem;}.csl-footer-bottom{flex-direction:column;text-align:center;}}' +
+    '@media(max-width:480px){.csl-footer-inner{grid-template-columns:1fr;}}' +
+    '.csl-sticky-cta{position:fixed;bottom:0;left:0;right:0;background:linear-gradient(135deg,rgba(15,15,24,0.96),rgba(20,20,31,0.96));-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-top:1px solid rgba(59,130,246,0.3);padding:0.75rem 1.25rem;z-index:90;transform:translateY(120%);transition:transform 0.4s cubic-bezier(0.4,0,0.2,1);font-family:\'Inter\',sans-serif;}' +
+    '.csl-sticky-cta.visible{transform:translateY(0);}' +
+    '.csl-sticky-cta-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;}' +
+    '.csl-sticky-cta-msg{display:flex;align-items:center;gap:0.85rem;color:#f1f5f9;font-size:0.88rem;font-weight:600;flex:1;min-width:0;}' +
+    '.csl-sticky-cta-msg i{color:#3b82f6;font-size:1.1rem;flex-shrink:0;}' +
+    '.csl-sticky-cta-msg .csl-sub{display:block;font-size:0.72rem;font-weight:500;color:#94a3b8;margin-top:0.1rem;letter-spacing:0;}' +
+    '.csl-sticky-cta-actions{display:flex;align-items:center;gap:0.5rem;flex-shrink:0;}' +
+    '.csl-sticky-cta-btn{background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:white;padding:0.65rem 1.25rem;border-radius:9px;text-decoration:none;font-weight:700;font-size:0.85rem;display:inline-flex;align-items:center;gap:0.45rem;white-space:nowrap;transition:transform 0.15s;}' +
+    '.csl-sticky-cta-btn:hover{transform:translateY(-1px);}' +
+    '.csl-sticky-cta-close{background:transparent;border:none;color:#64748b;cursor:pointer;font-size:1.1rem;padding:0.5rem;line-height:1;}' +
+    '.csl-sticky-cta-close:hover{color:#f1f5f9;}' +
+    '@media(max-width:600px){.csl-sticky-cta-msg{font-size:0.78rem;}.csl-sticky-cta-msg .csl-sub{display:none;}.csl-sticky-cta-btn{padding:0.55rem 0.9rem;font-size:0.78rem;}}';
+
+    var style = document.createElement('style');
+    style.textContent = css;
+    document.head.appendChild(style);
+
+    /* ────── FOOTER ────── */
+    var footerHTML = '<footer class="csl-footer">' +
+      '<div class="csl-footer-inner">' +
+        '<div class="csl-footer-brand">' +
+          '<img src="CSL_logo_clean.png" alt="Current Scoring Leaders LLC">' +
+          '<p>Original music scoring for creators, studios, games, and brands that take their craft seriously.</p>' +
+          '<div class="csl-footer-loc"><i class="fas fa-map-marker-alt"></i> Roslyn, PA · USA</div>' +
+        '</div>' +
+        '<div class="csl-footer-col">' +
+          '<h5>Studio</h5>' +
+          '<ul>' +
+            '<li><a href="CSL_index.html">Home</a></li>' +
+            '<li><a href="CSL_about.html">About &amp; Contact</a></li>' +
+            '<li><a href="CSL_process.html">Our Process</a></li>' +
+            '<li><a href="CSL_faq.html">FAQ</a></li>' +
+          '</ul>' +
+        '</div>' +
+        '<div class="csl-footer-col">' +
+          '<h5>Work</h5>' +
+          '<ul>' +
+            '<li><a href="CSL_pricing.html">Pricing</a></li>' +
+            '<li><a href="CSL_portfolio.html">Portfolio</a></li>' +
+            '<li><a href="CSL_licensing.html">Licensing</a></li>' +
+            '<li><a href="CSL_booking.html">Start a Project</a></li>' +
+          '</ul>' +
+        '</div>' +
+        '<div class="csl-footer-col">' +
+          '<h5>Legal</h5>' +
+          '<ul>' +
+            '<li><a href="CSL_legal.html?tab=tos">Terms of Service</a></li>' +
+            '<li><a href="CSL_legal.html?tab=privacy">Privacy Policy</a></li>' +
+            '<li><a href="CSL_legal.html?tab=refund">Refund Policy</a></li>' +
+            '<li><a href="CSL_legal.html?tab=dmca">DMCA</a></li>' +
+            '<li><a href="CSL_ip.html">IP &amp; Ownership</a></li>' +
+            '<li><a href="CSL_contracts.html">Contracts</a></li>' +
+          '</ul>' +
+        '</div>' +
+      '</div>' +
+      '<div class="csl-footer-bottom">' +
+        '<div>&copy; 2026 Current Scoring Leaders LLC · All Rights Reserved</div>' +
+        '<div class="csl-footer-legal">' +
+          '<a href="CSL_legal.html?tab=tos">Terms</a>' +
+          '<a href="CSL_legal.html?tab=privacy">Privacy</a>' +
+          '<a href="CSL_legal.html?tab=dmca">DMCA</a>' +
+          '<a href="mailto:currentscoringleaders@gmail.com">currentscoringleaders@gmail.com</a>' +
+        '</div>' +
+      '</div>' +
+    '</footer>';
+
+    function installFooter() {
+        var oldFooter = document.querySelector('body > footer, footer:not(.csl-footer)');
+        var wrap = document.createElement('div');
+        wrap.innerHTML = footerHTML;
+        var newFooter = wrap.firstElementChild;
+        if (oldFooter) {
+            oldFooter.replaceWith(newFooter);
+        } else {
+            document.body.appendChild(newFooter);
+        }
+    }
+
+    /* ────── STICKY CTA ────── */
+    var stickyDismissedKey = 'csl_sticky_cta_dismissed';
+    var path = (location.pathname || '').toLowerCase();
+    var skipPages = ['booking', 'thankyou', 'signup', 'ip_assignment'];
+    var skip = false;
+    for (var k = 0; k < skipPages.length; k++) {
+        if (path.indexOf(skipPages[k]) !== -1) {
+            skip = true;
+            break;
+        }
+    }
+
+    function installStickyCTA() {
+        if (skip) return;
+        if (sessionStorage.getItem(stickyDismissedKey) === '1') return;
+
+        var bar = document.createElement('div');
+        bar.className = 'csl-sticky-cta';
+        bar.innerHTML = '<div class="csl-sticky-cta-inner">' +
+            '<div class="csl-sticky-cta-msg">' +
+              '<i class="fas fa-headphones"></i>' +
+              '<div>' +
+                '<div>Ready to score your project?</div>' +
+                '<span class="csl-sub">48-hour response · Free quote · No commitment</span>' +
+              '</div>' +
+            '</div>' +
+            '<div class="csl-sticky-cta-actions">' +
+              '<a href="CSL_booking.html" class="csl-sticky-cta-btn"><i class="fas fa-paper-plane"></i> Start Now</a>' +
+              '<button class="csl-sticky-cta-close" aria-label="Dismiss">&times;</button>' +
+            '</div>' +
+          '</div>';
+        document.body.appendChild(bar);
+
+        bar.querySelector('.csl-sticky-cta-close').addEventListener('click', function () {
+            bar.classList.remove('visible');
+            sessionStorage.setItem(stickyDismissedKey, '1');
+        });
+
+        // Show after user scrolls 600px or after 8s on page
+        var shown = false;
+        function show() { if (!shown) { shown = true; bar.classList.add('visible'); } }
+        window.addEventListener('scroll', function () { if (window.scrollY > 600) show(); }, { passive: true });
+        setTimeout(show, 8000);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function () { installFooter(); installStickyCTA(); });
+    } else {
+        installFooter();
+        installStickyCTA();
+    }
+})();
+</script>
+<script>/**
+ * CSL Cookie Consent Banner
+ * Lightweight, dependency-free, GDPR/CCPA-friendly.
+ *
+ * Behavior:
+ *  - Shows on first visit; hides after Accept or Reject (stored in localStorage).
+ *  - "Reject" is as easy as "Accept" (regulatory requirement).
+ *  - Exposes window.CSL_CONSENT = { analytics: true|false } for any future analytics scripts.
+ *  - Does NOT load any tracking until explicit consent is granted.
+ */
+(function () {
+    'use strict';
+
+    var STORAGE_KEY = 'csl_cookie_consent_v1';
+
+    function getConsent() {
+        try {
+            var raw = localStorage.getItem(STORAGE_KEY);
+            return raw ? JSON.parse(raw) : null;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    function setConsent(value) {
+        try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify({
+                analytics: !!value,
+                ts: Date.now()
+            }));
+        } catch (e) { /* private mode or quota */ }
+        window.CSL_CONSENT = { analytics: !!value };
+        // Fire a custom event so any deferred analytics loader can react.
+        try {
+            window.dispatchEvent(new CustomEvent('csl:consent', { detail: { analytics: !!value } }));
+        } catch (e) { /* old browser */ }
+    }
+
+    function injectStyles() {
+        if (document.getElementById('csl-cookie-banner-styles')) return;
+        var css = [
+            '#csl-cookie-banner{',
+            '  position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:9999;',
+            '  max-width:520px;margin-left:auto;',
+            '  background:#0f0f18;color:#f1f5f9;',
+            '  border:1px solid #1e1e2e;border-radius:14px;',
+            '  padding:1.25rem 1.5rem;',
+            '  font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;',
+            '  font-size:0.88rem;line-height:1.55;',
+            '  box-shadow:0 20px 50px rgba(0,0,0,0.5);',
+            '  -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);',
+            '  animation:csl-cookie-slide 0.4s ease-out;',
+            '}',
+            '@keyframes csl-cookie-slide{from{transform:translateY(20px);opacity:0;}to{transform:translateY(0);opacity:1;}}',
+            '#csl-cookie-banner h3{font-size:0.95rem;font-weight:700;margin:0 0 0.4rem;color:#f1f5f9;}',
+            '#csl-cookie-banner p{margin:0 0 0.85rem;color:#cbd5e1;font-size:0.85rem;}',
+            '#csl-cookie-banner a{color:#3b82f6;text-decoration:none;}',
+            '#csl-cookie-banner a:hover{text-decoration:underline;}',
+            '#csl-cookie-banner .csl-cb-actions{display:flex;gap:0.5rem;flex-wrap:wrap;}',
+            '#csl-cookie-banner button{',
+            '  flex:1;min-width:120px;padding:0.6rem 1rem;border:none;border-radius:8px;',
+            '  font-family:inherit;font-size:0.85rem;font-weight:600;cursor:pointer;',
+            '  transition:transform 0.15s,background 0.15s;',
+            '}',
+            '#csl-cookie-banner button:hover{transform:translateY(-1px);}',
+            '#csl-cookie-banner .csl-cb-accept{background:#3b82f6;color:white;}',
+            '#csl-cookie-banner .csl-cb-accept:hover{background:#2563eb;}',
+            '#csl-cookie-banner .csl-cb-reject{background:transparent;color:#cbd5e1;border:1px solid #1e1e2e;}',
+            '#csl-cookie-banner .csl-cb-reject:hover{border-color:#3b82f6;color:#f1f5f9;}',
+            '@media(max-width:520px){#csl-cookie-banner{left:0.75rem;right:0.75rem;bottom:0.75rem;padding:1rem 1.1rem;}}'
+        ].join('');
+        var styleEl = document.createElement('style');
+        styleEl.id = 'csl-cookie-banner-styles';
+        styleEl.appendChild(document.createTextNode(css));
+        document.head.appendChild(styleEl);
+    }
+
+    function buildBanner() {
+        var wrap = document.createElement('div');
+        wrap.id = 'csl-cookie-banner';
+        wrap.setAttribute('role', 'dialog');
+        wrap.setAttribute('aria-live', 'polite');
+        wrap.setAttribute('aria-label', 'Cookie consent');
+
+        wrap.innerHTML = [
+            '<h3>We respect your privacy</h3>',
+            '<p>We use a small set of cookies to keep the site running and, with your permission, to understand how it\'s used. ',
+            'See our <a href="CSL_legal.html?tab=privacy">Privacy Policy</a> for details.</p>',
+            '<div class="csl-cb-actions">',
+            '  <button class="csl-cb-reject" type="button" aria-label="Reject optional cookies">Reject optional</button>',
+            '  <button class="csl-cb-accept" type="button" aria-label="Accept all cookies">Accept all</button>',
+            '</div>'
+        ].join('');
+
+        wrap.querySelector('.csl-cb-accept').addEventListener('click', function () {
+            setConsent(true);
+            wrap.remove();
+        });
+        wrap.querySelector('.csl-cb-reject').addEventListener('click', function () {
+            setConsent(false);
+            wrap.remove();
+        });
+
+        return wrap;
+    }
+
+    function init() {
+        var existing = getConsent();
+        if (existing) {
+            window.CSL_CONSENT = { analytics: !!existing.analytics };
+            return; // Already decided
+        }
+        // Defer slightly so it doesn't fight the initial paint.
+        setTimeout(function () {
+            injectStyles();
+            document.body.appendChild(buildBanner());
+        }, 600);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+
+    // Public API for a future "Manage cookie preferences" footer link.
+    window.CSL_Cookies = {
+        reset: function () {
+            try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+            location.reload();
+        },
+        get: getConsent
+    };
+})();
+</script>
+<script>/* CSL shared ambient background injector
+ * Auto-inserts the wallpaper collage + waveform footer on every page that includes this script.
+ * Skips injection if a page already has <div class="csl-bg-collage"> (avoids duplicates on pricing router).
+ */
+(function () {
+  if (document.querySelector('.csl-bg-collage')) return;
+
+  var images = [
+    'img_csl_studio.webp',
+    'img_eagles_art1.webp',
+    'img_genesis_art.webp',
+    'img_ps2_collage.webp',
+    'img_hero_nostalgia.webp',
+    'img_ranger_slayer.webp'
+  ];
+
+  var collage = document.createElement('div');
+  collage.className = 'csl-bg-collage';
+  collage.setAttribute('aria-hidden', 'true');
+  
+  for (var i = 0; i < images.length; i++) {
+    var src = images[i];
+    var img = document.createElement('img');
+    img.className = 'c' + (i + 1);
+    img.src = src;
+    img.alt = '';
+    img.loading = 'lazy';
+    collage.appendChild(img);
+  }
+
+  var wave = document.createElement('div');
+  wave.className = 'csl-bg-wave';
+  wave.setAttribute('aria-hidden', 'true');
+
+  var grid = document.createElement('div');
+  grid.className = 'csl-bg-grid';
+  grid.setAttribute('aria-hidden', 'true');
+
+  document.body.insertBefore(wave, document.body.firstChild);
+  document.body.insertBefore(grid, document.body.firstChild);
+  document.body.insertBefore(collage, document.body.firstChild);
+})();
+</script>
+<script>/**
+ * CSL Visualizers — Cyberpunk Visualization System
+ * Handles pricing chart animations, process flows, audio visualizers, and case study interactivity
+ * Dependencies: Three.js (CDN), GSAP (CDN)
+ */
+
+(function() {
+  'use strict';
+
+  const CSL_Viz = {
+    initialized: false,
+
+    /* ---- Initialize all visualizers on the page ---- */
+    init: function() {
+      if (this.initialized) return;
+      this.initialized = true;
+
+      this.initPricingBars();
+      this.initProcessFlow();
+      this.initLevelCards();
+      this.initAudioWaveform();
+    },
+
+    /* ---- Animated pricing bars ---- */
+    initPricingBars: function() {
+      const bars = document.querySelectorAll('.viz-bar-fill');
+      if (!bars.length) return;
+
+      bars.forEach((bar, i) => {
+        const height = bar.dataset.height || '120';
+        bar.style.height = '0px';
+        setTimeout(() => {
+          bar.style.transition = 'height 1.2s cubic-bezier(0.34, 1.56, 0.64, 1)';
+          bar.style.height = height + 'px';
+        }, 200 + (i * 200));
+      });
+    },
+
+    /* ---- Process flow interactivity ---- */
+    initProcessFlow: function() {
+      const nodes = document.querySelectorAll('.process-node');
+      if (!nodes.length) return;
+
+      nodes.forEach(node => {
+        node.addEventListener('click', function() {
+          const desc = this.parentElement.querySelector('.process-desc');
+          if (desc) {
+            desc.style.transition = 'opacity 0.3s, transform 0.3s';
+            desc.style.opacity = '1';
+            desc.style.transform = 'translateY(0)';
+            setTimeout(() => {
+              desc.style.opacity = '';
+              desc.style.transform = '';
+            }, 2000);
+          }
+        });
+      });
+    },
+
+    /* ---- Case study level card animations ---- */
+    initLevelCards: function() {
+      const cards = document.querySelectorAll('.csl-level-card');
+      if (!cards.length) return;
+
+      // Staggered entrance animation
+      cards.forEach((card, i) => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateX(-30px)';
+        setTimeout(() => {
+          card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+          card.style.opacity = '1';
+          card.style.transform = 'translateX(0)';
+        }, 200 + (i * 150));
+      });
+    },
+
+    /* ---- Audio waveform visualizer (Canvas-based) ---- */
+    initAudioWaveform: function() {
+      const containers = document.querySelectorAll('.csl-waveform-viz');
+      if (!containers.length) return;
+
+      containers.forEach(container => {
+        const canvas = container.querySelector('canvas');
+        if (!canvas) return;
+
+        const ctx = canvas.getContext('2d');
+        const rect = container.getBoundingClientRect();
+        canvas.width = rect.width * (window.devicePixelRatio || 1);
+        canvas.height = rect.height * (window.devicePixelRatio || 1);
+        canvas.style.width = rect.width + 'px';
+        canvas.style.height = rect.height + 'px';
+        ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
+
+        // Draw idle waveform
+        this.drawIdleWaveform(ctx, rect.width, rect.height);
+      });
+    },
+
+    /* ---- Generate idle waveform animation (cyberpunk style) ---- */
+    drawIdleWaveform: function(ctx, w, h) {
+      const bars = 64;
+      const gap = 2;
+      const barWidth = (w / bars) - gap;
+
+      function animate() {
+        ctx.clearRect(0, 0, w, h);
+        
+        for (let i = 0; i < bars; i++) {
+          const amplitude = Math.sin(Date.now() / 500 + i * 0.3) * 0.4 + 0.6;
+          const barHeight = Math.max(4, h * amplitude * 0.6);
+          const x = i * (barWidth + gap);
+          const y = (h - barHeight) / 2;
+
+          // Neon gradient bars
+          const gradient = ctx.createLinearGradient(x, y, x, y + barHeight);
+          gradient.addColorStop(0, '#00f0ff');
+          gradient.addColorStop(0.5, '#aa00ff');
+          gradient.addColorStop(1, '#00f0ff');
+          
+          ctx.fillStyle = gradient;
+          ctx.globalAlpha = 0.4 + (amplitude * 0.3);
+          ctx.shadowColor = '#00f0ff';
+          ctx.shadowBlur = 8;
+          ctx.fillRect(x, y, barWidth, barHeight);
+          ctx.shadowBlur = 0;
+        }
+
+        requestAnimationFrame(animate);
+      }
+
+      animate();
+    }
+  };
+
+  // Auto-initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => CSL_Viz.init());
+  } else {
+    CSL_Viz.init();
+  }
+
+  // Expose globally
+  window.CSL_Viz = CSL_Viz;
+
+})();
+</script>
+<script>/* ============================================================================
+   CSL — Shared form submission helper (Formspree backend)
+   ----------------------------------------------------------------------------
+   POSTs form data as JSON to a Formspree endpoint. Handles success/error
+   states, spinner, honeypot, and graceful messaging.
+
+   USAGE
+     <form onsubmit="return CSL.submitForm(event, 'booking')">
+       ...
+       <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"
+              class="honeypot" aria-hidden="true">
+       <button type="submit">Send</button>
+     </form>
+
+   SETUP
+     Formspree endpoint is configured below. In Formspree dashboard, keep
+     notifications pointed to currentscoringleaders@gmail.com or the preferred
+     CSL inbox.
+   ========================================================================= */
+
+var CSL_FORMSPREE_ID = 'mgorbnyd';
+var CSL_BACKEND_URL  = 'https://formspree.io/f/' + CSL_FORMSPREE_ID;
+
+(function () {
+  var CSL = window.CSL || (window.CSL = {});
+
+  CSL.submitForm = function (event, formType) {
+    if (event && event.preventDefault) event.preventDefault();
+    var form = event.target.closest('form') || event.target;
+    var data = {};
+    var elements = Array.prototype.slice.call(form.elements);
+    for (var i = 0; i < elements.length; i++) {
+      var el = elements[i];
+      if (!el.name) continue;
+      if (el.type === 'checkbox') {
+        if (!data[el.name]) data[el.name] = [];
+        if (el.checked) data[el.name].push(el.value || 'yes');
+      } else if (el.type === 'radio') {
+        if (el.checked) data[el.name] = el.value;
+      } else {
+        data[el.name] = el.value;
+      }
+    }
+    // Flatten checkbox arrays
+    var keys = Object.keys(data);
+    for (var j = 0; j < keys.length; j++) {
+      var k = keys[j];
+      if (Array.isArray(data[k])) data[k] = data[k].join(', ');
+    }
+    // Synthesize 'name' from split-name fields when a form only collects first/last
+    if (!data.name) {
+      var first = data.first_name || data.firstname || '';
+      var last  = data.last_name  || data.lastname  || '';
+      var joined = (first + ' ' + last).trim();
+      if (joined) data.name = joined;
+    }
+    // Friendly aliases that align with the Apps Script sheet headers
+    if (data.genre && !data.genres)       data.genres       = data.genre;
+    if (data.references && !data.referrer) data.referrer    = data.references;
+    if (data.notes && !data.additional)   data.additional   = data.notes;
+    return CSL.submitData(data, formType, form);
+  };
+
+  CSL.submitData = function (data, formType, form) {
+    data.form_type = formType;
+    var btn = form && form.querySelector('[type="submit"]');
+    var origBtnHtml = btn ? btn.innerHTML : '';
+    if (btn) {
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>&nbsp; Sending...';
+    }
+
+    if (!CSL_FORMSPREE_ID || CSL_FORMSPREE_ID === 'FORM_ID_NOT_CONFIGURED') {
+      console.error('CSL form backend not configured. Edit CSL_FORMSPREE_ID in csl-forms.js.');
+      _showMsg(form, 'Form backend not configured yet. Email currentscoringleaders@gmail.com directly.', 'error');
+      if (btn) { btn.disabled = false; btn.innerHTML = origBtnHtml; }
+      return false;
+    }
+
+    // Honeypot check — if filled, silently "succeed" without sending.
+    if (data._gotcha) {
+      _showMsg(form, 'Got it — check your email for a confirmation. We reply within 48 hours.', 'success');
+      if (form && form.reset) form.reset();
+      if (btn) { btn.disabled = false; btn.innerHTML = origBtnHtml; }
+      return false;
+    }
+
+    fetch(CSL_BACKEND_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(data)
+    }).then(function (response) {
+      if (response.ok) {
+        _showMsg(form, 'Got it — check your email for a confirmation. We reply within 48 hours.', 'success');
+        if (form && form.reset) form.reset();
+      } else {
+        return response.json().then(function (json) {
+          var msg = (json && json.errors && json.errors.length)
+            ? json.errors.map(function (e) { return e.message; }).join(' ')
+            : 'Submission failed (' + response.status + '). Please email currentscoringleaders@gmail.com directly.';
+          _showMsg(form, msg, 'error');
+        }).catch(function () {
+          _showMsg(form, 'Submission failed. Please email currentscoringleaders@gmail.com directly.', 'error');
+        });
+      }
+    }).catch(function (err) {
+      console.error('CSL submit error:', err);
+      _showMsg(form, 'Network error — please email currentscoringleaders@gmail.com directly.', 'error');
+    }).then(function () {
+      if (btn) { btn.disabled = false; btn.innerHTML = origBtnHtml; }
+    });
+    return false;
+  };
+
+  function _showMsg(form, text, kind) {
+    if (!form) { alert(text); return; }
+    var box = form.querySelector('.csl-form-msg');
+    if (!box) {
+      box = document.createElement('div');
+      box.className = 'csl-form-msg';
+      box.style.cssText = 'margin-top:1rem;padding:1rem 1.25rem;border-radius:10px;font-size:0.88rem;line-height:1.5;';
+      form.appendChild(box);
+    }
+    if (kind === 'success') {
+      box.style.background = 'rgba(16,185,129,0.12)';
+      box.style.border = '1px solid rgba(16,185,129,0.35)';
+      box.style.color = '#10b981';
+      box.innerHTML = '<i class="fas fa-check-circle"></i>&nbsp; ' + text;
+    } else {
+      box.style.background = 'rgba(239,68,68,0.12)';
+      box.style.border = '1px solid rgba(239,68,68,0.35)';
+      box.style.color = '#ef4444';
+      box.innerHTML = '<i class="fas fa-exclamation-triangle"></i>&nbsp; ' + text;
+    }
+  }
+})();
+</script>
+<script>/* CSL Chatbot v1.0
+ * 100% client-side. Zero API calls. Zero tokens. Zero limits.
+ * Embedded knowledge base with keyword matching.
+ * No server required. Works on static HTML hosting.
+ */
+(function(){
+'use strict';
+
+var KB={};
+
+// ====== KNOWLEDGE BASE ======
+
+KB.greeting={
+patterns:['hi','hello','hey','sup','yo','howdy','greetings','good morning','good evening','whats up','wassup','hey there'],
+response:'Hey! Welcome to Current Scoring Leaders. I am the studio assistant. I can tell you about our services, pricing, creative process, the Fresh Water philosophy, or help you get started on a project. What would you like to know?',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the process?','Who is Fresh Water?']
+};
+
+KB.studio={
+patterns:['who are you','what is this','tell me about the studio','about current scoring','about csl','what is current scoring','your name','the company','the business','music scoring','composition studio'],
+response:'Current Scoring Leaders (CSL) is a music composition and scoring studio based in Philadelphia, PA. We create original music for film, TV, games, podcasts, commercials, YouTube, and more. The studio operates on a simple principle: music that hits, on time, on budget. We are also the service layer for Fresh Water, a creative identity focused on clarity, originality, and emotional authenticity in sound. You work directly with the composer - no middlemen, no account managers, no bureaucracy.',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the Fresh Water philosophy?','Where are you located?']
+};
+
+KB.freshwater={
+patterns:['fresh water','philosophy','creative identity','alchemical seer','philosopher warrior','duality','your approach','your philosophy','materialism of the physical','what is fresh water','fresh water philosophy','creative vision'],
+response:'Fresh Water is the creative identity behind Current Scoring Leaders. It is rooted in the idea that clarity, originality, and emotional authenticity should drive every composition. The studio operates on a duality: the Philosopher-Warrior (who maps emotional architecture and executes with precision and discipline) and the Alchemical Seer (who transforms sound, breaks conventions, and finds new creative possibilities). The philosophy rejects algorithmic trends and template-based production in favor of genuine craft. The idea is that the materialism of the physical world has distorted how music is made - we strip that away and get back to what matters: the story, the emotion, the hit.',
+suggestions:['What services do you offer?','How is CSL different from other studios?','What is the creative process?']
+};
+
+KB.services={
+patterns:['services','offerings','what do you do','what can you do','music for','kinds of music','categories','capabilities','what do you offer','your services','service','what you got'],
+response:'We offer original music composition and scoring across six categories. One standard of quality, regardless of budget:\n\n- Film and TV Scoring: From $1,500 per track (orchestral, hybrid, electronic; stereo + 5.1)\n- Game Soundtracks: From $950 per track (adaptive/linear, stems, middleware ready)\n- Podcast Branding: From $450 per package (theme, intros/outros, bumpers; 48hr delivery)\n- Commercials: From $750 per track (TV, radio, digital; multiple variations)\n- YouTube and Twitch: From $350 per track (intros, background scores, alerts; royalty-free options)\n- Custom Beats: From $250 per track (original production, mixed/mastered, exclusive rights available)\n\nEvery project starts with a free consultation to discuss your vision.',
+suggestions:['How much does film scoring cost?','How does the process work?','What is included in podcast branding?']
+};
+
+KB.film={
+patterns:['film','movie','cinematic','orchestral','score for film','film scoring','tv scoring','television','show','documentary','feature film','short film','trailer'],
+response:'Film and TV scoring starts at $1,500 per track. We deliver full orchestral, hybrid, or electronic scores in stereo and 5.1. Every score is built from the ground up - no templates, no stock loops. You get the full emotional architecture your story needs, composed specifically for your project. Direct collaboration with the composer throughout.',
+suggestions:['How much does game scoring cost?','What is your process?','How do revisions work?']
+};
+
+KB.games={
+patterns:['game','video game','video games','soundtrack','adaptive music','gaming','indie','steam','unity','unreal','middleware','game audio','fmod','wwise'],
+response:'Game soundtracks start at $950 per track. We create adaptive and linear soundtracks with stem delivery, ready for middleware integration (FMOD, Wwise, etc.). Suitable for indie to AAA projects. Direct collaboration with the composer.',
+suggestions:['How much does a game soundtrack cost?','What middleware do you support?','What is the process?']
+};
+
+KB.podcast={
+patterns:['podcast','podcasting','show intro','podcast theme','intro music','outro','bumper','podcast branding','true crime','interview show'],
+response:'Podcast branding packages start at $450 and include a theme song, intros, outros, and bumpers. Delivery within 48 hours. Every piece is custom-composed for your show - no stock music, no generic tracks.',
+suggestions:['What is included in the podcast package?','How much does it cost?','Can you do ad spots?']
+};
+
+KB.commercials={
+patterns:['commercial','advertise','ad','tv spot','radio','digital ad','commercials','advertising','jingle','promo','promotion','marketing'],
+response:'Commercial scoring starts at $750 per track. We produce original music for TV, radio, and digital ads with fast turnaround and multiple spot variations as needed. Direct collaboration with the composer.',
+suggestions:['What is the turnaround time?','How much does it cost?','What is included?']
+};
+
+KB.youtube={
+patterns:['youtube','twitch','streamer','content creator','intro music','background music','stream','youtube music','channel music','royalty free','streaming','vlogger'],
+response:'YouTube and Twitch packages start at $350 per track. Channel intros, background scores, alerts, and more. Royalty-free options available so you never have to worry about copyright claims.',
+suggestions:['What does the YouTube package include?','Is it really royalty-free?','How much does it cost?']
+};
+
+KB.beats={
+patterns:['beats','custom beats','rap beat','hip hop','instrumental','produce a beat','beat','trap','lo-fi','original production','rap'],
+response:'Custom beats start at $250 per track. Original production, mixed and mastered, with exclusive rights available. Work directly with the producer to get exactly the sound you need.',
+suggestions:['How much does a custom beat cost?','Can I get exclusive rights?','What genres do you produce?']
+};
+
+KB.pricing={
+patterns:['pricing','price','cost','how much','rates','rate','expensive','cheap','afford','budget','how much does it cost','what are your rates','prices','starting at','starting price'],
+response:'Our standard starting rates:\n\n- Film/TV: $1,500+ per track\n- Game Soundtracks: $950+ per track\n- Commercials: $750+ per track\n- Podcast Branding: $450+ per package\n- YouTube/Twitch: $350+ per track\n- Custom Beats: $250+ per track\n\nThese are starting points. Every project is scoped individually based on complexity, length, and usage. We bill by the project, not by the revision - so you get unlimited revisions within scope. No hidden fees. No per-revision traps. Need a custom quote? Use the booking form to tell us about your project.',
+suggestions:['What is included in film scoring?','How does the process work?','How do revisions work?']
+};
+
+KB.process={
+patterns:['process','how it works','workflow','steps','how do you work','creative process','pipeline','your process','how does it work','what are the steps','what is your workflow'],
+response:'Our creative process has 5 steps:\n\n1. Discovery: We learn your project, its story, and its emotional targets. What does this music need to say?\n2. Direction: Creative brief with references, stylistic direction, and structural outline. You approve before we write a note.\n3. First Draft: Full composition delivered within 48 hours. You hear the complete vision, not a sketch
+
+KB.revisions={
+patterns:['revisions','revision','rework','changes','edits','feedback','change something','modify','update','revision policy','unlimited revisions','iteration'],
+response:'We bill by the project, not by the revision. This means you get unlimited revisions within the scope of your project - no per-revision fees, no nickel-and-diming. We want the final music to be right, not rushed. The process includes two formal rounds of refinement (structural, tonal, mix) with additional passes as needed to nail it.',
+suggestions:['What is the process?','How much does it cost?','How do I get started?']
+};
+
+KB.licensing={
+patterns:['license','licensing','rights','ownership','who owns','copyright','legal','contract','terms','usage rights','exclusive','indemnification','sync license','master license'],
+response:'We believe in clear, fair licensing. Every project includes full written licensing agreements with proper indemnification. You get exactly the rights you need - whether that is exclusive ownership, sync licensing, or royalty-free usage. No fine print traps. No ambiguity. We handle the legal so you can focus on the creative.',
+suggestions:['How does the process work?','How much does it cost?','What is included?']
+};
+
+KB.trust={
+patterns:['why trust','why choose','why you','different','better than','what makes you different','what sets you apart','why csl','why should i','new studio','trust a new studio','no experience','reputation','why should I trust','prove'],
+response:'Great question. Here is why you can trust Current Scoring Leaders:\n\n1. Craft Over Flash: Every composition is original, built from the ground up. No stock loops, no templates, no shortcuts.\n2. Full Licensing: Clear written agreements with proper indemnification. You know exactly what rights you have.\n3. Revision Discipline: We bill by the project, not by the revision. We stay until it is right, without punishing you financially for wanting changes.\n4. Direct Access: You work directly with the composer. No middlemen, no account managers, no bureaucracy.\n5. Fresh Water Philosophy: Every project starts with a question - what emotional architecture does this story need? We do not rush to answers; we get the question right first.',
+suggestions:['What services do you offer?','How do revisions work?','What is the process?']
+};
+
+KB.casestudy={
+patterns:['case study','portfolio','past work','example','previous projects','sample','demo','shadow evidence','what have you done','show me your work','client work','testimonial'],
+response:'One of our recent projects: Shadow Evidence - a 12-episode true crime podcast for Nightfall Media. We created the complete sonic identity: theme music, intros, transitions, and ad bumpers. Style: minimalist orchestral with electronic textures. Three core motifs that build tension without over-dramatizing.\n\nStats: 12 episodes scored, 10 days to first draft, 3 revision rounds.\n\nClient testimonial: Current Scoring Leaders brought a level of professionalism and creative insight that elevated our entire production. The music did not just accompany the story - it became part of it. - Marcus Chen, Executive Producer, Nightfall Media.\n\nWant to see more? Reach out and tell us about your project - every project is unique and we can share more relevant examples.',
+suggestions:['How do I get started?','What services do you offer?','How much does scoring cost?']
+};
+
+KB.booking={
+patterns:['book','booking','hire','start','get started','consultation','free consultation','work together','collaborate','project','commission','sign up','contact','reach out','get in touch','lets work','begin'],
+response:'Ready to start? Every project begins with a free consultation. Tell us about your project, your vision, and your budget. Head to the booking page (click Book in the navigation) and we will get back to you quickly. Direct collaboration, no middlemen.',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the process?']
+};
+
+KB.location={
+patterns:['location','where are you','philadelphia','based','studio location','philly','pa','pennsylvania','physical address','studio'],
+response:'We are based in Philadelphia, PA. Current Scoring Leaders LLC (Fresh Water Division). We work with clients worldwide - location is never a barrier. Everything is done remotely with clear communication and fast delivery.',
+suggestions:['How do I get started?','What services do you offer?','How does the process work?']
+};
+
+KB.contact={
+patterns:['email','phone','contact info','how to reach','reach you','message','call','support','help','talk to human','person','real person'],
+response:'You can reach Current Scoring Leaders at contact@currentscoringleaders.com. We typically respond within 24 hours. For the fastest response, use the booking form on the Book page to tell us about your project.',
+suggestions:['How do I get started?','What services do you offer?','How much does scoring cost?']
+};
+
+// ====== MATCHING ENGINE ======
+function matchKB(input){
+var il=input.toLowerCase().trim();
+if(!il)return null;
+for(var key in KB){
+var entry=KB[key];
+for(var i=0;i<entry.patterns.length;i++){
+if(il.indexOf(entry.patterns[i])!==-1){
+return entry;
+}
+}
+}
+return null;
+}
+
+// ====== FALLBACKS ======
+var fallback=[
+"I am not sure I have an answer for that. Try asking about our services, pricing, process, or the Fresh Water philosophy.",
+"Hmm, I do not have that information yet. I can tell you about our services, pricing, process, or the Fresh Water philosophy. What are you interested in?",
+"Good question. I am best at questions about our services, pricing, process, case studies, and the Fresh Water philosophy."
+];
+
+// ====== STATE ======
+var isOpen=false;
+var fbIdx=0;
+var chatContainer,chatToggle,chatBody,chatMessages,chatInput,chatSend;
+
+// ====== UI INITIALIZATION ======
+function init(){
+var css=document.createElement('style');
+css.id='csl-chat-css';
+css.textContent='\
+#csl-cb{position:fixed;bottom:24px;right:24px;z-index:999999;font-family:Inter,system-ui,sans-serif}\
+#csl-cb *{box-sizing:border-box}\
+#csl-cbt{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#00a8ff,#0bc5a0);border:0;cursor:pointer;box-shadow:0 4px 20px rgba(0,168,255,0.3);display:flex;align-items:center;justify-content:center;transition:transform 0.2s,box-shadow 0.2s;position:relative}\
+#csl-cbt:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(0,168,255,0.45)}\
+#csl-cbt svg{width:26px;height:26px;fill:#fff}\
+#csl-cbw{position:fixed;bottom:92px;right:24px;width:380px;max-width:calc(100vw - 48px);height:520px;max-height:calc(100vh - 120px);background:#111118;border:1px solid rgba(255,255,255,0.06);border-radius:16px;box-shadow:0 12px 48px rgba(0,0,0,0.5);display:none;flex-direction:column;overflow:hidden;animation:cslFadeIn 0.25s ease}\
+@keyframes cslFadeIn{from{opacity:0;transform:translateY(12px) scale(0.97)}to{opacity:1;transform:translateY(0) scale(1)}}\
+#csl-cbh{background:linear-gradient(135deg,#00a8ff,#0bc5a0);padding:16px 20px;color:#fff;display:flex;align-items:center;gap:12px;cursor:pointer}\
+#csl-cbh span{font-weight:600;font-size:15px}\
+#csl-cbh small{font-size:12px;opacity:0.8;display:block}\
+#csl-cbh .csl-close{margin-left:auto;background:none;border:0;color:#fff;cursor:pointer;font-size:20px;opacity:0.7;padding:0}\
+#csl-cbh .csl-close:hover{opacity:1}\
+#csl-cbm{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;scroll-behavior:smooth;background:rgba(0,0,0,0.15)}\
+#csl-cbm::-webkit-scrollbar{width:4px}\
+#csl-cbm::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:2px}\
+.csl-msg{padding:12px 16px;border-radius:12px;max-width:85%;line-height:1.5;font-size:14px;animation:cslMsgIn 0.2s ease;white-space:pre-wrap}\
+@keyframes cslMsgIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}\
+.csl-bot{background:rgba(255,255,255,0.06);color:#e2e8f0;align-self:flex-start;border-bottom-left-radius:4px}\
+.csl-user{background:linear-gradient(135deg,#00a8ff,#0bc5a0);color:#fff;align-self:flex-end;border-bottom-right-radius:4px}\
+.csl-suggest{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}\
+.csl-suggest button{background:rgba(0,168,255,0.12);color:#60a5fa;border:1px solid rgba(0,168,255,0.2);border-radius:20px;padding:6px 14px;font-size:12px;cursor:pointer;transition:all 0.2s;font-family:inherit}\
+.csl-suggest button:hover{background:rgba(0,168,255,0.25);border-color:rgba(0,168,255,0.4)}\
+#csl-cbf{display:flex;padding:12px 16px;border-top:1px solid rgba(255,255,255,0.06);gap:8px;background:rgba(0,0,0,0.2)}\
+#csl-cbf input{flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:10px 16px;color:#e2e8f0;font-size:14px;outline:0;font-family:inherit}\
+#csl-cbf input:focus{border-color:#00a8ff}\
+#csl-cbf input::placeholder{color:#64748b}\
+#csl-cbf button{background:linear-gradient(135deg,#00a8ff,#0bc5a0);border:0;border-radius:50%;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform 0.2s;flex-shrink:0}\
+#csl-cbf button:hover{transform:scale(1.1)}\
+#csl-cbf button svg{width:16px;height:16px;fill:#fff}\
+';
+document.head.appendChild(css);
+
+// Build UI
+var wrapper=document.createElement('div');
+wrapper.id='csl-cb';
+
+var toggle=document.createElement('button');
+toggle.id='csl-cbt';
+toggle.innerHTML='<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/></svg>';
+wrapper.appendChild(toggle);
+
+var panel=document.createElement('div');
+panel.id='csl-cbw';
+panel.innerHTML='\
+<div id="csl-cbh"><div><span>Studio Assistant</span><small>Current Scoring Leaders</small></div><button class="csl-close" id="csl-close-btn">&times;</button></div>\
+<div id="csl-cbm"></div>\
+<div id="csl-cbf"><input id="csl-cbi" placeholder="Ask about services, pricing..."><button id="csl-cbs"><svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button></div>';
+wrapper.appendChild(panel);
+document.body.appendChild(wrapper);
+
+// Cache elements
+chatToggle=toggle;
+chatBody=panel;
+chatMessages=document.getElementById('csl-cbm');
+chatInput=document.getElementById('csl-cbi');
+chatSend=document.getElementById('csl-cbs');
+var closeBtn=document.getElementById('csl-close-btn');
+
+// Events
+toggle.onclick=function(){
+isOpen=!isOpen;
+panel.style.display=isOpen?'flex':'none';
+if(isOpen){
+setTimeout(function(){chatInput.focus()},100);
+if(!chatMessages.children.length){
+addBotMsg(KB.greeting.response,KB.greeting.suggestions);
+}
+}
+};
+closeBtn.onclick=function(){isOpen=false;panel.style.display='none'};
+chatSend.onclick=sendMsg;
+chatInput.onkeydown=function(e){if(e.key==='Enter')sendMsg()};
+}
+
+// ====== SEND MESSAGE ======
+function sendMsg(){
+var text=chatInput.value.trim();
+if(!text)return;
+chatInput.value='';
+addUserMsg(text);
+var match=matchKB(text);
+if(match){
+setTimeout(function(){addBotMsg(match.response,match.suggestions)},300);
+}else{
+var fb=fallback[fbIdx%fallback.length];
+fbIdx++;
+setTimeout(function(){addBotMsg(fb,[KB.services.suggestions[0],KB.pricing.suggestions[0],KB.process.suggestions[0]])},300);
+}
+}
+
+// ====== ADD MESSAGES ======
+function addUserMsg(text){
+var d=document.createElement('div');
+d.className='csl-msg csl-user';
+d.textContent=text;
+chatMessages.appendChild(d);
+chatMessages.scrollTop=chatMessages.scrollHeight;
+}
+
+function addBotMsg(text,suggestions){
+var d=document.createElement('div');
+d.className='csl-msg csl-bot';
+d.textContent=text;
+chatMessages.appendChild(d);
+if(suggestions&&suggestions.length){
+var sc=document.createElement('div');
+sc.className='csl-suggest';
+for(var i=0;i<suggestions.length;i++){
+(function(t){
+var b=document.createElement('button');
+b.textContent=t;
+b.onclick=function(){chatInput.value=t;sendMsg()};
+sc.appendChild(b);
+})(suggestions[i]);
+}
+chatMessages.appendChild(sc);
+}
+chatMessages.scrollTop=chatMessages.scrollHeight;
+}
+
+// ====== BOOT ======
+if(document.readyState==='loading'){
+document.addEventListener('DOMContentLoaded',init);
+}else{
+init();
+}
+
+})();
+</script>
+</body>
+</html>
+
+
+

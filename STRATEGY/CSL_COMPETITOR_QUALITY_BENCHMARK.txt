@@ -1,0 +1,230 @@
+═══════════════════════════════════════════════════════════════════════════════
+        CURRENT SCORING LEADERS — COMPETITOR QUALITY BENCHMARK
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This file benchmarks the quality level CSL should match or exceed on the public
+website.
+
+Reference patterns reviewed from:
+- working composer sites with stronger proof and buyer flow
+- pricing/commission education sources
+- game composer and freelance composer positioning examples
+
+The goal is not to copy another site.
+The goal is to understand what makes stronger sites feel more premium,
+trustworthy, and conversion-ready.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. WHAT STRONGER SITES DO WELL
+═══════════════════════════════════════════════════════════════════════════════
+
+A. THEY SELL OUTCOMES, NOT JUST MUSIC
+
+Stronger sites do not just say:
+- I compose music
+
+They say things like:
+- help your game feel more immersive
+- help your trailer impress publishers
+- help your brand sound recognizable
+- help your show feel memorable
+
+CSL implication:
+The site should present music as a business/creative advantage, not just an
+art service.
+
+
+B. THEY USE NAMED PROOF
+
+Stronger sites show:
+- named testimonials
+- project names
+- review quotes
+- credits
+- case studies
+- sometimes press or player quotes
+
+CSL implication:
+A site with only generic service copy will feel weaker than competitors.
+Proof must become a major design layer.
+
+
+C. THEY SHOW A CLEAR WORKING RELATIONSHIP
+
+Better sites explain:
+- how feedback works
+- how drafts are shared
+- how deadlines are managed
+- how communication stays organized
+
+CSL implication:
+Buyers need to feel the process is professional before they inquire.
+This reduces fear and increases trust.
+
+
+D. THEY MAKE CONTACT EASY
+
+Stronger sites use simple, repeated CTAs like:
+- contact me now
+- work with me
+- get started
+- request a quote
+
+CSL implication:
+The site should avoid CTA confusion.
+There should be one clear project-start path with lower-friction secondary
+actions.
+
+
+E. THEY EXPLAIN WHAT DRIVES PRICE
+
+Pricing references consistently reinforce that cost changes based on:
+- scope
+- total minutes of music
+- complexity/style
+- revisions
+- rights/ownership
+- deadline speed
+- deliverables
+
+CSL implication:
+The public website should show starting points and also explain why custom
+quotes vary.
+That makes the pricing feel more professional and less arbitrary.
+
+
+F. THEY FEEL LIKE A REAL BUSINESS, NOT A HOBBY PAGE
+
+Stronger sites communicate:
+- professionalism
+- deadlines
+- structure
+- business terms
+- confidence
+- specificity
+
+CSL implication:
+The website needs stronger page hierarchy, clearer sections, cleaner pricing,
+rights clarity, and trust language.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. WHAT CURRENT CSL MATERIALS ALREADY DO WELL
+═══════════════════════════════════════════════════════════════════════════════
+
+Current strengths:
+- strong anti-generic positioning
+- clear custom vs stock argument
+- buyer-first onboarding documents now exist
+- legal pages and service contract already exist
+- pricing starting points already exist
+- FAQ/trust file already addresses common objections
+- outreach and offer positioning are clearer than before
+
+These are solid foundations.
+The remaining issue is presentation quality and proof depth.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. WHERE CSL STILL FEELS WEAKER THAN TOP COMPETITOR-STYLED SITES
+═══════════════════════════════════════════════════════════════════════════════
+
+1. PROOF IS TOO THIN
+- portfolio placeholders exist
+- stronger named testimonials/case studies are missing from public flow
+
+2. PRICING PRESENTATION IS FUNCTIONAL BUT NOT PREMIUM
+- starting points exist
+- buyer-friendly comparison logic is still too basic
+- add-ons, rights options, and quote drivers should be shown more clearly
+
+3. BUYER FLOW NEEDS A PREMIUM STRUCTURE
+- inquiry path exists
+- project-start page exists
+- but the site needs a more obvious progression:
+  hear work -> understand fit -> see pricing -> trust process -> inquire
+
+4. ABOUT PAGE NEEDS AUTHORITY, NOT JUST DESCRIPTION
+- the business story exists
+- but it needs a stronger founder point of view, philosophy, and working style
+
+5. VISUAL DIRECTION IS UNDER-SPECIFIED
+- current notes are minimal
+- premium sites use more intentional layout hierarchy, contrast, motion, and
+  proof modules
+
+6. LEGAL/TRUST PAGES MAY BE TOO DRY IF USED RAW
+- legal content exists
+- but website visitors need human-readable summaries first
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. PREMIUM WEBSITE ELEMENTS CSL SHOULD ADD OR STRENGTHEN
+═══════════════════════════════════════════════════════════════════════════════
+
+Must-have public elements:
+- featured work section by use case
+- case-study style proof blocks
+- testimonials with names/project context when available
+- premium pricing comparison section
+- clear "what affects price" block
+- deliverables/included items block
+- rights and ownership explainer block
+- process timeline with response expectations
+- what happens after inquiry section
+- founder/authority/about section with stronger voice
+- FAQ preview on key pages
+- project-start page with friction-reducing clarity
+
+Nice-to-have premium elements:
+- featured logos/credits strip
+- before/after music examples
+- short reel/video header
+- embedded review quotes
+- downloadable one-page services guide or rate guide
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. DESIGN QUALITY RULES FOR CSL
+═══════════════════════════════════════════════════════════════════════════════
+
+The final site should feel:
+- premium
+- cinematic
+- modern
+- structured
+- easy to scan
+- easy to trust
+- easy to contact
+
+The site should not feel:
+- generic
+- thin
+- template-ish
+- crowded
+- overhyped
+- vague
+- visually cheap
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. CONCLUSION
+═══════════════════════════════════════════════════════════════════════════════
+
+CSL already has enough strategic content to compete.
+What it needs now is a stronger premium public presentation layer:
+- more proof
+- more hierarchy
+- better buyer guidance
+- better visual direction
+- clearer pricing logic
+- stronger trust framing
+
+That is what the next website upgrade files should solve.
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

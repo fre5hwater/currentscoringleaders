@@ -1,0 +1,318 @@
+SERVICE CONTRACT
+Custom Music Composition & Scoring
+Current Scoring Leaders LLC
+
+───────────────────────────────────────────────────────────────────────────────
+
+This Service Contract ("Agreement") is entered into as of [DATE]
+("Effective Date") by and between:
+
+COMPOSER (Service Provider):
+  Current Scoring Leaders LLC
+  Owner: Avery Jones
+  State of Formation: Pennsylvania, United States
+  Email: currentscoringleaders@gmail.com
+  EIN: [TO BE ADDED AFTER LLC FILING]
+
+CLIENT:
+  Name: _________________________________
+  Company: _________________________________
+  Address: _________________________________
+  Email: _________________________________
+  Phone: _________________________________
+
+───────────────────────────────────────────────────────────────────────────────
+
+1. PROJECT SCOPE
+
+1.1 Services
+Composer agrees to create the following for Client:
+
+  Description: _________________________________
+  Number of Compositions: _____
+  Length per Composition: _____
+  Genre/Style: _________________________________
+  Reference Tracks (if any): _________________________________
+  Special Requirements: _________________________________
+
+1.2 Deliverables
+  - Final composition(s) in WAV (44.1kHz/24-bit) and MP3 (320kbps)
+  - Stems/multitracks: [ ] Included  [ ] Not included  [ ] Add-on ($____)
+  - MIDI files: [ ] Included  [ ] Not included
+
+1.3 Revisions
+  - Revision rounds included: _____
+  - Revisions cover: arrangement, mix, length, instrumentation adjustments
+  - Additional rounds beyond included: $_____ per round
+  - Major re-composition or genre change requires a change order
+
+1.4 Timeline
+  - Start Date: _____________
+  - First Draft Delivery: _____________
+  - Final Delivery: _____________
+  - Rush Delivery: [ ] Yes (+$_____) [ ] No
+
+───────────────────────────────────────────────────────────────────────────────
+
+2. COMPENSATION
+
+2.1 Project Fee
+  Total Fee: $______________
+  Payment Basis: [ ] Flat fee  [ ] Per composition  [ ] Hourly ($____/hr)
+
+2.2 Payment Schedule
+  - Deposit (50%): $____________ — Due upon signing this Agreement
+  - Final Payment (50%): $____________ — Due upon delivery of final files
+
+  [ ] Alternative milestone schedule:
+      Milestone 1: $________ due on __________
+      Milestone 2: $________ due on __________
+      Final: $________ due on __________
+
+2.3 Payment Terms
+  - Invoices due within 15 days (Net 15)
+  - Late payment interest: 1.5% per month on overdue balance
+  - Project suspended if payment is 15+ days overdue
+  - Legal collection may commence after 30 days overdue
+  - Client responsible for collection costs and attorney fees
+  - Final deliverables not released until full payment received
+
+2.4 Payment Methods
+  - Credit/debit card (via Stripe)
+  - ACH bank transfer
+  - PayPal
+  - Check (5-day processing hold)
+
+2.5 Cancellation
+  - Before work begins: Full deposit refund
+  - After work begins: Deposit non-refundable; Client billed for
+    work completed plus 50% of remaining scope
+  - Completed and delivered work: Non-refundable
+
+───────────────────────────────────────────────────────────────────────────────
+
+3. INTELLECTUAL PROPERTY & OWNERSHIP
+
+3.1 Select Ownership Model:
+
+  [ ] WORK-FOR-HIRE (Client Owns)
+      All compositions created under this Agreement are "works made for
+      hire" under 17 U.S.C. Section 101. Upon receipt of full payment,
+      Client shall own all copyrights and intellectual property in the
+      commissioned work, including:
+        - All copyrights and derivative rights
+        - All exploitation and distribution rights
+        - Right to modify, adapt, and create derivative works
+        - Right to register copyrights in Client's name
+
+  [ ] EXCLUSIVE LICENSE (Composer Retains Copyright)
+      Composer retains copyright ownership but grants Client an exclusive,
+      perpetual, worldwide license to use the composition(s) for all
+      commercial purposes. Composer will not license the same work to
+      any other party.
+
+  [ ] NON-EXCLUSIVE LICENSE (Composer Retains Copyright)
+      Composer retains copyright ownership and grants Client a
+      non-exclusive, perpetual license to use the composition(s)
+      for the project specified in Section 1. Composer may license
+      the same work to other parties.
+
+3.2 Composer Retains (All Models)
+  - All pre-existing works, materials, samples, and templates created
+    before this engagement
+  - General skills, knowledge, techniques, and methodologies
+  - Right to reference the project in Composer's portfolio with credit
+    (unless Client opts out in writing)
+
+3.3 Third-Party Materials
+  - Composer warrants that all compositions are original
+  - If any third-party samples or materials are used, Composer will
+    obtain all necessary licenses and provide proof to Client
+  - Composer indemnifies Client against any third-party IP claims
+    related to the composition(s)
+
+───────────────────────────────────────────────────────────────────────────────
+
+4. DELIVERY AND ACCEPTANCE
+
+4.1 Delivery
+  - Composer delivers draft via secure file transfer (Dropbox, Google
+    Drive, or direct download link)
+  - Client receives email notification upon delivery
+
+4.2 Review Period
+  - Client has 7 business days to review each draft and provide
+    written feedback
+  - If no feedback is received within 7 business days, the
+    deliverable is deemed accepted as-is
+
+4.3 Final Acceptance
+  - Client provides written approval (email is sufficient) upon
+    satisfaction with the final deliverable
+  - Final files released upon acceptance AND receipt of full payment
+
+───────────────────────────────────────────────────────────────────────────────
+
+5. INDEPENDENT CONTRACTOR STATUS
+
+Composer is an independent contractor, not an employee of Client.
+
+  - Composer has sole discretion over work methods and schedule
+  - Composer is not entitled to employee benefits
+  - Composer is responsible for own taxes (self-employment, income,
+    quarterly estimates)
+  - Client will issue Form 1099-NEC if payments exceed $600 annually
+  - No employment relationship exists or is created by this Agreement
+  - Composer may accept work from other clients
+
+───────────────────────────────────────────────────────────────────────────────
+
+6. CONFIDENTIALITY
+
+Both parties agree to keep all project details, business information,
+and proprietary materials confidential.
+
+Confidential information includes:
+  - Project concepts, scripts, and creative briefs
+  - Unpublished compositions and works in progress
+  - Business strategies, pricing, and client information
+  - Financial information and payment details
+
+Exceptions:
+  - Information that becomes publicly available (not through breach)
+  - Information independently developed by the receiving party
+  - Information required to be disclosed by law
+
+Duration: Confidentiality obligations survive for 3 years after the
+completion or termination of this Agreement.
+
+───────────────────────────────────────────────────────────────────────────────
+
+7. REPRESENTATIONS AND WARRANTIES
+
+Composer warrants:
+  - Authority to enter into this Agreement
+  - All work is original and does not infringe third-party IP rights
+  - All necessary licenses for any third-party materials are obtained
+  - Work will be of professional quality meeting industry standards
+  - No conflicts exist with other commitments
+
+Client warrants:
+  - Authority to enter into this Agreement
+  - Timely payment of all invoices
+  - Timely feedback during revision process
+  - All materials provided to Composer are owned by or licensed to Client
+
+───────────────────────────────────────────────────────────────────────────────
+
+8. INDEMNIFICATION
+
+Each party agrees to indemnify, defend, and hold harmless the other
+party from any third-party claims, damages, liabilities, costs, and
+expenses (including reasonable attorney fees) arising from:
+  - Breach of this Agreement
+  - Breach of any representation or warranty
+  - Negligence or willful misconduct
+  - Infringement of third-party intellectual property rights
+
+───────────────────────────────────────────────────────────────────────────────
+
+9. LIMITATION OF LIABILITY
+
+Neither party shall be liable for indirect, incidental, consequential,
+special, or punitive damages, including lost profits, lost revenue,
+or reputational harm.
+
+Total liability of either party shall not exceed the total fees paid
+or payable under this Agreement.
+
+───────────────────────────────────────────────────────────────────────────────
+
+10. TERMINATION
+
+10.1 By Client
+  - Client may terminate at any time with written notice
+  - Client pays for all work completed through date of termination
+  - Deposit is non-refundable if work has begun
+
+10.2 By Composer
+  - Composer may terminate with 7 days' written notice
+  - Composer refunds any fees paid for undelivered work
+
+10.3 For Cause
+  Either party may terminate immediately if the other party:
+  - Materially breaches this Agreement and fails to cure within
+    15 days of written notice
+  - Becomes insolvent or files for bankruptcy
+  - Engages in illegal conduct related to this Agreement
+
+10.4 Upon Termination
+  - All work completed through termination date is owned per Section 3
+    (only if paid for)
+  - All confidential materials returned or destroyed
+  - Sections 3, 6, 8, 9, and 11 survive termination
+
+───────────────────────────────────────────────────────────────────────────────
+
+11. DISPUTE RESOLUTION
+
+Step 1: Good-faith negotiation for 30 days
+Step 2: Non-binding mediation in Pennsylvania (costs split equally)
+Step 3: Binding arbitration under AAA Commercial Rules in Pennsylvania
+
+Exceptions: Small claims court for claims under $5,000; injunctive
+relief for IP enforcement may be pursued in court.
+
+Governing Law: Commonwealth of Pennsylvania, United States.
+
+Prevailing party recovers reasonable attorney fees and costs.
+
+───────────────────────────────────────────────────────────────────────────────
+
+12. GENERAL PROVISIONS
+
+Entire Agreement: This document constitutes the entire agreement
+between the parties. All prior discussions are superseded.
+
+Amendments: Must be in writing and signed by both parties.
+
+Assignment: Neither party may assign without written consent.
+Composer may assign to a successor entity.
+
+Severability: Invalid provisions are severed; remaining provisions
+continue in full force.
+
+Force Majeure: Neither party is liable for delays caused by events
+beyond reasonable control (natural disaster, pandemic, war, etc.).
+
+Notices: Via email to the addresses listed above. Effective upon
+confirmed delivery.
+
+Counterparts: May be executed in counterparts. Electronic/digital
+signatures are legally binding.
+
+───────────────────────────────────────────────────────────────────────────────
+
+13. SIGNATURES
+
+By signing below, both parties acknowledge they have read, understood,
+and agree to all terms of this Agreement.
+
+
+COMPOSER — Current Scoring Leaders LLC
+
+Signature: _________________________  Date: ______________
+Print Name: Avery Jones
+Title: Owner / Managing Member
+
+
+CLIENT
+
+Signature: _________________________  Date: ______________
+Print Name: _________________________
+Title: _________________________
+Company: _________________________
+
+───────────────────────────────────────────────────────────────────────────────
+
+(c) Current Scoring Leaders LLC. All Rights Reserved.

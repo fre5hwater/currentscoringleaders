@@ -1,0 +1,366 @@
+/* ============================================================
+   CSL Visualizers — Cyberpunk Design System
+   Cyberpunk neon aesthetic with cartoonish personality
+   ============================================================ */
+
+:root {
+  --neon-blue: #00f0ff;
+  --neon-pink: #ff00aa;
+  --neon-purple: #aa00ff;
+  --neon-green: #00ff88;
+  --neon-yellow: #ffee00;
+  --neon-orange: #ff6600;
+  --neon-red: #ff0044;
+  --dark-bg: #0a0a1a;
+  --card-bg: #121225;
+  --card-border: #1a1a3e;
+  --text-glow: #ffffff;
+  --scan-line: rgba(0, 240, 255, 0.03);
+}
+
+/* Scan line overlay */
+.scanlines::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    var(--scan-line) 2px,
+    var(--scan-line) 4px
+  );
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* ============================================================
+   CYBERPUNK PRICING CHART VISUALIZER
+   Animated neon bar graph that explains pricing tiers
+   ============================================================ */
+.csl-pricing-visualizer {
+  background: linear-gradient(135deg, #0a0a1a 0%, #121225 50%, #0d0d20 100%);
+  border: 1px solid rgba(0, 240, 255, 0.15);
+  border-radius: 24px;
+  padding: 2.5rem 2rem;
+  margin: 2rem auto;
+  max-width: 1100px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(0, 240, 255, 0.05), inset 0 0 60px rgba(0, 0, 0, 0.3);
+}
+
+.csl-pricing-visualizer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-blue), var(--neon-pink), transparent);
+  animation: neonSweep 4s ease-in-out infinite;
+}
+
+@keyframes neonSweep {
+  0%, 100% { opacity: 0.3; transform: translateX(-100%); }
+  50% { opacity: 1; transform: translateX(100%); }
+}
+
+.csl-pricing-visualizer h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.csl-pricing-visualizer .subtitle {
+  color: #94a3b8;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+/* Bar chart */
+.viz-bar-chart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  position: relative;
+}
+
+.viz-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  width: 180px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.viz-bar:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+.viz-bar-fill {
+  width: 100%;
+  border-radius: 12px 12px 4px 4px;
+  position: relative;
+  min-height: 60px;
+  transition: box-shadow 0.3s ease;
+  animation: barRise 1.2s ease-out forwards;
+  opacity: 0;
+}
+
+.viz-bar:nth-child(1) .viz-bar-fill { animation-delay: 0.1s; }
+.viz-bar:nth-child(2) .viz-bar-fill { animation-delay: 0.3s; }
+.viz-bar:nth-child(3) .viz-bar-fill { animation-delay: 0.5s; }
+
+@keyframes barRise {
+  from { opacity: 0; transform: scaleY(0.3); }
+  to { opacity: 1; transform: scaleY(1); }
+}
+
+.viz-bar-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(180deg, rgba(255,255,255,0.15), transparent);
+  border-radius: 12px 12px 0 0;
+}
+
+/* Glow effect on hover */
+.viz-bar:hover .viz-bar-fill {
+  box-shadow: 0 0 30px var(--glow-color), 0 0 60px var(--glow-color);
+}
+
+.viz-bar-tier {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--neon-blue);
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  white-space: nowrap;
+}
+
+.viz-bar-price {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+.viz-bar-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 160px;
+}
+
+/* Bar colors */
+.viz-bar[data-tier="creator"] { --glow-color: rgba(0, 240, 255, 0.6); }
+.viz-bar[data-tier="creator"] .viz-bar-fill { background: linear-gradient(180deg, #00f0ff, #0088cc); }
+.viz-bar[data-tier="creator"] .viz-bar-tier { color: var(--neon-blue); }
+
+.viz-bar[data-tier="custom"] { --glow-color: rgba(170, 0, 255, 0.6); }
+.viz-bar[data-tier="custom"] .viz-bar-fill { background: linear-gradient(180deg, #aa00ff, #6600cc); }
+.viz-bar[data-tier="custom"] .viz-bar-tier { color: var(--neon-purple); }
+
+.viz-bar[data-tier="premium"] { --glow-color: rgba(255, 0, 170, 0.6); }
+.viz-bar[data-tier="premium"] .viz-bar-fill { background: linear-gradient(180deg, #ff00aa, #cc0066); }
+.viz-bar[data-tier="premium"] .viz-bar-tier { color: var(--neon-pink); }
+
+.viz-bar[data-tier="retainer"] { --glow-color: rgba(0, 255, 136, 0.6); }
+.viz-bar[data-tier="retainer"] .viz-bar-fill { background: linear-gradient(180deg, #00ff88, #00aa55); }
+.viz-bar[data-tier="retainer"] .viz-bar-tier { color: var(--neon-green); }
+
+/* ============================================================
+   CYBERPUNK PROCESS FLOW VISUALIZER
+   Horizontal animated pipeline with glowing nodes
+   ============================================================ */
+.csl-process-visualizer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  padding: 2rem 0;
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.csl-process-visualizer .process-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 140px;
+  position: relative;
+  padding: 0 0.5rem;
+}
+
+.csl-process-visualizer .process-node {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  border: 2px solid;
+  animation: nodePulse 3s ease-in-out infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.csl-process-visualizer .process-node:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 40px var(--node-glow, rgba(0,240,255,0.4));
+}
+
+.csl-process-visualizer .process-node.step-1 {
+  background: linear-gradient(135deg, #0033aa, #0066ff);
+  border-color: #0066ff;
+  --node-glow: rgba(0, 102, 255, 0.6);
+  animation-delay: 0s;
+}
+.csl-process-visualizer .process-node.step-2 {
+  background: linear-gradient(135deg, #0066cc, #00aaff);
+  border-color: #00aaff;
+  --node-glow: rgba(0, 170, 255, 0.6);
+  animation-delay: 0.5s;
+}
+.csl-process-visualizer .process-node.step-3 {
+  background: linear-gradient(135deg, #6600cc, #aa00ff);
+  border-color: #aa00ff;
+  --node-glow: rgba(170, 0, 255, 0.6);
+  animation-delay: 1s;
+}
+.csl-process-visualizer .process-node.step-4 {
+  background: linear-gradient(135deg, #cc0066, #ff00aa);
+  border-color: #ff00aa;
+  --node-glow: rgba(255, 0, 170, 0.6);
+  animation-delay: 1.5s;
+}
+.csl-process-visualizer .process-node.step-5 {
+  background: linear-gradient(135deg, #00aa55, #00ff88);
+  border-color: #00ff88;
+  --node-glow: rgba(0, 255, 136, 0.6);
+  animation-delay: 2s;
+}
+
+@keyframes nodePulse {
+  0%, 100% { box-shadow: 0 0 15px var(--node-glow, rgba(0,240,255,0.2)); }
+  50% { box-shadow: 0 0 35px var(--node-glow, rgba(0,240,255,0.5)); }
+}
+
+/* Connector line between nodes */
+.csl-process-visualizer .process-step:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 32px;
+  left: calc(50% + 32px);
+  width: calc(100% - 64px);
+  height: 2px;
+  background: linear-gradient(90deg, var(--neon-blue), var(--neon-purple));
+  z-index: 1;
+  animation: flowLine 2s ease-in-out infinite;
+}
+
+@keyframes flowLine {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+.csl-process-visualizer .process-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  margin-top: 0.75rem;
+  text-align: center;
+  line-height: 1.3;
+  max-width: 120px;
+}
+
+.csl-process-visualizer .process-desc {
+  font-size: 0.68rem;
+  color: #64748b;
+  text-align: center;
+  margin-top: 0.25rem;
+  line-height: 1.3;
+  max-width: 120px;
+}
+
+/* ============================================================
+   CYBERPUNK W
+
+/* ------------------------------------------------
+   COMPACT PRICING GRID — One-line tier layout
+   ------------------------------------------------ */
+.csl-compact-pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.compact-tier {
+    background: linear-gradient(135deg, rgba(0,240,255,0.05), rgba(255,0,170,0.05));
+    border: 1px solid rgba(0,240,255,0.15);
+    border-radius: 12px;
+    padding: 1.25rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.compact-tier:hover {
+    border-color: rgba(0,240,255,0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,240,255,0.1);
+}
+
+.compact-name {
+    font-size: 0.85rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--blue, #3b82f6);
+    margin-bottom: 0.35rem;
+}
+
+.compact-price {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--text, #f1f5f9);
+    margin-bottom: 0.35rem;
+    font-family: 'Space Grotesk', monospace;
+}
+
+.compact-desc {
+    font-size: 0.78rem;
+    color: var(--muted, #94a3b8);
+    line-height: 1.4;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 600px) {
+    .csl-compact-pricing {
+        grid-template-columns: 1fr;
+    }
+}

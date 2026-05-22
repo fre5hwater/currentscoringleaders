@@ -1,0 +1,232 @@
+═══════════════════════════════════════════════════════════════════════════════
+         CURRENT SCORING LEADERS — PORTFOLIO CARD TEMPLATE
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+Use this template for:
+- demo concepts
+- spec pieces
+- real client portfolio entries
+- outreach proof examples
+
+The goal is to make every portfolio item easy to understand quickly.
+A prospect should immediately see:
+- what kind of project it fits
+- what the music was solving
+- why it matters
+- what to do next
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. SHORT PORTFOLIO CARD TEMPLATE
+═══════════════════════════════════════════════════════════════════════════════
+
+TITLE:
+[Demo Title or Project Name]
+
+LABEL:
+[Demo Concept / Spec Piece / Client Project / Portfolio Example]
+
+SEGMENT:
+[Creators / Podcasts / Games / Commercial / Branded]
+
+OFFER TYPE:
+[Signature Theme Package / Podcast Branding / Custom Scoring / Game & Narrative / Retainer]
+
+DURATION:
+[00:00]
+
+SHORT CREATIVE BRIEF:
+[One to two sentences explaining the imagined or real use case.]
+
+PROBLEM THIS MUSIC SOLVES:
+[What was missing before this music existed?]
+
+DIRECTION:
+[Keywords like cinematic, confident, immersive, minimal, tense, warm, story-first.]
+
+RESULT / OUTCOME LINE:
+[What this kind of music helps the project feel like.]
+
+CTA:
+[Request Something Similar / Ask About This Style / Start Your Project]
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. LONGER CASE-STUDY TEMPLATE
+═══════════════════════════════════════════════════════════════════════════════
+
+TITLE:
+[Project Title]
+
+LABEL:
+[Demo Concept / Client Project / Spec Piece]
+
+PROJECT TYPE:
+[Podcast Branding Demo Concept / Documentary Score Example / Game World Pack / etc.]
+
+WHO IT FITS:
+[Target buyer or segment]
+
+THE GOAL:
+[What the project needed musically]
+
+THE PROBLEM:
+[What would have felt generic, weak, or missing without custom music]
+
+THE DIRECTION:
+[Describe tone, pacing, references, emotional role, and why those choices were made]
+
+WHAT WAS CREATED:
+- [Track or cue 1]
+- [Track or cue 2]
+- [Variation / bumper / alternate intensity / loop / stems if relevant]
+
+WHY IT WORKS:
+- [Identity]
+- [Story support]
+- [Immersion]
+- [Professional polish]
+
+BEST USE CASE:
+[Where this style of work belongs]
+
+CTA:
+[If you need this kind of sound for your project, reach out.]
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. CARD EXAMPLE — CREATOR SIGNATURE THEME
+═══════════════════════════════════════════════════════════════════════════════
+
+TITLE:
+Midnight Signal
+
+LABEL:
+Demo Concept
+
+SEGMENT:
+Creators
+
+OFFER TYPE:
+Signature Theme Package
+
+DURATION:
+0:37
+
+SHORT CREATIVE BRIEF:
+A branded theme system for a cinematic creator channel that needs an intro,
+outro, and recognizable sonic identity.
+
+PROBLEM THIS MUSIC SOLVES:
+Strong visuals lose impact when the music sounds like generic library filler.
+
+DIRECTION:
+Cinematic, modern, focused, memorable, story-first.
+
+RESULT / OUTCOME LINE:
+A channel sound that feels intentional from the first seconds.
+
+CTA:
+Request a Signature Theme
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. CARD EXAMPLE — PODCAST BRANDING
+═══════════════════════════════════════════════════════════════════════════════
+
+TITLE:
+Clear Signal Intro Pack
+
+LABEL:
+Demo Concept
+
+SEGMENT:
+Podcasts
+
+OFFER TYPE:
+Podcast Branding
+
+DURATION:
+0:32 intro / 0:15 outro / 0:05 stinger
+
+SHORT CREATIVE BRIEF:
+A podcast branding pack designed for a modern business or culture show that
+needs instant recognition without sounding stock.
+
+PROBLEM THIS MUSIC SOLVES:
+The show has a voice, but the intro does not yet sound distinctly like the show.
+
+DIRECTION:
+Confident, clean, contemporary, premium.
+
+RESULT / OUTCOME LINE:
+A show opener that feels more branded, polished, and memorable.
+
+CTA:
+Ask About Podcast Branding
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. CARD EXAMPLE — INDIE GAME WORLD PACK
+═══════════════════════════════════════════════════════════════════════════════
+
+TITLE:
+Ashfall District
+
+LABEL:
+Spec Piece
+
+SEGMENT:
+Games
+
+OFFER TYPE:
+Game & Narrative Scoring
+
+DURATION:
+1:48 total package
+
+SHORT CREATIVE BRIEF:
+A compact world-based score pack for an atmospheric sci-fi indie game featuring
+menu music, exploration tension, and a combat cue.
+
+PROBLEM THIS MUSIC SOLVES:
+Placeholder tracks cannot build consistent world memory or emotional continuity.
+
+DIRECTION:
+Atmospheric, futuristic, tense, immersive.
+
+RESULT / OUTCOME LINE:
+A more distinct world with stronger emotional identity.
+
+CTA:
+Request a Game Score
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. RULES FOR USING THIS TEMPLATE
+═══════════════════════════════════════════════════════════════════════════════
+
+- Keep the brief short and specific.
+- Do not oversell the result.
+- Do not fake client context.
+- Do use labels honestly.
+- Do make the use case obvious.
+- Do match the CTA to the offer.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. BEST PLACE TO USE THIS TEMPLATE
+═══════════════════════════════════════════════════════════════════════════════
+
+Use on:
+- website portfolio page
+- homepage portfolio preview
+- PDF or one-page portfolio decks
+- outreach replies when sending examples
+- referral partner proof materials
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

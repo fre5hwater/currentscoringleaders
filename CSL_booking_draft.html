@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Book a Project | Current Scoring Leaders</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="csl-bg.css">
+<link rel="stylesheet" href="csl-draft.css">
+<style>
+.page-content{padding:4rem 1.5rem;max-width:1200px;margin:0 auto;width:100%}
+.page-content h2{font-size:clamp(1.75rem,3vw,2.5rem);font-weight:800;margin-bottom:1.5rem;background:linear-gradient(135deg,#00a8ff,#0bc5a0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.page-content h3{font-size:1.35rem;font-weight:700;color:#e2e8f0;margin-bottom:.75rem}
+.page-content p{color:#94a3b8;line-height:1.7;margin-bottom:1rem}
+.fw-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:2rem;transition:transform .3s,box-shadow .3s}
+.fw-card:hover{transform:translateY(-4px);box-shadow:0 8px 32px rgba(0,168,255,.15)}
+.fw-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin:2rem 0}
+.fw-hero-small{padding:6rem 1.5rem 3rem;text-align:center;background:linear-gradient(180deg,rgba(0,168,255,.08),transparent);border-bottom:1px solid rgba(255,255,255,.06)}
+.fw-hero-small h1{font-size:clamp(2rem,4vw,3.5rem);font-weight:900;background:linear-gradient(135deg,#00a8ff,#00d4ff,#0bc5a0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:1rem}
+.fw-hero-small .subtitle{color:#94a3b8;font-size:1.15rem;max-width:700px;margin:0 auto}
+.fw-tag{display:inline-block;padding:.35rem 1rem;border-radius:100px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;background:linear-gradient(135deg,rgba(0,168,255,.15),rgba(11,197,160,.15));border:1px solid rgba(0,168,255,.2);color:#00a8ff;margin-bottom:1rem}
+.fw-table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:12px;border:1px solid rgba(255,255,255,.06);margin:2rem 0}
+.fw-table th{background:rgba(0,168,255,.1);padding:1rem 1.25rem;text-align:left;font-weight:700;color:#e2e8f0;border-bottom:1px solid rgba(255,255,255,.06)}
+.fw-table td{padding:.9rem 1.25rem;border-bottom:1px solid rgba(255,255,255,.04);color:#cbd5e1}
+.fw-table tr:last-child td{border-bottom:0}
+.fw-table tr:hover td{background:rgba(0,168,255,.03)}
+@media(max-width:768px){.fw-grid{grid-template-columns:1fr}.page-content{padding:2rem 1rem}}
+</style>
+</head>
+<body>
+<nav class="draft-nav">
+<div class="nav-inner">
+<a href="CSL_index.html" class="nav-logo"><span class="fw-only">Fresh Water</span> <span class="csl-only">CSL</span></a>
+<div class="nav-links">
+<a href="CSL_index.html">Home</a>
+<a href="CSL_about.html">About</a>
+<a href="CSL_services.html">Services</a>
+<a href="CSL_pricing.html">Pricing</a>
+<a href="CSL_case_study.html">Case Study</a>
+<a href="CSL_booking.html">Book</a>
+</div>
+<button class="nav-mobile-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+</div>
+</nav>
+
+<section class="fw-hero-small"><span class="fw-tag">Fresh Water / CSL</span><h1>Tell Us What You’re Building</h1><p class="subtitle">Built different. Composed right.</p></section>
+<div class="page-content"><div class="page-header">
+        <div class="page-label">License &middot; Commission &middot; Retain</div>
+        <h1>Tell Us What You’re Building</h1>
+        <p>Tell us about the project, use case, and sound you need. This form starts the conversation &mdash; <strong style="color:var(--text);">24-hour response, no commitment.</strong></p>
+    </div>
+
+    <div class="main">
+
+        <!-- FORM -->
+        <div class="form-card">
+            <h2>Project Inquiry Form</h2>
+            <p>Fill out as much as you can. The more detail you give, the faster and more accurate your quote will be.</p>
+
+            <form id="inquiryForm" onsubmit="return CSL.submitForm(event, (this.service_type.value==='retainer' ? 'retainer' : 'booking'))">
+                <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>First Name *</label>
+                        <input type="text" name="first_name" placeholder="First name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Last Name *</label>
+                        <input type="text" name="last_name" placeholder="Last name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address *</label>
+                    <input type="email" name="email" placeholder="your@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Company / Channel / Project Name</label>
+                    <input type="text" name="company" placeholder="Optional">
+                </div>
+
+                <div class="form-group">
+                    <label>Service Type *</label>
+                    <select name="service_type" aria-label="Service Type" required>
+                        <option value="" disabled selected>Select a service...</option>
+                        <optgroup label="Catalog Licensing (existing tracks)">
+                            <option value="creator">Creator Custom Cue (from $950)</option>
+                            <option value="show-branding">Podcast / Show Branding Kit (from $1,800)</option>
+                            <option value="game">Game & Narrative Scoring (from $1,250/minute)</option>
+                            <option value="agency">Agency / Brand / Exclusive Work (quoted by scope)</option>
+                        </optgroup>
+                        <optgroup label="Custom Music (new tracks)">
+                            <option value="custom-single">Custom Scoring Project (from $950)</option>
+                            <option value="custom-pkg">Creator Scoring Pack (from $2,400)</option>
+                            <option value="exclusive">Exclusive Scoring Partnership (by quote)</option>
+                        </optgroup>
+                        <optgroup label="Ongoing">
+                            <option value="retainer">Monthly Retainer / Ongoing Scoring (by application)</option>
+                        </optgroup>
+                        <option value="unsure">Not Sure — Need Guidance</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Project Description *</label>
+                    <textarea name="description" placeholder="Describe your project — what it is, who it's for, what feeling or tone you're going for..." required></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Estimated Length</label>
+                        <select name="length" aria-label="Estimated Length">
+                            <option value="" disabled selected>Select...</option>
+                            <option>Under 30 seconds</option>
+                            <option>30 sec – 2 min</option>
+                            <option>2 – 5 minutes</option>
+                            <option>5 – 15 minutes</option>
+                            <option>15+ minutes / Full project</option>
+                            <option>Other yet</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Budget Range</label>
+                        <select name="budget" aria-label="Budget Range">
+                            <option value="" disabled selected>Select...</option>
+                            <option>Under $2,000</option>
+                            <option>$2,000 – $5,000</option>
+                            <option>$5,000 – $10,000</option>
+                            <option>$10,000 – $25,000</option>
+                            <option>$25,000+</option>
+                            <option>Flexible / Open</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Deadline</label>
+                    <input type="date" name="deadline" aria-label="Deadline">
+                </div>
+
+                <div class="form-group">
+                    <label>Genre / Mood Direction</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item"><input type="checkbox" name="genre" value="cinematic" id="g1"><label for="g1">Cinematic</label></div>
+                        <div class="checkbox-item"><input type="checkbox" name="genre" value="hiphop" id="g2"><label for="g2">Hip Hop</label></div>
+                        <div class="checkbox-item"><input type="checkbox" name="genre" value="rnb" id="g3"><label for="g3">R&amp;B / Soul</label></div>
+                        <div class="checkbox-item"><input type="checkbox" name="genre" value="electronic" id="g4"><label for="g4">Electronic</label></div>
+                        <div class="checkbox-item"><input type="checkbox" name="genre" value="ambient" id="g5"><label for="g5">Ambient</label></div>
+                        <div class="checkbox-item"><input type="checkbox" name="genre" value="orchestral" id="g6"><label for="g6">Orchestral</label></div>
+                        <div class="checkbox-item"><input type="checkbox" name="genre" value="experimental" id="g7"><label for="g7">Experimental</label></div>
+                        <div class="checkbox-item"><input type="checkbox" name="genre" value="unsure" id="g8"><label for="g8">Not Sure</label></div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Reference Tracks / Links (Optional)</label>
+                    <input type="text" name="references" placeholder="YouTube links, Spotify tracks, or anything that captures the vibe you want">
+                </div>
+
+                <div class="form-group">
+                    <label>Upload Reference Files (Optional)</label>
+                    <input type="file" name="reference_files" id="reference_files" accept="audio/*,.mp3,.wav,.aiff,.flac,.pdf,.zip" multiple style="width:100%;padding:0.6rem;background:var(--bg2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:0.85rem;cursor:pointer;">
+                    <p style="font-size:0.72rem;color:var(--muted);margin-top:0.3rem;">Acceptable formats: MP3, WAV, AIFF, FLAC, PDF, ZIP <input type="text" name="references" placeholder="YouTube links, Spotify tracks, or anything that captures the vibe you want">mdash; max 25MBmdash; max 25MB</p>
+                </div>
+
+                <div class="form-group">
+                </div>
+
+                <div class="form-group">
+                    <label>Anything Else We Should Know?</label>
+                    <textarea name="notes" placeholder="Hard deadlines, special requirements, licensing needs, platform info, etc." style="min-height:80px;"></textarea>
+                </div>
+
+                <div style="background:rgba(30,30,46,0.6);border:1px solid var(--border);border-radius:10px;padding:0.85rem 1rem;margin-bottom:1rem;font-size:0.75rem;color:var(--muted);line-height:1.6;">
+                    By submitting this form you agree to our <a href="CSL_legal.html" style="color:var(--blue)">Terms of Service</a>, <a href="CSL_legal.html?tab=refund" style="color:var(--blue)">Refund Policy</a>, and <a href="CSL_legal.html?tab=privacy" style="color:var(--blue)">Privacy Policy</a>. Submitting this form does not constitute a binding contract — no payment or commitment is required until you sign a Statement of Work.
+                </div>
+                <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Submit Project Inquiry</button>
+                <p class="form-note">You'll receive an instant email confirmation. We respond within 48 business hours. No commitment until you approve the quote.</p>
+
+            </form>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+
+            <div class="info-card">
+                <h3>What Happens Next</h3>
+                <div class="process-list">
+                    <div class="process-item">
+                        <div class="process-num">1</div>
+                        <div class="process-text"><h4>We Review Your Submission</h4><p>Within 24 hours we go through your project details carefully.</p></div>
+                    </div>
+                    <div class="process-item">
+                        <div class="process-num">2</div>
+                        <div class="process-text"><h4>You Receive a Custom Quote</h4><p>Detailed scope, timeline, and pricing tailored to your project.</p></div>
+                    </div>
+                    <div class="process-item">
+                        <div class="process-num">3</div>
+                        <div class="process-text"><h4>Contract & Deposit</h4><p>Sign the agreement, place your 50% deposit, and we begin.</p></div>
+                    </div>
+                    <div class="process-item">
+                        <div class="process-num">4</div>
+                        <div class="process-text"><h4>Delivery & Final Payment</h4><p>Review, revise, approve — then receive your stems and license.</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h3>Prefer to Reach Out Directly?</h3>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:currentscoringleaders@gmail.com">currentscoringleaders@gmail.com</a>
+                        </li>
+                        <li style="display:flex;align-items:center;gap:0.6rem;">
+                            <i class="fas fa-phone" style="color:var(--blue);width:16px;"></i>
+                            <a href="tel:2154395053" style="color:var(--muted);text-decoration:none;transition:color 0.2s;">215-439-5053</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-headphones"></i>
+                        <a href="CSL_portfolio.html">Browse the portfolio first</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-tag"></i>
+                        <a href="CSL_pricing.html">Review all pricing</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-file-signature"></i>
+                        <a href="CSL_contracts.html">View contract templates</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-user-plus"></i>
+                        <a href="CSL_signup.html">Full client intake form</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="guarantee-card">
+                <i class="fas fa-shield-alt"></i>
+                <h4>No Commitment Until You Approve</h4>
+                <p>Submitting this form is just the start of a conversation. You won't be charged anything until you review and approve the quote.</p>
+            </div>
+
+        </div>
+
+    </div></div>
+<footer class="draft-footer">
+<div class="footer-inner">
+<div class="footer-brand">
+<div class="footer-logo">Fresh Water <span class="dim">/ CSL</span></div>
+<p class="footer-tagline">Current Scoring Leaders LLC - Fresh Water Division</p>
+<p class="footer-location"><i class="fas fa-map-pin"></i> Philadelphia, PA</p>
+<p class="footer-contact"><i class="fas fa-envelope"></i> avery@currentscoringleaders.com</p>
+</div>
+<div class="footer-links">
+<a href="CSL_index.html">Home</a>
+<a href="CSL_about.html">About</a>
+<a href="CSL_services.html">Services</a>
+<a href="CSL_pricing.html">Pricing</a>
+<a href="CSL_portfolio.html">Portfolio</a>
+<a href="CSL_booking.html">Book</a>
+<a href="CSL_faq.html">FAQ</a>
+<a href="CSL_legal.html">Legal</a>
+</div>
+<div class="footer-bottom">
+<p>(c) 2026 Current Scoring Leaders LLC. All rights reserved.</p>
+<p class="fw-quote">Music that hits. On time. On budget.</p>
+</div>
+</div>
+</footer>
+<script src="csl-chatbot.js"></script>
+</body>
+</html>

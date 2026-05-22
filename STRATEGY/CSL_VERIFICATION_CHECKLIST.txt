@@ -1,0 +1,84 @@
+═══════════════════════════════════════════════════════════════════════════════
+           CURRENT SCORING LEADERS — VERIFICATION CHECKLIST
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This checklist exists to reduce overlooked gaps across CSL business assets.
+Use it before calling a system or asset "done."
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. PACKAGE LINKING CHECK
+═══════════════════════════════════════════════════════════════════════════════
+
+Verify:
+- asset is listed in CSL_ASSET_INDEX.txt
+- asset is referenced by the right master docs
+- related files point to each other where appropriate
+- no new file exists as an isolated orphan
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. BUYER-PATH CHECK
+═══════════════════════════════════════════════════════════════════════════════
+
+Verify:
+- buyer can understand fit quickly
+- public pricing is clear enough
+- CTA path is obvious
+- intake step is connected to next step
+- payment timing is clearly explained
+- trust language exists near conversion points
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. WEBSITE / CONTENT CHECK
+═══════════════════════════════════════════════════════════════════════════════
+
+Verify:
+- homepage messaging matches services page
+- referral language matches outreach language
+- pricing language matches strategy files
+- FAQs handle common objections
+- portfolio examples map to real offers
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. OUTREACH CHECK
+═══════════════════════════════════════════════════════════════════════════════
+
+Verify:
+- DM variants align with offers
+- email scripts align with pricing logic
+- CRM fields support follow-up actions
+- lead-building system connects to daily workflow
+- referral partner path has proof asset and CTA
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. VISUALIZER CHECK
+═══════════════════════════════════════════════════════════════════════════════
+
+Verify:
+- visualization need has been considered
+- correct chart type is chosen for the data
+- chart supports the actual decision needed
+- simple view exists before complex view
+- requested chart type is implemented or explicitly marked missing
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. COMPLETION CHECK
+═══════════════════════════════════════════════════════════════════════════════
+
+Before marking complete:
+- core file created
+- package links done
+- supporting files referenced
+- obvious gaps reviewed
+- missed directives checked against parameters file
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

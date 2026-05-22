@@ -1,0 +1,714 @@
+═══════════════════════════════════════════════════════════════════════════════
+                  BUSINESS STRUCTURE & REGISTRY DOCUMENTATION
+                            MASTER INVENTORY
+═══════════════════════════════════════════════════════════════════════════════
+
+BUSINESS NAME: [YOUR COMPANY LLC]
+EIN: [XX-XXXXXXX]
+STATE OF FORMATION: [STATE]
+FORMATION DATE: [DATE]
+JURISDICTION: [STATE/FEDERAL]
+REGISTRATION: [STATUS]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 1: LEGAL ENTITY DOCUMENTATION
+
+═══════════════════════════════════════════════════════════════════════════════
+
+1.1 ARTICLES OF ORGANIZATION
+
+Document: Articles of Organization (LLC)
+Issued By: [STATE] Secretary of State
+Filing Date: [DATE]
+Filing Number: [NUMBER]
+Status: APPROVED & ACTIVE
+Expiration: [DATE] (renewal required)
+Location: [FILE PATH]
+
+Contents:
+  ✓ Company name and address
+  ✓ Registered agent information
+  ✓ Member names and addresses
+  ✓ Authorized representative signature
+  ✓ State filing stamp/approval
+
+Required Actions:
+  - Annual renewals on [MONTH/DATE]
+  - Address changes filed within 30 days
+  - Member changes filed within 30 days
+  - Dissolution notice if ending business
+
+Backup Location: [CLOUD STORAGE PATH]
+Paper Copies: [PHYSICAL STORAGE LOCATION]
+
+---
+
+1.2 EMPLOYER IDENTIFICATION NUMBER (EIN)
+
+Document: EIN Certificate (IRS Form SS-4)
+Issued By: Internal Revenue Service
+Date Issued: [DATE]
+EIN: [XX-XXXXXXX]
+Status: ACTIVE
+Tax Year: Calendar Year
+
+Contents:
+  ✓ Business legal name
+  ✓ EIN number
+  ✓ Business address
+  ✓ Business structure (LLC)
+  ✓ Responsible officer name
+
+Uses:
+  ✓ Business tax identification
+  ✓ Employee/contractor 1099 reporting
+  ✓ Bank account setup
+  ✓ Business license applications
+  ✓ Contract identification
+
+Required Actions:
+  - Tax returns filed annually (April 15)
+  - Quarterly estimated taxes paid
+  - 1099-NEC issued to contractors >$600/year
+
+Backup Location: [CLOUD STORAGE PATH]
+
+---
+
+1.3 OPERATING AGREEMENT
+
+Document: Operating Agreement (LLC Internal Governance)
+Created: [DATE]
+Status: EXECUTED & IN EFFECT
+Members: [LIST]
+
+Contents:
+  ✓ Member names and ownership percentages
+  ✓ Capital contributions
+  ✓ Profit/loss distribution
+  ✓ Voting rights and procedures
+  ✓ Management structure
+  ✓ Meeting requirements
+  ✓ Member withdrawal/dissolution procedures
+  ✓ Amendment procedures
+
+Key Provisions:
+  • Member voting: [X]% approval for major decisions
+  • Distributions: [X]% quarterly/annually
+  • Member addition: Requires unanimous consent
+  • Dissolution: [X] members must agree
+  • Dispute resolution: [Arbitration/Mediation]
+
+Location: [FILE PATH]
+Backup: [CLOUD STORAGE PATH]
+
+---
+
+1.4 BUSINESS LICENSE & PERMITS
+
+Document: State Business License
+Issuing Authority: [STATE] Department of Commerce
+License Number: [NUMBER]
+Issue Date: [DATE]
+Expiration Date: [DATE]
+Status: ACTIVE & CURRENT
+
+Renewal:
+  - Renewal date: [DATE]
+  - Renewal fee: $[X]
+  - Process: Online renewal [X] days before expiration
+
+Additional Licenses/Permits:
+  ☐ Local business license (if required by county)
+  ☐ Music licensing (see Section 2)
+  ☐ Professional certifications (if applicable)
+  ☐ Contractor licenses (if applicable)
+
+Location: [FILE PATH]
+
+---
+
+1.5 DBA REGISTRATION (If Applicable)
+
+Document: Doing Business As (DBA) Certificate
+If you operate under a name different from LLC name:
+
+Business Name: [DBA NAME]
+LLC Name: [LEGAL LLC NAME]
+County: [COUNTY]
+Issue Date: [DATE]
+Expiration: [DATE]
+Status: [ACTIVE/EXPIRED]
+
+Renewal: Every [X] years in [MONTH]
+
+Location: [FILE PATH]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 2: INTELLECTUAL PROPERTY REGISTRY
+
+═══════════════════════════════════════════════════════════════════════════════
+
+2.1 COPYRIGHT REGISTRATIONS
+
+All original compositions registered with US Copyright Office for protection.
+
+Composition Registry:
+
+| Title | Registration # | Date | Duration | Status | Notes |
+|-------|-----------------|------|----------|--------|-------|
+| [Comp1] | [REG#] | [DATE] | Life+70 | ✓ Registered | Original work |
+| [Comp2] | [REG#] | [DATE] | Life+70 | ✓ Registered | Original work |
+| [Comp3] | [REG#] | [DATE] | Life+70 | ✓ Registered | Original work |
+
+[Add all compositions with registrations]
+
+Copyright Registrations Benefits:
+  ✓ Creates public record of ownership
+  ✓ Enables statutory damages ($150-$30,000 per work)
+  ✓ Enables attorney fees recovery in infringement cases
+  ✓ Required for copyright infringement lawsuits
+  ✓ Valuable business asset for valuation
+
+Pending Registrations:
+  - [Title]: Submitted [DATE], status: Under Review
+  - [Title]: Submitted [DATE], status: Under Review
+
+Registration Process:
+  1. Complete copyright form (online at copyright.gov)
+  2. Pay registration fee ($65 per composition)
+  3. Submit copy of work (MP3 or WAV file)
+  4. Wait 8-12 weeks for registration certificate
+  5. File certificate copies with business records
+
+Renewal Notes:
+  - Renewals may be needed for pre-1978 works
+  - Most modern works require no renewal
+  - Copyright duration: Author's life + 70 years
+  - For works-made-for-hire: 95 years from publication or 120 years from creation
+
+Location: [FILE PATH]/copyrights
+Backup: [CLOUD STORAGE PATH]
+Certificates: [PHYSICAL STORAGE]
+
+---
+
+2.2 TRADEMARK REGISTRATIONS
+
+Business name and logos protected via federal trademark.
+
+Trademark Registry:
+
+| Mark | Registration # | Type | Date | Renewal | Status | Class |
+|------|-----------------|------|------|---------|--------|-------|
+| [Brand] | [TM#] | Word | [DATE] | [DATE] | ✓ Active | 41 |
+| [Logo] | [TM#] | Logo | [DATE] | [DATE] | ✓ Active | 41 |
+
+[Add all trademarks]
+
+Trademark Benefits:
+  ✓ Protects brand name and logo nationally
+  ✓ Prevents competitors from similar marks
+  ✓ Enables enforcement against infringers
+  ✓ Valuable in business acquisition/licensing
+  ✓ Strong brand positioning in market
+
+Renewal Schedule:
+  - First renewal: 5-6 years after registration
+  - Subsequent renewals: Every 10 years
+  - Use in commerce required to maintain registration
+
+Pending Applications:
+  - [Mark]: Filed [DATE], application #[X], status: Under Examination
+
+Trademark Classification:
+  • Class 41: Education and entertainment services (music composition)
+  • Class 9: Recorded music and software (if applicable)
+  • Additional classes: [LIST IF APPLICABLE]
+
+Renewal Dates:
+  - [Mark]: Next renewal due [DATE]
+  - [Mark]: Next renewal due [DATE]
+
+Usage Rights:
+  ✓ Use ® symbol with registered marks
+  ✓ Use ™ symbol with unregistered marks
+  ✓ Maintain consistent use for enforcement
+  ✓ Document use in commerce annually
+
+Location: [FILE PATH]/trademarks
+Backup: [CLOUD STORAGE PATH]
+
+---
+
+2.3 DOMAIN NAME REGISTRATION
+
+Primary and backup domains for web presence.
+
+Domain Registry:
+
+| Domain | Registrar | Registration Date | Expiration | Auto-Renew | Status |
+|--------|-----------|-------------------|------------|------------|--------|
+| [Primary] | [Registrar] | [DATE] | [DATE] | ✓ Yes | Active |
+| [Backup1] | [Registrar] | [DATE] | [DATE] | ✓ Yes | Active |
+| [Backup2] | [Registrar] | [DATE] | [DATE] | ✓ Yes | Active |
+
+[Add all domains]
+
+Domain Renewal Schedule:
+  - [Domain]: Renews [DATE] (auto-renewal enabled)
+  - [Domain]: Renews [DATE] (auto-renewal enabled)
+
+Domain Services:
+  ✓ WHOIS privacy protection enabled
+  ✓ Auto-renewal enabled
+  ✓ DNS managed by [HOST]
+  ✓ SSL certificate: [PROVIDER] (auto-renews)
+  ✓ Email forwarding: [CONFIG]
+
+Domain Email:
+  - admin@[domain]: Forwards to [EMAIL]
+  - support@[domain]: Forwards to [EMAIL]
+  - info@[domain]: Forwards to [EMAIL]
+
+Backup Domains:
+  - [Domain]: For brand protection
+  - [Domain]: For emergency redirects
+  - [Domain]: For regional market
+
+Location: [REGISTRAR ACCOUNT PATH]
+Backup: [CLOUD STORAGE PATH]
+
+---
+
+2.4 TRADE SECRETS & CONFIDENTIAL INFORMATION
+
+Proprietary processes and methodologies protected under trade secret law.
+
+Trade Secrets Registry:
+
+| Trade Secret | Category | Created | Protection Level | Storage |
+|--------------|----------|---------|------------------|---------|
+| Production Process | Process | [DATE] | High | Encrypted |
+| Scoring Methodology | Method | [DATE] | High | Encrypted |
+| Client Database | Data | [DATE] | High | Access-Controlled |
+| Pricing Models | Pricing | [DATE] | Medium | Restricted |
+| Vendor Relationships | Business | [DATE] | Medium | Restricted |
+
+[Add all trade secrets]
+
+Protection Measures:
+  ✓ Limited employee/contractor access (need-to-know basis)
+  ✓ Confidentiality agreements with all staff
+  ✓ Encrypted storage for sensitive information
+  ✓ Access logging and monitoring
+  ✓ Physical security (locked files)
+  ✓ Non-compete clauses where enforceable
+
+Trade Secret Definition (Legal):
+  • Information not generally known to public
+  • Derives value from secrecy
+  • Subject to reasonable efforts to maintain secrecy
+  • Economically valuable
+
+Loss Prevention:
+  ✓ Audit file access regularly
+  ✓ Update security controls quarterly
+  ✓ Monitor for unauthorized disclosure
+  ✓ Have legal remedies ready for breach
+
+Misappropriation Response:
+  1. Document the misappropriation
+  2. Cease unauthorized use immediately
+  3. Notify legal counsel
+  4. File injunction if necessary
+  5. Pursue damages if applicable
+
+Location: [SECURE FILE PATH]
+Backup: [ENCRYPTED BACKUP LOCATION]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 3: REGULATORY & COMPLIANCE REGISTRATIONS
+
+═══════════════════════════════════════════════════════════════════════════════
+
+3.1 PERFORMING RIGHTS ORGANIZATION (PRO) REGISTRATION
+
+Royalty collection for public performances of your compositions.
+
+PRO Registration:
+
+Organization: [ASCAP/BMI/SESAC]
+Member Number: [NUMBER]
+Status: [ACTIVE/PENDING]
+Registration Date: [DATE]
+Membership Level: [TIER]
+
+PRO Details:
+  • Organization: [Which PRO and why chosen]
+  • Benefits: Performance royalties, educational materials, networking
+  • Annual fee: $[X]
+  • Renewal: [DATE]
+
+Compositions Registered:
+  - [Composition 1]: Registered [DATE]
+  - [Composition 2]: Registered [DATE]
+  [Add all compositions in PRO catalog]
+
+PRO Account Details:
+  • Payment method: [METHOD]
+  • Payment frequency: [QUARTERLY/SEMI-ANNUALLY]
+  • Last payment received: [DATE] for $[X]
+  • Account balance: $[X]
+
+Performance Tracking:
+  ✓ Broadcast performances tracked via PRO
+  ✓ Streaming royalties tracked
+  ✓ Cue sheets filed for TV/film
+  ✓ Live performance reporting (if applicable)
+
+Annual Royalties:
+  - [YEAR]: $[X]
+  - [YEAR]: $[X]
+  - [YEAR]: $[X]
+
+Location: [FILE PATH]/pro
+Backup: [CLOUD STORAGE PATH]
+
+---
+
+3.2 SOUNDEXCHANGE REGISTRATION
+
+Digital performance royalties for streaming/satellite radio.
+
+SoundExchange Account:
+
+Member Number: [NUMBER]
+Status: [ACTIVE/PENDING]
+Account Type: [DIGITAL PERFORMANCE RIGHTS OWNER]
+Registration Date: [DATE]
+
+SoundExchange Details:
+  • Collects: Spotify, Apple Music, Tidal, etc.
+  • Payment frequency: Quarterly
+  • Last payment: [DATE] for $[X]
+
+Recordings Registered:
+  - [Recording 1]: ISRC [CODE], Registered [DATE]
+  - [Recording 2]: ISRC [CODE], Registered [DATE]
+  [Add all recordings with ISRC codes]
+
+Annual Collections:
+  - [YEAR]: $[X]
+  - [YEAR]: $[X]
+
+Location: [FILE PATH]/soundexchange
+Backup: [CLOUD STORAGE PATH]
+
+---
+
+3.3 MUSIC LICENSING REGISTRATION
+
+For licensing compositions to third parties.
+
+If doing licensing deals:
+
+Registry:
+  | Client | License Type | Territory | Term | Status |
+  |--------|--------------|-----------|------|--------|
+  | [Client] | [Type] | [Territory] | [Term] | [Active/Expired] |
+
+[Add all active licenses]
+
+License Types:
+  ✓ Exclusive (only one user per territory)
+  ✓ Non-exclusive (multiple users)
+  ✓ Perpetual (forever)
+  ✓ Term-limited (X years)
+
+Licensing Revenue:
+  - [YEAR]: $[X] from licensing
+  - [YEAR]: $[X] from licensing
+
+Location: [FILE PATH]/licensing
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 4: INSURANCE DOCUMENTATION
+
+═══════════════════════════════════════════════════════════════════════════════
+
+4.1 GENERAL LIABILITY INSURANCE
+
+Document: General Liability Policy
+Insurer: [INSURANCE COMPANY]
+Policy Number: [NUMBER]
+Issue Date: [DATE]
+Expiration Date: [DATE]
+Coverage Limit: $[X] per occurrence / $[X] aggregate
+Status: ACTIVE & CURRENT
+
+Coverage Includes:
+  ✓ Bodily injury
+  ✓ Property damage
+  ✓ Legal defense costs
+  ✓ Medical payments
+
+Premium: $[X] annually
+Billing: [QUARTERLY/ANNUALLY]
+Next Renewal: [DATE]
+
+Certificate of Insurance: [LOCATION]
+Backup: [CLOUD STORAGE]
+
+---
+
+4.2 ERRORS & OMISSIONS (E&O) INSURANCE
+
+Document: E&O Policy
+Insurer: [INSURANCE COMPANY]
+Policy Number: [NUMBER]
+Issue Date: [DATE]
+Expiration Date: [DATE]
+Coverage Limit: $[X] per claim / $[X] aggregate
+Status: ACTIVE & CURRENT
+
+Coverage Includes:
+  ✓ Professional errors
+  ✓ Negligent acts
+  ✓ Omissions in service
+  ✓ Legal defense
+
+Premium: $[X] annually
+Billing: [QUARTERLY/ANNUALLY]
+Next Renewal: [DATE]
+
+Certificate of Insurance: [LOCATION]
+
+---
+
+4.3 CYBER LIABILITY INSURANCE
+
+Document: Cyber Liability Policy
+Insurer: [INSURANCE COMPANY]
+Policy Number: [NUMBER]
+Issue Date: [DATE]
+Expiration Date: [DATE]
+Coverage Limit: $[X] per incident
+Status: ACTIVE & CURRENT
+
+Coverage Includes:
+  ✓ Data breach costs
+  ✓ Notification expenses
+  ✓ Credit monitoring
+  ✓ Legal review
+  ✓ PR/communications
+  ✓ Regulatory fines (if covered)
+
+Premium: $[X] annually
+Next Renewal: [DATE]
+
+---
+
+4.4 INSURANCE SUMMARY
+
+Total Annual Insurance Cost: $[X]
+Last Audit Date: [DATE]
+Next Audit Date: [DATE]
+
+Insurance Broker:
+  Contact: [NAME]
+  Email: [EMAIL]
+  Phone: [PHONE]
+
+Location: [FILE PATH]/insurance
+Backup: [CLOUD STORAGE PATH]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 5: BANKING & FINANCIAL DOCUMENTATION
+
+═══════════════════════════════════════════════════════════════════════════════
+
+5.1 BUSINESS BANK ACCOUNT
+
+Bank: [BANK NAME]
+Account Type: [BUSINESS CHECKING/SAVINGS]
+Account Number: [LAST 4 DIGITS]
+Routing Number: [NUMBER]
+Status: ACTIVE
+
+Account Details:
+  • Account opened: [DATE]
+  • Min balance: $[X]
+  • Monthly fee: $[X]
+  • Overdraft protection: [YES/NO]
+
+Authorized Signers:
+  - [NAME]: Primary signer
+  - [NAME]: Secondary signer
+
+Backup Location: [CLOUD STORAGE]
+
+---
+
+5.2 PAYMENT PROCESSING
+
+Primary Processor: [STRIPE/SQUARE/PAYPAL]
+Account ID: [ID]
+Status: ACTIVE
+
+Processing Details:
+  ✓ Credit card processing: [YES/NO]
+  ✓ ACH transfers: [YES/NO]
+  ✓ Fee rate: [X]%
+  ✓ Settlement: [Daily/Weekly]
+
+Alternative Processor: [BACKUP PROCESSOR]
+
+5.3 ACCOUNTING SYSTEM
+
+Platform: [QUICKBOOKS/XERO/OTHER]
+Status: ACTIVE
+Subscription: [PLAN TYPE]
+Renewal: [DATE]
+
+Records Maintained:
+  ✓ Income/revenue
+  ✓ Expenses
+  ✓ Invoices
+  ✓ Tax documents
+  ✓ Financial reports
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 6: KEY CONTACTS & PROFESSIONAL ADVISORS
+
+═══════════════════════════════════════════════════════════════════════════════
+
+6.1 BUSINESS ATTORNEY
+
+Name: [NAME]
+Firm: [FIRM NAME]
+Phone: [PHONE]
+Email: [EMAIL]
+Address: [ADDRESS]
+
+Specialization: Business law / IP law / Entertainment law
+Services: Contract review, IP protection, compliance
+Last Consultation: [DATE]
+Next Review: [DATE]
+
+---
+
+6.2 TAX CPA / ACCOUNTANT
+
+Name: [NAME]
+Firm: [FIRM NAME]
+Phone: [PHONE]
+Email: [EMAIL]
+
+Specialization: Small business / Music industry
+Services: Tax planning, quarterly taxes, business structure
+Last Consultation: [DATE]
+Next Review: [DATE]
+
+---
+
+6.3 INSURANCE BROKER
+
+Name: [NAME]
+Company: [COMPANY]
+Phone: [PHONE]
+Email: [EMAIL]
+
+Services: Insurance selection, coverage review, claims support
+Last Review: [DATE]
+Next Review: [DATE]
+
+---
+
+6.4 BUSINESS BANKING
+
+Bank: [BANK]
+Account Manager: [NAME]
+Phone: [PHONE]
+Email: [EMAIL]
+
+Services: Account management, wire transfer support, business loans
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION 7: RECORDS RETENTION & ARCHIVAL
+
+═══════════════════════════════════════════════════════════════════════════════
+
+All business documents retained per the following schedule:
+
+Legal Documents:
+  • Contracts: 7 years after termination
+  • Agreements: 7 years after expiration
+  • Licenses: Life of license + 3 years
+  • Policies: Current + 3 years expired
+
+Financial Records:
+  • Tax returns: 7 years (IRS retention requirement)
+  • Invoices: 7 years
+  • Receipts: 7 years
+  • Bank statements: 7 years
+
+Employee/Contractor:
+  • Payroll records: 4 years minimum
+  • 1099 forms: 7 years
+  • Agreements: 7 years after termination
+
+Project Files:
+  • Client contracts: 7 years after completion
+  • Delivery records: 3 years
+  • Communications: 3 years
+  • Backup files: 1 year (or per agreement)
+
+Storage Locations:
+  • Primary: [PHYSICAL LOCATION]
+  • Backup: [CLOUD STORAGE]
+  • Offsite: [EXTERNAL BACKUP]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+AUDIT CHECKLIST
+
+Annual Compliance Review (Complete [DATE]):
+
+☐ All LLC registrations current and active
+☐ EIN and tax status verified
+☐ Operating agreement reviewed (update if needed)
+☐ IP registrations active (copyrights, trademarks, domains)
+☐ PRO/SoundExchange memberships active
+☐ Insurance policies active and current
+☐ Banking information verified
+☐ Professional advisors contacted for annual review
+☐ Records organized per retention schedule
+☐ Backup systems verified
+☐ Changes filed with state (if any)
+☐ Documents digitized and backed up
+
+Last Audit: [DATE]
+Next Audit: [DATE]
+Auditor: [NAME]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+VERSION CONTROL & UPDATES
+
+Document Version: 1.0
+Created: [DATE]
+Last Updated: [DATE]
+Next Review: [DATE]
+
+Update Log:
+- [DATE]: [CHANGE DESCRIPTION]
+
+═══════════════════════════════════════════════════════════════════════════════

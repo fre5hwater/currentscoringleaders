@@ -1,0 +1,338 @@
+TERMS OF SERVICE
+Current Scoring Leaders LLC
+currentscoringleaders.com
+
+Effective Date: [INSERT DATE WHEN PUBLISHED]
+Last Updated: March 26, 2026
+
+───────────────────────────────────────────────────────────────────────────────
+
+1. AGREEMENT TO TERMS
+
+By accessing or using the Current Scoring Leaders LLC ("CSL," "Company,"
+"we," "us," "our") website and services, you ("Client," "you," "your")
+accept and agree to be bound by these Terms of Service. If you do not agree,
+do not use our website or services.
+
+We reserve the right to modify these terms at any time. Material changes will
+be communicated via email to active clients with 30 days' notice. Your
+continued use constitutes acceptance of modified terms.
+
+───────────────────────────────────────────────────────────────────────────────
+
+2. SERVICES
+
+Current Scoring Leaders LLC provides custom music composition, scoring, and
+licensing services including but not limited to:
+
+  - Original music composition for video, film, games, and media
+  - Custom scoring for commercial and creative projects
+  - Music licensing from our existing catalog
+  - Retainer-based ongoing composition services
+  - Sound design and audio production
+
+All services are governed by these Terms and any applicable Statement of Work
+("SOW") or service contract signed between the parties.
+
+───────────────────────────────────────────────────────────────────────────────
+
+3. USE OF WEBSITE
+
+You are granted a limited, non-exclusive, non-transferable license to access
+and view materials on our website for personal and business evaluation
+purposes only. You may not:
+
+  - Copy, reproduce, or distribute website content without permission
+  - Use automated tools to scrape or access website data
+  - Attempt to reverse-engineer any website technology
+  - Use the website for any unlawful purpose
+  - Transmit viruses, malware, or harmful code
+  - Impersonate another person or entity
+
+Violations may result in immediate termination of access and legal action.
+
+───────────────────────────────────────────────────────────────────────────────
+
+4. INTELLECTUAL PROPERTY
+
+All website content including text, graphics, logos, images, audio clips,
+and software are the property of Current Scoring Leaders LLC and are
+protected by United States copyright law and international treaties.
+
+Compositions and Music:
+  - All original compositions are CSL's exclusive property until a signed
+    agreement transfers ownership
+  - Work-for-hire compositions transfer ownership to Client upon full
+    payment, as specified in the applicable service contract
+  - CSL retains all pre-existing materials, techniques, and methodologies
+  - CSL retains the right to reference completed work in its portfolio
+    (with credit, unless otherwise agreed in writing)
+
+Your Content:
+  - You retain ownership of materials you submit to us
+  - You grant CSL a limited license to use submitted materials solely for
+    the purpose of completing your project
+  - You warrant that you have the legal right to submit all materials
+
+───────────────────────────────────────────────────────────────────────────────
+
+5. PRICING AND PAYMENT
+
+All pricing is outlined in our published rate sheet and/or the applicable
+SOW or service contract.
+
+Deposit:
+  - 50% of project fee due upon signing the service contract
+  - Non-refundable once composition work has begun
+  - Fully refundable if cancelled before work starts
+
+Final Payment:
+  - Remaining 50% due upon delivery of final files
+  - Payment due within 15 days of invoice (Net 15)
+  - Final deliverables are not released until payment is received in full
+
+Late Payment:
+  - Interest accrues at 1.5% per month (18% APR) on overdue balances
+  - Project may be suspended after 15 days past due
+  - Legal collection may commence after 30 days past due
+  - Client is responsible for all collection costs and attorney fees
+
+Accepted Payment Methods:
+  - Credit/debit card (processed securely via Stripe)
+  - ACH bank transfer
+  - PayPal
+  - Check (5-day processing hold applies)
+
+Refund Policy:
+  - Deposit refunded in full if cancelled before work begins
+  - No refund on deposit once composition work has started
+  - Mid-project cancellation: Client billed for work completed plus
+    50% of remaining project scope
+  - Completed and delivered work is non-refundable
+
+Disputed Invoices:
+  - Must be reported in writing within 30 days of invoice date
+  - Must include specific details of the dispute
+  - Subject to dispute resolution process (Section 12)
+
+───────────────────────────────────────────────────────────────────────────────
+
+6. DELIVERY AND REVISIONS
+
+Standard Turnaround:
+  - Most projects: 5-10 business days
+  - Rush orders: 48 hours (additional fee applies)
+  - Complex/premium projects: Custom timeline per SOW
+
+Revisions Included:
+  - Starter Package: 2 rounds of revisions
+  - Standard Package: 3 rounds of revisions
+  - Premium Package: Unlimited revisions during project period
+  - Additional revision rounds available at agreed hourly rate
+
+Revision Scope:
+  - Included: Arrangement changes, mix adjustments, length modifications,
+    moderate instrumentation changes
+  - Not included: Complete re-composition, major genre/style changes,
+    significant scope expansion (requires change order)
+
+Revision Process:
+  1. Client provides written feedback within 7 days of draft delivery
+  2. CSL completes revisions within agreed timeline
+  3. Client reviews and approves or provides additional feedback
+  4. Process repeats up to the revision limit
+
+Acceptance:
+  - If no feedback is received within 7 business days of delivery,
+    the project is deemed accepted as delivered
+  - No further revisions will be available after acceptance
+
+Delivery Format:
+  - Standard: WAV (44.1kHz/24-bit) + MP3 (320kbps)
+  - With stems: Individual track stems in WAV format
+  - Additional formats available upon request
+
+───────────────────────────────────────────────────────────────────────────────
+
+7. WORK-FOR-HIRE TERMS
+
+When explicitly agreed in a signed service contract:
+
+Client Receives:
+  - Full copyright ownership of the commissioned composition(s)
+  - All derivative and exploitation rights
+  - Right to modify, distribute, and sublicense the work
+  - Ownership transfers upon receipt of full payment
+
+CSL Retains:
+  - All pre-existing compositions and materials
+  - General composition techniques and methodologies
+  - Right to reference the project in CSL's portfolio (with credit)
+  - Ownership of all work if Client fails to pay in full
+
+Client Obligations:
+  - Pay all invoices per the agreed schedule
+  - Cannot claim CSL as an employee (independent contractor relationship)
+  - Responsible for any third-party clearances needed for Client's use
+  - Responsible for music licensing compliance in Client's jurisdiction
+
+───────────────────────────────────────────────────────────────────────────────
+
+8. DISCLAIMER OF WARRANTIES
+
+Services and website materials are provided "AS IS" without warranty of
+any kind, express or implied.
+
+CSL does not warrant that:
+  - Services will meet your specific requirements or expectations
+  - Compositions will achieve specific commercial results
+  - Services will be uninterrupted, timely, or error-free
+  - Website content is accurate, complete, or current
+
+CSL expressly disclaims all implied warranties including merchantability,
+fitness for a particular purpose, and non-infringement.
+
+───────────────────────────────────────────────────────────────────────────────
+
+9. LIMITATION OF LIABILITY
+
+In no event shall Current Scoring Leaders LLC, its officers, directors,
+employees, or agents be liable for any indirect, incidental, consequential,
+special, or punitive damages, including but not limited to lost profits,
+lost revenue, lost business opportunity, or reputational harm.
+
+CSL's total liability for any claim arising from services shall not exceed
+the greater of:
+  - The total amount paid by Client in the preceding 12 months, or
+  - $1,000 USD
+
+This limitation applies regardless of the theory of liability (contract,
+tort, negligence, strict liability, or otherwise).
+
+Exception: Indemnification obligations and breaches of confidentiality
+are not subject to the liability cap.
+
+───────────────────────────────────────────────────────────────────────────────
+
+10. INDEMNIFICATION
+
+You agree to indemnify, defend, and hold harmless Current Scoring Leaders
+LLC and its officers, directors, employees, agents, and suppliers from any
+claims, damages, liabilities, costs, and expenses (including reasonable
+attorney fees) arising from:
+
+  - Your use of the website or services
+  - Your violation of these Terms
+  - Your violation of any law or third-party rights
+  - Content you submit to CSL
+  - Any claim related to your use of delivered compositions
+
+───────────────────────────────────────────────────────────────────────────────
+
+11. TERMINATION
+
+CSL may terminate or suspend your access to the website and services:
+
+Without Prior Notice:
+  - Security breach or attempted unauthorized access
+  - Illegal activity
+  - Threats, harassment, or abusive conduct
+  - Transmission of malware or harmful code
+
+With 30 Days' Notice:
+  - Non-payment after 30 days past due
+  - Repeated violations after written warning
+
+Upon Termination:
+  - Website access revoked
+  - Pending projects cancelled (Client billed for work completed)
+  - No refund of fees already paid
+  - Indemnification, liability limits, IP provisions, and
+    confidentiality obligations survive termination
+
+───────────────────────────────────────────────────────────────────────────────
+
+12. DISPUTE RESOLUTION
+
+Step 1 — Informal Resolution:
+  Before any formal action, both parties shall attempt good-faith
+  negotiation for 30 days. Contact: legal@currentscoringleaders.com
+
+Step 2 — Mediation:
+  If unresolved, parties shall submit to non-binding mediation.
+  Location: Commonwealth of Pennsylvania. Costs split equally.
+  Duration: Up to 60 days.
+
+Step 3 — Binding Arbitration:
+  If mediation fails, disputes shall be resolved by binding arbitration
+  under the AAA Commercial Arbitration Rules. Single arbitrator for
+  claims under $50,000. Location: Commonwealth of Pennsylvania.
+
+Exceptions:
+  - Small claims court for claims under $5,000
+  - Injunctive relief for IP enforcement (may be pursued in court)
+
+Attorney Fees:
+  The prevailing party shall recover reasonable attorney fees and costs.
+
+───────────────────────────────────────────────────────────────────────────────
+
+13. GOVERNING LAW
+
+These Terms are governed by the laws of the Commonwealth of Pennsylvania,
+United States, without regard to conflicts of law principles.
+
+───────────────────────────────────────────────────────────────────────────────
+
+14. THIRD-PARTY LINKS
+
+Our website may contain links to third-party websites and services. CSL is
+not responsible for the content, privacy practices, or availability of any
+third-party sites. Use of third-party services is at your own risk.
+
+───────────────────────────────────────────────────────────────────────────────
+
+15. FORCE MAJEURE
+
+CSL is not liable for delays or failures caused by events beyond reasonable
+control, including natural disasters, war, terrorism, government actions,
+pandemic, infrastructure failure, or utility outages. Notice of force
+majeure will be provided within 5 business days.
+
+───────────────────────────────────────────────────────────────────────────────
+
+16. SEVERABILITY
+
+If any provision of these Terms is found invalid or unenforceable, that
+provision shall be severed and the remaining provisions shall remain in
+full force and effect.
+
+───────────────────────────────────────────────────────────────────────────────
+
+17. ENTIRE AGREEMENT
+
+These Terms of Service, together with our Privacy Policy and any applicable
+SOW or service contract, constitute the entire agreement regarding your use
+of our website and services. All prior agreements and understandings are
+superseded.
+
+───────────────────────────────────────────────────────────────────────────────
+
+18. CONTACT
+
+Current Scoring Leaders LLC
+Email: currentscoringleaders@gmail.com
+Web: currentscoringleaders.com
+State of Formation: Pennsylvania, United States
+
+For general inquiries: currentscoringleaders@gmail.com
+
+───────────────────────────────────────────────────────────────────────────────
+
+By accessing our website or engaging our services, you acknowledge that you
+have read, understood, and agree to be bound by these Terms of Service.
+
+Last Updated: March 26, 2026
+Version: 1.0
+
+(c) Current Scoring Leaders LLC. All Rights Reserved.

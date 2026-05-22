@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | Current Scoring Leaders</title>
+    <meta name="description" content="Page not found at Current Scoring Leaders. Return home or browse pricing, portfolio, and our services.">
+    <link rel="canonical" href="https://currentscoringleaders.com/CSL_404.html">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Current Scoring Leaders">
+    <meta property="og:title" content="Page Not Found | Current Scoring Leaders">
+    <meta property="og:description" content="Page not found at Current Scoring Leaders. Return home or browse pricing, portfolio, and our services.">
+    <meta property="og:image" content="https://currentscoringleaders.com/img_csl_studio.webp">
+    <meta property="og:url" content="https://currentscoringleaders.com/CSL_404.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Page Not Found | Current Scoring Leaders">
+    <meta name="twitter:description" content="Page not found at Current Scoring Leaders. Return home or browse pricing, portfolio, and our services.">
+    <meta name="twitter:image" content="https://currentscoringleaders.com/img_csl_studio.webp">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Three.js for 3D visualizers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <style>
+        :root{--bg:#0a0a0f;--bg2:#0f0f18;--blue:#3b82f6;--purple: #60a5fa;--text:#f1f5f9;--muted:#94a3b8;--border:#1e1e2e;}
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem;background-image:radial-gradient(ellipse at 50% 40%,rgba(59,130,246,0.06) 0%,transparent 60%);}
+        nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,10,15,0.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:0.9rem 2rem;display:flex;justify-content:space-between;align-items:center;}
+        .nav-logo img{height:150px;width:auto;display:block;}
+        body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");opacity:0.03;pointer-events:none;z-index:9999;}
+        .nav-links{display:flex;gap:2rem;list-style:none;}
+        .nav-links a{color:var(--muted);text-decoration:none;font-size:0.875rem;font-weight:500;transition:color 0.2s;}
+        .nav-links a:hover{color:var(--text);}
+
+        .error-wrap{max-width:520px;}
+        .error-code{font-size:clamp(6rem,18vw,10rem);font-weight:900;line-height:1;letter-spacing:-4px;background:linear-gradient(135deg,var(--blue),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:0.5rem;}
+        h1{font-size:clamp(1.4rem,3vw,1.9rem);font-weight:800;letter-spacing:-0.3px;margin-bottom:0.75rem;}
+        p{color:var(--muted);font-size:0.9rem;margin-bottom:2.5rem;line-height:1.7;}
+
+        .nav-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:0.75rem;margin-bottom:2rem;width:100%;}
+        .nav-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:1.1rem 0.75rem;text-decoration:none;color:var(--text);transition:all 0.2s;display:flex;flex-direction:column;align-items:center;gap:0.4rem;}
+        .nav-card:hover{border-color:rgba(59,130,246,0.4);transform:translateY(-2px);}
+        .nav-card i{font-size:1.1rem;color:var(--blue);}
+        .nav-card span{font-size:0.8rem;font-weight:600;}
+
+        .back-btn{display:inline-flex;align-items:center;gap:0.5rem;background:var(--blue);color:white;padding:0.85rem 2rem;border-radius:10px;text-decoration:none;font-weight:700;font-size:0.9rem;transition:all 0.2s;}
+        .back-btn:hover{background:var(--purple);transform:translateY(-2px);}
+
+        footer{position:fixed;bottom:0;left:0;right:0;background:var(--bg2);border-top:1px solid var(--border);padding:1rem 2rem;text-align:center;}
+        footer p{color:var(--muted);font-size:0.78rem;}
+        @media(max-width:720px){.nav-links{display:none;}}
+    </style>
+<link rel="stylesheet" href="csl-bg.css">
+<link rel="stylesheet" href="csl-visualizers.css">
+</head>
+<body>
+<nav>
+    <a href="CSL_index.html" class="nav-logo"><img src="CSL_logo_dark.png" alt="Current Scoring Leaders"></a>
+    <ul class="nav-links">
+            <li><a href="CSL_index.html">Scoring</a></li>
+        <li><a href="CSL_pricing.html">Pricing</a></li>
+        <li><a href="CSL_portfolio.html">Portfolio</a></li>
+        <li><a href="CSL_process.html">Our Process</a></li>
+        <li><a href="CSL_about.html">About &amp; Contact</a></li>
+    </ul>
+</nav>
+
+<div class="error-wrap">
+    <div class="error-code">404</div>
+    <h1>Page not found.</h1>
+    <p>The page you're looking for doesn't exist or may have moved. Here's where you can go instead.</p>
+
+    <div class="nav-cards">
+        <a href="CSL_index.html" class="nav-card">
+            <i class="fas fa-home"></i><span>Home</span>
+        </a>
+        <a href="CSL_pricing.html" class="nav-card">
+            <i class="fas fa-list-alt"></i><span>Pricing</span>
+        </a>
+        <a href="CSL_portfolio.html" class="nav-card">
+            <i class="fas fa-headphones"></i><span>Portfolio</span>
+        </a>
+        <a href="CSL_faq.html" class="nav-card">
+            <i class="fas fa-question-circle"></i><span>FAQ</span>
+        </a>
+        <a href="CSL_about.html#contact" class="nav-card">
+            <i class="fas fa-envelope"></i><span>Contact</span>
+        </a>
+    </div>
+
+    <a href="CSL_booking.html" class="back-btn"><i class="fas fa-paper-plane"></i> Start a Project</a>
+</div>
+
+<footer>
+    <p><p>&copy; 2026 Current Scoring Leaders LLC &middot; All Rights Reserved</p>copy; 2026 Current Scoring Leaders LLC <p>&copy; 2026 Current Scoring Leaders LLC &middot; All Rights Reserved</p>middot; All Rights Reserved</p>
+    <p style="color:var(--muted);font-size:0.78rem;margin-top:0.25rem;">215-439-5053</p>
+</footer>
+<script src="csl-shared.js" defer></script><script src="csl-cookie-banner.js" defer></script>
+<script src="csl-bg.js" defer></script><script src="csl-visualizers.js" defer></script>
+</body>
+</html>
+
+
+

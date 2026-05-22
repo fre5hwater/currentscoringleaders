@@ -1,0 +1,199 @@
+═══════════════════════════════════════════════════════════════════════════════
+         CURRENT SCORING LEADERS — ONBOARDING LANDING PAGE
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This page is the buyer-entry page for people ready to begin a project.
+It should qualify the buyer, build trust, explain the process, and move them
+smoothly into the intake form and payment path.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. PAGE GOAL
+═══════════════════════════════════════════════════════════════════════════════
+
+The page should answer:
+- whether CSL is a fit
+- what kinds of projects are accepted
+- what the public starting points are
+- how the process works
+- what happens after submission
+- when payment happens
+
+Primary outcome:
+- completed project intake
+
+Secondary outcome:
+- discovery call for higher-complexity buyers
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. PAGE STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+
+HERO
+Headline:
+Start Your Project with Current Scoring Leaders
+
+Subheadline:
+Custom music for creators, podcasts, games, and visual projects that need more
+than generic background sound.
+
+Primary CTA:
+Start Your Project
+
+Secondary CTA:
+See Pricing Starting Points
+
+
+FIT SECTION
+Heading:
+Who this is for
+
+Bullets:
+- creators who need a recognizable signature sound
+- podcasters who need branded intro and outro music
+- production teams who need story-first scoring
+- game projects that need world-specific music
+- agencies needing a reliable custom music partner
+
+
+NOT A FIT SECTION
+Heading:
+What this page is not for
+
+Bullets:
+- generic marketing help
+- audience growth strategy
+- stock library browsing as the main offer
+- vague projects with no clear use case
+
+
+PRICING PREVIEW
+Heading:
+Public starting points
+
+Blocks:
+- Signature Themes — starting at $600
+- Podcast Branding — starting at $500
+- Custom Scoring — starting at $1,200
+- Game & Narrative Scoring — quoted by scope
+- Retainers — available by application
+
+Support line:
+Final scope is based on project needs, timeline, deliverables, and rights.
+
+
+PROCESS SECTION
+Heading:
+How it works
+
+Steps:
+1. You send project details
+2. CSL reviews fit and scope
+3. You receive the clearest next step
+4. Deposit is paid when scope is approved
+5. Project kickoff begins
+
+
+BUYER TRUST SECTION
+Heading:
+What you can expect
+
+Bullets:
+- clear communication
+- defined next steps
+- honest fit assessment
+- human response within 24 hours
+- payment tied to an actual scope, not guesswork
+
+
+HIGHER-COMPLEXITY PATH
+Heading:
+For larger or more complex projects
+
+Copy:
+If your project needs more discussion before quoting, CSL may recommend a short
+discovery call before a formal proposal.
+
+
+PRIMARY CTA SECTION
+Heading:
+Tell us what you are building
+
+Copy:
+The intake form is the fastest way to get a recommendation, quote path, or call
+based on your actual project.
+
+Button:
+Start Your Project
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. PAYMENT / BILLABLE STRUCTURE
+═══════════════════════════════════════════════════════════════════════════════
+
+Recommended buyer path:
+- landing page
+- intake form
+- quote or recommendation
+- deposit payment page
+- kickoff confirmation page
+
+Recommended payment rule:
+- 50% deposit to begin
+- remaining balance before final delivery
+
+For simple projects:
+- allow faster direct quote and checkout
+
+For larger projects:
+- use scoped proposal first
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. CTA LOGIC
+═══════════════════════════════════════════════════════════════════════════════
+
+Primary CTA should always be:
+- Start Your Project
+
+Do not overload with too many buttons.
+Keep one main path.
+
+Good secondary links:
+- See Pricing Starting Points
+- Ask About Retainers
+- View Portfolio Examples
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. BEST FOLLOW-UP PAGES
+═══════════════════════════════════════════════════════════════════════════════
+
+After form submission:
+- confirmation page
+
+After approved scope:
+- deposit / payment page
+
+After payment:
+- welcome / kickoff page
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. DESIGN NOTES
+═══════════════════════════════════════════════════════════════════════════════
+
+- dark, premium visual tone
+- calm structure
+- minimal clutter
+- short sections
+- trust-building copy near CTA
+- pricing without overwhelming detail
+- clear separation between inquiry and payment
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

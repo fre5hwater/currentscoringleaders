@@ -1,0 +1,72 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": false,
+  "cleanUrls": false,
+  "redirects": [
+    { "source": "/home", "destination": "/CSL_index.html", "permanent": true },
+    { "source": "/about", "destination": "/CSL_about.html", "permanent": true },
+    { "source": "/pricing", "destination": "/CSL_pricing.html", "permanent": true },
+    { "source": "/catalog", "destination": "/CSL_catalog.html", "permanent": true },
+    { "source": "/commission", "destination": "/CSL_commission.html", "permanent": true },
+    { "source": "/retainer", "destination": "/CSL_retainer.html", "permanent": true },
+    { "source": "/portfolio", "destination": "/CSL_portfolio.html", "permanent": true },
+    { "source": "/process", "destination": "/CSL_process.html", "permanent": true },
+    { "source": "/booking", "destination": "/CSL_booking.html", "permanent": true },
+    { "source": "/contact", "destination": "/CSL_about.html#contact", "permanent": true },
+    { "source": "/faq", "destination": "/CSL_faq.html", "permanent": true },
+    { "source": "/legal", "destination": "/CSL_legal.html", "permanent": true },
+    { "source": "/privacy", "destination": "/CSL_legal.html?tab=privacy", "permanent": true },
+    { "source": "/terms", "destination": "/CSL_legal.html?tab=tos", "permanent": true },
+    { "source": "/refund", "destination": "/CSL_legal.html?tab=refund", "permanent": true },
+    { "source": "/dmca", "destination": "/CSL_legal.html?tab=dmca", "permanent": true },
+    { "source": "/licensing", "destination": "/CSL_licensing.html", "permanent": true },
+    { "source": "/case-study/gaming", "destination": "/CSL_case_study_gaming.html", "permanent": true },
+    { "source": "/ip", "destination": "/CSL_ip.html", "permanent": true },
+    { "source": "/contracts", "destination": "/CSL_contracts.html", "permanent": true },
+    { "source": "/signup", "destination": "/CSL_signup.html", "permanent": true },
+    { "source": "/intake", "destination": "/CSL_signup.html", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/CSL_index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" }
+      ]
+    },
+    {
+      "source": "/:all*.(jpg)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/:all*.(jpeg)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/:all*.(png)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/:all*.(webp)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/:all*.(svg)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/:all*.(ico)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/:all*.(woff2)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    }
+  ]
+}

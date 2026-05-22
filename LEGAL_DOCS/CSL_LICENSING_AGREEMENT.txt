@@ -1,0 +1,243 @@
+MUSIC LICENSING AGREEMENT
+Current Scoring Leaders LLC
+
+───────────────────────────────────────────────────────────────────────────────
+
+This Music Licensing Agreement ("Agreement") is entered into as of
+[DATE] ("Effective Date") by and between:
+
+LICENSOR:
+  Current Scoring Leaders LLC
+  Pennsylvania, United States
+  Email: currentscoringleaders@gmail.com
+
+LICENSEE:
+  Name: _________________________________
+  Company: _________________________________
+  Address: _________________________________
+  Email: _________________________________
+  Phone: _________________________________
+
+───────────────────────────────────────────────────────────────────────────────
+
+1. LICENSED COMPOSITION(S)
+
+The following composition(s) are subject to this Agreement:
+
+  Title: _________________________________
+  Duration: _________________________________
+  File Reference: _________________________________
+  Description: _________________________________
+
+  [Additional compositions may be listed in Schedule A]
+
+───────────────────────────────────────────────────────────────────────────────
+
+2. LICENSE TYPE
+
+Select one:
+
+  [ ] NON-EXCLUSIVE LICENSE
+      Licensee receives the right to use the composition(s) in their
+      project. Licensor retains the right to license the same
+      composition(s) to other parties.
+
+  [ ] EXCLUSIVE TERRITORY LICENSE
+      Licensee receives exclusive use within a defined territory or
+      market segment. Licensor may license to others outside that
+      territory. Term: _____ years from Effective Date.
+      Territory/Market: _________________________________
+
+  [ ] FULL EXCLUSIVE LICENSE
+      Licensee receives complete exclusive rights worldwide.
+      Licensor will not license the composition(s) to any other party.
+      Includes transfer of copyright ownership upon full payment.
+      Term: Perpetual and irrevocable.
+
+───────────────────────────────────────────────────────────────────────────────
+
+3. PERMITTED USES
+
+Licensee may use the licensed composition(s) for:
+
+  [ ] YouTube / online video content
+  [ ] Social media content (Instagram, TikTok, Facebook, etc.)
+  [ ] Podcast intro/outro/background
+  [ ] Film / documentary / short film
+  [ ] Television / broadcast
+  [ ] Commercial / advertisement
+  [ ] Video game / interactive media
+  [ ] Corporate video / presentation
+  [ ] Live performance / event
+  [ ] Music streaming / distribution (Spotify, Apple Music, etc.)
+  [ ] Other: _________________________________
+
+Restrictions:
+  - Licensee may NOT sublicense, resell, or redistribute the
+    composition(s) as standalone music files
+  - Licensee may NOT register the composition(s) with any PRO
+    (ASCAP, BMI, SESAC) unless Full Exclusive License is selected
+  - Licensee may NOT claim authorship of the composition(s)
+    unless Full Exclusive License with copyright transfer is selected
+  - Licensee may NOT use the composition(s) in connection with
+    illegal, defamatory, or hateful content
+
+───────────────────────────────────────────────────────────────────────────────
+
+4. LICENSE FEE
+
+License Fee: $______________
+
+Payment Terms:
+  - Full payment due within 15 days of signing this Agreement
+  - License rights do not take effect until payment is received in full
+  - Payment via: Credit card (Stripe), ACH, PayPal, or check
+
+Late Payment:
+  - Interest of 1.5% per month on overdue balances
+  - License automatically suspended if payment is 30+ days overdue
+  - Licensor may terminate this Agreement for non-payment
+
+───────────────────────────────────────────────────────────────────────────────
+
+5. TERM AND RENEWAL
+
+License Term:
+  [ ] Perpetual (no expiration)
+  [ ] Fixed term: _____ years from Effective Date
+  [ ] Project-specific: Licensed for use in [PROJECT NAME] only
+
+Renewal (for fixed-term licenses):
+  - Licensee may renew by providing written notice 30 days before
+    expiration and paying the renewal fee
+  - Renewal fee: $______________ (or as mutually agreed)
+  - If not renewed, all rights revert to Licensor and Licensee must
+    cease use of the composition(s)
+
+───────────────────────────────────────────────────────────────────────────────
+
+6. CREDIT AND ATTRIBUTION
+
+  [ ] Credit required: Licensee shall credit "Music by Current Scoring
+      Leaders" in project credits where reasonably possible
+  [ ] Credit optional: Attribution appreciated but not required
+  [ ] No credit: Licensee has no obligation to credit Licensor
+
+───────────────────────────────────────────────────────────────────────────────
+
+7. REPRESENTATIONS AND WARRANTIES
+
+Licensor represents and warrants that:
+  - Licensor is the sole owner or authorized licensor of the
+    composition(s)
+  - The composition(s) are original works that do not infringe any
+    third-party intellectual property rights
+  - Licensor has full authority to grant the rights in this Agreement
+  - The composition(s) are free of any liens, claims, or encumbrances
+
+Licensee represents and warrants that:
+  - Licensee has authority to enter into this Agreement
+  - Licensee will use the composition(s) only as permitted herein
+  - Licensee will not modify the composition(s) without written consent
+    (unless Full Exclusive License is selected)
+
+───────────────────────────────────────────────────────────────────────────────
+
+8. INDEMNIFICATION
+
+Each party agrees to indemnify and hold harmless the other party from
+any claims, damages, liabilities, costs, and expenses (including
+reasonable attorney fees) arising from:
+  - Breach of this Agreement
+  - Breach of any representation or warranty
+  - Negligence or willful misconduct
+
+───────────────────────────────────────────────────────────────────────────────
+
+9. LIMITATION OF LIABILITY
+
+In no event shall either party be liable for indirect, incidental,
+consequential, special, or punitive damages. Licensor's total liability
+shall not exceed the License Fee paid under this Agreement.
+
+───────────────────────────────────────────────────────────────────────────────
+
+10. TERMINATION
+
+This Agreement may be terminated:
+  - By mutual written agreement
+  - By Licensor if Licensee breaches any term and fails to cure within
+    15 days of written notice
+  - By Licensor if Licensee fails to pay within 30 days of invoice
+  - By Licensee with 30 days' written notice (no refund of License Fee)
+
+Upon Termination:
+  - Licensee must cease all use of the composition(s) within 30 days
+  - Licensee must remove the composition(s) from all published content
+    within 60 days (unless perpetual license was granted and paid)
+  - Sections 8, 9, and 11 survive termination
+
+───────────────────────────────────────────────────────────────────────────────
+
+11. DISPUTE RESOLUTION AND GOVERNING LAW
+
+Disputes shall be resolved as follows:
+  1. Good-faith negotiation for 30 days
+  2. Non-binding mediation in Pennsylvania (costs split equally)
+  3. Binding arbitration under AAA Commercial Rules in Pennsylvania
+
+This Agreement is governed by the laws of the Commonwealth of
+Pennsylvania, United States.
+
+The prevailing party in any dispute shall recover reasonable attorney
+fees and costs.
+
+───────────────────────────────────────────────────────────────────────────────
+
+12. GENERAL PROVISIONS
+
+Entire Agreement: This Agreement constitutes the entire understanding
+between the parties regarding the licensing of the composition(s).
+
+Amendments: Changes must be in writing and signed by both parties.
+
+Assignment: Licensee may not assign this Agreement without Licensor's
+written consent. Licensor may assign to a successor entity.
+
+Severability: If any provision is found invalid, the remaining
+provisions remain in full force and effect.
+
+Notices: All notices shall be sent to the email addresses listed above
+and are effective upon confirmed receipt.
+
+───────────────────────────────────────────────────────────────────────────────
+
+13. SIGNATURES
+
+LICENSOR — Current Scoring Leaders LLC
+
+Signature: _________________________  Date: ______________
+Print Name: Avery Jones
+Title: Owner / Managing Member
+
+
+LICENSEE
+
+Signature: _________________________  Date: ______________
+Print Name: _________________________
+Title: _________________________
+Company: _________________________
+
+───────────────────────────────────────────────────────────────────────────────
+
+SCHEDULE A: ADDITIONAL LICENSED COMPOSITIONS (if applicable)
+
+  1. Title: _________________  Duration: _____  Fee: $_______
+  2. Title: _________________  Duration: _____  Fee: $_______
+  3. Title: _________________  Duration: _____  Fee: $_______
+
+Total License Fee (all compositions): $_____________
+
+───────────────────────────────────────────────────────────────────────────────
+
+(c) Current Scoring Leaders LLC. All Rights Reserved.

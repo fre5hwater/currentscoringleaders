@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Contact | Current Scoring Leaders</title>
+<link rel="stylesheet" href="csl-draft.css">
+    <meta name="description" content="Learn about Current Scoring Leaders and get in touch — a Willow Grove, PA custom music scoring company serving the Greater Philadelphia area, founded by FreshWater.">
+    <link rel="canonical" href="https://currentscoringleaders.com/CSL_about.html">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Current Scoring Leaders">
+    <meta property="og:title" content="About & Contact | Current Scoring Leaders">
+    <meta property="og:description" content="Willow Grove, PA custom music scoring company serving the Greater Philadelphia area, founded by FreshWater (Avery Jones). Get in touch for your project.">
+    <meta property="og:image" content="https://currentscoringleaders.com/img_csl_studio.webp">
+    <meta property="og:url" content="https://currentscoringleaders.com/CSL_about.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About & Contact | Current Scoring Leaders">
+    <meta name="twitter:description" content="Willow Grove, PA custom music scoring company serving Greater Philadelphia. Founded by FreshWater.">
+    <meta name="twitter:image" content="https://currentscoringleaders.com/img_csl_studio.webp">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Three.js for 3D visualizers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <style>
+        :root {
+            --bg: #0a0a0f; --bg2: #0f0f18; --bg3: #14141f;
+            --blue: #3b82f6; --purple: #60a5fa; --green: #10b981;
+            --gold: #cbd5e1; --text: #f1f5f9; --muted: #94a3b8; --border: #1e1e2e;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); overflow-x: hidden; }
+        body::after {
+            content: ''; position: fixed; inset: 0;
+            background:
+                url('img_genesis_schematic.webp') left top / 54vh auto no-repeat,
+                url('img_csl_studio.webp') right top / 56vh auto no-repeat,
+                url('img_ps2_collage.webp') right bottom / 54vh auto no-repeat,
+                url('img_ranger_slayer.webp') left bottom / 50vh auto no-repeat,
+                url('img_csl_logo_art.webp') center center / 52vh auto no-repeat;
+            opacity: 0.16;
+            pointer-events: none; z-index: 0;
+            filter: brightness(1.8);
+        }
+        body::before {
+            content: ''; position: fixed; inset: 0;
+            background:
+                url('img_genesis_art.webp') 25% 50% / 48vh auto no-repeat,
+                url('img_ps2_collage.jpg') 75% 50% / 48vh auto no-repeat;
+            opacity: 0.11;
+            pointer-events: none; z-index: 0;
+            filter: brightness(1.6) saturate(1.2);
+        }
+
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            background: rgba(10,10,15,0.92);
+            -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+        }
+        .nav-logo { font-size: 1.2rem; font-weight: 800; background: linear-gradient(135deg, var(--blue), var(--purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-decoration: none; }
+        .nav-logo img { height: 120px; width: auto; display: block; }
+        .footer-logo img { height: 36px; width: auto; }
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 9999;
+        }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+        .nav-links a:hover, .nav-links a.active { color: var(--text); }
+        .nav-cta { background: var(--blue); color: white !important; padding: 0.5rem 1.25rem; border-radius: 8px; font-weight: 600 !important; transition: background 0.2s !important; }
+        .nav-cta:hover { background: var(--purple) !important; }
+
+        .main { max-width: 1100px; margin: 0 auto; padding: 8rem 2rem 6rem; }
+
+        /* HERO */
+        .about-hero { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; margin-bottom: 6rem; }
+
+        .hero-text .page-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--blue); margin-bottom: 1rem; }
+        .hero-text h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 900; letter-spacing: -1px; margin-bottom: 1.25rem; line-height: 1.1; }
+        .hero-text p { color: var(--muted); font-size: 1rem; line-height: 1.8; margin-bottom: 1rem; }
+
+        .hero-visual {
+            background: var(--bg2); border: 1px solid var(--border); border-radius: 20px;
+            padding: 2.5rem; position: relative; overflow: hidden;
+        }
+        .hero-visual::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: linear-gradient(90deg, var(--blue), var(--purple));
+        }
+
+        .avatar-placeholder {
+            width: 80px; height: 80px; border-radius: 50%;
+            background: linear-gradient(135deg, var(--blue), var(--purple));
+            display: flex; align-items: center; justify-content: center;
+            font-size: 2rem; margin-bottom: 1.25rem;
+            box-shadow: 0 0 30px rgba(59,130,246,0.3);
+        }
+
+        .hero-visual h3 { font-size: 1.2rem; font-weight: 800; margin-bottom: 0.25rem; }
+        .hero-visual .title { color: var(--blue); font-size: 0.875rem; font-weight: 600; margin-bottom: 1rem; }
+        .hero-visual p { color: var(--muted); font-size: 0.875rem; line-height: 1.6; }
+
+        .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+        .tag { background: var(--bg3); border: 1px solid var(--border); color: var(--muted); padding: 0.3rem 0.75rem; border-radius: 8px; font-size: 0.78rem; font-weight: 600; }
+
+        /* MISSION */
+        .mission-block { background: var(--bg2); border: 1px solid var(--border); border-radius: 20px; padding: 3rem; margin-bottom: 4rem; text-align: center; }
+        .mission-block .page-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--purple); margin-bottom: 1rem; }
+        .mission-block h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 900; margin-bottom: 1.25rem; letter-spacing: -0.5px; }
+        .mission-block p { color: var(--muted); font-size: 1rem; line-height: 1.8; max-width: 700px; margin: 0 auto; }
+
+        /* VALUES */
+        .section-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--blue); margin-bottom: 1rem; }
+        .section-title { font-size: 1.6rem; font-weight: 800; margin-bottom: 0.5rem; }
+        .section-sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+
+        .values-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; margin-bottom: 4rem; }
+        .value-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; padding: 1.75rem; transition: all 0.3s; }
+        .value-card:hover { border-color: rgba(59,130,246,0.3); transform: translateY(-3px); }
+        .value-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; margin-bottom: 1rem; background: rgba(59,130,246,0.1); color: var(--blue); }
+        .value-icon.purple { background: rgba(96, 165, 250,0.1); color: var(--purple); }
+        .value-icon.gold { background: rgba(96, 165, 250,0.1); color: var(--gold); }
+        .value-icon.green { background: rgba(16,185,129,0.1); color: var(--green); }
+        .csl-logo-art { width: 100%; max-width: 340px; border-radius: 20px; display: block; margin: 0 auto 1.5rem; filter: drop-shadow(0 0 32px rgba(59,130,246,0.45)); }
+        .founder-headshot {
+            width: 200px; height: 200px; border-radius: 50%;
+            object-fit: cover; object-position: center top;
+            display: block; margin: 0 auto 1.25rem;
+            border: 3px solid var(--blue);
+            box-shadow: 0 0 32px rgba(59,130,246,0.35), 0 8px 24px rgba(0,0,0,0.4);
+        }
+        .value-card h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .value-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+
+        /* EXPERTISE */
+        .expertise-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-bottom: 4rem; }
+        .expertise-item { display: flex; align-items: center; gap: 1rem; background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; }
+        .expertise-item i { font-size: 1.2rem; color: var(--blue); width: 36px; text-align: center; flex-shrink: 0; }
+        .expertise-item h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.2rem; }
+        .expertise-item p { font-size: 0.78rem; color: var(--muted); }
+
+        /* SECTION DIVIDER */
+        .section-divider-line { border: none; border-top: 1px solid var(--border); margin: 5rem 0 4rem; }
+        .contact-heading { text-align: center; margin-bottom: 2.5rem; }
+        .contact-heading .page-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--green); margin-bottom: 0.75rem; }
+        .contact-heading h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 900; letter-spacing: -0.5px; margin-bottom: 0.6rem; }
+        .contact-heading p { color: var(--muted); font-size: 0.95rem; }
+
+        /* CONTACT GRID */
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+        .contact-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 20px; padding: 2.5rem; }
+        .contact-card h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 0.5rem; }
+        .contact-card > p { color: var(--muted); font-size: 0.875rem; margin-bottom: 1.75rem; line-height: 1.6; }
+
+        .contact-methods { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.75rem; }
+        .contact-method { display: flex; align-items: center; gap: 1rem; background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 1.1rem 1.25rem; transition: all 0.2s; text-decoration: none; }
+        .contact-method:hover { border-color: rgba(59,130,246,0.4); transform: translateX(4px); }
+        .method-icon { width: 42px; height: 42px; border-radius: 11px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+        .method-icon.blue { background: rgba(59,130,246,0.1); color: var(--blue); }
+        .method-icon.purple { background: rgba(96, 165, 250,0.1); color: var(--purple); }
+        .method-icon.gold { background: rgba(96, 165, 250,0.1); color: var(--gold); }
+        .method-label { font-size: 0.72rem; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .method-value { font-size: 0.88rem; font-weight: 600; color: var(--text); }
+
+        .response-note { background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.2); border-radius: 12px; padding: 1.1rem 1.25rem; display: flex; gap: 0.75rem; align-items: flex-start; }
+        .response-note i { color: var(--green); margin-top: 0.15rem; flex-shrink: 0; }
+        .response-note p { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+        .response-note strong { color: var(--text); }
+
+        /* MESSAGE FORM */
+        .message-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 20px; padding: 2.5rem; }
+        .message-card h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: 0.5rem; }
+        .message-card > p { color: var(--muted); font-size: 0.875rem; margin-bottom: 1.75rem; line-height: 1.6; }
+        .form-group { margin-bottom: 1.1rem; }
+        .form-group label { display: block; font-size: 0.73rem; font-weight: 600; color: var(--muted); margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .form-group input, .form-group textarea, .form-group select { width: 100%; background: var(--bg3); border: 1px solid var(--border); color: var(--text); padding: 0.7rem 1rem; border-radius: 10px; font-family: 'Inter', sans-serif; font-size: 0.88rem; transition: border-color 0.2s; outline: none; }
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus { border-color: var(--blue); }
+        .form-group select option { background: var(--bg3); }
+        .form-group textarea { resize: vertical; min-height: 120px; }
+        .submit-btn { width: 100%; background: linear-gradient(135deg, var(--blue), var(--purple)); color: white; border: none; padding: 0.95rem; border-radius: 12px; font-size: 0.95rem; font-weight: 700; cursor: pointer; font-family: 'Inter', sans-serif; display: flex; align-items: center; justify-content: center; gap: 0.5rem; transition: all 0.2s; }
+        .submit-btn:hover { opacity: 0.9; transform: translateY(-2px); }
+        .form-note { font-size: 0.73rem; color: var(--muted); text-align: center; margin-top: 0.6rem; }
+
+        /* QUICK LINKS ROW */
+        .quick-links-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 4rem; }
+        .quick-link-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; text-align: center; text-decoration: none; transition: all 0.3s; }
+        .quick-link-card:hover { border-color: rgba(59,130,246,0.4); transform: translateY(-3px); }
+        .quick-link-card i { font-size: 1.4rem; color: var(--blue); margin-bottom: 0.65rem; display: block; }
+        .quick-link-card.purple i { color: var(--purple); }
+        .quick-link-card.gold i { color: var(--gold); }
+        .quick-link-card h4 { font-size: 0.92rem; font-weight: 700; margin-bottom: 0.3rem; color: var(--text); }
+        .quick-link-card p { font-size: 0.78rem; color: var(--muted); }
+
+        /* CTA */
+        .about-cta { background: linear-gradient(135deg, rgba(59,130,246,0.12), rgba(96, 165, 250,0.12)); border: 1px solid rgba(59,130,246,0.2); border-radius: 20px; padding: 3.5rem; text-align: center; }
+        .about-cta h2 { font-size: 1.8rem; font-weight: 800; margin-bottom: 0.75rem; }
+        .about-cta p { color: var(--muted); margin-bottom: 2rem; }
+        .btn-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .btn-primary { background: var(--blue); color: white; padding: 0.85rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 700; display: inline-flex; align-items: center; gap: 0.5rem; transition: all 0.2s; }
+        .btn-primary:hover { background: var(--purple); transform: translateY(-2px); }
+        .btn-secondary { background: transparent; color: var(--text); padding: 0.85rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600; border: 1px solid var(--border); display: inline-flex; align-items: center; gap: 0.5rem; transition: all 0.2s; }
+        .btn-secondary:hover { border-color: var(--blue); color: var(--blue); }
+        .btn-gold { background: linear-gradient(135deg, var(--gold), #b8860b); color: #0a0a0f; padding: 0.85rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 700; display: inline-flex; align-items: center; gap: 0.5rem; transition: all 0.2s; }
+        .btn-gold:hover { opacity: 0.88; transform: translateY(-2px); }
+
+        footer { background: var(--bg2); border-top: 1px solid var(--border); padding: 3rem 2rem; text-align: center; margin-top: 4rem; }
+        .footer-logo { font-size: 1rem; font-weight: 800; background: linear-gradient(135deg, var(--blue), var(--purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 1rem; }
+        .footer-links { display: flex; justify-content: center; gap: 2rem; list-style: none; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .footer-links a { color: var(--muted); text-decoration: none; font-size: 0.875rem; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--text); }
+        footer p { color: var(--muted); font-size: 0.8rem; }
+
+        @media (max-width: 900px) { .about-hero, .expertise-grid, .contact-grid { grid-template-columns: 1fr; } .quick-links-row { grid-template-columns: 1fr; } .nav-links { display: none; } }
+    </style>
+<link rel="stylesheet" href="csl-bg.css">
+<link rel="stylesheet" href="csl-visualizers.css">
+</head>
+<body>
+
+    <nav>
+        <a href="CSL_index.html" class="nav-logo"><img src="CSL_logo_dark.png" alt="Current Scoring Leaders"></a>
+        <ul class="nav-links">
+            <li><a href="CSL_index.html">Scoring</a></li>
+            <li><a href="CSL_pricing.html">Pricing</a></li>
+            <li><a href="CSL_portfolio.html">Portfolio</a></li>
+            <li><a href="CSL_process.html">Our Process</a></li>
+            <li><a href="CSL_about.html" class="active">About &amp; Contact</a></li>
+            <li><a href="CSL_booking.html" class="nav-cta">Tell Us What You’re Building</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+
+        <!-- ABOUT HERO -->
+        <div class="about-hero">
+            <div class="hero-text">
+                <div class="page-label">About CSL</div>
+                <h1>Music That Belongs to Your Project</h1>
+                <p>Willow Grove, PA custom music studio serving the Greater Philadelphia area. One principle: <strong>every project deserves its own sound</strong> &mdash; written for it, owned the right way, never recycled. <a href="CSL_process.html" style="color:var(--blue);text-decoration:none;border-bottom:1px solid currentColor;">See how we work &rsaquo;</a></p>
+
+                <!-- BY THE NUMBERS STAT STRIP -->
+                <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:0.75rem;margin:1.75rem 0 1.25rem;padding:1.25rem;background:var(--bg2);border:1px solid var(--border);border-radius:14px;">
+                    <div style="text-align:center;border-right:1px solid var(--border);padding-right:0.5rem;">
+                        <div style="font-size:1.6rem;font-weight:900;background:linear-gradient(135deg,#3b82f6,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;">Original</div>
+                        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.35rem;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">Catalog</div>
+                    </div>
+                    <div style="text-align:center;border-right:1px solid var(--border);">
+                        <div style="font-size:1.6rem;font-weight:900;background:linear-gradient(135deg,#3b82f6,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;">5+</div>
+                        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.35rem;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">Genres</div>
+                    </div>
+                    <div style="text-align:center;border-right:1px solid var(--border);">
+                        <div style="font-size:1.6rem;font-weight:900;background:linear-gradient(135deg,#3b82f6,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;">100%</div>
+                        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.35rem;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">Original</div>
+                    </div>
+                    <div style="text-align:center;">
+                        <div style="font-size:1.6rem;font-weight:900;background:linear-gradient(135deg,#3b82f6,#60a5fa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;">2026</div>
+                        <div style="font-size:0.7rem;color:var(--muted);margin-top:0.35rem;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">Founded</div>
+                    </div>
+                </div>
+
+                <p style="font-size:0.92rem;">Founded by <strong>Avery Jones</strong> (FreshWater) &mdash; writer, vocalist, arranger, and producer running a hybrid human-led workflow. Hip hop, R&amp;B, cinematic, game scoring, and experimental, all under one roof.</p>
+            </div>
+            <div class="hero-visual">
+                <img src="img_founder_avery.jpg" alt="Avery Jones (FreshWater), founder of Current Scoring Leaders" class="founder-headshot" loading="lazy">
+                <h3 style="text-align:center;">Avery Jones &middot; FreshWater</h3>
+                <div class="title" style="text-align:center;">Founder · Writer · Vocalist · Producer</div>
+                <p style="text-align:center;">Willow Grove, PA · original compositions across multiple genres · Current Scoring Leaders LLC formed 2026</p>
+                <div class="tags">
+                    <span class="tag">Lyricist</span>
+                    <span class="tag">Vocalist</span>
+                    <span class="tag">Arranger</span>
+                    <span class="tag">Producer</span>
+                    <span class="tag">Mix &amp; Master</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- MISSION -->
+        <div class="mission-block">
+            <div class="page-label">The Mission</div>
+            <h2>Remove the stock-music ceiling.</h2>
+
+            <!-- VISUAL COMPARISON: STOCK vs CSL -->
+            <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:1rem;align-items:stretch;max-width:900px;margin:2rem auto 0;">
+                <div style="background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.25);border-radius:14px;padding:1.5rem;text-align:left;">
+                    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:1rem;">
+                        <div style="width:36px;height:36px;border-radius:9px;background:rgba(239,68,68,0.15);display:flex;align-items:center;justify-content:center;color:#ef4444;font-size:0.95rem;"><i class="fas fa-times"></i></div>
+                        <h4 style="font-size:0.95rem;font-weight:800;color:#fca5a5;">Stock Music</h4>
+                    </div>
+                    <ul style="list-style:none;padding:0;margin:0;font-size:0.85rem;line-height:1.7;color:#cbd5e1;">
+                        <li>1,000+ creators using the same loop</li>
+                        <li>No say in arrangement or mix</li>
+                        <li>Sub-licensed, never owned</li>
+                        <li>Sounds like every other indie project</li>
+                    </ul>
+                </div>
+                <div style="display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:1.4rem;font-weight:800;">→</div>
+                <div style="background:rgba(59,130,246,0.05);border:1px solid rgba(59,130,246,0.3);border-radius:14px;padding:1.5rem;text-align:left;">
+                    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:1rem;">
+                        <div style="width:36px;height:36px;border-radius:9px;background:rgba(59,130,246,0.15);display:flex;align-items:center;justify-content:center;color:#3b82f6;font-size:0.95rem;"><i class="fas fa-check"></i></div>
+                        <h4 style="font-size:0.95rem;font-weight:800;color:#93c5fd;">CSL Custom</h4>
+                    </div>
+                    <ul style="list-style:none;padding:0;margin:0;font-size:0.85rem;line-height:1.7;color:#cbd5e1;">
+                        <li>Composed for your project alone</li>
+                        <li>You direct mood, key, pacing</li>
+                        <li>Real licensing &mdash; or full ownership</li>
+                        <li>Sounds like nothing else online</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="margin-top:1.75rem;font-size:0.92rem;color:var(--muted);max-width:560px;margin-left:auto;margin-right:auto;">The standard isn't <em>something that fits</em>. The standard is <strong style="color:var(--text);">something that belongs</strong>.</p>
+        </div>
+
+        <!-- VALUES -->
+        <div class="section-label">What We Stand On</div>
+        <div class="section-title">How We Work</div>
+        <div class="section-sub">These aren't just words — they show up in every project.</div>
+
+        <div class="values-grid">
+            <div class="value-card">
+                <div class="value-icon"><i class="fas fa-fingerprint"></i></div>
+                <h4>Original Always</h4>
+                <p>No stock libraries. No shared loops. <strong style="color:var(--text);">Your audience won't hear our music anywhere else.</strong></p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon purple"><i class="fas fa-comments"></i></div>
+                <h4>Direct Communication</h4>
+                <p>You talk to the composer. <strong style="color:var(--text);">No coordinators, no bots.</strong> Faster turnaround, nothing lost in translation.</p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon gold"><i class="fas fa-drafting-compass"></i></div>
+                <h4>Plan Before Execute</h4>
+                <p>Written scope &amp; reference-pass before the first note. <strong style="color:var(--text);">No surprise drafts. Two revisions is enough.</strong></p>
+            </div>
+            <div class="value-card">
+                <div class="value-icon green"><i class="fas fa-layer-group"></i></div>
+                <h4>Full Delivery</h4>
+                <p>Master WAV, MP3, stems, license agreement. <strong style="color:var(--text);">No paywalled formats.</strong> Everything you need, every time.</p>
+            </div>
+        </div>
+
+        <!-- EXPERTISE -->
+        <div class="section-label">Capabilities</div>
+        <div class="section-title">What CSL Covers</div>
+        <div class="section-sub">Not a one-genre operation.</div>
+
+        <style>
+            .cap-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; padding: 1.4rem; transition: all 0.25s; }
+            .cap-card:hover { border-color: rgba(59,130,246,0.4); transform: translateY(-2px); }
+            .cap-head { display: flex; align-items: center; gap: 0.85rem; margin-bottom: 0.75rem; }
+            .cap-icon { width: 42px; height: 42px; border-radius: 10px; background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(96, 165, 250,0.15)); display: flex; align-items: center; justify-content: center; color: var(--blue); font-size: 1.05rem; flex-shrink: 0; }
+            .cap-head h4 { font-size: 0.95rem; font-weight: 800; }
+            .cap-card > p { font-size: 0.8rem; color: var(--muted); line-height: 1.55; margin-bottom: 0.85rem; }
+            .cap-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+            .cap-tag { font-size: 0.68rem; font-weight: 700; padding: 0.25rem 0.6rem; border-radius: 6px; background: var(--bg3); color: var(--muted); letter-spacing: 0.3px; text-transform: uppercase; }
+        </style>
+        <div class="expertise-grid">
+            <div class="cap-card">
+                <div class="cap-head"><div class="cap-icon"><i class="fas fa-film"></i></div><h4>Cinematic Scoring</h4></div>
+                <p>Tension arcs, emotional cues, scene-specific pacing &mdash; built to the edit.</p>
+                <div class="cap-tags"><span class="cap-tag">Short film</span><span class="cap-tag">Trailer</span><span class="cap-tag">Doc</span><span class="cap-tag">Branded video</span></div>
+            </div>
+            <div class="cap-card">
+                <div class="cap-head"><div class="cap-icon"><i class="fas fa-gamepad"></i></div><h4>Game Soundtracks</h4></div>
+                <p>Level themes, boss cues, character motifs, adaptive stems for indie &amp; narrative games.</p>
+                <div class="cap-tags"><span class="cap-tag">Loop-ready</span><span class="cap-tag">Stems</span><span class="cap-tag">Middleware</span></div>
+            </div>
+            <div class="cap-card">
+                <div class="cap-head"><div class="cap-icon"><i class="fas fa-podcast"></i></div><h4>Podcast &amp; Show Branding</h4></div>
+                <p>Intros, outros, stingers, segment beds. Tone set in the first three seconds.</p>
+                <div class="cap-tags"><span class="cap-tag">Intros</span><span class="cap-tag">Stingers</span><span class="cap-tag">Beds</span></div>
+            </div>
+            <div class="cap-card">
+                <div class="cap-head"><div class="cap-icon"><i class="fas fa-music"></i></div><h4>Hip Hop &amp; R&amp;B</h4></div>
+                <p>Trap, boom-bap, conscious, R&amp;B, trap-soul, experimental rap. Vocal space pre-engineered.</p>
+                <div class="cap-tags"><span class="cap-tag">Beats</span><span class="cap-tag">Full prod</span><span class="cap-tag">Vocals</span><span class="cap-tag">Master</span></div>
+            </div>
+            <div class="cap-card">
+                <div class="cap-head"><div class="cap-icon"><i class="fas fa-wave-square"></i></div><h4>Experimental Sound Design</h4></div>
+                <p>Atmospheres, risers, drones, hybrid-electronic beds. Where scoring meets electronic.</p>
+                <div class="cap-tags"><span class="cap-tag">Tech brand</span><span class="cap-tag">Sci-fi</span><span class="cap-tag">Texture</span></div>
+            </div>
+            <div class="cap-card">
+                <div class="cap-head"><div class="cap-icon"><i class="fas fa-broadcast-tower"></i></div><h4>Channel &amp; Brand Themes</h4></div>
+                <p>Signature sonic identity. Main theme + short cuts, stingers, transitions.</p>
+                <div class="cap-tags"><span class="cap-tag">Creator Channel</span><span class="cap-tag">Stream</span><span class="cap-tag">Brand ID</span></div>
+            </div>
+        </div>
+
+        <!-- ══ CONTACT SECTION ══ -->
+        <hr class="section-divider-line">
+        <div id="contact" class="contact-heading">
+            <div class="page-label">Get in Touch</div>
+            <h2>Reach Out — We Move Fast</h2>
+            <p>Whether you have a project ready or just a question — we respond within 48 hours.</p>
+        </div>
+
+        <div class="contact-grid">
+            <!-- DIRECT CONTACT -->
+            <div class="contact-card">
+                <h3>Direct Contact</h3>
+                <p>Prefer to skip the form? All methods below go straight to us.</p>
+                <div class="contact-methods">
+                    <a href="mailto:currentscoringleaders@gmail.com" class="contact-method">
+                        <div class="method-icon blue"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <div class="method-label">Email</div>
+                            <div class="method-value">currentscoringleaders@gmail.com</div>
+                        </div>
+                    </a>
+                    <a href="CSL_booking.html" class="contact-method">
+                        <div class="method-icon purple"><i class="fas fa-paper-plane"></i></div>
+                        <div>
+                            <div class="method-label">Project Inquiry</div>
+                            <div class="method-value">Fill out the full project form</div>
+                        </div>
+                    </a>
+                    <a href="CSL_portfolio.html" class="contact-method">
+                        <div class="method-icon gold"><i class="fas fa-headphones"></i></div>
+                        <div>
+                            <div class="method-label">Portfolio</div>
+                            <div class="method-value">Hear the difference before reaching out</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="response-note">
+                    <i class="fas fa-clock"></i>
+                    <p><strong>Response time: within 48 business hours.</strong> For rush inquiries, note your deadline in the subject line and we'll prioritize your message.</p>
+                </div>
+            </div>
+
+            <!-- QUICK MESSAGE FORM -->
+            <div class="message-card">
+                <h3>Quick Message</h3>
+                <p>Not ready for the full project form? Drop a message and we'll follow up.</p>
+                <form onsubmit="return CSL.submitForm(event, 'contact')">
+                    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;">
+                    <div class="form-group">
+                        <label>Your Name *</label>
+                        <input type="text" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email *</label>
+                        <input type="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <select name="subject" title="Subject">
+                            <option value="" disabled selected>What's this about?</option>
+                            <option>General Inquiry</option>
+                            <option>Pricing Question</option>
+                            <option>Project Discussion</option>
+                            <option>Collaboration</option>
+                            <option>Retainer Inquiry</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message *</label>
+                        <textarea name="message" placeholder="What's on your mind?" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    <p class="form-note">You'll receive a confirmation email. We respond within 48 hours.</p>
+                </form>
+            </div>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="quick-links-row">
+            <a href="CSL_pricing.html" class="quick-link-card">
+                <i class="fas fa-tag"></i>
+                <h4>View Pricing</h4>
+                <p>All packages and add-ons</p>
+            </a>
+            <a href="CSL_portfolio.html" class="quick-link-card purple">
+                <i class="fas fa-music"></i>
+                <h4>Listen to Work</h4>
+                <p>Original work samples, full play</p>
+            </a>
+            <a href="CSL_booking.html" class="quick-link-card gold">
+                <i class="fas fa-file-signature"></i>
+                <h4>Tell Us What You’re Building</h4>
+                <p>Full intake form with quote request</p>
+            </a>
+        </div>
+
+        <!-- FINAL CTA -->
+        <div class="about-cta">
+            <h2>Ready to Work Together?</h2>
+            <p>Start with a quote, discuss a paid concept pass, or send a message — we're ready.</p>
+            <div class="btn-group">
+                <a href="CSL_booking.html" class="btn-primary"><i class="fas fa-rocket"></i> Tell Us What You’re Building</a>
+                <a href="CSL_licensing.html" class="btn-gold"><i class="fas fa-file-contract"></i> License a Track</a>
+                <a href="CSL_portfolio.html" class="btn-secondary"><i class="fas fa-headphones"></i> Hear the Difference</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-logo"><img src="CSL_logo_clean.png" alt="Current Scoring Leaders LLC"></div>
+        <ul class="footer-links">
+            <li><a href="CSL_index.html">Home</a></li>
+            <li><a href="CSL_pricing.html">Pricing</a></li>
+            <li><a href="CSL_portfolio.html">Portfolio</a></li>
+            <li><a href="CSL_about.html">About &amp; Contact</a></li>
+            <li><a href="CSL_faq.html">FAQ</a></li>
+            <li><a href="CSL_booking.html">Tell Us What You’re Building</a></li>
+            <li><a href="CSL_legal.html">Legal</a></li>
+            <li><a href="CSL_process.html">Our Process</a></li>
+            <li><a href="CSL_ip.html">IP &amp; Ownership</a></li>
+            <li><a href="CSL_contracts.html">Contracts</a></li>
+            <li><a href="CSL_signup.html">Client Intake</a></li>
+            <li><a href="CSL_legal.html?tab=privacy">Privacy Policy</a></li>
+            <li><a href="CSL_licensing.html">Licensing</a></li>
+        </ul>
+        <p>&copy; 2026 Current Scoring Leaders LLC &middot; Willow Grove, PA &middot; All Rights Reserved</p>
+    <p style="color:var(--muted);font-size:0.78rem;margin-top:0.25rem;">215-439-5053</p>
+    </footer>
+
+
+
+
+
+
+
+<script>/* CSL shared components: standardized footer + sticky CTA bar
+   Auto-injects on every page that loads this script. */
+(function () {
+    'use strict';
+
+    var css = '.csl-footer{background:#0f0f18;border-top:1px solid #1e1e2e;padding:3.5rem 2rem 1.5rem;color:#94a3b8;font-family:\'Inter\',sans-serif;position:relative;z-index:5;}' +
+    '.csl-footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:2.5rem;}' +
+    '.csl-footer-brand img{height:42px;width:auto;margin-bottom:1rem;}' +
+    '.csl-footer-brand p{font-size:0.85rem;line-height:1.6;color:#94a3b8;margin-bottom:1rem;max-width:280px;}' +
+    '.csl-footer-brand .csl-footer-loc{font-size:0.78rem;color:#64748b;display:flex;align-items:center;gap:0.4rem;}' +
+    '.csl-footer-col h5{font-size:0.72rem;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#f1f5f9;margin-bottom:1rem;}' +
+    '.csl-footer-col ul{list-style:none;padding:0;margin:0;}' +
+    '.csl-footer-col li{margin-bottom:0.55rem;}' +
+    '.csl-footer-col a{color:#94a3b8;text-decoration:none;font-size:0.86rem;transition:color 0.15s;}' +
+    '.csl-footer-col a:hover{color:#3b82f6;}' +
+    '.csl-footer-bottom{max-width:1200px;margin:2.5rem auto 0;padding-top:1.5rem;border-top:1px solid #1e1e2e;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;font-size:0.76rem;color:#64748b;}' +
+    '.csl-footer-bottom .csl-footer-legal{display:flex;gap:1.25rem;flex-wrap:wrap;}' +
+    '.csl-footer-bottom .csl-footer-legal a{color:#64748b;text-decoration:none;}' +
+    '.csl-footer-bottom .csl-footer-legal a:hover{color:#94a3b8;}' +
+    '@media(max-width:780px){.csl-footer-inner{grid-template-columns:1fr 1fr;gap:2rem;}.csl-footer-bottom{flex-direction:column;text-align:center;}}' +
+    '@media(max-width:480px){.csl-footer-inner{grid-template-columns:1fr;}}' +
+    '.csl-sticky-cta{position:fixed;bottom:0;left:0;right:0;background:linear-gradient(135deg,rgba(15,15,24,0.96),rgba(20,20,31,0.96));-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-top:1px solid rgba(59,130,246,0.3);padding:0.75rem 1.25rem;z-index:90;transform:translateY(120%);transition:transform 0.4s cubic-bezier(0.4,0,0.2,1);font-family:\'Inter\',sans-serif;}' +
+    '.csl-sticky-cta.visible{transform:translateY(0);}' +
+    '.csl-sticky-cta-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;}' +
+    '.csl-sticky-cta-msg{display:flex;align-items:center;gap:0.85rem;color:#f1f5f9;font-size:0.88rem;font-weight:600;flex:1;min-width:0;}' +
+    '.csl-sticky-cta-msg i{color:#3b82f6;font-size:1.1rem;flex-shrink:0;}' +
+    '.csl-sticky-cta-msg .csl-sub{display:block;font-size:0.72rem;font-weight:500;color:#94a3b8;margin-top:0.1rem;letter-spacing:0;}' +
+    '.csl-sticky-cta-actions{display:flex;align-items:center;gap:0.5rem;flex-shrink:0;}' +
+    '.csl-sticky-cta-btn{background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:white;padding:0.65rem 1.25rem;border-radius:9px;text-decoration:none;font-weight:700;font-size:0.85rem;display:inline-flex;align-items:center;gap:0.45rem;white-space:nowrap;transition:transform 0.15s;}' +
+    '.csl-sticky-cta-btn:hover{transform:translateY(-1px);}' +
+    '.csl-sticky-cta-close{background:transparent;border:none;color:#64748b;cursor:pointer;font-size:1.1rem;padding:0.5rem;line-height:1;}' +
+    '.csl-sticky-cta-close:hover{color:#f1f5f9;}' +
+    '@media(max-width:600px){.csl-sticky-cta-msg{font-size:0.78rem;}.csl-sticky-cta-msg .csl-sub{display:none;}.csl-sticky-cta-btn{padding:0.55rem 0.9rem;font-size:0.78rem;}}';
+
+    var style = document.createElement('style');
+    style.textContent = css;
+    document.head.appendChild(style);
+
+    /* ────── FOOTER ────── */
+    var footerHTML = '<footer class="csl-footer">' +
+      '<div class="csl-footer-inner">' +
+        '<div class="csl-footer-brand">' +
+          '<img src="CSL_logo_clean.png" alt="Current Scoring Leaders LLC">' +
+          '<p>Original music scoring for creators, studios, games, and brands that take their craft seriously.</p>' +
+          '<div class="csl-footer-loc"><i class="fas fa-map-marker-alt"></i> Roslyn, PA · USA</div>' +
+        '</div>' +
+        '<div class="csl-footer-col">' +
+          '<h5>Studio</h5>' +
+          '<ul>' +
+            '<li><a href="CSL_index.html">Home</a></li>' +
+            '<li><a href="CSL_about.html">About &amp; Contact</a></li>' +
+            '<li><a href="CSL_process.html">Our Process</a></li>' +
+            '<li><a href="CSL_faq.html">FAQ</a></li>' +
+          '</ul>' +
+        '</div>' +
+        '<div class="csl-footer-col">' +
+          '<h5>Work</h5>' +
+          '<ul>' +
+            '<li><a href="CSL_pricing.html">Pricing</a></li>' +
+            '<li><a href="CSL_portfolio.html">Portfolio</a></li>' +
+            '<li><a href="CSL_licensing.html">Licensing</a></li>' +
+            '<li><a href="CSL_booking.html">Start a Project</a></li>' +
+          '</ul>' +
+        '</div>' +
+        '<div class="csl-footer-col">' +
+          '<h5>Legal</h5>' +
+          '<ul>' +
+            '<li><a href="CSL_legal.html?tab=tos">Terms of Service</a></li>' +
+            '<li><a href="CSL_legal.html?tab=privacy">Privacy Policy</a></li>' +
+            '<li><a href="CSL_legal.html?tab=refund">Refund Policy</a></li>' +
+            '<li><a href="CSL_legal.html?tab=dmca">DMCA</a></li>' +
+            '<li><a href="CSL_ip.html">IP &amp; Ownership</a></li>' +
+            '<li><a href="CSL_contracts.html">Contracts</a></li>' +
+          '</ul>' +
+        '</div>' +
+      '</div>' +
+      '<div class="csl-footer-bottom">' +
+        '<div>&copy; 2026 Current Scoring Leaders LLC · All Rights Reserved</div>' +
+        '<div class="csl-footer-legal">' +
+          '<a href="CSL_legal.html?tab=tos">Terms</a>' +
+          '<a href="CSL_legal.html?tab=privacy">Privacy</a>' +
+          '<a href="CSL_legal.html?tab=dmca">DMCA</a>' +
+          '<a href="mailto:currentscoringleaders@gmail.com">currentscoringleaders@gmail.com</a>' +
+        '</div>' +
+      '</div>' +
+    '</footer>';
+
+    function installFooter() {
+        var oldFooter = document.querySelector('body > footer, footer:not(.csl-footer)');
+        var wrap = document.createElement('div');
+        wrap.innerHTML = footerHTML;
+        var newFooter = wrap.firstElementChild;
+        if (oldFooter) {
+            oldFooter.replaceWith(newFooter);
+        } else {
+            document.body.appendChild(newFooter);
+        }
+    }
+
+    /* ────── STICKY CTA ────── */
+    var stickyDismissedKey = 'csl_sticky_cta_dismissed';
+    var path = (location.pathname || '').toLowerCase();
+    var skipPages = ['booking', 'thankyou', 'signup', 'ip_assignment'];
+    var skip = false;
+    for (var k = 0; k < skipPages.length; k++) {
+        if (path.indexOf(skipPages[k]) !== -1) {
+            skip = true;
+            break;
+        }
+    }
+
+    function installStickyCTA() {
+        if (skip) return;
+        if (sessionStorage.getItem(stickyDismissedKey) === '1') return;
+
+        var bar = document.createElement('div');
+        bar.className = 'csl-sticky-cta';
+        bar.innerHTML = '<div class="csl-sticky-cta-inner">' +
+            '<div class="csl-sticky-cta-msg">' +
+              '<i class="fas fa-headphones"></i>' +
+              '<div>' +
+                '<div>Ready to score your project?</div>' +
+                '<span class="csl-sub">48-hour response · Free quote · No commitment</span>' +
+              '</div>' +
+            '</div>' +
+            '<div class="csl-sticky-cta-actions">' +
+              '<a href="CSL_booking.html" class="csl-sticky-cta-btn"><i class="fas fa-paper-plane"></i> Start Now</a>' +
+              '<button class="csl-sticky-cta-close" aria-label="Dismiss">&times;</button>' +
+            '</div>' +
+          '</div>';
+        document.body.appendChild(bar);
+
+        bar.querySelector('.csl-sticky-cta-close').addEventListener('click', function () {
+            bar.classList.remove('visible');
+            sessionStorage.setItem(stickyDismissedKey, '1');
+        });
+
+        // Show after user scrolls 600px or after 8s on page
+        var shown = false;
+        function show() { if (!shown) { shown = true; bar.classList.add('visible'); } }
+        window.addEventListener('scroll', function () { if (window.scrollY > 600) show(); }, { passive: true });
+        setTimeout(show, 8000);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function () { installFooter(); installStickyCTA(); });
+    } else {
+        installFooter();
+        installStickyCTA();
+    }
+})();
+</script>
+<script>/**
+ * CSL Cookie Consent Banner
+ * Lightweight, dependency-free, GDPR/CCPA-friendly.
+ *
+ * Behavior:
+ *  - Shows on first visit; hides after Accept or Reject (stored in localStorage).
+ *  - "Reject" is as easy as "Accept" (regulatory requirement).
+ *  - Exposes window.CSL_CONSENT = { analytics: true|false } for any future analytics scripts.
+ *  - Does NOT load any tracking until explicit consent is granted.
+ */
+(function () {
+    'use strict';
+
+    var STORAGE_KEY = 'csl_cookie_consent_v1';
+
+    function getConsent() {
+        try {
+            var raw = localStorage.getItem(STORAGE_KEY);
+            return raw ? JSON.parse(raw) : null;
+        } catch (e) {
+            return null;
+        }
+    }
+
+    function setConsent(value) {
+        try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify({
+                analytics: !!value,
+                ts: Date.now()
+            }));
+        } catch (e) { /* private mode or quota */ }
+        window.CSL_CONSENT = { analytics: !!value };
+        // Fire a custom event so any deferred analytics loader can react.
+        try {
+            window.dispatchEvent(new CustomEvent('csl:consent', { detail: { analytics: !!value } }));
+        } catch (e) { /* old browser */ }
+    }
+
+    function injectStyles() {
+        if (document.getElementById('csl-cookie-banner-styles')) return;
+        var css = [
+            '#csl-cookie-banner{',
+            '  position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:9999;',
+            '  max-width:520px;margin-left:auto;',
+            '  background:#0f0f18;color:#f1f5f9;',
+            '  border:1px solid #1e1e2e;border-radius:14px;',
+            '  padding:1.25rem 1.5rem;',
+            '  font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;',
+            '  font-size:0.88rem;line-height:1.55;',
+            '  box-shadow:0 20px 50px rgba(0,0,0,0.5);',
+            '  -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);',
+            '  animation:csl-cookie-slide 0.4s ease-out;',
+            '}',
+            '@keyframes csl-cookie-slide{from{transform:translateY(20px);opacity:0;}to{transform:translateY(0);opacity:1;}}',
+            '#csl-cookie-banner h3{font-size:0.95rem;font-weight:700;margin:0 0 0.4rem;color:#f1f5f9;}',
+            '#csl-cookie-banner p{margin:0 0 0.85rem;color:#cbd5e1;font-size:0.85rem;}',
+            '#csl-cookie-banner a{color:#3b82f6;text-decoration:none;}',
+            '#csl-cookie-banner a:hover{text-decoration:underline;}',
+            '#csl-cookie-banner .csl-cb-actions{display:flex;gap:0.5rem;flex-wrap:wrap;}',
+            '#csl-cookie-banner button{',
+            '  flex:1;min-width:120px;padding:0.6rem 1rem;border:none;border-radius:8px;',
+            '  font-family:inherit;font-size:0.85rem;font-weight:600;cursor:pointer;',
+            '  transition:transform 0.15s,background 0.15s;',
+            '}',
+            '#csl-cookie-banner button:hover{transform:translateY(-1px);}',
+            '#csl-cookie-banner .csl-cb-accept{background:#3b82f6;color:white;}',
+            '#csl-cookie-banner .csl-cb-accept:hover{background:#2563eb;}',
+            '#csl-cookie-banner .csl-cb-reject{background:transparent;color:#cbd5e1;border:1px solid #1e1e2e;}',
+            '#csl-cookie-banner .csl-cb-reject:hover{border-color:#3b82f6;color:#f1f5f9;}',
+            '@media(max-width:520px){#csl-cookie-banner{left:0.75rem;right:0.75rem;bottom:0.75rem;padding:1rem 1.1rem;}}'
+        ].join('');
+        var styleEl = document.createElement('style');
+        styleEl.id = 'csl-cookie-banner-styles';
+        styleEl.appendChild(document.createTextNode(css));
+        document.head.appendChild(styleEl);
+    }
+
+    function buildBanner() {
+        var wrap = document.createElement('div');
+        wrap.id = 'csl-cookie-banner';
+        wrap.setAttribute('role', 'dialog');
+        wrap.setAttribute('aria-live', 'polite');
+        wrap.setAttribute('aria-label', 'Cookie consent');
+
+        wrap.innerHTML = [
+            '<h3>We respect your privacy</h3>',
+            '<p>We use a small set of cookies to keep the site running and, with your permission, to understand how it\'s used. ',
+            'See our <a href="CSL_legal.html?tab=privacy">Privacy Policy</a> for details.</p>',
+            '<div class="csl-cb-actions">',
+            '  <button class="csl-cb-reject" type="button" aria-label="Reject optional cookies">Reject optional</button>',
+            '  <button class="csl-cb-accept" type="button" aria-label="Accept all cookies">Accept all</button>',
+            '</div>'
+        ].join('');
+
+        wrap.querySelector('.csl-cb-accept').addEventListener('click', function () {
+            setConsent(true);
+            wrap.remove();
+        });
+        wrap.querySelector('.csl-cb-reject').addEventListener('click', function () {
+            setConsent(false);
+            wrap.remove();
+        });
+
+        return wrap;
+    }
+
+    function init() {
+        var existing = getConsent();
+        if (existing) {
+            window.CSL_CONSENT = { analytics: !!existing.analytics };
+            return; // Already decided
+        }
+        // Defer slightly so it doesn't fight the initial paint.
+        setTimeout(function () {
+            injectStyles();
+            document.body.appendChild(buildBanner());
+        }, 600);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+
+    // Public API for a future "Manage cookie preferences" footer link.
+    window.CSL_Cookies = {
+        reset: function () {
+            try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+            location.reload();
+        },
+        get: getConsent
+    };
+})();
+</script>
+<script>/* CSL shared ambient background injector
+ * Auto-inserts the wallpaper collage + waveform footer on every page that includes this script.
+ * Skips injection if a page already has <div class="csl-bg-collage"> (avoids duplicates on pricing router).
+ */
+(function () {
+  if (document.querySelector('.csl-bg-collage')) return;
+
+  var images = [
+    'img_csl_studio.webp',
+    'img_eagles_art1.webp',
+    'img_genesis_art.webp',
+    'img_ps2_collage.webp',
+    'img_hero_nostalgia.webp',
+    'img_ranger_slayer.webp'
+  ];
+
+  var collage = document.createElement('div');
+  collage.className = 'csl-bg-collage';
+  collage.setAttribute('aria-hidden', 'true');
+  
+  for (var i = 0; i < images.length; i++) {
+    var src = images[i];
+    var img = document.createElement('img');
+    img.className = 'c' + (i + 1);
+    img.src = src;
+    img.alt = '';
+    img.loading = 'lazy';
+    collage.appendChild(img);
+  }
+
+  var wave = document.createElement('div');
+  wave.className = 'csl-bg-wave';
+  wave.setAttribute('aria-hidden', 'true');
+
+  var grid = document.createElement('div');
+  grid.className = 'csl-bg-grid';
+  grid.setAttribute('aria-hidden', 'true');
+
+  document.body.insertBefore(wave, document.body.firstChild);
+  document.body.insertBefore(grid, document.body.firstChild);
+  document.body.insertBefore(collage, document.body.firstChild);
+})();
+</script>
+<script>/**
+ * CSL Visualizers — Cyberpunk Visualization System
+ * Handles pricing chart animations, process flows, audio visualizers, and case study interactivity
+ * Dependencies: Three.js (CDN), GSAP (CDN)
+ */
+
+(function() {
+  'use strict';
+
+  const CSL_Viz = {
+    initialized: false,
+
+    /* ---- Initialize all visualizers on the page ---- */
+    init: function() {
+      if (this.initialized) return;
+      this.initialized = true;
+
+      this.initPricingBars();
+      this.initProcessFlow();
+      this.initLevelCards();
+      this.initAudioWaveform();
+    },
+
+    /* ---- Animated pricing bars ---- */
+    initPricingBars: function() {
+      const bars = document.querySelectorAll('.viz-bar-fill');
+      if (!bars.length) return;
+
+      bars.forEach((bar, i) => {
+        const height = bar.dataset.height || '120';
+        bar.style.height = '0px';
+        setTimeout(() => {
+          bar.style.transition = 'height 1.2s cubic-bezier(0.34, 1.56, 0.64, 1)';
+          bar.style.height = height + 'px';
+        }, 200 + (i * 200));
+      });
+    },
+
+    /* ---- Process flow interactivity ---- */
+    initProcessFlow: function() {
+      const nodes = document.querySelectorAll('.process-node');
+      if (!nodes.length) return;
+
+      nodes.forEach(node => {
+        node.addEventListener('click', function() {
+          const desc = this.parentElement.querySelector('.process-desc');
+          if (desc) {
+            desc.style.transition = 'opacity 0.3s, transform 0.3s';
+            desc.style.opacity = '1';
+            desc.style.transform = 'translateY(0)';
+            setTimeout(() => {
+              desc.style.opacity = '';
+              desc.style.transform = '';
+            }, 2000);
+          }
+        });
+      });
+    },
+
+    /* ---- Case study level card animations ---- */
+    initLevelCards: function() {
+      const cards = document.querySelectorAll('.csl-level-card');
+      if (!cards.length) return;
+
+      // Staggered entrance animation
+      cards.forEach((card, i) => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateX(-30px)';
+        setTimeout(() => {
+          card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+          card.style.opacity = '1';
+          card.style.transform = 'translateX(0)';
+        }, 200 + (i * 150));
+      });
+    },
+
+    /* ---- Audio waveform visualizer (Canvas-based) ---- */
+    initAudioWaveform: function() {
+      const containers = document.querySelectorAll('.csl-waveform-viz');
+      if (!containers.length) return;
+
+      containers.forEach(container => {
+        const canvas = container.querySelector('canvas');
+        if (!canvas) return;
+
+        const ctx = canvas.getContext('2d');
+        const rect = container.getBoundingClientRect();
+        canvas.width = rect.width * (window.devicePixelRatio || 1);
+        canvas.height = rect.height * (window.devicePixelRatio || 1);
+        canvas.style.width = rect.width + 'px';
+        canvas.style.height = rect.height + 'px';
+        ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
+
+        // Draw idle waveform
+        this.drawIdleWaveform(ctx, rect.width, rect.height);
+      });
+    },
+
+    /* ---- Generate idle waveform animation (cyberpunk style) ---- */
+    drawIdleWaveform: function(ctx, w, h) {
+      const bars = 64;
+      const gap = 2;
+      const barWidth = (w / bars) - gap;
+
+      function animate() {
+        ctx.clearRect(0, 0, w, h);
+        
+        for (let i = 0; i < bars; i++) {
+          const amplitude = Math.sin(Date.now() / 500 + i * 0.3) * 0.4 + 0.6;
+          const barHeight = Math.max(4, h * amplitude * 0.6);
+          const x = i * (barWidth + gap);
+          const y = (h - barHeight) / 2;
+
+          // Neon gradient bars
+          const gradient = ctx.createLinearGradient(x, y, x, y + barHeight);
+          gradient.addColorStop(0, '#00f0ff');
+          gradient.addColorStop(0.5, '#aa00ff');
+          gradient.addColorStop(1, '#00f0ff');
+          
+          ctx.fillStyle = gradient;
+          ctx.globalAlpha = 0.4 + (amplitude * 0.3);
+          ctx.shadowColor = '#00f0ff';
+          ctx.shadowBlur = 8;
+          ctx.fillRect(x, y, barWidth, barHeight);
+          ctx.shadowBlur = 0;
+        }
+
+        requestAnimationFrame(animate);
+      }
+
+      animate();
+    }
+  };
+
+  // Auto-initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => CSL_Viz.init());
+  } else {
+    CSL_Viz.init();
+  }
+
+  // Expose globally
+  window.CSL_Viz = CSL_Viz;
+
+})();
+</script>
+<script>/* ============================================================================
+   CSL — Shared form submission helper (Formspree backend)
+   ----------------------------------------------------------------------------
+   POSTs form data as JSON to a Formspree endpoint. Handles success/error
+   states, spinner, honeypot, and graceful messaging.
+
+   USAGE
+     <form onsubmit="return CSL.submitForm(event, 'booking')">
+       ...
+       <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"
+              class="honeypot" aria-hidden="true">
+       <button type="submit">Send</button>
+     </form>
+
+   SETUP
+     Formspree endpoint is configured below. In Formspree dashboard, keep
+     notifications pointed to currentscoringleaders@gmail.com or the preferred
+     CSL inbox.
+   ========================================================================= */
+
+var CSL_FORMSPREE_ID = 'mgorbnyd';
+var CSL_BACKEND_URL  = 'https://formspree.io/f/' + CSL_FORMSPREE_ID;
+
+(function () {
+  var CSL = window.CSL || (window.CSL = {});
+
+  CSL.submitForm = function (event, formType) {
+    if (event && event.preventDefault) event.preventDefault();
+    var form = event.target.closest('form') || event.target;
+    var data = {};
+    var elements = Array.prototype.slice.call(form.elements);
+    for (var i = 0; i < elements.length; i++) {
+      var el = elements[i];
+      if (!el.name) continue;
+      if (el.type === 'checkbox') {
+        if (!data[el.name]) data[el.name] = [];
+        if (el.checked) data[el.name].push(el.value || 'yes');
+      } else if (el.type === 'radio') {
+        if (el.checked) data[el.name] = el.value;
+      } else {
+        data[el.name] = el.value;
+      }
+    }
+    // Flatten checkbox arrays
+    var keys = Object.keys(data);
+    for (var j = 0; j < keys.length; j++) {
+      var k = keys[j];
+      if (Array.isArray(data[k])) data[k] = data[k].join(', ');
+    }
+    // Synthesize 'name' from split-name fields when a form only collects first/last
+    if (!data.name) {
+      var first = data.first_name || data.firstname || '';
+      var last  = data.last_name  || data.lastname  || '';
+      var joined = (first + ' ' + last).trim();
+      if (joined) data.name = joined;
+    }
+    // Friendly aliases that align with the Apps Script sheet headers
+    if (data.genre && !data.genres)       data.genres       = data.genre;
+    if (data.references && !data.referrer) data.referrer    = data.references;
+    if (data.notes && !data.additional)   data.additional   = data.notes;
+    return CSL.submitData(data, formType, form);
+  };
+
+  CSL.submitData = function (data, formType, form) {
+    data.form_type = formType;
+    var btn = form && form.querySelector('[type="submit"]');
+    var origBtnHtml = btn ? btn.innerHTML : '';
+    if (btn) {
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>&nbsp; Sending...';
+    }
+
+    if (!CSL_FORMSPREE_ID || CSL_FORMSPREE_ID === 'FORM_ID_NOT_CONFIGURED') {
+      console.error('CSL form backend not configured. Edit CSL_FORMSPREE_ID in csl-forms.js.');
+      _showMsg(form, 'Form backend not configured yet. Email currentscoringleaders@gmail.com directly.', 'error');
+      if (btn) { btn.disabled = false; btn.innerHTML = origBtnHtml; }
+      return false;
+    }
+
+    // Honeypot check — if filled, silently "succeed" without sending.
+    if (data._gotcha) {
+      _showMsg(form, 'Got it — check your email for a confirmation. We reply within 48 hours.', 'success');
+      if (form && form.reset) form.reset();
+      if (btn) { btn.disabled = false; btn.innerHTML = origBtnHtml; }
+      return false;
+    }
+
+    fetch(CSL_BACKEND_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(data)
+    }).then(function (response) {
+      if (response.ok) {
+        _showMsg(form, 'Got it — check your email for a confirmation. We reply within 48 hours.', 'success');
+        if (form && form.reset) form.reset();
+      } else {
+        return response.json().then(function (json) {
+          var msg = (json && json.errors && json.errors.length)
+            ? json.errors.map(function (e) { return e.message; }).join(' ')
+            : 'Submission failed (' + response.status + '). Please email currentscoringleaders@gmail.com directly.';
+          _showMsg(form, msg, 'error');
+        }).catch(function () {
+          _showMsg(form, 'Submission failed. Please email currentscoringleaders@gmail.com directly.', 'error');
+        });
+      }
+    }).catch(function (err) {
+      console.error('CSL submit error:', err);
+      _showMsg(form, 'Network error — please email currentscoringleaders@gmail.com directly.', 'error');
+    }).then(function () {
+      if (btn) { btn.disabled = false; btn.innerHTML = origBtnHtml; }
+    });
+    return false;
+  };
+
+  function _showMsg(form, text, kind) {
+    if (!form) { alert(text); return; }
+    var box = form.querySelector('.csl-form-msg');
+    if (!box) {
+      box = document.createElement('div');
+      box.className = 'csl-form-msg';
+      box.style.cssText = 'margin-top:1rem;padding:1rem 1.25rem;border-radius:10px;font-size:0.88rem;line-height:1.5;';
+      form.appendChild(box);
+    }
+    if (kind === 'success') {
+      box.style.background = 'rgba(16,185,129,0.12)';
+      box.style.border = '1px solid rgba(16,185,129,0.35)';
+      box.style.color = '#10b981';
+      box.innerHTML = '<i class="fas fa-check-circle"></i>&nbsp; ' + text;
+    } else {
+      box.style.background = 'rgba(239,68,68,0.12)';
+      box.style.border = '1px solid rgba(239,68,68,0.35)';
+      box.style.color = '#ef4444';
+      box.innerHTML = '<i class="fas fa-exclamation-triangle"></i>&nbsp; ' + text;
+    }
+  }
+})();
+</script>
+<script>/* CSL Chatbot v1.0
+ * 100% client-side. Zero API calls. Zero tokens. Zero limits.
+ * Embedded knowledge base with keyword matching.
+ * No server required. Works on static HTML hosting.
+ */
+(function(){
+'use strict';
+
+var KB={};
+
+// ====== KNOWLEDGE BASE ======
+
+KB.greeting={
+patterns:['hi','hello','hey','sup','yo','howdy','greetings','good morning','good evening','whats up','wassup','hey there'],
+response:'Hey! Welcome to Current Scoring Leaders. I am the studio assistant. I can tell you about our services, pricing, creative process, the Fresh Water philosophy, or help you get started on a project. What would you like to know?',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the process?','Who is Fresh Water?']
+};
+
+KB.studio={
+patterns:['who are you','what is this','tell me about the studio','about current scoring','about csl','what is current scoring','your name','the company','the business','music scoring','composition studio'],
+response:'Current Scoring Leaders (CSL) is a music composition and scoring studio based in Philadelphia, PA. We create original music for film, TV, games, podcasts, commercials, YouTube, and more. The studio operates on a simple principle: music that hits, on time, on budget. We are also the service layer for Fresh Water, a creative identity focused on clarity, originality, and emotional authenticity in sound. You work directly with the composer - no middlemen, no account managers, no bureaucracy.',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the Fresh Water philosophy?','Where are you located?']
+};
+
+KB.freshwater={
+patterns:['fresh water','philosophy','creative identity','alchemical seer','philosopher warrior','duality','your approach','your philosophy','materialism of the physical','what is fresh water','fresh water philosophy','creative vision'],
+response:'Fresh Water is the creative identity behind Current Scoring Leaders. It is rooted in the idea that clarity, originality, and emotional authenticity should drive every composition. The studio operates on a duality: the Philosopher-Warrior (who maps emotional architecture and executes with precision and discipline) and the Alchemical Seer (who transforms sound, breaks conventions, and finds new creative possibilities). The philosophy rejects algorithmic trends and template-based production in favor of genuine craft. The idea is that the materialism of the physical world has distorted how music is made - we strip that away and get back to what matters: the story, the emotion, the hit.',
+suggestions:['What services do you offer?','How is CSL different from other studios?','What is the creative process?']
+};
+
+KB.services={
+patterns:['services','offerings','what do you do','what can you do','music for','kinds of music','categories','capabilities','what do you offer','your services','service','what you got'],
+response:'We offer original music composition and scoring across six categories. One standard of quality, regardless of budget:\n\n- Film and TV Scoring: From $1,500 per track (orchestral, hybrid, electronic; stereo + 5.1)\n- Game Soundtracks: From $950 per track (adaptive/linear, stems, middleware ready)\n- Podcast Branding: From $450 per package (theme, intros/outros, bumpers; 48hr delivery)\n- Commercials: From $750 per track (TV, radio, digital; multiple variations)\n- YouTube and Twitch: From $350 per track (intros, background scores, alerts; royalty-free options)\n- Custom Beats: From $250 per track (original production, mixed/mastered, exclusive rights available)\n\nEvery project starts with a free consultation to discuss your vision.',
+suggestions:['How much does film scoring cost?','How does the process work?','What is included in podcast branding?']
+};
+
+KB.film={
+patterns:['film','movie','cinematic','orchestral','score for film','film scoring','tv scoring','television','show','documentary','feature film','short film','trailer'],
+response:'Film and TV scoring starts at $1,500 per track. We deliver full orchestral, hybrid, or electronic scores in stereo and 5.1. Every score is built from the ground up - no templates, no stock loops. You get the full emotional architecture your story needs, composed specifically for your project. Direct collaboration with the composer throughout.',
+suggestions:['How much does game scoring cost?','What is your process?','How do revisions work?']
+};
+
+KB.games={
+patterns:['game','video game','video games','soundtrack','adaptive music','gaming','indie','steam','unity','unreal','middleware','game audio','fmod','wwise'],
+response:'Game soundtracks start at $950 per track. We create adaptive and linear soundtracks with stem delivery, ready for middleware integration (FMOD, Wwise, etc.). Suitable for indie to AAA projects. Direct collaboration with the composer.',
+suggestions:['How much does a game soundtrack cost?','What middleware do you support?','What is the process?']
+};
+
+KB.podcast={
+patterns:['podcast','podcasting','show intro','podcast theme','intro music','outro','bumper','podcast branding','true crime','interview show'],
+response:'Podcast branding packages start at $450 and include a theme song, intros, outros, and bumpers. Delivery within 48 hours. Every piece is custom-composed for your show - no stock music, no generic tracks.',
+suggestions:['What is included in the podcast package?','How much does it cost?','Can you do ad spots?']
+};
+
+KB.commercials={
+patterns:['commercial','advertise','ad','tv spot','radio','digital ad','commercials','advertising','jingle','promo','promotion','marketing'],
+response:'Commercial scoring starts at $750 per track. We produce original music for TV, radio, and digital ads with fast turnaround and multiple spot variations as needed. Direct collaboration with the composer.',
+suggestions:['What is the turnaround time?','How much does it cost?','What is included?']
+};
+
+KB.youtube={
+patterns:['youtube','twitch','streamer','content creator','intro music','background music','stream','youtube music','channel music','royalty free','streaming','vlogger'],
+response:'YouTube and Twitch packages start at $350 per track. Channel intros, background scores, alerts, and more. Royalty-free options available so you never have to worry about copyright claims.',
+suggestions:['What does the YouTube package include?','Is it really royalty-free?','How much does it cost?']
+};
+
+KB.beats={
+patterns:['beats','custom beats','rap beat','hip hop','instrumental','produce a beat','beat','trap','lo-fi','original production','rap'],
+response:'Custom beats start at $250 per track. Original production, mixed and mastered, with exclusive rights available. Work directly with the producer to get exactly the sound you need.',
+suggestions:['How much does a custom beat cost?','Can I get exclusive rights?','What genres do you produce?']
+};
+
+KB.pricing={
+patterns:['pricing','price','cost','how much','rates','rate','expensive','cheap','afford','budget','how much does it cost','what are your rates','prices','starting at','starting price'],
+response:'Our standard starting rates:\n\n- Film/TV: $1,500+ per track\n- Game Soundtracks: $950+ per track\n- Commercials: $750+ per track\n- Podcast Branding: $450+ per package\n- YouTube/Twitch: $350+ per track\n- Custom Beats: $250+ per track\n\nThese are starting points. Every project is scoped individually based on complexity, length, and usage. We bill by the project, not by the revision - so you get unlimited revisions within scope. No hidden fees. No per-revision traps. Need a custom quote? Use the booking form to tell us about your project.',
+suggestions:['What is included in film scoring?','How does the process work?','How do revisions work?']
+};
+
+KB.process={
+patterns:['process','how it works','workflow','steps','how do you work','creative process','pipeline','your process','how does it work','what are the steps','what is your workflow'],
+response:'Our creative process has 5 steps:\n\n1. Discovery: We learn your project, its story, and its emotional targets. What does this music need to say?\n2. Direction: Creative brief with references, stylistic direction, and structural outline. You approve before we write a note.\n3. First Draft: Full composition delivered within 48 hours. You hear the complete vision, not a sketch
+
+KB.revisions={
+patterns:['revisions','revision','rework','changes','edits','feedback','change something','modify','update','revision policy','unlimited revisions','iteration'],
+response:'We bill by the project, not by the revision. This means you get unlimited revisions within the scope of your project - no per-revision fees, no nickel-and-diming. We want the final music to be right, not rushed. The process includes two formal rounds of refinement (structural, tonal, mix) with additional passes as needed to nail it.',
+suggestions:['What is the process?','How much does it cost?','How do I get started?']
+};
+
+KB.licensing={
+patterns:['license','licensing','rights','ownership','who owns','copyright','legal','contract','terms','usage rights','exclusive','indemnification','sync license','master license'],
+response:'We believe in clear, fair licensing. Every project includes full written licensing agreements with proper indemnification. You get exactly the rights you need - whether that is exclusive ownership, sync licensing, or royalty-free usage. No fine print traps. No ambiguity. We handle the legal so you can focus on the creative.',
+suggestions:['How does the process work?','How much does it cost?','What is included?']
+};
+
+KB.trust={
+patterns:['why trust','why choose','why you','different','better than','what makes you different','what sets you apart','why csl','why should i','new studio','trust a new studio','no experience','reputation','why should I trust','prove'],
+response:'Great question. Here is why you can trust Current Scoring Leaders:\n\n1. Craft Over Flash: Every composition is original, built from the ground up. No stock loops, no templates, no shortcuts.\n2. Full Licensing: Clear written agreements with proper indemnification. You know exactly what rights you have.\n3. Revision Discipline: We bill by the project, not by the revision. We stay until it is right, without punishing you financially for wanting changes.\n4. Direct Access: You work directly with the composer. No middlemen, no account managers, no bureaucracy.\n5. Fresh Water Philosophy: Every project starts with a question - what emotional architecture does this story need? We do not rush to answers; we get the question right first.',
+suggestions:['What services do you offer?','How do revisions work?','What is the process?']
+};
+
+KB.casestudy={
+patterns:['case study','portfolio','past work','example','previous projects','sample','demo','shadow evidence','what have you done','show me your work','client work','testimonial'],
+response:'One of our recent projects: Shadow Evidence - a 12-episode true crime podcast for Nightfall Media. We created the complete sonic identity: theme music, intros, transitions, and ad bumpers. Style: minimalist orchestral with electronic textures. Three core motifs that build tension without over-dramatizing.\n\nStats: 12 episodes scored, 10 days to first draft, 3 revision rounds.\n\nClient testimonial: Current Scoring Leaders brought a level of professionalism and creative insight that elevated our entire production. The music did not just accompany the story - it became part of it. - Marcus Chen, Executive Producer, Nightfall Media.\n\nWant to see more? Reach out and tell us about your project - every project is unique and we can share more relevant examples.',
+suggestions:['How do I get started?','What services do you offer?','How much does scoring cost?']
+};
+
+KB.booking={
+patterns:['book','booking','hire','start','get started','consultation','free consultation','work together','collaborate','project','commission','sign up','contact','reach out','get in touch','lets work','begin'],
+response:'Ready to start? Every project begins with a free consultation. Tell us about your project, your vision, and your budget. Head to the booking page (click Book in the navigation) and we will get back to you quickly. Direct collaboration, no middlemen.',
+suggestions:['What services do you offer?','How much does scoring cost?','What is the process?']
+};
+
+KB.location={
+patterns:['location','where are you','philadelphia','based','studio location','philly','pa','pennsylvania','physical address','studio'],
+response:'We are based in Philadelphia, PA. Current Scoring Leaders LLC (Fresh Water Division). We work with clients worldwide - location is never a barrier. Everything is done remotely with clear communication and fast delivery.',
+suggestions:['How do I get started?','What services do you offer?','How does the process work?']
+};
+
+KB.contact={
+patterns:['email','phone','contact info','how to reach','reach you','message','call','support','help','talk to human','person','real person'],
+response:'You can reach Current Scoring Leaders at contact@currentscoringleaders.com. We typically respond within 24 hours. For the fastest response, use the booking form on the Book page to tell us about your project.',
+suggestions:['How do I get started?','What services do you offer?','How much does scoring cost?']
+};
+
+// ====== MATCHING ENGINE ======
+function matchKB(input){
+var il=input.toLowerCase().trim();
+if(!il)return null;
+for(var key in KB){
+var entry=KB[key];
+for(var i=0;i<entry.patterns.length;i++){
+if(il.indexOf(entry.patterns[i])!==-1){
+return entry;
+}
+}
+}
+return null;
+}
+
+// ====== FALLBACKS ======
+var fallback=[
+"I am not sure I have an answer for that. Try asking about our services, pricing, process, or the Fresh Water philosophy.",
+"Hmm, I do not have that information yet. I can tell you about our services, pricing, process, or the Fresh Water philosophy. What are you interested in?",
+"Good question. I am best at questions about our services, pricing, process, case studies, and the Fresh Water philosophy."
+];
+
+// ====== STATE ======
+var isOpen=false;
+var fbIdx=0;
+var chatContainer,chatToggle,chatBody,chatMessages,chatInput,chatSend;
+
+// ====== UI INITIALIZATION ======
+function init(){
+var css=document.createElement('style');
+css.id='csl-chat-css';
+css.textContent='\
+#csl-cb{position:fixed;bottom:24px;right:24px;z-index:999999;font-family:Inter,system-ui,sans-serif}\
+#csl-cb *{box-sizing:border-box}\
+#csl-cbt{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#00a8ff,#0bc5a0);border:0;cursor:pointer;box-shadow:0 4px 20px rgba(0,168,255,0.3);display:flex;align-items:center;justify-content:center;transition:transform 0.2s,box-shadow 0.2s;position:relative}\
+#csl-cbt:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(0,168,255,0.45)}\
+#csl-cbt svg{width:26px;height:26px;fill:#fff}\
+#csl-cbw{position:fixed;bottom:92px;right:24px;width:380px;max-width:calc(100vw - 48px);height:520px;max-height:calc(100vh - 120px);background:#111118;border:1px solid rgba(255,255,255,0.06);border-radius:16px;box-shadow:0 12px 48px rgba(0,0,0,0.5);display:none;flex-direction:column;overflow:hidden;animation:cslFadeIn 0.25s ease}\
+@keyframes cslFadeIn{from{opacity:0;transform:translateY(12px) scale(0.97)}to{opacity:1;transform:translateY(0) scale(1)}}\
+#csl-cbh{background:linear-gradient(135deg,#00a8ff,#0bc5a0);padding:16px 20px;color:#fff;display:flex;align-items:center;gap:12px;cursor:pointer}\
+#csl-cbh span{font-weight:600;font-size:15px}\
+#csl-cbh small{font-size:12px;opacity:0.8;display:block}\
+#csl-cbh .csl-close{margin-left:auto;background:none;border:0;color:#fff;cursor:pointer;font-size:20px;opacity:0.7;padding:0}\
+#csl-cbh .csl-close:hover{opacity:1}\
+#csl-cbm{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;scroll-behavior:smooth;background:rgba(0,0,0,0.15)}\
+#csl-cbm::-webkit-scrollbar{width:4px}\
+#csl-cbm::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:2px}\
+.csl-msg{padding:12px 16px;border-radius:12px;max-width:85%;line-height:1.5;font-size:14px;animation:cslMsgIn 0.2s ease;white-space:pre-wrap}\
+@keyframes cslMsgIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}\
+.csl-bot{background:rgba(255,255,255,0.06);color:#e2e8f0;align-self:flex-start;border-bottom-left-radius:4px}\
+.csl-user{background:linear-gradient(135deg,#00a8ff,#0bc5a0);color:#fff;align-self:flex-end;border-bottom-right-radius:4px}\
+.csl-suggest{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}\
+.csl-suggest button{background:rgba(0,168,255,0.12);color:#60a5fa;border:1px solid rgba(0,168,255,0.2);border-radius:20px;padding:6px 14px;font-size:12px;cursor:pointer;transition:all 0.2s;font-family:inherit}\
+.csl-suggest button:hover{background:rgba(0,168,255,0.25);border-color:rgba(0,168,255,0.4)}\
+#csl-cbf{display:flex;padding:12px 16px;border-top:1px solid rgba(255,255,255,0.06);gap:8px;background:rgba(0,0,0,0.2)}\
+#csl-cbf input{flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);border-radius:24px;padding:10px 16px;color:#e2e8f0;font-size:14px;outline:0;font-family:inherit}\
+#csl-cbf input:focus{border-color:#00a8ff}\
+#csl-cbf input::placeholder{color:#64748b}\
+#csl-cbf button{background:linear-gradient(135deg,#00a8ff,#0bc5a0);border:0;border-radius:50%;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:transform 0.2s;flex-shrink:0}\
+#csl-cbf button:hover{transform:scale(1.1)}\
+#csl-cbf button svg{width:16px;height:16px;fill:#fff}\
+';
+document.head.appendChild(css);
+
+// Build UI
+var wrapper=document.createElement('div');
+wrapper.id='csl-cb';
+
+var toggle=document.createElement('button');
+toggle.id='csl-cbt';
+toggle.innerHTML='<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/></svg>';
+wrapper.appendChild(toggle);
+
+var panel=document.createElement('div');
+panel.id='csl-cbw';
+panel.innerHTML='\
+<div id="csl-cbh"><div><span>Studio Assistant</span><small>Current Scoring Leaders</small></div><button class="csl-close" id="csl-close-btn">&times;</button></div>\
+<div id="csl-cbm"></div>\
+<div id="csl-cbf"><input id="csl-cbi" placeholder="Ask about services, pricing..."><button id="csl-cbs"><svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button></div>';
+wrapper.appendChild(panel);
+document.body.appendChild(wrapper);
+
+// Cache elements
+chatToggle=toggle;
+chatBody=panel;
+chatMessages=document.getElementById('csl-cbm');
+chatInput=document.getElementById('csl-cbi');
+chatSend=document.getElementById('csl-cbs');
+var closeBtn=document.getElementById('csl-close-btn');
+
+// Events
+toggle.onclick=function(){
+isOpen=!isOpen;
+panel.style.display=isOpen?'flex':'none';
+if(isOpen){
+setTimeout(function(){chatInput.focus()},100);
+if(!chatMessages.children.length){
+addBotMsg(KB.greeting.response,KB.greeting.suggestions);
+}
+}
+};
+closeBtn.onclick=function(){isOpen=false;panel.style.display='none'};
+chatSend.onclick=sendMsg;
+chatInput.onkeydown=function(e){if(e.key==='Enter')sendMsg()};
+}
+
+// ====== SEND MESSAGE ======
+function sendMsg(){
+var text=chatInput.value.trim();
+if(!text)return;
+chatInput.value='';
+addUserMsg(text);
+var match=matchKB(text);
+if(match){
+setTimeout(function(){addBotMsg(match.response,match.suggestions)},300);
+}else{
+var fb=fallback[fbIdx%fallback.length];
+fbIdx++;
+setTimeout(function(){addBotMsg(fb,[KB.services.suggestions[0],KB.pricing.suggestions[0],KB.process.suggestions[0]])},300);
+}
+}
+
+// ====== ADD MESSAGES ======
+function addUserMsg(text){
+var d=document.createElement('div');
+d.className='csl-msg csl-user';
+d.textContent=text;
+chatMessages.appendChild(d);
+chatMessages.scrollTop=chatMessages.scrollHeight;
+}
+
+function addBotMsg(text,suggestions){
+var d=document.createElement('div');
+d.className='csl-msg csl-bot';
+d.textContent=text;
+chatMessages.appendChild(d);
+if(suggestions&&suggestions.length){
+var sc=document.createElement('div');
+sc.className='csl-suggest';
+for(var i=0;i<suggestions.length;i++){
+(function(t){
+var b=document.createElement('button');
+b.textContent=t;
+b.onclick=function(){chatInput.value=t;sendMsg()};
+sc.appendChild(b);
+})(suggestions[i]);
+}
+chatMessages.appendChild(sc);
+}
+chatMessages.scrollTop=chatMessages.scrollHeight;
+}
+
+// ====== BOOT ======
+if(document.readyState==='loading'){
+document.addEventListener('DOMContentLoaded',init);
+}else{
+init();
+}
+
+})();
+</script>
+</body>
+</html>
+
+
+

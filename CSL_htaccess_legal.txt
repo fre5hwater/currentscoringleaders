@@ -1,0 +1,26 @@
+# Htaccess for /legal/ directory - Bypass Mozilo protection for legal documents
+# This allows legal pages to display without the Mozilo encryption wrapper
+
+<IfModule mod_rewrite.c>
+    RewriteEngine Off
+</IfModule>
+
+# Allow direct access to legal documents
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# Prevent Mozilo from wrapping these files
+SetEnvIf Request_URI "/legal/" BYPASS_MOZILO=1
+
+# Allow PHP to execute
+AddType application/x-httpd-php .php
+
+# Cache legal documents appropriately
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+    ExpiresByType text/html "access plus 1 month"
+    ExpiresByType text/plain "access plus 1 month"
+</IfModule>

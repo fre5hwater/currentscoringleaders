@@ -1,0 +1,21 @@
+LESSON: Chatbot JS syntax error - KB.process missing closing quote and object closure
+Date: Resolved
+
+Root Cause:
+The csl-chatbot.js knowledge base had a bug in the KB.process object:
+1. The response string was missing its closing single-quote token
+2. The object was missing the suggestions property and closing }; 
+
+This caused a SyntaxError at the next object (KB.revisions={{) because the unterminated string caused the parser to consume the next object's code as string content, and the { contained special characters that triggered 'Invalid or unexpected token'.
+
+Diagnosis process:
+1. Browser test showed 'Uncaught SyntaxError: Invalid or unexpected token' and DIAG:cbt=false
+2. Node.js --check identified exact line of the error
+3. Comparing the object structure with surrounding KB objects revealed the object was incomplete
+
+Fix:
+- Added closing quote + comma to the response string
+- Added suggestions array
+- Added }; to close the object literal
+
+Lesson: Always validate JS with node --check before deploying. Always compare broken structures against working ones.

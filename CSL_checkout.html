@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Checkout | Current Scoring Leaders</title>
+<meta name="description" content="Complete your project booking and secure payment.">
+<meta name="robots" content="noindex, nofollow">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="csl-bg.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0f;--surface:#111118;--card:#16161f;--border:#2a2a3a;--text:#e8e8f0;--muted:#8888a0;--blue:#4a7dff;--purple:#8b5cf6;--green:#22c55e;--radius:12px;--radius-sm:8px}
+body{background:var(--bg);color:var(--text);font-family:Inter,sans-serif;min-height:100vh}
+.page{max-width:1120px;margin:0 auto;padding:100px 24px 60px}
+.back{margin-bottom:32px}
+.back a{color:var(--muted);text-decoration:none;font-size:14px}
+.back a:hover{color:var(--text)}
+.back i{margin-right:6px}
+.co-grid{display:grid;grid-template-columns:1fr 380px;gap:32px;align-items:start}
+@media(max-width:900px){.co-grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:28px}
+.card h2{font-size:18px;font-weight:600;margin-bottom:20px}
+.card h3{font-size:15px;font-weight:500;margin-bottom:16px}
+.lbl{display:block;font-size:13px;font-weight:500;color:var(--muted);margin-bottom:6px}
+.inp{width:100%;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:14px;font-family:inherit;outline:none}
+.inp:focus{border-color:var(--blue)}
+.inp-grp{margin-bottom:16px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ln{display:flex;justify-content:space-between;font-size:14px;margin-bottom:8px}
+.ln.tt{font-size:16px;font-weight:600;padding-top:12px;border-top:1px solid var(--border);margin-top:12px}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:600}
+.badge-p{background:rgba(74,125,255,.15);color:var(--blue)}
+.badge-s{background:rgba(139,92,246,.15);color:var(--purple)}
+.btn-p{width:100%;padding:12px;background:linear-gradient(135deg,var(--blue),var(--purple));border:none;border-radius:var(--radius-sm);color:#fff;font-size:15px;font-weight:600;font-family:inherit;cursor:pointer}
+.btn-p:hover{opacity:.9}
+.btn-p:disabled{opacity:.4;cursor:not-allowed}
+.btn-s{width:100%;padding:12px;background:transparent;border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:14px;font-family:inherit;cursor:pointer}
+.btn-s:hover{border-color:var(--muted)}
+.sec{font-size:12px;color:var(--muted);margin-top:12px;text-align:center}
+.sec a{color:var(--blue);text-decoration:none}
+.sum .ln span:last-child{text-align:right}
+.sel{width:100%;padding:10px 14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:14px;font-family:inherit;outline:none;cursor:pointer}
+.sel:focus{border-color:var(--blue)}
+</style>
+</head>
+<body>
+<nav style="position:fixed;top:0;width:100%;z-index:100;background:rgba(10,10,15,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border)">
+<div style="max-width:1120px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between">
+<a href="CSL_index.html" style="font-size:20px;font-weight:800;color:var(--text);text-decoration:none">CS<span style="color:var(--blue)">L</span></a>
+<span style="font-size:13px;color:var(--muted)"><i class="fas fa-lock" style="margin-right:6px"></i>Secure Checkout</span>
+</div></nav>
+<main class="page">
+<div class="back"><a href="CSL_booking.html"><i class="fas fa-arrow-left"></i>Back to Booking</a></div>
+<div style="margin-bottom:32px">
+<div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+<span class="badge badge-p" style="font-size:12px">Step 3 of 4</span>
+<span style="font-size:13px;color:var(--muted)">Booking &rarr; Brief &rarr; <strong style="color:var(--text)">Checkout</strong> &rarr; Agreement</span>
+</div>
+<h1 style="font-size:28px;font-weight:700;background:linear-gradient(135deg,var(--text),var(--blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Complete Your Order</h1>
+<p style="color:var(--muted);font-size:14px;margin-top:4px">Secure payment processing. Your project will not start until payment is confirmed.</p>
+</div>
+<div class="co-grid">
+<div>
+<div class="card" style="margin-bottom:20px">
+<h2><i class="fas fa-user" style="margin-right:8px;color:var(--blue)"></i>Contact Information</h2>
+<div class="inp-grp"><label class="lbl">Full Name</label><input class="inp" type="text" placeholder="John Smith"></div>
+<div class="inp-grp"><label class="lbl">Email Address</label><input class="inp" type="email" placeholder="john@example.com"></div>
+<div class="inp-grp"><label class="lbl">Phone Number</label><input class="inp" type="tel" placeholder="+1 (555) 123-4567"></div>
+</div>
+<div class="card" style="margin-bottom:20px">
+<h2><i class="fas fa-file-invoice" style="margin-right:8px;color:var(--purple)"></i>Billing Details</h2>
+<div class="inp-grp"><label class="lbl">Company / Organization (optional)</label><input class="inp" type="text" placeholder="My Studio LLC"></div>
+<div class="inp-grp"><label class="lbl">Street Address</label><input class="inp" type="text" placeholder="123 Music Row"></div>
+<div class="row2">
+<div class="inp-grp"><label class="lbl">City</label><input class="inp" type="text" placeholder="Nashville"></div>
+<div class="inp-grp"><label class="lbl">State / Region</label><input class="inp" type="text" placeholder="TN"></div>
+</div>
+<div class="row2">
+<div class="inp-grp"><label class="lbl">ZIP / Postal Code</label><input class="inp" type="text" placeholder="37201"></div>
+<div class="inp-grp"><label class="lbl">Country</label>
+<select class="sel"><option>United States</option><option>Canada</option><option>United Kingdom</option><option>Australia</option><option>Germany</option><option>Other</option></select>
+</div></div></div>
+<div class="card">
+<h2><i class="fas fa-credit-card" style="margin-right:8px;color:var(--green)"></i>Payment Method</h2>
+<div class="inp-grp"><label class="lbl">Card Number</label><input class="inp" type="text" placeholder="4242 4242 4242 4242"></div>
+<div class="row2">
+<div class="inp-grp"><label class="lbl">Expiry Date</label><input class="inp" type="text" placeholder="MM/YY"></div>
+<div class="inp-grp"><label class="lbl">CVC</label><input class="inp" type="text" placeholder="123"></div>
+</div>
+<div class="inp-grp"><label class="lbl">Name on Card</label><input class="inp" type="text" placeholder="John Smith"></div>
+</div></div>
+<div>
+<div class="card sum" style="position:sticky;top:100px">
+<h3>Order Summary</h3>
+<div class="ln"><span>Custom Track (x1)</span><span>$350.00</span></div>
+<div class="ln" style="color:var(--muted)"><span>License: Exclusive</span><span>Included</span></div>
+<div class="ln" style="color:var(--muted)"><span>Stems Add-on</span><span>+$150.00</span></div>
+<div class="ln" style="color:var(--muted)"><span>Revision Allowance</span><span>2 rounds</span></div>
+<div class="ln" style="color:var(--muted)"><span>Estimated Tax</span><span>$0.00</span></div>
+<div class="ln tt"><span>Total Due Today</span><span>$500.00</span></div>
+<div style="margin-top:20px">
+<button class="btn-p" onclick="alert(&apos;Demo: In production this would process your payment.&apos;)">
+<i class="fas fa-lock" style="margin-right:8px"></i>Pay $500.00
+</button></div>
+<div class="sec"><i class="fas fa-shield-alt" style="margin-right:4px"></i>Secured by SSL encryption<br>
+By completing this order you agree to our <a href="CSL_terms.html">Terms</a> and <a href="CSL_privacy.html">Privacy Policy</a></div>
+<div style="display:flex;gap:10px;justify-content:center;margin-top:16px;font-size:24px;color:var(--muted);opacity:.5">
+<i class="fab fa-cc-visa"></i><i class="fab fa-cc-mastercard"></i><i class="fab fa-cc-amex"></i><i class="fab fa-cc-discover"></i><i class="fab fa-paypal"></i>
+</div></div>
+<div class="card" style="margin-top:16px">
+<h3>Have a Coupon?</h3>
+<div style="display:flex;gap:8px"><input class="inp" type="text" placeholder="Enter code" style="flex:1">
+<button class="btn-s" style="width:auto;padding:10px 16px">Apply</button></div>
+</div></div></div></main>
+<script src="csl-shared.js"></script>
+</body>
+</html>

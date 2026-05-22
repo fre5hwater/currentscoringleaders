@@ -1,0 +1,166 @@
+═══════════════════════════════════════════════════════════════════════════════
+       CURRENT SCORING LEADERS — WEBSITE MEDIA + MISSING ASSETS LIST
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This file identifies the assets that would most improve the final website but
+cannot be fully generated from text alone.
+
+These are the assets Avery should create, gather, or approve if CSL wants the
+site to feel fully premium rather than just well-written.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. HIGHEST-VALUE MEDIA ASSETS
+═══════════════════════════════════════════════════════════════════════════════
+
+1. HERO REEL / SHORT BRAND VIDEO
+What it is:
+- a 20 to 45 second brand reel with strong visuals and CSL music
+
+Why it matters:
+- instantly raises perceived quality
+- makes the site feel alive and premium
+- proves the music against real media
+
+What to include:
+- clips of video work, editing, podcast visuals, game footage, or motion scenes
+- paired with a strong CSL piece
+- ending with Current Scoring Leaders branding
+
+
+2. FOUNDER / STUDIO PORTRAIT ASSETS
+What it is:
+- clean portraits or studio workspace images of Avery / CSL environment
+
+Why it matters:
+- makes the business feel real and trustworthy
+- strengthens the About page
+- humanizes the buying decision
+
+
+3. FEATURED AUDIO EXAMPLES WITH PROJECT CONTEXT
+What it is:
+- final selected tracks with titles, use cases, durations, and short notes
+
+Why it matters:
+- the portfolio cannot stay placeholder-based
+- public proof needs context, not just audio files
+
+
+4. TESTIMONIALS / PROOF
+What it is:
+- real client or collaborator testimonials
+- names, projects, roles, and permission to publish
+
+Why it matters:
+- named proof is one of the biggest quality upgrades a site can get
+
+If real client testimonials are limited:
+- use honest demo/project context
+- use collaborator feedback
+- use public review language only if permission/use is appropriate
+
+
+5. PROJECT VISUALS / MOCKUPS
+What it is:
+- stills, thumbnails, episode artwork, game shots, creator branding visuals,
+  or mockups paired with music entries
+
+Why it matters:
+- makes portfolio entries feel like real applications
+- helps visitors understand what the music is for
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. HIGH-VALUE NON-MEDIA ASSETS STILL NEEDED
+═══════════════════════════════════════════════════════════════════════════════
+
+1. FINAL PAYMENT LINKS / PAYMENT STACK
+Needed for:
+- project-start page
+- invoicing clarity
+- deposit collection
+
+Examples:
+- Stripe payment links
+- invoice/payment system
+- calendar booking path
+
+
+2. FINAL PORTFOLIO TRACK LIST
+Needed for:
+- homepage featured work
+- portfolio page
+- service-specific examples
+
+Needed details per track:
+- title
+- category/use case
+- mood/style
+- duration
+- best segment fit
+- whether custom demo or licensable track
+
+
+3. FINAL BUSINESS CREDENTIALS / BRAND DETAILS
+Needed for:
+- footer
+- legal pages
+- contact page
+- invoicing and trust
+
+Should confirm:
+- public business email
+- contact phone
+- business address policy
+- LLC naming consistency
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. RECOMMENDED VIDEO OR CONTENT PIECES AVERY COULD CREATE
+═══════════════════════════════════════════════════════════════════════════════
+
+Best optional pieces:
+- a founder intro video
+- a behind-the-scenes composition clip
+- a short "how the process works" explainer
+- a before/after music-to-picture example
+- a reel showing 3 to 5 strongest use cases
+
+These are not mandatory for launch.
+But they would noticeably raise quality.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. SECTIONS CSL MAY STILL BE MISSING
+═══════════════════════════════════════════════════════════════════════════════
+
+Likely missing or underdeveloped:
+- case-study style featured work blocks
+- named proof/testimonials
+- pricing comparison visual chart
+- add-ons / deliverables section
+- rights and ownership explainer summary
+- what affects pricing block
+- payment and review expectations summary
+- process page or process-heavy section
+- stronger About/founder authority section
+- portfolio visuals tied to audio
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. WHAT AVERY SHOULD PRIORITIZE FIRST
+═══════════════════════════════════════════════════════════════════════════════
+
+If only a few things can be created quickly, prioritize:
+1. final portfolio tracks
+2. one hero reel
+3. founder/studio image set
+4. 2 to 5 testimonials or proof quotes
+5. final payment/booking link stack
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════

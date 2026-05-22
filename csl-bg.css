@@ -1,0 +1,26 @@
+/* CSL shared ambient background — wallpaper collage + drift + waveform footer */
+/* Include: <link rel="stylesheet" href="csl-bg.css"> + <script src="csl-bg.js" defer></script> */
+
+.csl-bg-collage{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;}
+.csl-bg-collage img{position:absolute;border-radius:18px;object-fit:cover;opacity:0.38;filter:blur(1.5px) saturate(0.85) brightness(0.75);box-shadow:0 0 60px rgba(59,130,246,0.25),0 0 120px rgba(30,64,175,0.15);mix-blend-mode:luminosity;}
+.csl-bg-collage img.c1{width:clamp(260px,28vw,440px);aspect-ratio:16/10;top:6%;left:-3%;transform:rotate(-7deg);animation:cslDrift1 34s ease-in-out infinite alternate;}
+.csl-bg-collage img.c2{width:clamp(220px,22vw,340px);aspect-ratio:1/1;top:10%;right:-2%;transform:rotate(5deg);animation:cslDrift2 38s ease-in-out infinite alternate;}
+.csl-bg-collage img.c3{width:clamp(240px,24vw,360px);aspect-ratio:4/3;top:42%;left:4%;transform:rotate(3deg);animation:cslDrift3 30s ease-in-out infinite alternate;}
+.csl-bg-collage img.c4{width:clamp(220px,22vw,320px);aspect-ratio:3/4;top:48%;right:5%;transform:rotate(-4deg);animation:cslDrift4 32s ease-in-out infinite alternate;}
+.csl-bg-collage img.c5{width:clamp(260px,26vw,400px);aspect-ratio:16/9;bottom:8%;left:38%;transform:translateX(-50%) rotate(2deg);animation:cslDrift5 36s ease-in-out infinite alternate;}
+.csl-bg-collage img.c6{width:clamp(180px,18vw,260px);aspect-ratio:1/1;top:30%;left:42%;transform:translateX(-50%) rotate(-6deg);opacity:0.25;animation:cslDrift6 42s ease-in-out infinite alternate;}
+.csl-bg-collage::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,15,0.55) 0%,rgba(10,10,15,0.35) 40%,rgba(10,10,15,0.65) 100%),radial-gradient(ellipse at 50% 40%,rgba(30,64,175,0.28),transparent 70%);}
+
+@keyframes cslDrift1{0%{transform:rotate(-7deg) translate(0,0);}100%{transform:rotate(-5deg) translate(30px,20px);}}
+@keyframes cslDrift2{0%{transform:rotate(5deg) translate(0,0);}100%{transform:rotate(3deg) translate(-25px,30px);}}
+@keyframes cslDrift3{0%{transform:rotate(3deg) translate(0,0);}100%{transform:rotate(5deg) translate(25px,-20px);}}
+@keyframes cslDrift4{0%{transform:rotate(-4deg) translate(0,0);}100%{transform:rotate(-2deg) translate(-30px,-25px);}}
+@keyframes cslDrift5{0%{transform:translateX(-50%) rotate(2deg);}100%{transform:translateX(-48%) rotate(4deg);}}
+@keyframes cslDrift6{0%{transform:translateX(-50%) rotate(-6deg) scale(1);}100%{transform:translateX(-52%) rotate(-4deg) scale(1.08);}}
+
+.csl-bg-wave{position:fixed;left:0;right:0;bottom:0;height:160px;pointer-events:none;z-index:0;opacity:0.18;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 160' preserveAspectRatio='none'><path fill='none' stroke='%2360a5fa' stroke-width='1.2' d='M0 80 Q 60 20 120 80 T 240 80 T 360 80 T 480 80 T 600 80 T 720 80 T 840 80 T 960 80 T 1080 80 T 1200 80 T 1320 80 T 1440 80'/><path fill='none' stroke='%233b82f6' stroke-width='1' opacity='0.6' d='M0 100 Q 80 40 160 100 T 320 100 T 480 100 T 640 100 T 800 100 T 960 100 T 1120 100 T 1280 100 T 1440 100'/></svg>") center bottom/100% 100% no-repeat;}
+
+.csl-bg-grid{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(96,165,250,0.045) 1px,transparent 1px),linear-gradient(90deg,rgba(96,165,250,0.045) 1px,transparent 1px);background-size:56px 56px;pointer-events:none;z-index:0;-webkit-mask-image:radial-gradient(ellipse 80% 70% at center,#000 20%,transparent 85%);mask-image:radial-gradient(ellipse 80% 70% at center,#000 20%,transparent 85%);}
+
+/* Ensure nav, main content, footer sit above the background layers */
+body > nav,body > main,body > footer,body > section,body > div:not(.csl-bg-collage):not(.csl-bg-wave):not(.csl-bg-grid){position:relative;z-index:1;}

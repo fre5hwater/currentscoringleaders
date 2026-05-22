@@ -1,0 +1,193 @@
+═══════════════════════════════════════════════════════════════════════════════
+         CURRENT SCORING LEADERS — CLIENT INTAKE FORM SPEC
+═══════════════════════════════════════════════════════════════════════════════
+
+PURPOSE
+
+This file defines the ideal project intake form for CSL.
+The form should qualify leads, reduce confusion, and make it easier to recommend
+the right package or next step.
+
+Form principle:
+Ask only for information that improves the buyer experience or the quote quality.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+1. FORM POSITIONING COPY
+═══════════════════════════════════════════════════════════════════════════════
+
+Headline:
+Start Your Project
+
+Subheadline:
+Tell us what you are building, and we will recommend the clearest next step.
+
+Support copy:
+This form helps us understand your project, timeline, and goals so we can point
+you toward the right package, quote path, or call.
+
+Trust line:
+You will receive a direct human response, not an automated runaround.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+2. REQUIRED FIELDS
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION A — CONTACT DETAILS
+- Full name
+- Email address
+- Company / brand / project name
+
+SECTION B — PROJECT TYPE
+Dropdown:
+- Signature Theme
+- Podcast Branding
+- Custom Scoring
+- Game / Narrative Scoring
+- Retainer Inquiry
+- Not sure yet
+
+SECTION C — PROJECT SUMMARY
+- What are you building?
+  Field type: paragraph
+
+- What does the music need to do?
+  Field type: paragraph
+
+SECTION D — TIMELINE AND BUDGET
+- Target deadline
+- Is this a rush project?
+  Options: yes / no / not sure
+
+- Budget range
+  Options:
+  - Under $600
+  - $600 - $1,200
+  - $1,200 - $3,000
+  - $3,000 - $7,500
+  - $7,500+
+  - Not sure yet
+
+
+═══════════════════════════════════════════════════════════════════════════════
+3. HIGH-VALUE OPTIONAL FIELDS
+═══════════════════════════════════════════════════════════════════════════════
+
+SECTION E — REFERENCES
+- Website / channel / show / game link
+- Reference links
+- Current audio link if replacing or upgrading music
+
+SECTION F — CREATIVE DIRECTION
+Checkbox or multi-select:
+- cinematic
+- modern
+- minimal
+- ambient
+- tense
+- emotional
+- premium
+- energetic
+- dark
+- uplifting
+
+Open field:
+- Anything you want us to avoid?
+
+SECTION G — DELIVERABLE NEEDS
+Checkboxes:
+- intro version
+- outro version
+- full-length cue
+- loopable version
+- stems
+- alternate mix
+- not sure yet
+
+SECTION H — RIGHTS / USAGE
+Dropdown:
+- standard project use
+- commercial / branded use
+- exclusive rights needed
+- full ownership needed
+- not sure yet
+
+
+═══════════════════════════════════════════════════════════════════════════════
+4. BUYER-FIRST LOGIC RULES
+═══════════════════════════════════════════════════════════════════════════════
+
+If project type = Signature Theme:
+- show fields for intro/outro/bumper needs
+
+If project type = Podcast Branding:
+- show fields for intro/outro/stinger needs
+
+If project type = Game / Narrative Scoring:
+- show fields for loops, menu music, cues, and scope details
+
+If project type = Retainer Inquiry:
+- show fields for monthly content volume and recurring needs
+
+If budget is low or uncertain:
+- do not reject automatically
+- route to best-fit starter recommendation if possible
+
+
+═══════════════════════════════════════════════════════════════════════════════
+5. BEST CONFIRMATION MESSAGE
+═══════════════════════════════════════════════════════════════════════════════
+
+Headline:
+Project Details Received
+
+Copy:
+Thanks for sending this through.
+We will review your project and reply with the clearest next step within 24
+hours.
+That may be a direct recommendation, a quote path, or a short discovery call if
+your project needs more discussion.
+
+Support line:
+If you forgot anything important, reply to the confirmation email and add it.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+6. INTERNAL USE AFTER SUBMISSION
+═══════════════════════════════════════════════════════════════════════════════
+
+Use form answers to assign:
+- fit status
+- likely offer
+- price starting point
+- call needed or not
+- deposit path
+- rights model discussion needed or not
+
+
+═══════════════════════════════════════════════════════════════════════════════
+7. FORM DESIGN RULES
+═══════════════════════════════════════════════════════════════════════════════
+
+- Keep it clean and calm.
+- One clear CTA only.
+- Use progress sections if long.
+- Put easier fields first.
+- Save detailed rights questions for later sections.
+- Avoid legal language overload on the form itself.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+8. RECOMMENDED CTA
+═══════════════════════════════════════════════════════════════════════════════
+
+Button text:
+- Start Your Project
+
+Backup button text:
+- Send Project Details
+
+
+END
+═══════════════════════════════════════════════════════════════════════════════
